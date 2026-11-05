@@ -12,7 +12,7 @@ git add -A
 $changes = git status --porcelain
 if (-not $changes) { Write-Host "변경 없음. 커밋/푸시 생략."; exit 0 }
 
-$msg = "데이터 갱신 " + (Get-Date -Format "yyyy-MM-dd HH:mm")
+$msg = "data refresh " + (Get-Date -Format "yyyy-MM-dd HH:mm")
 git commit -m $msg | Out-Host
 if (-not $NoPush) {
     $remote = git remote
