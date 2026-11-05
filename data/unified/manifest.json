@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-06",
-  "total_records": 213,
+  "total_records": 227,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -32,7 +32,7 @@
     },
     "offers/chevrolet_2026-11-05.json": {
       "brand_id": "chevrolet",
-      "records": 1,
+      "records": 2,
       "captured": "2026-11-05",
       "source": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
       "caveat": null
@@ -109,14 +109,14 @@
     },
     "offers/mercedes_2026-11-05.json": {
       "brand_id": "mercedes",
-      "records": 6,
+      "records": 10,
       "captured": "2026-11-05",
       "source": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
       "caveat": null
     },
     "offers/mini_2026-11-05.json": {
       "brand_id": "mini",
-      "records": 1,
+      "records": 2,
       "captured": "2026-11-05",
       "source": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
       "caveat": [
@@ -186,7 +186,7 @@
     },
     "offers/volvo_2026-11-05.json": {
       "brand_id": "volvo",
-      "records": 3,
+      "records": 11,
       "captured": "2026-11-05",
       "source": null,
       "caveat": "일반 할인·금융 프로모션 페이지는 찾지 못함(미게시 또는 다른 경로). 고객센터 1644-6633 / 전시장 문의 필요."

@@ -1,13 +1,13 @@
 {
  "stats": {
   "date": "2026-11-06",
-  "records": 213,
+  "records": 227,
   "by_category": {
-   "benefit": 117,
-   "finance": 19,
+   "benefit": 127,
+   "finance": 20,
    "price": 52,
-   "event": 9,
-   "status": 12,
+   "event": 10,
+   "status": 14,
    "testdrive": 4
   },
   "brand_counts": {
@@ -15,9 +15,7 @@
    "bmw": 15,
    "byd": 13,
    "cadillac": 2,
-   "chevrolet": 1,
-   "ford": 1,
-   "lincoln": 1,
+   "chevrolet": 2,
    "genesis": 5,
    "hyundai": 45,
    "jeep": 2,
@@ -25,20 +23,20 @@
    "kia": 51,
    "landrover": 2,
    "lexus": 8,
-   "mercedes": 6,
-   "mini": 1,
+   "mercedes": 10,
+   "mini": 2,
    "polestar": 3,
    "porsche": 1,
    "renault": 3,
    "tesla": 6,
    "toyota": 5,
    "volkswagen": 3,
-   "volvo": 3
+   "volvo": 11
   }
  },
  "counts": {
-  "WARN": 50,
-  "INFO": 41
+  "WARN": 40,
+  "INFO": 54
  },
  "issues": [
   {
@@ -147,11 +145,88 @@
    "message": "기간 만료: 2026-10-31"
   },
   {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 37,
+   "brand": "쉐보레",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 38,
+   "brand": "쉐보레",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
    "level": "WARN",
    "rule": "required-field",
-   "id": 177,
+   "id": 183,
    "brand": "시트로엥",
    "message": "source_url 비어 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 213,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 214,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 215,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 216,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 217,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 218,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 219,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 220,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 221,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "WARN",
@@ -457,7 +532,7 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 20,
+   "id": 19,
    "brand": "KG모빌리티",
    "message": "세부내용 미수집: KGM 드라이브 페스타"
   },
@@ -465,71 +540,43 @@
    "level": "WARN",
    "rule": "benefit-type-unknown",
    "id": 65,
-   "brand": "링컨",
-   "message": "유형을 분류하지 못함: 링컨 모델별 혜택"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-type-unknown",
-   "id": 70,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 메르세데스-벤츠 신한카드"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 71,
+   "id": 66,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 파이낸셜 이용 공통 혜택"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 82,
+   "id": 93,
    "brand": "아우디",
    "message": "유형을 분류하지 못함: Audi Q3 Sportback (2026)"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 98,
-   "brand": "포드",
-   "message": "유형을 분류하지 못함: 포드 모델별 혜택"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-expired",
-   "id": 100,
-   "brand": "폭스바겐",
-   "message": "기준월에 받을 수 없는 혜택(기간 만료): Golf R Roadshow"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-type-unknown",
-   "id": 101,
+   "id": 111,
    "brand": "폭스바겐",
    "message": "유형을 분류하지 못함: 폭스바겐 프로모션"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 105,
+   "id": 115,
    "brand": "폴스타",
    "message": "유형을 분류하지 못함: Polestar 3 (2027년식)"
   },
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 105,
+   "id": 115,
    "brand": "폴스타",
    "message": "세부내용 미수집: Polestar 3 (2027년식)"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-model",
-   "id": null,
-   "brand": "쉐보레",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
   },
   {
    "level": "INFO",
@@ -539,25 +586,11 @@
    "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
   },
   {
-   "level": "WARN",
-   "rule": "benefit-no-model",
-   "id": null,
-   "brand": "미니",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
-  },
-  {
    "level": "INFO",
    "rule": "no-data-brand",
    "id": null,
    "brand": "롤스로이스",
    "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-model",
-   "id": null,
-   "brand": "메르세데스-벤츠",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
   },
   {
    "level": "INFO",
@@ -574,13 +607,6 @@
    "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
   },
   {
-   "level": "WARN",
-   "rule": "benefit-no-model",
-   "id": null,
-   "brand": "볼보",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
-  },
-  {
    "level": "INFO",
    "rule": "no-data-brand",
    "id": null,
@@ -588,18 +614,18 @@
    "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
   },
   {
-   "level": "WARN",
-   "rule": "benefit-no-model",
+   "level": "INFO",
+   "rule": "no-data-brand",
    "id": null,
    "brand": "포드",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
   },
   {
-   "level": "WARN",
-   "rule": "benefit-no-model",
+   "level": "INFO",
+   "rule": "no-data-brand",
    "id": null,
    "brand": "링컨",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
   },
   {
    "level": "INFO",
@@ -642,13 +668,6 @@
    "id": null,
    "brand": "테슬라",
    "message": "가격만 있고 혜택(할인·이벤트·금융) 레코드가 없음"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-model",
-   "id": null,
-   "brand": "BYD",
-   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
   },
   {
    "level": "INFO",

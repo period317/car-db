@@ -415,7 +415,8 @@
     "status": null,
     "note": "volvocars.com/kr 접속 시 volvocar.co.kr 링크로 연결",
     "collected_categories": [
-      "benefit"
+      "benefit",
+      "event"
     ],
     "has_data": true
   },
@@ -526,7 +527,7 @@
     "status": null,
     "note": "2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr",
     "collected_categories": [
-      "benefit"
+      "status"
     ],
     "has_data": true
   },
@@ -547,7 +548,7 @@
     "status": null,
     "note": "2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr",
     "collected_categories": [
-      "benefit"
+      "status"
     ],
     "has_data": true
   },

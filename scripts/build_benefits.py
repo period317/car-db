@@ -169,14 +169,32 @@ for t in td:
     if not t.get("has_event"):
         continue
     ps, pe = None, None
-    ds = re.findall(r"\d{4}-\d{2}-\d{2}", t.get("event_period") or "")
+    s_ = t.get("event_period") or ""
+    ds = re.findall(r"\d{4}-\d{2}-\d{2}", s_)
     if ds:
         ps = ds[0]
-        pe = ds[-1] if len(ds) > 1 else None
+        # 종료일은 '~' 뒤의 날짜만 본다. 'MM-DD' 표기면 시작일의 연도를 붙인다
+        ends = [x if len(x) == 10 else f"{ps[:4]}-{x}" for x in re.findall(r"~\s*(\d{4}-\d{2}-\d{2}|\d{2}-\d{2})", s_)]
+        pe = ends[0] if ends else None
+    # 혜택 레코드에 같은 이벤트가 이미 있으면 새 행을 만들지 않고 시승 정보로 채운다(중복 방지)
+    def norm(s):
+        return re.sub(r"[\s\-—·'‘’\"()]", "", s or "")
+    key = norm(t.get("event_name"))[:6]
+    dup = next((x for x in rows if x["brand_id"] == t["brand_id"] and key and key in norm(x["title"]) and x["types"].split(",")[0] in ("이벤트", "시승혜택", "할인", "증정", "기타")), None)
+    if dup:
+        dup["reward"] = dup.get("reward") or t.get("event_benefit")
+        dup["conditions"] = dup.get("conditions") or t.get("policy")
+        if "시승혜택" not in dup["types"]:
+            dup["types"] = "시승혜택," + dup["types"]
+        if not dup.get("period_start") and ps:
+            dup["period_start"], dup["period_end"] = ps, pe
+        dup["detail"] = (dup["detail"] + " / 시승 정보: " + (t.get("event_benefit") or "") + " " + (t.get("event_period") or "")).strip()[:1500]
+        dup["link"] = dup.get("link") or t.get("event_url")
+        continue
     _ym = "2026-11"
     _st = "기간 미표기"
-    if ps:
-        _st = "기간 만료" if (pe or ps) < f"{_ym}-01" else ("시작 전" if ps > f"{_ym}-31" else "기준월 해당")
+    if ps and pe:
+        _st = "기간 만료" if pe < f"{_ym}-01" else ("시작 전" if ps > f"{_ym}-31" else "기준월 해당")
     rows.append(dict(
         ym=_ym, period_status=_st, brand_id=t["brand_id"], brand_ko=t["brand_ko"],
         model=None, sub_model=None, types="시승혜택", title=t.get("event_name") or "시승 이벤트",

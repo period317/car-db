@@ -9,7 +9,9 @@
 ## 파일 구조
 | 경로 | 용도 |
 |---|---|
-| `data/unified/offers.jsonl` / `offers.csv` | **통합 레코드**(AI는 이것부터). 1줄=1레코드 |
+| `data/unified/benefits.jsonl` / `benefits.csv` / `benefits.json` | **월별 혜택 정리본**(핵심). 기준년월·차종·세부모델·유형·할인/조건/증정·기간 상태·링크 |
+| `docs/QUALITY_REPORT.md` | 수집 후 품질 점검 결과(ERROR가 있으면 게시 중단) |
+| `data/unified/offers.jsonl` / `offers.csv` | 통합 레코드(가격·점검결과 포함 원자료). 1줄=1레코드 |
 | `data/unified/cardb.sqlite` | 같은 데이터의 SQLite (`records`, `brands` 테이블) |
 | `data/unified/brands.json` | 브랜드별 공식 사이트·공식 금융사·수집 현황 |
 | `data/unified/manifest.json` | 원본 파일별 레코드 수·한계(caveat) |

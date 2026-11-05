@@ -20,6 +20,8 @@ brands = json.load(open(os.path.join(U, "brands.json"), encoding="utf-8-sig"))
 brand_ids = {b["id"] for b in brands}
 prev_path = os.path.join(U, "quality_report.json")
 prev = json.load(open(prev_path, encoding="utf-8")) if os.path.exists(prev_path) else None
+ack_path = os.path.join(ROOT, "data", "quality_ack.json")  # 사람이 확인한 예외. 이유를 꼭 적는다
+ACK = json.load(open(ack_path, encoding="utf-8")) if os.path.exists(ack_path) else {}
 
 CATS = {"benefit", "price", "finance", "event", "status", "testdrive"}
 CONF = {"high", "medium", "low"}
@@ -74,7 +76,7 @@ for r in recs:
         elif m / p > 0.35:
             add("WARN", "benefit-ratio-high", r, f"최대혜택이 가격의 {m / p:.0%}: 단위·조건 확인")
     if m is not None and p is None:
-        add("WARN", "benefit-without-price", r, "최대혜택은 있는데 가격이 없어 할인율 계산 불가")
+        add("INFO", "benefit-without-price", r, "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)")
     # 출처·기간
     if r.get("source_url") and not str(r["source_url"]).startswith("http"):
         add("WARN", "bad-source-url", r, f"출처 URL 형식 이상: {r['source_url']}")
@@ -176,7 +178,11 @@ if prev:
     for bid, n in (ps_.get("brand_counts") or {}).items():
         now = per_brand.get(bid, 0)
         if n > 0 and now == 0:
-            add("ERROR", "brand-lost", {"id": None, "brand_ko": bid}, f"이전에 {n}건이던 브랜드 데이터가 0건이 됨")
+            reason = ACK.get("brand_lost", {}).get(bid)
+            if reason:  # 사람이 확인한 의도된 감소(예: 모델 목록을 혜택으로 잘못 넣었던 레코드 제거)
+                add("INFO", "brand-lost-acked", {"id": None, "brand_ko": bid}, f"이전 {n}건 → 0건, 확인됨: {reason}")
+            else:
+                add("ERROR", "brand-lost", {"id": None, "brand_ko": bid}, f"이전에 {n}건이던 브랜드 데이터가 0건이 됨")
         elif n >= 5 and now < n * 0.5:
             add("WARN", "brand-shrunk", {"id": None, "brand_ko": bid}, f"브랜드 레코드 감소: {n} → {now}")
 

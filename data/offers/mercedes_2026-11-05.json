@@ -1,22 +1,68 @@
 {
-  "meta": {
-    "brand_id": "mercedes",
-    "captured": "2026-11-05",
-    "source_url": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
-    "finance_offers_url": "https://www.mercedes-benz.co.kr/passengercars/finance/offers.html",
-    "finance_company_site": "https://mercedes-benz-financial.co.kr (하이픈 있는 도메인이 실제 사이트. benzfs.com은 구 모바일 주소)",
-    "finance_phone": "1577-2320",
-    "method": "텍스트 + 브라우저 스크린샷 병행. 쿠키 배너는 '필수 쿠키만' 선택 저장 후 진행(마케팅 쿠키 비동의).",
-    "key_finding": "벤츠는 공식 페이지에 구체적 할인 금액·월 납입금을 게시하지 않고 '전시장 문의'로 안내함. 수치 데이터는 이 DB에서 확보 불가 → 딜러/상담 필요.",
-    "finance_terms": "할부 이자율 연 0~9.3% (차종·모델별 차등). 중도상환수수료 0~1.9%. 연체 시 약정이자율+3% (법정 최고 20% 이내).",
-    "other_urls": {"test_drive":"https://www.mercedes-benz.co.kr/passengercars/test-drive.html","price_list":"(구매 혜택 페이지 상단 '가격표' 탭)","online_store":"https://www.mercedes-benz.co.kr/passengercars/buy/new-car/search-results.html/","finance_overview":"https://www.mercedes-benz.co.kr/passengercars/finance.html","news_events":"https://www.mercedes-benz.co.kr/passengercars/brand/news-events.html"}
+ "meta": {
+  "brand_id": "mercedes",
+  "captured": "2026-11-05",
+  "source_url": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
+  "finance_offers_url": "https://www.mercedes-benz.co.kr/passengercars/finance/offers.html",
+  "finance_company_site": "https://mercedes-benz-financial.co.kr (하이픈 있는 도메인이 실제 사이트. benzfs.com은 구 모바일 주소)",
+  "finance_phone": "1577-2320",
+  "method": "텍스트 + 브라우저 스크린샷 병행. 쿠키 배너는 '필수 쿠키만' 선택 저장 후 진행(마케팅 쿠키 비동의).",
+  "key_finding": "벤츠는 공식 페이지에 구체적 할인 금액·월 납입금을 게시하지 않고 '전시장 문의'로 안내함. 수치 데이터는 이 DB에서 확보 불가 → 딜러/상담 필요.",
+  "finance_terms": "할부 이자율 연 0~9.3% (차종·모델별 차등). 중도상환수수료 0~1.9%. 연체 시 약정이자율+3% (법정 최고 20% 이내).",
+  "other_urls": {
+   "test_drive": "https://www.mercedes-benz.co.kr/passengercars/test-drive.html",
+   "price_list": "(구매 혜택 페이지 상단 '가격표' 탭)",
+   "online_store": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/search-results.html/",
+   "finance_overview": "https://www.mercedes-benz.co.kr/passengercars/finance.html",
+   "news_events": "https://www.mercedes-benz.co.kr/passengercars/brand/news-events.html"
   },
-  "promotions": [
-    {"name":"11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (26년식)","models_seen":["GLE 350 4M Coupe","GLE 450 4M"],"models_note":"캐러셀 2페이지 중 1페이지만 확인","text":["11월 특별 조건 전시장 문의","벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공","개별소비세 인하분 한정 재고 혜택 제공"]},
-    {"name":"11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (27년식)","models_seen":["GLC 300 4M","GLC 300 4M Avantgarde","GLC 300 4M AMG Line"],"models_note":"캐러셀 2페이지 중 1페이지(+일부)만 확인","text":["11월 특별 조건 전시장 문의","벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공","개별소비세 인하분 한정 재고 혜택 제공"]},
-    {"name":"개별소비세 할인 혜택","text":"개소세 인상 전 통관 완료된 한정 재고에 한해 인하된 개별소비세 혜택. 재고 소진 시 종료."},
-    {"name":"11월 AMG '구매상담' 이벤트","period":"2026-11","text":"온라인 스토어 구매상담. 이벤트1: 상담 완료 시 63명 추첨(AMG One 모델카 3, 클래식 스타 곰돌이 10, 300SL 컴팩트 우산 50). 이벤트2: 상담 및 AMG 차량 출고 완료 시 20명 추첨(AMG One 모델카 10, G63 모델카 10)."},
-    {"name":"메르세데스-벤츠 신한카드","text":"신한카드 3종 제휴"},
-    {"name":"파이낸셜 이용 공통 혜택","text":"프로그램별 신차 교환 보상 및 타이어 교환 혜택. 모델별 구매 혜택·중복 여부·법인 프로그램은 전시장 문의."}
-  ]
+  "reverified": "2026-11-06 (모델 카드 6개 확인, 쿠키는 필수만 허용)"
+ },
+ "promotions": [
+  {
+   "name": "11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (26년식)",
+   "models_seen": [
+    "GLE 350 4M Coupe",
+    "GLE 450 4M",
+    "AMG GLE 53 4M+"
+   ],
+   "models_note": "2026-11-06 재확인: 페이지 DOM의 모델 카드 6개(26년식/27년식 배정은 카드 순서 기준 추정)",
+   "text": [
+    "11월 특별 조건 전시장 문의",
+    "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
+    "개별소비세 인하분 한정 재고 혜택 제공"
+   ]
+  },
+  {
+   "name": "11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (27년식)",
+   "models_seen": [
+    "GLC 300 4M",
+    "GLC 300 4M Avantgarde",
+    "GLC 300 4M AMG Line"
+   ],
+   "models_note": "2026-11-06 재확인: 페이지 DOM의 모델 카드 6개(26년식/27년식 배정은 카드 순서 기준 추정)",
+   "text": [
+    "11월 특별 조건 전시장 문의",
+    "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
+    "개별소비세 인하분 한정 재고 혜택 제공"
+   ]
+  },
+  {
+   "name": "개별소비세 할인 혜택",
+   "text": "개소세 인상 전 통관 완료된 한정 재고에 한해 인하된 개별소비세 혜택. 재고 소진 시 종료."
+  },
+  {
+   "name": "11월 AMG '구매상담' 이벤트",
+   "period": "2026-11",
+   "text": "온라인 스토어 구매상담. 이벤트1: 상담 완료 시 63명 추첨(AMG One 모델카 3, 클래식 스타 곰돌이 10, 300SL 컴팩트 우산 50). 이벤트2: 상담 및 AMG 차량 출고 완료 시 20명 추첨(AMG One 모델카 10, G63 모델카 10)."
+  },
+  {
+   "name": "메르세데스-벤츠 신한카드",
+   "text": "신한카드 3종 제휴"
+  },
+  {
+   "name": "파이낸셜 이용 공통 혜택",
+   "text": "프로그램별 신차 교환 보상 및 타이어 교환 혜택. 모델별 구매 혜택·중복 여부·법인 프로그램은 전시장 문의."
+  }
+ ]
 }

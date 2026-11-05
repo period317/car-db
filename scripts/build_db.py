@@ -99,7 +99,51 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                 for v in o["prices"]:
                     add("byd", fn, "price", f"{o['model']} ({v}만원 트림)", o["model"], price=man(v), url=d["meta"]["site"], conf="medium")
         for e in d.get("events", []):
-            add("byd", fn, "event", e["name"], text=e["period"], url=d["meta"]["urls"]["events"], conf="high")
+            ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
+            mdl = "BYD SEALION 6 DM-i" if "SEALION 6 DM-i" in e["name"] else None  # 이벤트가 특정 모델 대상이면 모델 표기
+            add("byd", fn, "event", e["name"], mdl, text=e["period"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
+                url=d["meta"]["urls"]["events"], conf="high")
+    elif bid == "chevrolet":  # 혜택이 적용되는 모델별로 레코드를 나눈다
+        for o in d["offers"]:
+            for mdl in o["models"]:
+                add("chevrolet", fn, "benefit", f"{mdl} 11월 구매혜택", mdl, maxb=man(o.get("max_benefit_manwon")),
+                    text=flat({"offers_faq_detail": o.get("offers_faq_detail"), "breakdown_manwon": o.get("breakdown_manwon"), "trade_in": o.get("trade_in")}),
+                    start="2026-11-01", end="2026-11-30", url=src, conf="high", note=o.get("breakdown_note"))
+    elif bid == "mini":  # 내연기관 / 전기차 대상을 나눈다
+        fp = d["finance_promotion"]
+        ev = [x for x in fp["target_models"] if x.startswith("올일렉트릭")]
+        ice = [x for x in fp["target_models"] if not x.startswith("올일렉트릭")]
+        add("mini", fn, "finance", "MINI 스마일 운용리스 최대 3개월 월 납입금 0원", "26년식 내연기관 전 모델",
+            text=flat({"headline": fp["headline"], "support": fp["support"], "benefit": fp["benefit_1"], "conditions": fp["conditions"],
+                       "example": fp["example"], "대상 모델": ", ".join(ice)}), url=src, conf="medium", note="이달 프로모션 페이지(this-month-special-offer)는 본문이 비어 있어 읽지 못함")
+        add("mini", fn, "finance", "MINI 전기차 운용리스 이용 시 풀케어 1년 제공", "MINI 전기차 전 모델",
+            text=flat({"benefit": fp["benefit_2"], "대상 모델": ", ".join(ev)}), url=src, conf="medium")
+    elif bid == "mercedes":
+        for p in d["promotions"]:
+            if p.get("models_seen"):
+                for mdl in p["models_seen"]:
+                    add("mercedes", fn, "benefit", f"{mdl} {p['name']}", mdl, text=flat(p["text"]), url=src, conf="medium", note=p.get("models_note"))
+            else:
+                mdl = "AMG 전 모델" if "AMG" in p["name"] else None
+                add("mercedes", fn, "benefit", p["name"], mdl, text=flat(p.get("text")), start="2026-11-01" if p.get("period") else None,
+                    end="2026-11-30" if p.get("period") else None, url=src, conf="medium")
+    elif bid == "volvo":
+        for p in d["programs"]:
+            if p.get("benefit_krw_vat_included"):
+                for names, amt in p["benefit_krw_vat_included"].items():
+                    for mdl in [x.strip() for x in names.split(",")]:
+                        add("volvo", fn, "benefit", f"{mdl} {p['name']}", mdl, maxb=amt, text=flat({"since": p.get("since"), "eligibility": p.get("eligibility"), "혜택": f"{amt:,}원(VAT 포함)"}),
+                            url=m.get("other_urls", {}).get("family_repurchase") or src, conf="high")
+            else:
+                ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", p.get("apply_period") or "")
+                add("volvo", fn, "event" if p.get("benefits") else "benefit", p["name"], text=flat({k: v for k, v in p.items() if k != "name"}),
+                    start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
+                    url=(m.get("other_urls", {}).get("ex90_campaign") if p.get("benefits") else None) or src, conf="high")
+    elif bid is None and m.get("brand_ids") == ["ford", "lincoln"]:
+        ended = flat([f"{e['name']} {e['period']} ({e['status']})" for e in d.get("ended_campaigns", [])])
+        for bi in m["brand_ids"]:
+            add(bi, fn, "status", f"{(BR.get(bi) or {}).get('brand_ko', bi)} 현재 진행 중인 공식 프로모션 없음",
+                text=f"공식 사이트 프로모션 페이지에 진행 중인 이벤트 없음. 종료된 캠페인: {ended}. 판매 모델: {', '.join(d['models'][bi])}", url=m["urls"].get(f"{bi}_promotion") or src, conf="medium")
     elif bid == "cadillac":
         for o in d["offers"]:
             add("cadillac", fn, "benefit", f"{o['model']} 11월 프로모션", o["model"], text=flat({k: v for k, v in o.items() if k != "model"}), start="2026-11-01", end="2026-11-30", url=src, conf="high")
