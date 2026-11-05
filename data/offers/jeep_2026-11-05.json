@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "brand_id": "jeep",
+    "captured": "2026-11-05",
+    "source_url": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
+    "test_drive_url": "https://www.jeep.co.kr/shopping_tools/satd.html",
+    "customer_center": "JEEP 080-365-2470",
+    "finance_company": "지프 파이낸셜 서비스 코리아 (우리금융캐피탈 전속, 2024-03 출범) - 별도 URL 미확인",
+    "method": "Chrome innerText. 프로모션 페이지 캐러셀 7개 중 텍스트로 읽힌 2개만 수집(나머지 5개는 이미지 슬라이드로 판단, 스크린샷 미수집).",
+    "caveat": "'최대 1,270만원'은 제휴 금융상품 이용 시 합산 최대치. 트림·색상·재고별 조건 상이. 적용 기간 미표기(85주년 구매 프로그램).",
+    "notes": ["랭글러 85주년 에디션은 온라인 전용 예약 상품(네이버 공식 스토어 예약금 결제), 국내 20대 한정","전시 차량: 랭글러(강남·서초, 분당, 수원, 의정부, 일산, 안양, 대구, 부산 전시장), 글래디에이터(강남·서초, 분당, 대전)"]
+  },
+  "offers": [
+    {"model":"랭글러","program":"Jeep 85주년 특별 구매 프로그램","max_benefit":"최대 1,270만원 (제휴 금융상품 이용 시)","items":["4도어 사이드 스텝 (120만원 상당)","평생 엔진오일 쿠폰 제공 (루비콘·에디션 모델 제외)","사하라 트림: 후드 사이드 데칼(SAHARA 또는 WRANGLER, 장착 포함)","화이트 컬러 선택 시 추가 100만원 혜택 (소진 시까지)"]},
+    {"program":"JEEP 85주년 기념 MVP 프로모션","period":"2026-10-21 ~ 2026-12-18","items":["엔진오일 교환 1회 무료 제공 (기간 내 MVP 구매 고객 850명 한정)","정품 소모품 교환 할인 패키지 최대 20% 할인"]}
+  ],
+  "lineup_seen": ["Wrangler","Wrangler 85th Anniversary Edition","Gladiator","Gladiator 85th Anniversary Edition","New Grand Cherokee L"]
+}

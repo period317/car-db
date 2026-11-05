@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "brand_id": "tesla",
+    "captured": "2026-11-05",
+    "site": "https://www.tesla.com/ko_kr",
+    "method": "Chrome. 가격은 디자인(구성) 페이지 스크린샷으로 읽음(텍스트 DOM에 가격 없음). 쿠키 배너는 '거절하기' 선택.",
+    "price_basis": "연료비 절감 전 가격(보조금 미반영). 국고·지자체 보조금은 별도 조회 필요.",
+    "pages_checked": {"model_y":"https://www.tesla.com/ko_kr/modely/design","model_3":"https://www.tesla.com/ko_kr/model3/design","new_inventory":"https://www.tesla.com/ko_kr/new","test_drive":"https://www.tesla.com/ko_kr/drive","trade_in":"https://www.tesla.com/ko_kr/tradein"},
+    "not_collected": ["금융/리스 월 납입금(구성 페이지 하단 계산기 미확인)","재고 할인·인센티브(테슬라는 공개 프로모션 페이지 없음, 즉시 인도 재고 페이지는 Model 3 신규 재고 0건이었음)","Model S/X/Cybertruck 가격","시승 정책"]
+  },
+  "prices_krw": [
+    {"model":"Model Y","trim":"프리미엄 RWD","price":49990000,"range_km":400,"zero_to_100_s":5.9},
+    {"model":"Model Y","trim":"프리미엄 Long Range AWD","price":66990000},
+    {"model":"Model Y L","trim":"프리미엄 상시 사륜구동(AWD)","price":72990000},
+    {"model":"Model 3","trim":"RWD","price":46990000,"range_km":430,"zero_to_100_s":6.2},
+    {"model":"Model 3 Premium","trim":"Long Range RWD","price":59990000},
+    {"model":"Model 3 Performance","trim":"AWD","price":69990000}
+  ],
+  "inventory_note": "2026-11-05 즉시 인도 가능 재고(신규) Model 3 필터 결과 0건(Model S/X/Y 미확인)"
+}

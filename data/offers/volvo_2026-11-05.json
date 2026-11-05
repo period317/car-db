@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "brand_id": "volvo",
+    "captured": "2026-11-05",
+    "korea_site": "https://www.volvocar.co.kr (volvocars.com/kr 은 이쪽 도메인으로 링크 연결)",
+    "method": "Chrome innerText (이미지 아님). 볼보는 현재 별도 '이달의 구매혜택' 페이지가 홈에 노출되지 않음 → 재구매 프로그램과 시승 캠페인만 수집.",
+    "caveat": "일반 할인·금융 프로모션 페이지는 찾지 못함(미게시 또는 다른 경로). 고객센터 1644-6633 / 전시장 문의 필요.",
+    "other_urls": {"family_repurchase":"https://www.volvocar.co.kr/buy/purchase/family_repurchase/","test_drive":"https://www.volvocar.co.kr/buy/purchase/test-drive/","showrooms":"https://www.volvocar.co.kr/buy/purchase/find-a-showroom/","ex90_campaign":"https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/"}
+  },
+  "programs": [
+    {"name":"볼보 패밀리 재구매 프로그램","since":"출고 기준 2025-01-02부터","eligibility":"개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).","benefit_krw_vat_included":{"EX30, EX30 CC":500000,"XC40, V60 CC, XC60, ES90":1000000,"S90, XC90, EX90":2000000}},
+    {"name":"SELEKT 트레이드인 프로그램","benefit":"신차 구매하며 보유 볼보 중고차(6년/12만km 이내)를 SELEKT로 매각 시 인센티브 50만원","note":"인센티브는 매입한 SELEKT 전시장에서 지급(신차 구매 전시장 아님)"},
+    {"name":"Volvo EX90 시승 신청 캠페인","apply_period":"2026-11-02 ~ 2026-12-15","onsite_test_drive_period":"2026-11-02 ~ 2026-12-31","benefits":["시승 완료 고객: 스타벅스 '든든한 아침 식사' 모바일 쿠폰","EX90 계약 완료 고객: 헬리녹스 체어원(re) 2개 출고 시 증정 (선착순, 출고 기한 2027-03-31로 한정될 수 있음)"],"rules":"시승·계약 혜택 각 1회, 중복 참여 불가. 온라인 신청 → 영업사원 배정(MMS) → 일정 확인 → 전시장 시승","selectable_models":["ES90","EX90","EX30","XC90","XC60","XC40","S90 (CROSS COUNTRY 포함)","V60 Cross Country"]}
+  ]
+}

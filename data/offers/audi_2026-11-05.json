@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "brand_id": "audi",
+    "captured": "2026-11-05",
+    "source_url": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
+    "test_drive_url": "https://www.audi.co.kr/lms/application/applyTestDrive.do",
+    "customer_chat": "https://www.audikoreaevent.co.kr/customerchat.html",
+    "method": "Chrome innerText로 모델별 페이지 '밸류⁺ 금융프로그램' 섹션 읽음. 모델 목록: /ko/models/",
+    "stale_check": "페이지에 적용 기간 표기 없음 → 11월 유효 여부 불명",
+    "scope": "홈 '자세히 보기' 5개 모델(Q3, Q3 Sportback, A6, A6 e-tron, Q5, A5) 페이지 확인. 밸류⁺ 금융프로그램은 Q3·A6·A6 e-tron·Q5·A5에 게시, Q3 Sportback 페이지는 프로그램 문구를 찾지 못함(페이지 구조 상이/미게시). 그 외 모델(A3·A4·Q7·Q8·e-tron·S/RS 등)은 미확인."
+  },
+  "offers": [
+    {
+      "model": "A6 Sedan (2026)",
+      "program": "밸류⁺ 금융프로그램",
+      "headline": "낮은 부담과 확실한 가치, 두 가지 방식",
+      "value_plus_lease": [
+        {
+          "trim": "A6 40 TFSI S-line",
+          "residual": "62%",
+          "monthly": "월 20만원대"
+        },
+        {
+          "trim": "A6 45 TFSI quattro S-line",
+          "residual": "60%",
+          "monthly": "월 30만원대"
+        },
+        {
+          "trim": "A6 40 TFSI Advanced",
+          "residual": "60%",
+          "monthly": "월 40만원대"
+        }
+      ],
+      "value_plus_installment": {
+        "조건": "선수금 30%",
+        "items": [
+          {
+            "trim": "A6 40 TFSI S-line",
+            "monthly": "월 160만원대",
+            "rate": "금리 0%대"
+          },
+          {
+            "trim": "A6 45 TFSI quattro S-line",
+            "monthly": "월 90만원대",
+            "term": "최장 60개월"
+          },
+          {
+            "trim": "A6 40 TFSI Advanced",
+            "monthly": "월 80만원대",
+            "term": "최장 60개월"
+          }
+        ]
+      },
+      "note": "월 납입금은 '대' 범위 표기. 차량 가격·선수금액·이자율 상세는 페이지에 없음.",
+      "monthly_note": "A6 Sedan"
+    },
+    {
+      "model": "Audi Q3 (2026)",
+      "source": "https://www.audi.co.kr/ko/models/q3/q3_2026/",
+      "program": "밸류⁺ 금융프로그램",
+      "lease": "월 50만원대 (밸류⁺ 리스)",
+      "installment": "최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)"
+    },
+    {
+      "model": "Audi A6 e-tron performance (2025)",
+      "source": "https://www.audi.co.kr/ko/models/a-6-e-tron/a6-e-tron-performance-2025/",
+      "program": "밸류⁺ 금융프로그램",
+      "lease": "월 40만원대",
+      "installment": "최장 60개월, 월 100만원대"
+    },
+    {
+      "model": "Audi Q5 SUV (2025)",
+      "source": "https://www.audi.co.kr/ko/models/q5/q5-suv-2025/",
+      "program": "밸류⁺ 금융프로그램",
+      "lease": "월 40만원대",
+      "installment": "최장 60개월, 6천만원대 Q5를 월 80만원대"
+    },
+    {
+      "model": "Audi A5 Saloon (2025)",
+      "source": "https://www.audi.co.kr/ko/models/a5/a5-saloon-2025/",
+      "program": "밸류⁺ 금융프로그램",
+      "lease": "월 40만원대",
+      "installment": "최장 60개월, 6천만원대 A5를 월 60만원대"
+    },
+    {
+      "model": "Audi Q3 Sportback (2026)",
+      "source": "https://www.audi.co.kr/ko/models/q3/q3sb_2026/",
+      "program": null,
+      "note": "밸류⁺ 섹션 미발견(페이지 로드 이상 가능). 재확인 필요"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "brand_id": "cadillac",
+    "captured": "2026-11-05",
+    "source_url": "https://www.cadillac.co.kr/purchase/current-offers.gm",
+    "period": "2026-11-01 ~ 2026-11-30 (광고기간)",
+    "customer_center": "한국지엠 080-3000-5000 (쉐보레 파일과 동일 법인)",
+    "urls": {"test_drive":"https://www.cadillac.co.kr/campaign/request-test-drive.gm","quote":"https://www.cadillac.co.kr/campaign/request-quote.gm","dealers":"https://www.cadillac.co.kr/locate-sales-dealer"},
+    "method": "Chrome innerText (이미지 아님)",
+    "caveat": "다른 모델(리릭 등)은 이 페이지에 오퍼 미게시. 금융사 명칭 미표기('제휴할부/제휴오토리스')."
+  },
+  "offers": [
+    {"model":"2026 ESCALADE & ESCALADE ESV",
+     "base_program_choose_one":["700만원 할인","3.5% 제휴할부 (36개월, 선수금 30% 기준)","3.5% 제휴오토리스 (60개월, 보증금 30% 기준)"],
+     "custom_stackable":["법인 및 개인사업자 2% 할인","프리미엄 브랜드 차량 보유 고객 1% 할인","재고 프로그램 2% 할인(특정 재고 한정)"],
+     "delivery_gift":"11월 출고 고객 리모와(RIMOWA) 캐리어 증정(선착순 50명)",
+     "repurchase_discount_pct":2},
+    {"model":"2026 ESCALADE IQ & ESCALADE IQL",
+     "base_program":"500만원 할인",
+     "repurchase_discount_pct":2}
+  ],
+  "common_conditions": ["재구매 할인: 기존 GM 차량(캐딜락/쉐보레/GMC) 보유 고객 대상, 기본할인과 중복 가능","기존 Escalade 보유 고객이 The New Escalade 및 Escalade IQ/IQL 구매 시 추가 1% 할인","금리·월 납입료는 조건별 상이, 신용도에 따라 계약 진행 여부 달라질 수 있음"]
+}

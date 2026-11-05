@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "brand_id": "polestar",
+    "captured": "2026-11-05",
+    "site": "https://www.polestar.com/kr/",
+    "offers_index": "https://www.polestar.com/kr/offers/new/",
+    "customer_center": "폴스타오토모티브코리아 080-360-0100",
+    "method": "Chrome innerText (이미지 아님)",
+    "urls": {"polestar_3_offer":"https://www.polestar.com/kr/offers/new/polestar-3/","polestar_4_coupe_offer":"https://www.polestar.com/kr/offers/polestar-4-coupe-2027-total-offer/","stock_cars":"https://www.polestar.com/kr/stock-cars/","financing":"https://www.polestar.com/kr/financing-options/","test_drive_p3":"https://www.polestar.com/kr/test-drive/booking/polestar-3/","test_drive_p4":"https://www.polestar.com/kr/test-drive/booking/polestar-4-coupe/"},
+    "not_collected": ["Polestar 3 프로모션 상세 페이지","Polestar 2 / 5 정보","차량 가격표","삼성카드 캐시백 조건 후반부(출력 잘림)"]
+  },
+  "programs": [
+    {"model":"Polestar 4 coupé (2027년식)","title":"Polestar Korea 출범 5주년 기념 혜택",
+     "period":"2026-11-01 ~ 2026-11-30",
+     "items":[
+       "삼성카드 캐시백: 기존 4%에 1% 추가 → 총 5% (행사기간 내 계약 시, 카드 승인·출고 시점에 적용, 기존 계약 고객도 출고 시 적용)",
+       "보조금 지원: 보조금 소진 지역 고객 대상 국고·지자체 보조금 지원. Performance 모델 180만원 고정 지원",
+       "삼성카드 무이자/금리할인(삼성 개인신용카드, 국민행복/가족카드 제외, 다이렉트오토 카드할부, 오토할부 제외)"],
+     "samsung_card_installment":{"무이자":{"3~12개월":"원금 무관 무이자","24개월":"8,000만원 이하","36개월":"5,000만원 이하","48개월":"5,000만원 이하","60개월":"3,500만원 이하"},
+                                 "금리할인":{"24개월":"8,000만원 초과 시 0.5%","36개월":"5,000만원 초과 시 1.5%","48개월":"5,000만원 초과 시 2.0%","60개월":"3,500만원 초과 1.5% / 5,300만원 초과 2.5%"}}},
+    {"model":"Polestar 3 (2027년식)","status":"'진행 중인 프로모션' 목록에 있음, 상세 미수집"}
+  ],
+  "common_warranty": ["8년/16만km 배터리 보증","5년/10만km 차량 보증","5년 긴급 출동 서비스","3년 무료 커넥티드 서비스(플러스) 포함","OTA 업데이트"],
+  "corporate": "법인 구매 혜택은 상담 신청 필요"
+}

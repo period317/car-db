@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "brand_id": "renault",
+    "captured": "2026-11-05",
+    "source_url": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
+    "campaign": "르노 세일 페스타 특별 구매 혜택 (2026-11-01 ~ 2026-11-30)",
+    "method": "Chrome javascript_tool innerText. 모델별 '열기' 아코디언을 하나씩 열어 읽음(이미지 아님).",
+    "finance_company": "모빌라이즈파이낸셜서비스 (제공사 표기: 알씨아이파이낸셜서비스코리아). 금리 0~10.5% 고정, 신용점수에 따라 자동 적용.",
+    "customer_center": "080-300-3000",
+    "other_urls": {"test_drive":"https://www.renault.co.kr/ko/side/app_testdrive.jsp","purchase_consult":"https://www.renault.co.kr/ko/side/app_purchase.jsp","events":"https://www.renault.co.kr/ko/inside/salesfesta_list.jsp","finance_calc":"https://www.renault.co.kr/ko/buy/customized_finance.jsp"},
+    "common_basic_benefits": ["전시차 할인 20만원","재구매 고객 최대 130만원 (신차/중고차 구매·보유 이력 4회 이하 50만, 5회 이상 100만)","신차 제휴 할부 서비스 재이용 시 30만원"],
+    "common_special": ["침수 피해 차량 50만원 지원 (침수 피해 확인서 필요)","techno 트림은 할부 조건 적용 불가"],
+    "units": "금액 원/만원 원문 표기. 월 할부금은 페이지 예시 조건 기준."
+  },
+  "models": [
+    {"model":"Grand Koleos","price_gasoline_from":35810000,"price_hybrid_from":39059000,"monthly_gasoline":252000,"monthly_hybrid":274000,
+     "installment":{"정액불 할부":"3.7%(~36개월) / 4.4%(~60개월) / 5.9%(~72개월)","바이백 할부":"5.4%(36) / 5.99%(48) / 5.99%(60)","스마트 유예 할부":"5.9%(36) / 6.5%(48) / 6.5%(60)","마음대로 할부":"5.9%(12/24개월)"},
+     "limited_discount_26MY":["26년 5월까지 생산분: 7년 14만km 보증 & 엔진오일 무상 & 150만원 할인 또는 300만원 할인","26년 6·7·8월 생산분: 보증 & 엔진오일 & 50만원 할인 또는 200만원 할인","26년 9월 생산분: 보증 & 엔진오일 무상 또는 150만원 할인"],
+     "special":["7년 14만km 무상 보증(27년형)","5년 이상 노후차 보유 고객 20만원 지원"],
+     "example_basis":"27MY iconic, 스마트유예 36개월 5.9%, 유예율 70%, 선수율 20%"},
+    {"model":"Filante","price_from":43949000,"monthly_from":306000,
+     "installment":{"정액불 할부":"3.7%(~72개월)","바이백 할부":"5.4%(36) / 5.99%(48) / 5.99%(60)","스마트 유예 할부":"5.9%(36) / 6.5%(48) / 6.5%(60)","마음대로 할부":"5.9%(12/24개월)"},
+     "limited_discount":["26년 5월까지 생산분 250만원 할인 & 전동 선쉐이드 지원 또는 용품 50만원","26년 6·7·8월 생산분 최대 150만원 할인 & 선쉐이드/용품 50만원","26년 9월 생산분 최대 100만원 할인 & 선쉐이드/용품 50만원"],
+     "special":["7년 14만km 무상 보증","5년 이상 노후차 보유 고객 20만원","모빌라이즈 상품 이용 시 엔진오일 세트 5회 제공"],
+     "example_basis":"techno 기준 가격(친환경차 세제혜택 반영), iconic 바이백 36개월 5.4% 잔가율 69% 선수율 20%"},
+    {"model":"Arkana","price_gasoline_from":26770000,"monthly_gasoline":254000,
+     "installment":{"정액불 할부":"0%(~36개월) / 5.6%(~36) / 6.4%(~60) / 6.6%(~72)","바이백 할부":"6.9%(36) / 7.5%(48) / 7.5%(60)","마음대로 할부":"6.9%(12/24개월)"},
+     "special":["유류비 지원 100만원","모빌라이즈 할부 이용 시 가솔린 100만원 혜택","침수 피해 차량 50만원"],
+     "example_basis":"가솔린 Iconic 바이백 36개월 6.9% 잔가율 59% 선수율 20%"}
+  ]
+}

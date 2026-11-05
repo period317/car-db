@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "brand_id": "mini",
+    "captured": "2026-11-05",
+    "source_url": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
+    "this_month_url": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-special-offer.html",
+    "other_urls": {"test_drive":"https://www.mini.co.kr/ko_KR/home/ecrm/test-drive.html","finance_calc":"https://www.mini.co.kr/kr/product/calculator-mini","insurance":"https://www.mini.co.kr/ko_KR/home/offers/insurance-new-car.html","corporate":"https://www.mini.co.kr/ko_KR/home/offers/special-sales/mini-corporation-sales.html"},
+    "method": "이미지 기반 페이지(iframe 내 스크롤). 브라우저 스크린샷으로 읽음. 쿠키 배너는 '맞춤/거부' → 선택 항목 없이 '선택된 항목 수락' (비필수 쿠키 미동의).",
+    "caveats": ["'이 달의 프로모션' 페이지는 이미지가 로딩 안 된 회색 영역이 많아 내용 미확인(2025 유로 NCAP 올일렉트릭 쿠퍼 소개 배너 정도만 확인).","프로모션 적용 기간 표기는 확인하지 못함(금융 프로모션 하단 문구에 '2026년식 모델 한정')."]
+  },
+  "finance_promotion": {
+    "headline": "최대 3개월간 월 납입금 0원 (MINI 스마일 운용리스)",
+    "support": "운용리스 이용 시 월 최대 130만원씩 3개월, 총 최대 390만원 지원 (2026년식 MINI 컨트리맨 혜택 기준, 모델·상품별 상이)",
+    "benefit_1": "26년식 내연기관 전 모델: 전 고객 대상 월 리스료 최대 3개월 지원",
+    "benefit_2": "MINI 전기차 전 모델: 운용리스 이용 시 MINI NEW 풀케어 프로그램 1년 제공",
+    "conditions": "MINI 운용리스, 2026년식 내연기관 모델, 선납 0%, 계약기간 60개월, 주행거리 연 10,000km, 취득세 포함. 계약 후 최초 3개월만 지원, 이후 기본 월 리스료 납부. 차액 환급 없음. 통합취득세는 고객 부담.",
+    "example": "MINI 컨트리맨 S ALL4 Classic (2026), 운용리스 선납 0% 60개월 10,000km: 월 리스료 97만원, 첫 3개월 0원",
+    "target_models": ["MINI JCW","MINI 쿠퍼","올일렉트릭 MINI 컨트리맨","MINI 쿠퍼 5-DOOR","올일렉트릭 MINI 쿠퍼","MINI JCW 컨트리맨","MINI 쿠퍼 컨버터블","MINI 컨트리맨 S ALL4","MINI 폴스미스 에디션","올일렉트릭 MINI 에이스맨"]
+  }
+}

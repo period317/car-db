@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "brand_id": "landrover",
+    "captured": "2026-11-05",
+    "site": "https://www.landroverkorea.co.kr (landrover.co.kr 아님)",
+    "offers_index": "https://www.landroverkorea.co.kr/offers/index.html",
+    "test_drive": "https://www.landroverkorea.co.kr/book-a-test-drive/index.html",
+    "price_charts": {"defender":"https://www.landroverkorea.co.kr/content/dam/lrdx/pdfs/kr/260408_DEF_PRICE%20CHART_DX.pdf","discovery":"https://www.landroverkorea.co.kr/content/dam/lrdx/pdfs/kr/260408_DIS_PRICE%20CHART_DX.pdf"},
+    "model_offer_pages": {
+      "loyalty":"/offers/financial-loyalty-program.html","range_rover":"/offers/the-new-range-rover/index.html","range_rover_sport":"/ko-kr/offers/range-rover-sport/index.html","velar":"/ko-kr/offers/range-rover-velar/index.html","evoque":"/ko-kr/offers/range-rover-evoque-l551/index.html","discovery":"/offers/all-new-discovery/index.html","discovery_sport":"/offers/discovery-sport/index","defender":"/offers/new-defender/index.html"
+    },
+    "method": "Chrome innerText. 금융 프로그램 페이지는 숫자가 한 자리씩 쪼개진 롤링 카운터라 일부 값은 마지막 합산 표기(₩ 숫자)만 신뢰.",
+    "caveat": "랜드로버는 현금 할인이 아니라 모델별 '월 납입금 예시'(운용리스/할부) 방식. 적용 기간 미표기. 가격 PDF는 2026-04-08 버전. 수집 모델: Defender, Range Rover만. 나머지 모델 페이지는 미수집.",
+    "cookie": "배너는 건드리지 않고 DOM만 읽음"
+  },
+  "offers": [
+    {"model":"Range Rover P550e SWB Autobiography (26MY)","price_from_krw":249700000,
+     "operating_lease":{"monthly_krw":2119000,"conditions":"선납금 30%(74,910,000원) / 36개월 / 잔존가치율 60% / 연 20,000km / 통합취득세 포함, 자동차세 미포함"},
+     "low_rate_installment":{"rate_pct":5.90,"monthly_krw":5309000,"conditions":"선납금 30%(74,910,000원) / 36개월"}},
+    {"model":"Defender (26MY)","price_from_krw":112800000,"price_basis":"90 D250 X-Dyn SE",
+     "installment_examples":[
+       {"trim":"Defender 110 P400 X","monthly_krw":3323000,"conditions":"선납금 30%(46,890,000원) / 36개월 / 이자율 5.90%"},
+       {"trim":"Defender 130 P400X Dynamic HSE","monthly_krw":3417000,"conditions":"선납금 30%(48,210,000원) / 36개월 / 이자율 5.90%"}]}
+  ],
+  "program_types": ["운용리스","금융리스","할부금융","전속금융 로열티 프로그램(재구매 고객 혜택)"]
+}

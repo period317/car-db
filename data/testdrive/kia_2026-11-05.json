@@ -1,0 +1,27 @@
+{
+  "brand_id": "kia",
+  "captured": "2026-11-05",
+  "sources": {
+    "guide": "https://www.kia.com/kr/experience/book-a-test-drive/guide",
+    "apply": "https://www.kia.com/kr/experience/book-a-test-drive",
+    "branches": "https://www.kia.com/kr/experience/branch/test-branch"
+  },
+  "service_types": [
+    "동승시승: 직원(오토컨설턴트)과 함께 시승",
+    "셀프시승: 고객 단독 시승(동승직원 없음)"
+  ],
+  "locations": "전국 지점·대리점·드라이빙센터. 기아 플래그십 스토어(시흥, 강서, 인천, 부천, 광주, 원주)에서는 전문가 안내 프로그램 시승 가능.",
+  "rules": [
+    "1인 1회 1건만 신청 가능, 연간 최대 6회",
+    "본인 시승만 가능(타인 불가)",
+    "만 21세 이상 운전면허 소지자(보험 기준상 21세 미만 제한). 면허증 및 시승 서비스 이용동의서 필요",
+    "일정 변경 시 예약 취소 요청",
+    "음주·심신미약·운전미숙·과속·난폭운전·기상악화 등 안전 위험 시 시승 중단/취소 가능"
+  ],
+  "models_with_test_drive_button": ["EV3","EV4","EV5","EV6","EV9","PV5 패신저","PV5 카고"],
+  "models_with_test_drive_note": "special-offers 페이지에서 '시승 신청' 버튼이 보인 모델 기준. 내연기관 승용/RV는 해당 페이지에 버튼이 없었으나 신청 페이지(apply)에서 선택 가능한지 미확인.",
+  "todo": [
+    "시승 거점 목록은 시/도·시/군/구 선택 후 검색해야 표시됨(초기 0건) → 지역별 자동 수집 필요",
+    "시승 신청 페이지(apply)의 선택 가능 차종·이벤트성 시승 확인"
+  ]
+}

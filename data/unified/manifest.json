@@ -1,0 +1,223 @@
+{
+  "generated": "2026-11-05",
+  "total_records": 213,
+  "files": {
+    "offers/audi_2026-11-05.json": {
+      "brand_id": "audi",
+      "records": 6,
+      "captured": "2026-11-05",
+      "source": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
+      "caveat": null
+    },
+    "offers/bmw_2026-11-05.json": {
+      "brand_id": "bmw",
+      "records": 15,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": "수집일(11/05) 기준 10월 프로모션이 만료된 상태로 페이지에 남아 있음. 11월분 갱신 여부 주기적 재확인 필요."
+    },
+    "offers/byd_2026-11-05.json": {
+      "brand_id": "byd",
+      "records": 13,
+      "captured": "2026-11-05",
+      "source": "https://www.bydauto.kr",
+      "caveat": "구매 혜택/할인/금융 프로모션 페이지는 사이트에서 찾지 못함. 견적내기(구성) 페이지는 이벤트 텍스트 외 정보 없음. 금융사 미확인."
+    },
+    "offers/cadillac_2026-11-05.json": {
+      "brand_id": "cadillac",
+      "records": 2,
+      "captured": "2026-11-05",
+      "source": "https://www.cadillac.co.kr/purchase/current-offers.gm",
+      "caveat": "다른 모델(리릭 등)은 이 페이지에 오퍼 미게시. 금융사 명칭 미표기('제휴할부/제휴오토리스')."
+    },
+    "offers/chevrolet_2026-11-05.json": {
+      "brand_id": "chevrolet",
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
+      "caveat": null
+    },
+    "offers/ford_lincoln_2026-11-05.json": {
+      "brand_id": [
+        "ford",
+        "lincoln"
+      ],
+      "records": 2,
+      "captured": "2026-11-05",
+      "source": "https://flak.co.kr",
+      "caveat": "프로모션 페이지가 이미지 1장 기반일 수 있으나 목록상 '종료'로 표기돼 스크린샷 스캔 생략. 뉴스/보도 기준 2026-06 신차(올-뉴 익스페디션) 출시 등은 별도 확인 필요."
+    },
+    "offers/genesis_2026-11-05.json": {
+      "brand_id": "genesis",
+      "records": 4,
+      "captured": "2026-11-05",
+      "source": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
+      "caveat": null
+    },
+    "offers/hyundai_2026-11-05.json": {
+      "brand_id": "hyundai",
+      "records": 44,
+      "captured": "2026-11-05",
+      "source": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
+      "caveat": null
+    },
+    "offers/jaguar_2026-11-05.json": {
+      "brand_id": "jaguar",
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": "https://www.jaguar.com/ko-kr/index.html",
+      "caveat": "'판매 중단'은 사이트 구조에서 추정한 것이며 공식 발표로 확인하지 못함. 기존 오너 서비스는 계속될 수 있음."
+    },
+    "offers/jeep_2026-11-05.json": {
+      "brand_id": "jeep",
+      "records": 2,
+      "captured": "2026-11-05",
+      "source": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
+      "caveat": "'최대 1,270만원'은 제휴 금융상품 이용 시 합산 최대치. 트림·색상·재고별 조건 상이. 적용 기간 미표기(85주년 구매 프로그램)."
+    },
+    "offers/kgm_2026-11-05.json": {
+      "brand_id": "kgm",
+      "records": 17,
+      "captured": "2026-11-05",
+      "source": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
+      "caveat": null
+    },
+    "offers/kia_2026-11-05.json": {
+      "brand_id": "kia",
+      "records": 50,
+      "captured": "2026-11-05",
+      "source": "https://www.kia.com/kr/buy/special-offers",
+      "caveat": [
+        "basic은 '기본 혜택'(생산월 조건 포함). 생산월이 26년 6~9월분으로 표기돼 11월 기준 유효성은 현장 확인 필요.",
+        "raw_other는 '특별/기타/트레이드인' 라벨을 일부 제거한 원문 값이라 어느 항목의 금액인지 모호함. 일반적 순서: 세이브 오토 → 기아멤버스 포인트(1/2/3/4회) → 트레이드인(인증중고차 내차팔기, 50~70만원). 확정 필요 시 페이지 원문 재확인.",
+        "전기차는 보조금 제외 가격 기준."
+      ]
+    },
+    "offers/landrover_2026-11-05.json": {
+      "brand_id": "landrover",
+      "records": 2,
+      "captured": "2026-11-05",
+      "source": "https://www.landroverkorea.co.kr (landrover.co.kr 아님)",
+      "caveat": "랜드로버는 현금 할인이 아니라 모델별 '월 납입금 예시'(운용리스/할부) 방식. 적용 기간 미표기. 가격 PDF는 2026-04-08 버전. 수집 모델: Defender, Range Rover만. 나머지 모델 페이지는 미수집."
+    },
+    "offers/lexus_2026-11-05.json": {
+      "brand_id": "lexus",
+      "records": 8,
+      "captured": "2026-11-05",
+      "source": "https://www.lexus.co.kr/purchase-benefit/monthly/",
+      "caveat": "ES, 밸류플러스, 하이브리드 혜택 페이지는 이번에 이달의 구매혜택만 수집. ES BEV 어메이징 스위치 일부만 확인."
+    },
+    "offers/mercedes_2026-11-05.json": {
+      "brand_id": "mercedes",
+      "records": 6,
+      "captured": "2026-11-05",
+      "source": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
+      "caveat": null
+    },
+    "offers/mini_2026-11-05.json": {
+      "brand_id": "mini",
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
+      "caveat": [
+        "'이 달의 프로모션' 페이지는 이미지가 로딩 안 된 회색 영역이 많아 내용 미확인(2025 유로 NCAP 올일렉트릭 쿠퍼 소개 배너 정도만 확인).",
+        "프로모션 적용 기간 표기는 확인하지 못함(금융 프로모션 하단 문구에 '2026년식 모델 한정')."
+      ]
+    },
+    "offers/others_2026-11-05.json": {
+      "brand_id": null,
+      "records": 10,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": null
+    },
+    "offers/peugeot_2026-11-05.json": {
+      "brand_id": "peugeot",
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": "https://www.epeugeot.co.kr",
+      "caveat": "공식 사이트의 '이 달의 프로모션'(/Sales/promotion)이 404(페이지를 찾을 수 없음)로 표시됨 → 사이트에서 혜택 확인 불가. 푸조는 네이버 공식 스토어에서 전 차종 온라인 판매(예약금 100만원)하며 프로모션도 거기서 게시되는 것으로 보도됨."
+    },
+    "offers/polestar_2026-11-05.json": {
+      "brand_id": "polestar",
+      "records": 3,
+      "captured": "2026-11-05",
+      "source": "https://www.polestar.com/kr/",
+      "caveat": null
+    },
+    "offers/porsche_2026-11-05.json": {
+      "brand_id": "porsche",
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": "https://www.porsche-fs.co.kr/ (포르쉐 파이낸셜 서비스 코리아)",
+      "caveat": "월 납입금 '125만원 ~'의 모델/조건은 배너 텍스트상 카이엔 일렉트릭 기준으로 보이나 정확한 조건 미확인."
+    },
+    "offers/renault_2026-11-05.json": {
+      "brand_id": "renault",
+      "records": 3,
+      "captured": "2026-11-05",
+      "source": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
+      "caveat": null
+    },
+    "offers/tesla_2026-11-05.json": {
+      "brand_id": "tesla",
+      "records": 6,
+      "captured": "2026-11-05",
+      "source": "https://www.tesla.com/ko_kr",
+      "caveat": null
+    },
+    "offers/toyota_2026-11-05.json": {
+      "brand_id": "toyota",
+      "records": 5,
+      "captured": "2026-11-05",
+      "source": "https://www.toyota.co.kr/benefit/monthly/",
+      "caveat": "금액이 있는 건 현금 혜택뿐. 저금리 할부 구체 금리·월 납입금은 전시장 문의."
+    },
+    "offers/volkswagen_2026-11-05.json": {
+      "brand_id": "volkswagen",
+      "records": 3,
+      "captured": "2026-11-05",
+      "source": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
+      "caveat": [
+        "이달의 프로모션 페이지에 월/기간 명시 없음(Golf R Roadshow만 '2026.02.02 ~'). 11월 유효 여부 불명.",
+        "금액·이자율 상세는 페이지에 없고 항목명만 게시. 세부는 전시장 문의.",
+        "홈에는 Atlas·Golf GTI·Golf 프로모션 배너도 있으나 상세 미수집(이달의 프로모션에는 Touareg·Golf만 게시)."
+      ]
+    },
+    "offers/volvo_2026-11-05.json": {
+      "brand_id": "volvo",
+      "records": 3,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": "일반 할인·금융 프로모션 페이지는 찾지 못함(미게시 또는 다른 경로). 고객센터 1644-6633 / 전시장 문의 필요."
+    },
+    "testdrive/genesis_kgm_2026-11-05.json": {
+      "brand_id": [
+        "genesis",
+        "kgm"
+      ],
+      "records": 2,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": null
+    },
+    "testdrive/hyundai_2026-11-05.json": {
+      "brand_id": [
+        "hyundai"
+      ],
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": null
+    },
+    "testdrive/kia_2026-11-05.json": {
+      "brand_id": [
+        "kia"
+      ],
+      "records": 1,
+      "captured": "2026-11-05",
+      "source": null,
+      "caveat": null
+    }
+  }
+}

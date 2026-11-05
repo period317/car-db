@@ -1,0 +1,5 @@
+# 재생성 가능한 바이너리/로그는 저장소에서 제외
+dist/*.zip
+data/unified/cardb.sqlite
+*.log
+__pycache__/

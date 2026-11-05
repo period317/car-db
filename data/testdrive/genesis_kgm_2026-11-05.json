@@ -1,0 +1,18 @@
+{
+  "captured": "2026-11-05",
+  "genesis": {
+    "apply": "https://www.genesis.com/kr/ko/experience/genesis-drive/genesis-test-drive.html",
+    "hub": "https://www.genesis.com/kr/ko/experience/genesis-drive.html",
+    "flow": "6단계 예약: 모델 선택 → 시승 예약(장소·일정 등)",
+    "selectable_models": ["GV80 Hybrid","GV80 Coupe","GV80","GV70","Electrified GV70","GV60","G90 Long Wheel Base","G90","G80","Electrified G80","G70","G70 Shooting Brake","GV60 Magma","G90 LWB Black","G90 Black","G80 Black","GV80 Coupe Black","GV80 Black"],
+    "todo": "운영 장소(제네시스 스튜디오 등)·정책(연령/횟수) 상세 미수집"
+  },
+  "kgm": {
+    "apply": "https://www.kg-mobility.com/od/network/test-driving",
+    "flow": "4단계: 모델 선택 → 장소 선택 → 일정 선택 → 개인정보 동의",
+    "selectable_models": ["무쏘(스탠다드 데크)","무쏘(롱 데크)","액티언 하이브리드","토레스 하이브리드","토레스","액티언","토레스 EVX","렉스턴 뉴 아레나","티볼리","무쏘 EV"],
+    "customer_center": "080-500-5582",
+    "event": "KGM 드라이브 페스타 (홈 배너, 상세 미수집)",
+    "todo": "시승 정책·장소 목록 미수집"
+  }
+}

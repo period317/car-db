@@ -1,0 +1,16 @@
+{
+  "brand_id": "hyundai",
+  "captured": "2026-11-05",
+  "sources": {"apply": "https://www.hyundai.com/kr/ko/e/vehicles/test-driving", "branches": "https://www.hyundai.com/kr/ko/e/customer/branch"},
+  "locations": "전국 27개 현대 드라이빙라운지 (세단/SUV/EV 전 라인업). EV스테이션 별도.",
+  "service_types": ["카마스터 동승 시승", "단독(Semi-Untact) 시승"],
+  "duration": "기본 1시간(차량 인수인계 포함), 일부 시간대 1시간 30분",
+  "rules": [
+    "만 21세 이상 운전면허 소지자(보험 기준상 21세 미만 불가)",
+    "1인 1회 1건 신청. 2대 이상 비교시승은 드라이빙라운지/EV스테이션에 전화 문의",
+    "연 최대 6회 (EV스테이션 이용건수는 합산 제외)",
+    "신청 내역 확인/취소: 마이페이지 > 시승 신청 내역. 비회원 신청조회 가능",
+    "예약은 차량·장소 선택 후 가능 일시를 직접 확인해 즉시 예약 (별도 상담 대기 없음)"
+  ],
+  "related": {"genesis": "제네시스닷컴에서 별도 시승 신청", "casper": "캐스퍼 온라인에서 별도 시승 신청"}
+}

@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "brand_id": "jaguar",
+    "captured": "2026-11-05",
+    "site": "https://www.jaguar.com/ko-kr/index.html",
+    "finding": "재규어 한국 사이트는 브랜드 재탄생 캠페인(Copy Nothing, Type 01, 01 of a Kind)만 노출하고 신차 구매·프로모션·가격·시승 신청 메뉴가 없음 → 현재 국내 신차 판매 라인업/오퍼 없음으로 보임(공식 확인 필요). 사이트 메뉴: 재규어 소개, 재규어 찾기, 소식 받기, 고객 지원.",
+    "method": "Chrome innerText",
+    "caveat": "'판매 중단'은 사이트 구조에서 추정한 것이며 공식 발표로 확인하지 못함. 기존 오너 서비스는 계속될 수 있음.",
+    "urls": {"type_01":"https://www.jaguar.com/ko-kr/type-01.html","find_us":"https://www.jaguar.com/ko-kr/find-us.html","contact":"https://www.jaguar.com/ko-kr/contact.html","newsletter":"https://www.jaguar.com/jaguar-ko-kr/servlet/SmartForm.html"}
+  },
+  "offers": []
+}

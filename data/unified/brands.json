@@ -1,0 +1,805 @@
+[
+  {
+    "id": "hyundai",
+    "brand_ko": "현대",
+    "brand_en": "Hyundai",
+    "group": "현대차그룹",
+    "origin": "domestic",
+    "site": "https://www.hyundai.com/kr/ko",
+    "finance": [
+      {
+        "name": "현대캐피탈",
+        "url": "https://www.hyundaicapital.com",
+        "confidence": "high",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.hyundaicapital.com",
+          "html_bytes": 684,
+          "error": null,
+          "checked": "2026-11-05"
+        },
+        "browser_verified": "2026-11-05 (urllib 타임아웃, 브라우저 OK: 봇 차단 사이트)"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit",
+      "event",
+      "testdrive"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "genesis",
+    "brand_ko": "제네시스",
+    "brand_en": "Genesis",
+    "group": "현대차그룹",
+    "origin": "domestic",
+    "site": "https://www.genesis.com/kr/ko",
+    "finance": [
+      {
+        "name": "현대캐피탈",
+        "url": "https://www.hyundaicapital.com",
+        "confidence": "high",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.hyundaicapital.com",
+          "html_bytes": 684,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit",
+      "event",
+      "testdrive"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "kia",
+    "brand_ko": "기아",
+    "brand_en": "Kia",
+    "group": "현대차그룹",
+    "origin": "domestic",
+    "site": "https://www.kia.com/kr",
+    "finance": [
+      {
+        "name": "현대캐피탈",
+        "url": "https://www.hyundaicapital.com",
+        "confidence": "high",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.hyundaicapital.com",
+          "html_bytes": 684,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit",
+      "price",
+      "testdrive"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "kgm",
+    "brand_ko": "KG모빌리티",
+    "brand_en": "KG Mobility (KGM)",
+    "group": "KG",
+    "origin": "domestic",
+    "site": "https://www.kg-mobility.com",
+    "finance": [
+      {
+        "name": "(확인필요) KGM 제휴 캐피탈",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit",
+      "finance",
+      "price",
+      "testdrive"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "renault",
+    "brand_ko": "르노코리아",
+    "brand_en": "Renault Korea",
+    "group": "르노/지리",
+    "origin": "domestic",
+    "site": "https://www.renault.co.kr",
+    "finance": [
+      {
+        "name": "모빌라이즈파이낸셜서비스 (알씨아이파이낸셜서비스코리아)",
+        "url": null,
+        "confidence": "medium",
+        "note": "르노코리아 사이트가 안내. 공식 URL 확인 필요"
+      }
+    ],
+    "status": null,
+    "note": "구매혜택 페이지 https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "chevrolet",
+    "brand_ko": "쉐보레",
+    "brand_en": "Chevrolet",
+    "group": "GM",
+    "origin": "domestic",
+    "site": "https://www.chevrolet.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요) GM한국사업장 제휴 금융사",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "cadillac",
+    "brand_ko": "캐딜락",
+    "brand_en": "Cadillac",
+    "group": "GM",
+    "origin": "import",
+    "site": "https://www.cadillac.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "tata_daewoo",
+    "brand_ko": "타타대우모빌리티",
+    "brand_en": "Tata Daewoo Mobility",
+    "group": "Tata",
+    "origin": "domestic",
+    "site": "https://www.tata-daewoo.com",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [],
+    "has_data": false
+  },
+  {
+    "id": "bmw",
+    "brand_ko": "BMW",
+    "brand_en": "BMW",
+    "group": "BMW",
+    "origin": "import",
+    "site": "https://www.bmw.co.kr",
+    "finance": [
+      {
+        "name": "BMW파이낸셜서비스코리아",
+        "url": "https://www.bmwfs.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.bmwfs.co.kr",
+          "html_bytes": 48973,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "finance"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "mini",
+    "brand_ko": "미니",
+    "brand_en": "MINI",
+    "group": "BMW",
+    "origin": "import",
+    "site": "https://www.mini.co.kr",
+    "finance": [
+      {
+        "name": "BMW파이낸셜서비스코리아",
+        "url": "https://www.bmwfs.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.bmwfs.co.kr",
+          "html_bytes": 48973,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "finance"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "rolls_royce",
+    "brand_ko": "롤스로이스",
+    "brand_en": "Rolls-Royce",
+    "group": "BMW",
+    "origin": "import",
+    "site": "https://www.rolls-roycemotorcars.com/ko_KR/home.html",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "mercedes",
+    "brand_ko": "메르세데스-벤츠",
+    "brand_en": "Mercedes-Benz",
+    "group": "Mercedes",
+    "origin": "import",
+    "site": "https://www.mercedes-benz.co.kr",
+    "finance": [
+      {
+        "name": "메르세데스-벤츠 파이낸셜 서비스 코리아",
+        "url": "https://mercedes-benz-financial.co.kr",
+        "confidence": "high",
+        "note": "브라우저 확인. 전화 1577-2320. benzfs.com은 구 주소"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "audi",
+    "brand_ko": "아우디",
+    "brand_en": "Audi",
+    "group": "폭스바겐그룹",
+    "origin": "import",
+    "site": "https://www.audi.co.kr",
+    "finance": [
+      {
+        "name": "아우디 파이낸셜 서비스 코리아",
+        "url": "https://audifs.co.kr",
+        "confidence": "medium"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "volkswagen",
+    "brand_ko": "폭스바겐",
+    "brand_en": "Volkswagen",
+    "group": "폭스바겐그룹",
+    "origin": "import",
+    "site": "https://www.volkswagen.co.kr",
+    "finance": [
+      {
+        "name": "폭스바겐 파이낸셜 서비스 코리아",
+        "url": "https://vwfs.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://vwfs.co.kr",
+          "html_bytes": 1084,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "porsche",
+    "brand_ko": "포르쉐",
+    "brand_en": "Porsche",
+    "group": "폭스바겐그룹",
+    "origin": "import",
+    "site": "https://www.porsche.com/korea/ko",
+    "finance": [
+      {
+        "name": "포르쉐 파이낸셜 서비스 코리아",
+        "url": "https://www.porsche-fs.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.porsche-fs.co.kr",
+          "html_bytes": 66341,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "bentley",
+    "brand_ko": "벤틀리",
+    "brand_en": "Bentley",
+    "group": "폭스바겐그룹",
+    "origin": "import",
+    "site": "https://www.bentleymotors.com/en/",
+    "finance": [],
+    "status": null,
+    "note": "/ko.html 404, 영문 사이트만",
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "lamborghini",
+    "brand_ko": "람보르기니",
+    "brand_en": "Lamborghini",
+    "group": "폭스바겐그룹",
+    "origin": "import",
+    "site": "https://www.lamborghini.com/ko-en",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "volvo",
+    "brand_ko": "볼보",
+    "brand_en": "Volvo Cars",
+    "group": "지리",
+    "origin": "import",
+    "site": "https://www.volvocar.co.kr",
+    "finance": [
+      {
+        "name": "볼보 파이낸셜 서비스(글로벌 도메인 내 한국 페이지, 한국 URL 확인필요)",
+        "url": "https://www.volvofinancialservices.com",
+        "confidence": "low",
+        "verified": {
+          "status": 200,
+          "final_url": "https://www.volvofinancialservices.com/en/",
+          "html_bytes": 106572,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": "volvocars.com/kr 접속 시 volvocar.co.kr 링크로 연결",
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "polestar",
+    "brand_ko": "폴스타",
+    "brand_en": "Polestar",
+    "group": "지리",
+    "origin": "import",
+    "site": "https://www.polestar.com/kr",
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "toyota",
+    "brand_ko": "토요타",
+    "brand_en": "Toyota",
+    "group": "토요타",
+    "origin": "import",
+    "site": "https://www.toyota.co.kr",
+    "finance": [
+      {
+        "name": "토요타파이낸셜서비스코리아",
+        "url": "https://tfskr.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://tfskr.co.kr/econtract/MMAMIDX01V",
+          "html_bytes": 7359,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "lexus",
+    "brand_ko": "렉서스",
+    "brand_en": "Lexus",
+    "group": "토요타",
+    "origin": "import",
+    "site": "https://www.lexus.co.kr",
+    "finance": [
+      {
+        "name": "토요타파이낸셜서비스코리아",
+        "url": "https://tfskr.co.kr",
+        "confidence": "medium",
+        "verified": {
+          "status": 200,
+          "final_url": "https://tfskr.co.kr/econtract/MMAMIDX01V",
+          "html_bytes": 7359,
+          "error": null,
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "honda",
+    "brand_ko": "혼다",
+    "brand_en": "Honda",
+    "group": "혼다",
+    "origin": "import",
+    "site": "https://www.hondakorea.co.kr",
+    "finance": [],
+    "status": "자동차 사업 철수 보도(블로그 기반, 공식 확인 필요). 모터사이클은 계속. 신차 DB 대상에서 제외 후보",
+    "note": null,
+    "collected_categories": [],
+    "has_data": false
+  },
+  {
+    "id": "ford",
+    "brand_ko": "포드",
+    "brand_en": "Ford",
+    "group": "포드",
+    "origin": "import",
+    "site": "https://flak.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요) 포드 제휴 금융사",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": "2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr",
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "lincoln",
+    "brand_ko": "링컨",
+    "brand_en": "Lincoln",
+    "group": "포드",
+    "origin": "import",
+    "site": "https://flak.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": "2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr",
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "jeep",
+    "brand_ko": "지프",
+    "brand_en": "Jeep",
+    "group": "스텔란티스",
+    "origin": "import",
+    "site": "https://www.jeep.co.kr",
+    "finance": [
+      {
+        "name": "지프 파이낸셜 서비스 코리아(우리금융캐피탈 전속, 2024~) - URL 확인필요",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "benefit"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "peugeot",
+    "brand_ko": "푸조",
+    "brand_en": "Peugeot",
+    "group": "스텔란티스",
+    "origin": "import",
+    "site": "https://www.epeugeot.co.kr",
+    "finance": [
+      {
+        "name": "푸조 파이낸셜 서비스 코리아(우리금융캐피탈 전속, 2024-03) / 2026-10 기사에는 하나캐피탈 언급",
+        "url": null,
+        "confidence": "low"
+      }
+    ],
+    "status": null,
+    "note": "네이버 공식스토어 온라인 판매(예약금 100만원), 공식 금융파트너 하나캐피탈(2026-10 기사). 사이트는 봇 차단(403)이라 브라우저 스캔 필요",
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "citroen",
+    "brand_ko": "시트로엥",
+    "brand_en": "Citroën",
+    "group": "스텔란티스",
+    "origin": "import",
+    "site": null,
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": "citroen.co.kr 접속 실패, 철수 추정(공식 확인 필요)",
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "ds",
+    "brand_ko": "DS오토모빌",
+    "brand_en": "DS Automobiles",
+    "group": "스텔란티스",
+    "origin": "import",
+    "site": "https://www.dsautomobiles.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "maserati",
+    "brand_ko": "마세라티",
+    "brand_en": "Maserati",
+    "group": "스텔란티스",
+    "origin": "import",
+    "site": "https://www.maserati.com/kr/ko",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "landrover",
+    "brand_ko": "랜드로버",
+    "brand_en": "Land Rover",
+    "group": "JLR",
+    "origin": "import",
+    "site": "https://www.landroverkorea.co.kr",
+    "finance": [
+      {
+        "name": "(확인필요) JLR 파이낸셜",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "finance"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "jaguar",
+    "brand_ko": "재규어",
+    "brand_en": "Jaguar",
+    "group": "JLR",
+    "origin": "import",
+    "site": "https://www.jaguar.com/ko-kr",
+    "finance": [
+      {
+        "name": "(확인필요) JLR 파이낸셜",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": "재규어 한국 사이트는 신차 판매·프로모션 메뉴 없음(브랜드 캠페인만). 판매 중단 여부 공식 확인 필요",
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "tesla",
+    "brand_ko": "테슬라",
+    "brand_en": "Tesla",
+    "group": "테슬라",
+    "origin": "import",
+    "site": "https://www.tesla.com/ko_kr",
+    "finance": [
+      {
+        "name": "테슬라 자체 금융/제휴 은행·캐피탈 (사이트 내 안내)",
+        "url": "https://www.tesla.com/ko_kr",
+        "confidence": "low",
+        "verified": {
+          "status": 403,
+          "final_url": "https://www.tesla.com/ko_kr",
+          "html_bytes": 0,
+          "error": "HTTP 403",
+          "checked": "2026-11-05"
+        }
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "price"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "byd",
+    "brand_ko": "BYD",
+    "brand_en": "BYD",
+    "group": "BYD",
+    "origin": "import",
+    "site": "https://www.bydauto.kr",
+    "finance": [
+      {
+        "name": "(확인필요)",
+        "url": null,
+        "confidence": "unknown"
+      }
+    ],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "event",
+      "price"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "ferrari",
+    "brand_ko": "페라리",
+    "brand_en": "Ferrari",
+    "group": "페라리",
+    "origin": "import",
+    "site": "https://www.ferrari.com/ko-KR",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "mclaren",
+    "brand_ko": "맥라렌",
+    "brand_en": "McLaren",
+    "group": "맥라렌",
+    "origin": "import",
+    "site": "https://cars.mclaren.com/kr-ko",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "aston_martin",
+    "brand_ko": "애스턴마틴",
+    "brand_en": "Aston Martin",
+    "group": "애스턴마틴",
+    "origin": "import",
+    "site": "https://www.astonmartin.com/en/dealers",
+    "finance": [],
+    "status": null,
+    "note": "/ko 404, 영문 사이트만",
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  },
+  {
+    "id": "lotus",
+    "brand_ko": "로터스",
+    "brand_en": "Lotus",
+    "group": "지리/로터스",
+    "origin": "import",
+    "site": "https://www.lotuscars.com/ko-kr",
+    "finance": [],
+    "status": null,
+    "note": null,
+    "collected_categories": [
+      "status"
+    ],
+    "has_data": true
+  }
+]

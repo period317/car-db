@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "brand_id": "toyota",
+    "captured": "2026-11-05",
+    "source_url": "https://www.toyota.co.kr/benefit/monthly/",
+    "test_drive": {"apply":"https://www.toyota.co.kr/test-drive/apply/","event":"https://www.toyota.co.kr/test-drive/event/","nov_event":"https://www.toyota.co.kr/seasonal-event/2026-nov-testdrive/ (2026 컨슈머인사이트 수상 기념 시승 이벤트, 상세 미수집)"},
+    "finance_company": "토요타파이낸셜서비스코리아 (https://tfskr.co.kr)",
+    "method": "Chrome innerText (이미지 아님). 월 표기: 구체 월 명시 없음, 렉서스는 '2026년 11월 출고기준'.",
+    "finance_terms": "할부/금융리스 이자율 연 0~최대 15.10%(고정, 신용도에 따라). 할부 중도상환수수료 0~1.80%. 연체 시 약정금리+3%(최고 연 20% 이내). 취급 수수료 없음. 인지세 당사·고객 50%씩.",
+    "caveat": "금액이 있는 건 현금 혜택뿐. 저금리 할부 구체 금리·월 납입금은 전시장 문의."
+  },
+  "offers": [
+    {"model":"CAMRY HEV","years":"25·26년형","choose_one":["현금 200만원","토요타파이낸셜 저금리 할부 + SMS 쿠폰 1매"]},
+    {"model":"CROWN HEV","years":"26년형","choose_one":["토요타파이낸셜 저금리 할부","SMS 쿠폰 1매"]},
+    {"model":"SIENNA HEV","years":"25·26년형","choose_one":["현금 300만원","토요타파이낸셜 저금리 할부 + SMS 쿠폰 1매"]},
+    {"model":"HIGHLANDER HEV","years":"25년형 / 26년형","25MY":"현금 500만원","26MY_choose_one":["토요타파이낸셜 금융 프로그램 + SMS 쿠폰 1매","SMS 쿠폰 2매"]},
+    {"model":"ALL-NEW RAV4","program":"AMAZING SWITCH 잔존가치 보장 할부 프로그램","note":"상세 수치는 페이지 이미지/모듈에 있어 미수집"}
+  ],
+  "common": {"선택 규칙":"모델별 1·2번 혜택 중 택1, 어메이징 스위치 할부 제외","재구매":"토요타/렉서스 오너 및 가족 구매 시 지원금(차종·조건별 상이, 전시장 문의)","SMS":"스마트 메인터넌스 서비스 패키지 쿠폰"}
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "brand_id": "volkswagen",
+    "captured": "2026-11-05",
+    "source_url": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
+    "test_drive_url": "https://www.volkswagen.co.kr/lms/application/applyTestDrive.do",
+    "other_urls": {"model_pages":["https://www.volkswagen.co.kr/ko/models/atlas.html","https://www.volkswagen.co.kr/ko/models/golf_gti.html","https://www.volkswagen.co.kr/ko/models/golf.html"],"news":"https://www.volkswagen.co.kr/ko/promotion_news/News_2026.html","test_drive_event":"https://www.volkswagen.co.kr/app/local/testdrive/event"},
+    "method": "Chrome innerText (이미지 아님)",
+    "caveats": ["이달의 프로모션 페이지에 월/기간 명시 없음(Golf R Roadshow만 '2026.02.02 ~'). 11월 유효 여부 불명.","금액·이자율 상세는 페이지에 없고 항목명만 게시. 세부는 전시장 문의.","홈에는 Atlas·Golf GTI·Golf 프로모션 배너도 있으나 상세 미수집(이달의 프로모션에는 Touareg·Golf만 게시)."]
+  },
+  "promotions": [
+    {"model":"The Touareg","items":["60개월 무이자","5년/15만km 보증 연장","자기부담금 지원 프로그램","Welcome Kit 제공","바디 프로텍션","파츠 프로텍션"]},
+    {"model":"The Golf","items":["첫 6개월간 월 납입금 7만원대","5년/15만km 보증 연장","자기부담금 지원 프로그램","Welcome Kit 제공","바디 프로텍션","파츠 프로텍션"]},
+    {"event":"Golf R Roadshow","period":"2026-02-02 ~","url":"https://www.volkswagen.co.kr/app/local/testdrive/event"}
+  ],
+  "lineup_listed": ["Golf GTI","Atlas","ID.5","Touareg","Golf","ID.4"]
+}
