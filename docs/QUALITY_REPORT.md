@@ -1,6 +1,6 @@
 # 품질 점검 보고서 (2026-11-06)
 
-- 레코드 227건 / 시승 35곳 / ERROR **0** · WARN 40 · INFO 54
+- 레코드 227건 / 시승 35곳 / ERROR **0** · WARN 41 · INFO 183
 - ERROR가 있으면 GitHub·gist 게시를 멈춘다. 고친 뒤 다시 실행한다.
 
 ## [WARN] benefit-expired (15건)
@@ -44,6 +44,9 @@
 - id 18 · BMW: 기간 만료: 2026-10-31
 - … 외 3건
 
+## [WARN] low-verification-rate (1건)
+- id None · 전체: 원문 대조 완료 비율 19.4% (31/160). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)
+
 ## [WARN] no-benefit-brand (1건)
 - id None · 테슬라: 가격만 있고 혜택(할인·이벤트·금융) 레코드가 없음
 
@@ -80,6 +83,21 @@
 - id None · 마세라티: 수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)
 - id None · 재규어: 수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)
 - … 외 4건
+
+## [INFO] no-evidence (129건)
+- id 1 · BMW: 원문 증거 파일 없음: 120 M 스포츠 패키지 월 납입금
+- id 2 · BMW: 원문 증거 파일 없음: 220 그란 쿠페 M 스포츠 패키지 월 납입금
+- id 3 · BMW: 원문 증거 파일 없음: M135 xDrive 월 납입금
+- id 4 · BMW: 원문 증거 파일 없음: M235 xDrive 그란 쿠페 월 납입금
+- id 5 · BMW: 원문 증거 파일 없음: 520i 월 납입금
+- id 6 · BMW: 원문 증거 파일 없음: 530i xDrive M 스포츠 패키지 월 납입금
+- id 7 · BMW: 원문 증거 파일 없음: 740i xDrive M 스포츠 패키지 월 납입금
+- id 8 · BMW: 원문 증거 파일 없음: i7 eDrive50 M 스포츠 패키지 월 납입금
+- id 9 · BMW: 원문 증거 파일 없음: X5 xDrive 30d M 스포츠 패키지 월 납입금
+- id 10 · BMW: 원문 증거 파일 없음: X6 xDrive 30d M 스포츠 패키지 월 납입금
+- id 11 · BMW: 원문 증거 파일 없음: X7 xDrive 40i M 스포츠 패키지 월 납입금
+- id 12 · BMW: 원문 증거 파일 없음: X3 20 xDrive M 스포츠 패키지 월 납입금
+- … 외 117건
 
 ## [INFO] td-thin (27건)
 - id None · BMW: 시승 상세 미수집(url_only): 신청 URL만 있음

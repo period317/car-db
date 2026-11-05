@@ -1,18 +1,29 @@
-# 이 PC(수집 PC)에서 실행: 통합본 재생성 -> 변경 있으면 커밋 -> GitHub 푸시
+﻿# 이 PC(수집 PC)에서 실행: 통합본 재생성 -> 변경 있으면 커밋 -> GitHub 푸시
 # 사용: powershell -ExecutionPolicy Bypass -File scripts\update_all.ps1 [-NoPush]
 param([switch]$NoPush)
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 
-python -I scripts/build_db.py
-python -I scripts/build_benefits.py
-python -I scripts/export_bundle.py
+function Step($label, [string[]]$pyArgs) {
+    python -I @pyArgs
+    if ($LASTEXITCODE -ne 0) { Write-Host "[$label] 실패. 게시 중단."; exit 1 }
+}
 
-# 수집 후 품질 점검: ERROR 가 있으면 게시하지 않는다 (docs/QUALITY_REPORT.md 참고)
+# 직전 게시본(커밋된 benefits.jsonl)을 변경 비교용으로 보관
+$prevBen = Join-Path $env:TEMP "benefits_prev.jsonl"
+git show HEAD:data/unified/benefits.jsonl 2>$null | Out-File -Encoding utf8 $prevBen
+
+Step "원본 통합" @("scripts/build_db.py")
+Step "혜택 정리" @("scripts/build_benefits.py")
+Step "원문 대조" @("scripts/verify_evidence.py")
+Step "변경 비교" @("scripts/diff_benefits.py", $prevBen)
+Step "AI용 파일" @("scripts/export_bundle.py")
+
+# 수집 후 품질 점검: ERROR 가 있으면 게시하지 않는다 (docs/QUALITY_REPORT.md, VERIFY_CHECKLIST.md 참고)
 python -I scripts/quality_check.py
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "품질 점검 실패(ERROR). 게시 중단. docs/QUALITY_REPORT.md 를 확인하세요."
+    Write-Host "품질 점검 실패(ERROR). 게시 중단. docs/QUALITY_REPORT.md 와 docs/VERIFY_CHECKLIST.md 를 확인하세요."
     exit 1
 }
 

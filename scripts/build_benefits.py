@@ -160,7 +160,7 @@ for r in recs:
         types=",".join(types_of(r, text)), title=re.sub(r"\(만원/월\)", "", r["title"] or "").strip(),
         discount="; ".join(disc[:6]) or (f"최대 {won(r['max_benefit_krw'])}" if r.get("max_benefit_krw") else None),
         conditions="; ".join(cond[:6]) or None, reward="; ".join(gift[:6]) or None,
-        detail=human[:1500], period_start=r.get("period_start"), period_end=r.get("period_end"),
+        max_benefit_krw=r.get("max_benefit_krw"), detail=human[:1500], period_start=r.get("period_start"), period_end=r.get("period_end"),
         link=r.get("source_url"), confidence=r.get("confidence"), source_record_id=r["id"],
         extract_note="할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"))
 
@@ -206,7 +206,7 @@ for t in td:
 rows.sort(key=lambda x: (x["brand_ko"] or "", x["model"] or "", x["title"] or ""))
 for i, x in enumerate(rows, 1):
     x["id"] = i
-cols = ["id", "ym", "period_status", "brand_id", "brand_ko", "model", "sub_model", "types", "title", "discount", "conditions", "reward",
+cols = ["id", "ym", "period_status", "brand_id", "brand_ko", "model", "sub_model", "types", "title", "max_benefit_krw", "discount", "conditions", "reward",
         "detail", "period_start", "period_end", "link", "confidence", "source_record_id", "extract_note"]
 with open(os.path.join(U, "benefits.jsonl"), "w", encoding="utf-8") as f:
     for x in rows:

@@ -1,45 +1,457 @@
 {
-  "meta": {
-    "captured": "2026-11-05",
-    "purpose": "브랜드별 시승 '신청 가능 여부'와 '시승 이벤트/혜택'을 구분한 색인. can_apply_online: true=공식 사이트에 온라인 시승 신청 경로 확인 / false=신청 경로 없음 / null=미확인.",
-    "detail_level": "full=정책까지 수집, partial=신청 URL·일부 정책, url_only=URL만, none=없음/미확인",
-    "caveat": "시승 이벤트는 '시승(또는 시승 완료)과 직접 연결된 혜택'만 has_event=true. 구매상담·전시장 방문 경품 등은 note에만 적음."
+ "meta": {
+  "captured": "2026-11-05",
+  "purpose": "브랜드별 시승 '신청 가능 여부'와 '시승 이벤트/혜택'을 구분한 색인. can_apply_online: true=공식 사이트에 온라인 시승 신청 경로 확인 / false=신청 경로 없음 / null=미확인.",
+  "detail_level": "full=정책까지 수집, partial=신청 URL·일부 정책, url_only=URL만, none=없음/미확인",
+  "caveat": "시승 이벤트는 '시승(또는 시승 완료)과 직접 연결된 혜택'만 has_event=true. 구매상담·전시장 방문 경품 등은 note에만 적음."
+ },
+ "brands": [
+  {
+   "brand_id": "kia",
+   "can_apply_online": true,
+   "apply_url": "https://www.kia.com/kr/experience/book-a-test-drive",
+   "models": [
+    "EV3",
+    "EV4",
+    "EV5",
+    "EV6",
+    "EV9",
+    "PV5 패신저",
+    "PV5 카고"
+   ],
+   "models_note": "구매혜택 페이지에서 '시승 신청' 버튼이 보인 모델. 내연기관은 신청 페이지에서 선택 가능한지 미확인",
+   "policy": "동승/셀프 시승, 전국 지점·대리점·드라이빙센터·플래그십 스토어(시흥·강서·인천·부천·광주·원주). 만 21세 이상 면허, 1인 1건, 연 6회",
+   "has_event": false,
+   "detail_level": "full"
   },
-  "brands": [
-    {"brand_id":"kia","can_apply_online":true,"apply_url":"https://www.kia.com/kr/experience/book-a-test-drive","models":["EV3","EV4","EV5","EV6","EV9","PV5 패신저","PV5 카고"],"models_note":"구매혜택 페이지에서 '시승 신청' 버튼이 보인 모델. 내연기관은 신청 페이지에서 선택 가능한지 미확인","policy":"동승/셀프 시승, 전국 지점·대리점·드라이빙센터·플래그십 스토어(시흥·강서·인천·부천·광주·원주). 만 21세 이상 면허, 1인 1건, 연 6회","has_event":false,"detail_level":"full"},
-    {"brand_id":"hyundai","can_apply_online":true,"apply_url":"https://www.hyundai.com/kr/ko/e/vehicles/test-driving","models":["세단/SUV/EV 전 라인업"],"policy":"전국 27개 드라이빙라운지, 카마스터 동승 또는 단독(Semi-Untact), 기본 1시간, 만 21세 이상, 1인 1건, 연 6회(EV스테이션 제외). 제네시스·캐스퍼는 별도 신청","has_event":false,"detail_level":"full"},
-    {"brand_id":"genesis","can_apply_online":true,"apply_url":"https://www.genesis.com/kr/ko/experience/genesis-drive/genesis-test-drive.html","models":["GV80 Hybrid","GV80 Coupe","GV80","GV70","Electrified GV70","GV60","G90 LWB","G90","G80","Electrified G80","G70","G70 SB","GV60 Magma","Black 에디션(G90 LWB/G90/G80/GV80 Coupe/GV80)"],"policy":"6단계 예약(모델 선택→예약). 장소·연령·횟수 정책 미수집","has_event":false,"note":"11월 고객 감사 이벤트의 '전시장 방문 프로모션'은 시승이 아니라 방문 경품","detail_level":"partial"},
-    {"brand_id":"kgm","can_apply_online":true,"apply_url":"https://www.kg-mobility.com/od/network/test-driving","models":["무쏘(스탠다드/롱 데크)","액티언 하이브리드","토레스 하이브리드","토레스","액티언","토레스 EVX","렉스턴 뉴 아레나","티볼리","무쏘 EV"],"policy":"4단계(모델→장소→일정→개인정보 동의). 정책 상세 미수집. 고객센터 080-500-5582","has_event":true,"event_name":"KGM 드라이브 페스타","event_benefit":"홈 배너 '올 가을 더 특별한 시승, KGM 드라이브 페스타 OPEN!' (혜택·기간 상세 미수집)","event_period":null,"event_url":"https://www.kg-mobility.com/","event_detail_collected":false,"detail_level":"partial"},
-    {"brand_id":"bmw","can_apply_online":true,"apply_url":"https://www.bmw.co.kr/ko/fastlane/tda-experience.html","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"mini","can_apply_online":true,"apply_url":"https://www.mini.co.kr/ko_KR/home/ecrm/test-drive.html","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"renault","can_apply_online":true,"apply_url":"https://www.renault.co.kr/ko/side/app_testdrive.jsp","models":["Grand Koleos","Filante","Arkana"],"policy":"정책 미수집(구매혜택 카드에 '시승 신청' 버튼 있음)","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"chevrolet","can_apply_online":null,"apply_url":null,"models":null,"policy":"미확인","has_event":false,"detail_level":"none"},
-    {"brand_id":"cadillac","can_apply_online":true,"apply_url":"https://www.cadillac.co.kr/campaign/request-test-drive.gm","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"mercedes","can_apply_online":true,"apply_url":"https://www.mercedes-benz.co.kr/passengercars/test-drive.html","models":null,"policy":"온라인 시승 신청(정책 미수집)","has_event":false,"note":"11월 AMG '구매상담' 추첨 이벤트는 상담/출고 완료 조건이며 시승 이벤트 아님","detail_level":"url_only"},
-    {"brand_id":"audi","can_apply_online":true,"apply_url":"https://www.audi.co.kr/lms/application/applyTestDrive.do","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"volkswagen","can_apply_online":true,"apply_url":"https://www.volkswagen.co.kr/lms/application/applyTestDrive.do","models":null,"policy":"시승/상담 신청 통합","has_event":true,"event_name":"Golf R Roadshow","event_benefit":"Golf R을 가까이에서 만나는 로드쇼(시승 연계 여부·혜택 상세 미수집)","event_period":"2026-02-02 ~ (종료일 미표기)","event_url":"https://www.volkswagen.co.kr/app/local/testdrive/event","event_detail_collected":false,"detail_level":"partial"},
-    {"brand_id":"porsche","can_apply_online":null,"apply_url":null,"models":null,"policy":"미확인(브랜드 사이트 시승 페이지 미조사)","has_event":false,"detail_level":"none"},
-    {"brand_id":"volvo","can_apply_online":true,"apply_url":"https://www.volvocar.co.kr/buy/purchase/test-drive/","models":["ES90","EX90","EX30","XC90","XC60","XC40","S90","V60 Cross Country"],"policy":"온라인 신청→영업사원 배정(MMS)→일정 확인→전시장 시승","has_event":true,"event_name":"Volvo EX90 시승 신청 캠페인","event_benefit":"시승 완료 시 스타벅스 모바일 쿠폰, EX90 계약 완료 시 헬리녹스 체어원(re) 2개(선착순, 출고 한정 2027-03-31 가능)","event_period":"신청 2026-11-02~12-15, 현장 시승 ~2026-12-31","event_url":"https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/","event_detail_collected":true,"detail_level":"full"},
-    {"brand_id":"polestar","can_apply_online":true,"apply_url":"https://www.polestar.com/kr/test-drive/booking/polestar-3/","apply_urls":{"polestar_3":"https://www.polestar.com/kr/test-drive/booking/polestar-3/","polestar_4_coupe":"https://www.polestar.com/kr/test-drive/booking/polestar-4-coupe/"},"models":["Polestar 3","Polestar 4 coupé"],"policy":"모델별 예약 페이지. 정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"toyota","can_apply_online":true,"apply_url":"https://www.toyota.co.kr/test-drive/apply/","models":["ALL-NEW RAV4","CAMRY","ALPHARD","HIGHLANDER","CROWN","SIENNA","GR86 등"],"policy":"정책 미수집","has_event":true,"event_name":"토요타 전국 시승 이벤트","event_benefit":"시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V 등(전체 경품 목록 일부만 확인). 당첨 발표 2026-12-10 개별 안내","event_period":"이벤트 2026-11-04~11-30, 시승 기간 2026-11-04~12-03","event_url":"https://www.toyota.co.kr/seasonal-event/2026-nov-testdrive/","event_detail_collected":true,"detail_level":"partial"},
-    {"brand_id":"lexus","can_apply_online":true,"apply_url":"https://www.lexus.co.kr/test-drive/","models":["NX 350h","NX 450h+","UX 300h","RX 350h","RX 450h+","RX 500h","LS 500h","ES"],"policy":"모델 카드별 시승신청 버튼. 정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"ford","can_apply_online":true,"apply_url":"https://flak.co.kr/_ford/request/estimate.html","models":["EXPLORER","EXPEDITION","BRONCO","MUSTANG"],"policy":"TEST DRIVE 메뉴(견적/시승 요청 폼). 정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"lincoln","can_apply_online":true,"apply_url":"https://flak.co.kr/_lincoln/request/estimate.html","models":["NAUTILUS","NAVIGATOR","AVIATOR"],"policy":"TEST DRIVE 메뉴(견적/시승 요청 폼). 정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"tesla","can_apply_online":true,"apply_url":"https://www.tesla.com/ko_kr/drive","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"jeep","can_apply_online":true,"apply_url":"https://www.jeep.co.kr/shopping_tools/satd.html","models":["Wrangler","Gladiator","Grand Cherokee L"],"policy":"정책 미수집. 85주년 에디션 프로그램에 '시승 신청' 버튼 연결","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"peugeot","can_apply_online":true,"apply_url":"https://www.epeugeot.co.kr/Form","models":["5008","3008","408","308"],"policy":"시승 신청 폼. 정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"landrover","can_apply_online":true,"apply_url":"https://www.landroverkorea.co.kr/book-a-test-drive/index.html","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"jaguar","can_apply_online":false,"apply_url":null,"models":null,"policy":"사이트에 시승 신청 메뉴 없음(브랜드 캠페인 페이지만)","has_event":false,"detail_level":"none"},
-    {"brand_id":"byd","can_apply_online":true,"apply_url":"https://www.bydauto.kr/purchase/test-drive","models":["DOLPHIN","ATTO 3","SEAL","SEALION 7","SEALION 6 DM-i"],"policy":"정책 미수집","has_event":true,"event_name":"DM-i 전국 연비 챌린지","event_benefit":"BYD SEALION 6 DM-i 1년 시승권 추첨 기회(참여 조건 상세 미수집)","event_period":"2026-11-06 ~ 2026-11-22","event_url":"https://www.bydauto.kr/brand/events","event_detail_collected":false,"note":"BYD x NETFLIX 전시장 이벤트(11/7~11/29)는 전시장 방문형, 시승 연계 여부 미확인","detail_level":"partial"},
-    {"brand_id":"maserati","can_apply_online":true,"apply_url":"https://www.maserati.com/kr/ko/shopping-tools/test-drive","models":null,"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"lotus","can_apply_online":true,"apply_url":"https://www.lotuscars.com/ko-KR/emira/test-drive","apply_urls":{"emira":"https://www.lotuscars.com/ko-KR/emira/test-drive","eletre":"https://www.lotuscars.com/ko-KR/eletre/test-drive"},"models":["Emira","Eletre"],"policy":"정책 미수집","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"bentley","can_apply_online":true,"apply_url":"https://www.bentleymotors.com/en/pages/request-test-drive.html","models":null,"policy":"영문 사이트 요청 폼","has_event":false,"detail_level":"url_only"},
-    {"brand_id":"ferrari","can_apply_online":false,"apply_url":null,"models":null,"policy":"온라인 시승 신청 경로 확인 못 함(딜러 찾기만)","has_event":false,"detail_level":"none"},
-    {"brand_id":"lamborghini","can_apply_online":false,"apply_url":null,"models":null,"policy":"온라인 시승 신청 경로 확인 못 함(딜러 찾기만)","has_event":false,"detail_level":"none"},
-    {"brand_id":"rolls_royce","can_apply_online":false,"apply_url":null,"models":null,"policy":"온라인 시승 신청 경로 확인 못 함(딜러 찾기만)","has_event":false,"detail_level":"none"},
-    {"brand_id":"aston_martin","can_apply_online":false,"apply_url":null,"models":null,"policy":"한국어 페이지 없음, 영문 딜러 찾기만","has_event":false,"detail_level":"none"},
-    {"brand_id":"ds","can_apply_online":null,"apply_url":null,"models":null,"policy":"미확인","has_event":false,"detail_level":"none"},
-    {"brand_id":"citroen","can_apply_online":null,"apply_url":null,"models":null,"policy":"사이트 접속 실패, 철수 추정","has_event":false,"detail_level":"none"},
-    {"brand_id":"mclaren","can_apply_online":null,"apply_url":null,"models":null,"policy":"한국 사이트 불확실","has_event":false,"detail_level":"none"}
-  ]
+  {
+   "brand_id": "hyundai",
+   "can_apply_online": true,
+   "apply_url": "https://www.hyundai.com/kr/ko/e/vehicles/test-driving",
+   "models": [
+    "세단/SUV/EV 전 라인업"
+   ],
+   "policy": "전국 27개 드라이빙라운지, 카마스터 동승 또는 단독(Semi-Untact), 기본 1시간, 만 21세 이상, 1인 1건, 연 6회(EV스테이션 제외). 제네시스·캐스퍼는 별도 신청",
+   "has_event": false,
+   "detail_level": "full"
+  },
+  {
+   "brand_id": "genesis",
+   "can_apply_online": true,
+   "apply_url": "https://www.genesis.com/kr/ko/experience/genesis-drive/genesis-test-drive.html",
+   "models": [
+    "GV80 Hybrid",
+    "GV80 Coupe",
+    "GV80",
+    "GV70",
+    "Electrified GV70",
+    "GV60",
+    "G90 LWB",
+    "G90",
+    "G80",
+    "Electrified G80",
+    "G70",
+    "G70 SB",
+    "GV60 Magma",
+    "Black 에디션(G90 LWB/G90/G80/GV80 Coupe/GV80)"
+   ],
+   "policy": "6단계 예약(모델 선택→예약). 장소·연령·횟수 정책 미수집",
+   "has_event": false,
+   "note": "11월 고객 감사 이벤트의 '전시장 방문 프로모션'은 시승이 아니라 방문 경품",
+   "detail_level": "partial"
+  },
+  {
+   "brand_id": "kgm",
+   "can_apply_online": true,
+   "apply_url": "https://www.kg-mobility.com/od/network/test-driving",
+   "models": [
+    "무쏘(스탠다드/롱 데크)",
+    "액티언 하이브리드",
+    "토레스 하이브리드",
+    "토레스",
+    "액티언",
+    "토레스 EVX",
+    "렉스턴 뉴 아레나",
+    "티볼리",
+    "무쏘 EV"
+   ],
+   "policy": "4단계(모델→장소→일정→개인정보 동의). 정책 상세 미수집. 고객센터 080-500-5582",
+   "has_event": true,
+   "event_name": "KGM 드라이브 페스타",
+   "event_benefit": "홈 배너 '올 가을 더 특별한 시승, KGM 드라이브 페스타 OPEN!' (혜택·기간 상세 미수집)",
+   "event_period": null,
+   "event_url": "https://www.kg-mobility.com/",
+   "event_detail_collected": false,
+   "detail_level": "partial"
+  },
+  {
+   "brand_id": "bmw",
+   "can_apply_online": true,
+   "apply_url": "https://www.bmw.co.kr/ko/fastlane/tda-experience.html",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "mini",
+   "can_apply_online": true,
+   "apply_url": "https://www.mini.co.kr/ko_KR/home/ecrm/test-drive.html",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "renault",
+   "can_apply_online": true,
+   "apply_url": "https://www.renault.co.kr/ko/side/app_testdrive.jsp",
+   "models": [
+    "Grand Koleos",
+    "Filante",
+    "Arkana"
+   ],
+   "policy": "정책 미수집(구매혜택 카드에 '시승 신청' 버튼 있음)",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "chevrolet",
+   "can_apply_online": null,
+   "apply_url": null,
+   "models": null,
+   "policy": "미확인",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "cadillac",
+   "can_apply_online": true,
+   "apply_url": "https://www.cadillac.co.kr/campaign/request-test-drive.gm",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "mercedes",
+   "can_apply_online": true,
+   "apply_url": "https://www.mercedes-benz.co.kr/passengercars/test-drive.html",
+   "models": null,
+   "policy": "온라인 시승 신청(정책 미수집)",
+   "has_event": false,
+   "note": "11월 AMG '구매상담' 추첨 이벤트는 상담/출고 완료 조건이며 시승 이벤트 아님",
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "audi",
+   "can_apply_online": true,
+   "apply_url": "https://www.audi.co.kr/lms/application/applyTestDrive.do",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "volkswagen",
+   "can_apply_online": true,
+   "apply_url": "https://www.volkswagen.co.kr/lms/application/applyTestDrive.do",
+   "models": null,
+   "policy": "시승/상담 신청 통합",
+   "has_event": true,
+   "event_name": "Golf R Roadshow",
+   "event_benefit": "Golf R을 가까이에서 만나는 로드쇼(시승 연계 여부·혜택 상세 미수집)",
+   "event_period": "2026-02-02 ~ (종료일 미표기)",
+   "event_url": "https://www.volkswagen.co.kr/app/local/testdrive/event",
+   "event_detail_collected": false,
+   "detail_level": "partial"
+  },
+  {
+   "brand_id": "porsche",
+   "can_apply_online": null,
+   "apply_url": null,
+   "models": null,
+   "policy": "미확인(브랜드 사이트 시승 페이지 미조사)",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "volvo",
+   "can_apply_online": true,
+   "apply_url": "https://www.volvocar.co.kr/buy/purchase/test-drive/",
+   "models": [
+    "ES90",
+    "EX90",
+    "EX30",
+    "XC90",
+    "XC60",
+    "XC40",
+    "S90",
+    "V60 Cross Country"
+   ],
+   "policy": "온라인 신청→영업사원 배정(MMS)→일정 확인→전시장 시승",
+   "has_event": true,
+   "event_name": "Volvo EX90 시승 신청 캠페인",
+   "event_benefit": "시승 완료 시 스타벅스 모바일 쿠폰, EX90 계약 완료 시 헬리녹스 체어원(re) 2개(선착순, 출고 한정 2027-03-31 가능)",
+   "event_period": "신청 2026-11-02~12-15, 현장 시승 ~2026-12-31",
+   "event_url": "https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/",
+   "event_detail_collected": true,
+   "detail_level": "full"
+  },
+  {
+   "brand_id": "polestar",
+   "can_apply_online": true,
+   "apply_url": "https://www.polestar.com/kr/test-drive/booking/polestar-3/",
+   "apply_urls": {
+    "polestar_3": "https://www.polestar.com/kr/test-drive/booking/polestar-3/",
+    "polestar_4_coupe": "https://www.polestar.com/kr/test-drive/booking/polestar-4-coupe/"
+   },
+   "models": [
+    "Polestar 3",
+    "Polestar 4 coupé"
+   ],
+   "policy": "모델별 예약 페이지. 정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "toyota",
+   "can_apply_online": true,
+   "apply_url": "https://www.toyota.co.kr/test-drive/apply/",
+   "models": [
+    "ALL-NEW RAV4",
+    "CAMRY",
+    "ALPHARD",
+    "HIGHLANDER",
+    "CROWN",
+    "SIENNA",
+    "GR86 등"
+   ],
+   "policy": "정책 미수집",
+   "has_event": true,
+   "event_name": "토요타 전국 시승 이벤트",
+   "event_benefit": "시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+빈 오거나이저 파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V, 30명 오아 슬리머 온열 안마기(색상 랜덤). 당첨 발표 2026-12-10 개별 안내",
+   "event_period": "이벤트 2026-11-04~2026-11-30, 시승 기간 2026-11-04~2026-12-03 (당첨자 선정: 11/30까지 신청, 12/3까지 시승 완료 고객)",
+   "event_url": "https://www.toyota.co.kr/seasonal-event/2026-nov-testdrive/",
+   "event_detail_collected": true,
+   "detail_level": "partial"
+  },
+  {
+   "brand_id": "lexus",
+   "can_apply_online": true,
+   "apply_url": "https://www.lexus.co.kr/test-drive/",
+   "models": [
+    "NX 350h",
+    "NX 450h+",
+    "UX 300h",
+    "RX 350h",
+    "RX 450h+",
+    "RX 500h",
+    "LS 500h",
+    "ES"
+   ],
+   "policy": "모델 카드별 시승신청 버튼. 정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "ford",
+   "can_apply_online": true,
+   "apply_url": "https://flak.co.kr/_ford/request/estimate.html",
+   "models": [
+    "EXPLORER",
+    "EXPEDITION",
+    "BRONCO",
+    "MUSTANG"
+   ],
+   "policy": "TEST DRIVE 메뉴(견적/시승 요청 폼). 정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "lincoln",
+   "can_apply_online": true,
+   "apply_url": "https://flak.co.kr/_lincoln/request/estimate.html",
+   "models": [
+    "NAUTILUS",
+    "NAVIGATOR",
+    "AVIATOR"
+   ],
+   "policy": "TEST DRIVE 메뉴(견적/시승 요청 폼). 정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "tesla",
+   "can_apply_online": true,
+   "apply_url": "https://www.tesla.com/ko_kr/drive",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "jeep",
+   "can_apply_online": true,
+   "apply_url": "https://www.jeep.co.kr/shopping_tools/satd.html",
+   "models": [
+    "Wrangler",
+    "Gladiator",
+    "Grand Cherokee L"
+   ],
+   "policy": "정책 미수집. 85주년 에디션 프로그램에 '시승 신청' 버튼 연결",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "peugeot",
+   "can_apply_online": true,
+   "apply_url": "https://www.epeugeot.co.kr/Form",
+   "models": [
+    "5008",
+    "3008",
+    "408",
+    "308"
+   ],
+   "policy": "시승 신청 폼. 정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "landrover",
+   "can_apply_online": true,
+   "apply_url": "https://www.landroverkorea.co.kr/book-a-test-drive/index.html",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "jaguar",
+   "can_apply_online": false,
+   "apply_url": null,
+   "models": null,
+   "policy": "사이트에 시승 신청 메뉴 없음(브랜드 캠페인 페이지만)",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "byd",
+   "can_apply_online": true,
+   "apply_url": "https://www.bydauto.kr/purchase/test-drive",
+   "models": [
+    "DOLPHIN",
+    "ATTO 3",
+    "SEAL",
+    "SEALION 7",
+    "SEALION 6 DM-i"
+   ],
+   "policy": "정책 미수집",
+   "has_event": true,
+   "event_name": "DM-i 전국 연비 챌린지",
+   "event_benefit": "BYD SEALION 6 DM-i 1년 시승권 추첨 기회(참여 조건 상세 미수집)",
+   "event_period": "2026-11-06 ~ 2026-11-22",
+   "event_url": "https://www.bydauto.kr/brand/events",
+   "event_detail_collected": false,
+   "note": "BYD x NETFLIX 전시장 이벤트(11/7~11/29)는 전시장 방문형, 시승 연계 여부 미확인",
+   "detail_level": "partial"
+  },
+  {
+   "brand_id": "maserati",
+   "can_apply_online": true,
+   "apply_url": "https://www.maserati.com/kr/ko/shopping-tools/test-drive",
+   "models": null,
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "lotus",
+   "can_apply_online": true,
+   "apply_url": "https://www.lotuscars.com/ko-KR/emira/test-drive",
+   "apply_urls": {
+    "emira": "https://www.lotuscars.com/ko-KR/emira/test-drive",
+    "eletre": "https://www.lotuscars.com/ko-KR/eletre/test-drive"
+   },
+   "models": [
+    "Emira",
+    "Eletre"
+   ],
+   "policy": "정책 미수집",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "bentley",
+   "can_apply_online": true,
+   "apply_url": "https://www.bentleymotors.com/en/pages/request-test-drive.html",
+   "models": null,
+   "policy": "영문 사이트 요청 폼",
+   "has_event": false,
+   "detail_level": "url_only"
+  },
+  {
+   "brand_id": "ferrari",
+   "can_apply_online": false,
+   "apply_url": null,
+   "models": null,
+   "policy": "온라인 시승 신청 경로 확인 못 함(딜러 찾기만)",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "lamborghini",
+   "can_apply_online": false,
+   "apply_url": null,
+   "models": null,
+   "policy": "온라인 시승 신청 경로 확인 못 함(딜러 찾기만)",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "rolls_royce",
+   "can_apply_online": false,
+   "apply_url": null,
+   "models": null,
+   "policy": "온라인 시승 신청 경로 확인 못 함(딜러 찾기만)",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "aston_martin",
+   "can_apply_online": false,
+   "apply_url": null,
+   "models": null,
+   "policy": "한국어 페이지 없음, 영문 딜러 찾기만",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "ds",
+   "can_apply_online": null,
+   "apply_url": null,
+   "models": null,
+   "policy": "미확인",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "citroen",
+   "can_apply_online": null,
+   "apply_url": null,
+   "models": null,
+   "policy": "사이트 접속 실패, 철수 추정",
+   "has_event": false,
+   "detail_level": "none"
+  },
+  {
+   "brand_id": "mclaren",
+   "can_apply_online": null,
+   "apply_url": null,
+   "models": null,
+   "policy": "한국 사이트 불확실",
+   "has_event": false,
+   "detail_level": "none"
+  }
+ ]
 }

@@ -9,6 +9,7 @@
   "sub_model": "120 M 스포츠 패키지",
   "types": "금융",
   "title": "120 M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 스마트 리스 41, 스마트 할부 42; 조건: 리스 선납45% 60개월 잔가42%",
   "conditions": null,
   "reward": null,
@@ -18,7 +19,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 13,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 2,
@@ -30,6 +35,7 @@
   "sub_model": "220 그란 쿠페 M 스포츠 패키지",
   "types": "금융",
   "title": "220 그란 쿠페 M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 스마트 리스 44, 스마트 할부 47; 조건: 리스 선납45% 60개월 잔가39%",
   "conditions": null,
   "reward": null,
@@ -39,7 +45,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 14,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 3,
@@ -51,6 +61,7 @@
   "sub_model": "M135 xDrive",
   "types": "금융",
   "title": "M135 xDrive 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 스마트 리스 53, 스마트 할부 59; 조건: 리스 선납45% 60개월 잔가36%",
   "conditions": null,
   "reward": null,
@@ -60,7 +71,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 15,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 4,
@@ -72,6 +87,7 @@
   "sub_model": "M235 xDrive 그란 쿠페",
   "types": "금융",
   "title": "M235 xDrive 그란 쿠페 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 스마트 리스 57, 스마트 할부 65; 조건: 리스 선납45% 60개월 잔가33%",
   "conditions": null,
   "reward": null,
@@ -81,7 +97,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 16,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 5,
@@ -93,6 +113,7 @@
   "sub_model": "520i",
   "types": "금융",
   "title": "520i 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 112, 스마트 리스 43, 스마트 할부 43; 조건: 리스 선납37% 36개월 잔가60%",
   "conditions": null,
   "reward": null,
@@ -102,7 +123,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 17,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 6,
@@ -114,6 +139,7 @@
   "sub_model": "530i xDrive M 스포츠 패키지",
   "types": "금융",
   "title": "530i xDrive M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 150, 스마트 리스 57, 스마트 할부 66; 조건: 리스 선납45% 60개월 잔가45%",
   "conditions": null,
   "reward": null,
@@ -123,7 +149,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 18,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 7,
@@ -135,6 +165,7 @@
   "sub_model": "740i xDrive M 스포츠 패키지",
   "types": "금융",
   "title": "740i xDrive M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 312, 스마트 리스 141, 스마트 할부 147; 조건: 리스 선납40% 60개월 잔가40%",
   "conditions": null,
   "reward": null,
@@ -144,7 +175,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 20,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 8,
@@ -156,6 +191,7 @@
   "sub_model": "i7 eDrive50 M 스포츠 패키지",
   "types": "금융",
   "title": "i7 eDrive50 M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 322, 스마트 리스 159, 스마트 할부 174; 조건: 리스 선납40% 60개월 잔가33%",
   "conditions": null,
   "reward": null,
@@ -165,7 +201,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 21,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 9,
@@ -177,6 +217,7 @@
   "sub_model": "X5 xDrive 30d M 스포츠 패키지",
   "types": "금융",
   "title": "X5 xDrive 30d M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 210, 스마트 리스 94, 스마트 할부 102",
   "conditions": null,
   "reward": null,
@@ -186,7 +227,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 9,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 10,
@@ -198,6 +243,7 @@
   "sub_model": "X6 xDrive 30d M 스포츠 패키지",
   "types": "금융",
   "title": "X6 xDrive 30d M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 212, 스마트 리스 99, 스마트 할부 109",
   "conditions": null,
   "reward": null,
@@ -207,7 +253,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 10,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 11,
@@ -219,6 +269,7 @@
   "sub_model": "X7 xDrive 40i M 스포츠 패키지",
   "types": "금융",
   "title": "X7 xDrive 40i M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 219, 스마트 리스 121, 스마트 할부 133",
   "conditions": null,
   "reward": null,
@@ -228,7 +279,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 11,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 12,
@@ -240,6 +295,7 @@
   "sub_model": "X3 20 xDrive M 스포츠 패키지",
   "types": "금융",
   "title": "X3 20 xDrive M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 119, 스마트 리스 68, 스마트 할부 56; 조건: 일반할부 선납45% 36개월 1.92%; 리스 선납30% 60개월 잔가52% 연1만km 취득세포함; 스마트할부 선납30% 36개월 잔가54% 5.48%",
   "conditions": null,
   "reward": null,
@@ -249,7 +305,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 7,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 13,
@@ -261,6 +321,7 @@
   "sub_model": "X3 M50 xDrive 프로",
   "types": "금융",
   "title": "X3 M50 xDrive 프로 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 124, 스마트 리스 103, 스마트 할부 97; 조건: 일반할부 선납57% 36개월 2.15%; 리스 선납30% 60개월 잔가44%; 스마트할부 선납30% 36개월 잔가46% 6.12%",
   "conditions": null,
   "reward": null,
@@ -270,7 +331,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 8,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 14,
@@ -282,6 +347,7 @@
   "sub_model": "Label / XM",
   "types": "금융",
   "title": "XM 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 410, 스마트 리스 237, 스마트 할부 253",
   "conditions": null,
   "reward": null,
@@ -291,7 +357,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 19,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 15,
@@ -303,6 +373,7 @@
   "sub_model": "iX3 50 xDrive M 스포츠 패키지",
   "types": "금융,할인",
   "title": "iX3 50 xDrive M 스포츠 패키지 월 납입금",
+  "max_benefit_krw": null,
   "discount": "월 납입금(만원/월): 일반 할부 59, 스마트 리스 57; 조건: 리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영",
   "conditions": null,
   "reward": null,
@@ -312,7 +383,11 @@
   "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
   "confidence": "medium",
   "source_record_id": 12,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 16,
@@ -324,6 +399,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "BYD x NETFLIX 전시장 이벤트",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -333,7 +409,11 @@
   "link": "https://www.bydauto.kr/brand/events",
   "confidence": "high",
   "source_record_id": 33,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 17,
@@ -345,6 +425,7 @@
   "sub_model": null,
   "types": "시승혜택",
   "title": "DM-i 전국 연비 챌린지 — BYD SEALION 6 DM-i 1년 시승권",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "정책 미수집",
   "reward": "BYD SEALION 6 DM-i 1년 시승권 추첨 기회(참여 조건 상세 미수집)",
@@ -354,7 +435,11 @@
   "link": "https://www.bydauto.kr/brand/events",
   "confidence": "high",
   "source_record_id": 34,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 18,
@@ -366,6 +451,7 @@
   "sub_model": null,
   "types": "금융,보증·서비스",
   "title": "11월 공통 금융 프로모션",
+  "max_benefit_krw": null,
   "discount": "무이자 12개월 (선수율 50%); 4.8% 48개월 (선수율 0%); 5.2% 60개월 (선수율 0%); 5.5% 72개월 (선수율 0%); 재구매 로열티: 2대째 10만원, 3대째 20만원; Thank You 119: 소방공무원·의용소방대원·순직/공상 소방관 유가족 30만원",
   "conditions": null,
   "reward": "무쏘 비즈 서포트: 사업자 고객 자동차세 10년 지원 or 트리플 오일 패스 택1 (무쏘 페이지에서만 표시)",
@@ -375,7 +461,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 92,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 19,
@@ -387,6 +477,7 @@
   "sub_model": null,
   "types": "시승혜택",
   "title": "KGM 드라이브 페스타",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "4단계(모델→장소→일정→개인정보 동의). 정책 상세 미수집. 고객센터 080-500-5582",
   "reward": "홈 배너 '올 가을 더 특별한 시승, KGM 드라이브 페스타 OPEN!' (혜택·기간 상세 미수집)",
@@ -396,7 +487,11 @@
   "link": "https://www.kg-mobility.com/",
   "confidence": "medium",
   "source_record_id": null,
-  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴"
+  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 20,
@@ -408,6 +503,7 @@
   "sub_model": null,
   "types": "보증·서비스",
   "title": "액티언 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환",
@@ -417,7 +513,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 105,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 21,
@@ -429,6 +529,7 @@
   "sub_model": "하이브리드",
   "types": "할인,금융,보증·서비스",
   "title": "액티언 하이브리드 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 23만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스",
@@ -438,7 +539,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 95,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 22,
@@ -450,6 +555,7 @@
   "sub_model": null,
   "types": "보증·서비스",
   "title": "토레스 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환",
@@ -459,7 +565,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 100,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 23,
@@ -471,6 +581,7 @@
   "sub_model": "하이브리드",
   "types": "할인,금융,보증·서비스",
   "title": "토레스 하이브리드 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 19만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스",
@@ -480,7 +591,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 97,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 24,
@@ -492,6 +607,7 @@
   "sub_model": null,
   "types": "보증·서비스",
   "title": "토레스 밴 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환",
@@ -501,7 +617,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 102,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 25,
@@ -513,6 +633,7 @@
   "sub_model": null,
   "types": "할인,금융,보증·서비스",
   "title": "티볼리 스페셜 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 13만원대, 선수금 30%, 5.6%(60개월), 최대 50% 유예 + 트리플 오일 패스",
@@ -522,7 +643,11 @@
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
   "source_record_id": 108,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 26,
@@ -534,6 +659,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV3 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 100만",
   "reward": null,
@@ -543,7 +669,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 112,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 27,
@@ -555,6 +685,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV4 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 100만",
   "reward": null,
@@ -564,7 +695,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 114,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 28,
@@ -576,6 +711,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV5 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 100만",
   "reward": null,
@@ -585,7 +721,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 116,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 29,
@@ -597,6 +737,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV6 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 250만",
   "reward": null,
@@ -606,7 +747,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 118,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 30,
@@ -618,6 +763,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV6 GT 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -627,7 +773,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 120,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 31,
@@ -639,6 +789,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "EV9 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "최대 200만 (EV9 기본혜택 100만 + 26년 6월 생산분 100만)",
   "reward": null,
@@ -648,7 +799,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 122,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 32,
@@ -660,6 +815,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "K5 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 지원금 50만",
   "conditions": "26년 8월 생산분 50만",
   "reward": null,
@@ -669,7 +825,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 138,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 33,
@@ -681,6 +841,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "K8 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 지원금 50만",
   "conditions": "26년 9월 생산분 100만",
   "reward": null,
@@ -690,7 +851,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 140,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 34,
@@ -702,6 +867,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "K9 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 9월 생산분 300만",
   "reward": null,
@@ -711,7 +877,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 142,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 35,
@@ -723,6 +893,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "PV5 WAV 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -732,7 +903,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 130,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 36,
@@ -744,6 +919,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "PV5 오픈베드 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -753,7 +929,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 132,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 37,
@@ -765,6 +945,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "PV5 카고 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": null,
   "reward": null,
@@ -774,7 +955,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 128,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 38,
@@ -786,6 +971,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "PV5 패신저 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 100만",
   "reward": null,
@@ -795,7 +981,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 126,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 39,
@@ -807,6 +997,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "니로 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 9월 생산분 50만",
   "reward": null,
@@ -816,7 +1007,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 146,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 40,
@@ -828,6 +1023,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "레이 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -837,7 +1033,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 136,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 41,
@@ -849,6 +1049,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "레이 EV 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": null,
   "reward": null,
@@ -858,7 +1059,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 110,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 42,
@@ -870,6 +1075,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "모닝 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -879,7 +1085,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 134,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 43,
@@ -891,6 +1101,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "봉고Ⅲ EV 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 최대 5% 할인",
   "conditions": "26년 6월 생산분 200만",
   "reward": null,
@@ -900,7 +1111,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 124,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 44,
@@ -912,6 +1127,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "봉고Ⅲ 트럭 구매혜택",
+  "max_benefit_krw": null,
   "discount": "기특한 Festa 지원금 50만",
   "conditions": "26년 9월 생산분 50만",
   "reward": null,
@@ -921,7 +1137,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 158,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 45,
@@ -933,6 +1153,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "셀토스 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -942,7 +1163,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 144,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 46,
@@ -954,6 +1179,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "스포티지 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -963,7 +1189,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 148,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 47,
@@ -975,6 +1205,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "쏘렌토 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 8월 생산분 디젤 250만",
   "reward": null,
@@ -984,7 +1215,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 150,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 48,
@@ -996,6 +1231,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "카니발 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 9월 생산분 100만",
   "reward": null,
@@ -1005,7 +1241,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 154,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 49,
@@ -1017,6 +1257,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "카니발 하이리무진 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 9월 생산분 100만",
   "reward": null,
@@ -1026,7 +1267,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 156,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 50,
@@ -1038,6 +1283,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "타스만 구매혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "26년 9월 생산분(오픈베드 제외) 300만",
   "reward": null,
@@ -1047,7 +1293,11 @@
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
   "source_record_id": 152,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 51,
@@ -1059,6 +1309,7 @@
   "sub_model": "26MY",
   "types": "금융",
   "title": "Defender (26MY) 금융 예시",
+  "max_benefit_krw": null,
   "discount": "월 납입금(원): 3323000; 조건: 선납금 30%(46,890,000원); 이자율 5.90%; 월 납입금(원): 3417000; 조건: 선납금 30%(48,210,000원)",
   "conditions": "36개월",
   "reward": null,
@@ -1068,7 +1319,11 @@
   "link": "https://www.landroverkorea.co.kr/offers/index.html",
   "confidence": "medium",
   "source_record_id": 160,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 52,
@@ -1080,6 +1335,7 @@
   "sub_model": "26MY",
   "types": "금융",
   "title": "Range Rover P550e SWB Autobiography (26MY) 금융 예시",
+  "max_benefit_krw": null,
   "discount": "운용리스: 월 납입금(원): 2119000; 조건: 선납금 30%(74,910,000원); 잔존가치율 60%; 저금리 할부: 금리(%): 5.9; 월 납입금(원): 5309000",
   "conditions": "36개월; 연 20,000km",
   "reward": null,
@@ -1089,7 +1345,11 @@
   "link": "https://www.landroverkorea.co.kr/offers/index.html",
   "confidence": "medium",
   "source_record_id": 159,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 53,
@@ -1101,6 +1361,7 @@
   "sub_model": "ES 350e BEV",
   "types": "금융,보증·서비스",
   "title": "ES (ES 350e BEV)",
+  "max_benefit_krw": null,
   "discount": "세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기.",
   "conditions": "프로그램: 어메이징 스위치 (잔존가치 보장 할부)",
   "reward": null,
@@ -1110,7 +1371,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 168,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 54,
@@ -1122,6 +1387,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "LS 500h",
+  "max_benefit_krw": null,
   "discount": "혜택: 현금 고객 대상 법인명의 차량교체 지원 및 개인명의 국산 플래그십 업그레이드 지원(금액 미게시); 토요타파이낸셜 저금리 할부",
   "conditions": null,
   "reward": "현금 및 타사 할부/리스 구매 시 PMS 쿠폰 2매 (오토 케어 리스는 쿠폰 제외)",
@@ -1131,7 +1397,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 167,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 55,
@@ -1143,6 +1413,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "NX 350h",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 300만원",
   "conditions": null,
   "reward": "토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매",
@@ -1152,7 +1423,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 161,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 56,
@@ -1164,6 +1439,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "NX 450h+",
+  "max_benefit_krw": null,
   "discount": "혜택2: 현금 300만원",
   "conditions": null,
   "reward": "혜택1: 충전 멤버십 카드 지급 (100만원); 또는 토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매 (택1)",
@@ -1173,7 +1449,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 162,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 57,
@@ -1185,6 +1465,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "RX 350h",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 200만원; 토요타파이낸셜 저금리 할부",
   "conditions": null,
   "reward": null,
@@ -1194,7 +1475,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 164,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 58,
@@ -1206,6 +1491,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "RX 450h+",
+  "max_benefit_krw": null,
   "discount": "또는 토요타파이낸셜 저금리 할부",
   "conditions": null,
   "reward": "혜택1: 충전 멤버십 카드 지급 (100만원); 혜택2: PMS 쿠폰 2매",
@@ -1215,7 +1501,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 165,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 59,
@@ -1227,6 +1517,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "RX 500h",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 200만원; 토요타파이낸셜 저금리 할부",
   "conditions": null,
   "reward": null,
@@ -1236,7 +1527,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 166,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 60,
@@ -1248,6 +1543,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "UX 300h",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 200만원",
   "conditions": null,
   "reward": "토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매",
@@ -1257,7 +1553,11 @@
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 163,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 61,
@@ -1269,6 +1569,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "Arkana 11월 르노 세일 페스타",
+  "max_benefit_krw": null,
   "discount": "정액불 할부: 0%(~36개월); 5.6%(~36); 6.4%(~60); 6.6%(~72); 바이백 할부: 6.9%(36); 7.5%(48)",
   "conditions": null,
   "reward": null,
@@ -1278,7 +1579,11 @@
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
   "source_record_id": 198,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 62,
@@ -1290,6 +1595,7 @@
   "sub_model": null,
   "types": "할인,금융,보증·서비스",
   "title": "Filante 11월 르노 세일 페스타",
+  "max_benefit_krw": null,
   "discount": "정액불 할부: 3.7%(~72개월); 바이백 할부: 5.4%(36); 5.99%(48); 5.99%(60); 스마트 유예 할부: 5.9%(36); 6.5%(48)",
   "conditions": "7년 14만km 무상 보증; 모빌라이즈 상품 이용 시 엔진오일 세트 5회 제공",
   "reward": null,
@@ -1299,7 +1605,11 @@
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
   "source_record_id": 197,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 63,
@@ -1311,6 +1621,7 @@
   "sub_model": null,
   "types": "할인,금융,보증·서비스",
   "title": "Grand Koleos 11월 르노 세일 페스타",
+  "max_benefit_krw": null,
   "discount": "정액불 할부: 3.7%(~36개월); 4.4%(~60개월); 5.9%(~72개월); 바이백 할부: 5.4%(36); 5.99%(48); 5.99%(60)",
   "conditions": "7년 14만km 무상 보증(27년형)",
   "reward": null,
@@ -1320,7 +1631,11 @@
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
   "source_record_id": 196,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 64,
@@ -1332,6 +1647,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "개별소비세 할인 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "개소세 인상 전 통관 완료된 한정 재고에 한해 인하된 개별소비세 혜택. 재고 소진 시 종료.",
   "reward": null,
@@ -1341,7 +1657,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 175,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 65,
@@ -1353,6 +1673,7 @@
   "sub_model": null,
   "types": "기타",
   "title": "메르세데스-벤츠 신한카드",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -1362,7 +1683,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 177,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 66,
@@ -1374,6 +1699,7 @@
   "sub_model": null,
   "types": "기타",
   "title": "파이낸셜 이용 공통 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -1383,7 +1709,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 178,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 67,
@@ -1395,6 +1725,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "AMG GLE 53 4M+ 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (26년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1404,7 +1735,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 171,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 68,
@@ -1416,6 +1751,7 @@
   "sub_model": null,
   "types": "증정",
   "title": "11월 AMG '구매상담' 이벤트",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "온라인 스토어 구매상담. 이벤트1: 상담 완료 시 63명 추첨(AMG One 모델카 3, 클래식 스타 곰돌이 10, 300SL 컴팩트 우산 50). 이벤트2: 상담 및 AMG 차량 출고 완료 시 20명 추첨(AMG One 모델카 10, G63 모델카 10).",
@@ -1425,7 +1761,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 176,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 69,
@@ -1437,6 +1777,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "GLC 300 4M 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (27년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1446,7 +1787,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 172,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 70,
@@ -1458,6 +1803,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "GLC 300 4M AMG Line 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (27년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1467,7 +1813,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 174,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 71,
@@ -1479,6 +1829,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "GLC 300 4M Avantgarde 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (27년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1488,7 +1839,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 173,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 72,
@@ -1500,6 +1855,7 @@
   "sub_model": "Coupe",
   "types": "금융",
   "title": "GLE 350 4M Coupe 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (26년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1509,7 +1865,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 169,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 73,
@@ -1521,6 +1881,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "GLE 450 4M 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션 (26년식)",
+  "max_benefit_krw": null,
   "discount": "벤츠 파이낸셜 이용 시 추가 혜택 및 특별 금리 혜택 제공",
   "conditions": "11월 특별 조건 전시장 문의; 개별소비세 인하분 한정 재고 혜택 제공",
   "reward": null,
@@ -1530,7 +1891,11 @@
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
   "source_record_id": 170,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/mercedes/2026-11-06_promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 74,
@@ -1542,6 +1907,7 @@
   "sub_model": "MINI 스마일 운용리스 최대 3개월",
   "types": "금융",
   "title": "MINI 스마일 운용리스 최대 3개월 월 납입금 0원",
+  "max_benefit_krw": null,
   "discount": "요약: 최대 3개월간 월 납입금 0원 (MINI 스마일 운용리스); 지원: 운용리스 이용 시 월 최대 130만원씩 3개월, 총 최대 390만원 지원 (2026년식 MINI 컨트리맨 혜택 기준, 모델·상품별 상이); 혜택: 26년식 내연기관 전 모델: 전 고객 대상 월 리스료 최대 3개월 지원; 조건: MINI 운용리스, 2026년식 내연기관 모델, 선납 0%, 계약기간 60개월, 주행거리 연 10,000km, 취득세 포함. 계약 후 최초 3개월만 지원, 이후 기본 월 리스료 납부. 차액 환급 없음. 통합취득세는 고객 부담.; 예시: MINI 컨트리맨 S ALL4 Classic (2026), 운용리스 선납 0% 60개월 10,000km: 월 리스료 97만원, 첫 3개월 0원",
   "conditions": null,
   "reward": null,
@@ -1551,7 +1917,11 @@
   "link": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
   "confidence": "medium",
   "source_record_id": 179,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 75,
@@ -1563,6 +1933,7 @@
   "sub_model": null,
   "types": "금융,보증·서비스",
   "title": "MINI 전기차 운용리스 이용 시 풀케어 1년 제공",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "혜택: MINI 전기차 전 모델: 운용리스 이용 시 MINI NEW 풀케어 프로그램 1년 제공",
@@ -1572,7 +1943,11 @@
   "link": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
   "confidence": "medium",
   "source_record_id": 180,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 76,
@@ -1584,6 +1959,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "SELEKT 트레이드인 프로그램",
+  "max_benefit_krw": null,
   "discount": "혜택: 신차 구매하며 보유 볼보 중고차(6년/12만km 이내)를 SELEKT로 매각 시 인센티브 50만원; 참고: 인센티브는 매입한 SELEKT 전시장에서 지급(신차 구매 전시장 아님)",
   "conditions": null,
   "reward": null,
@@ -1593,7 +1969,11 @@
   "link": "https://www.volvocar.co.kr",
   "confidence": "high",
   "source_record_id": 222,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_ex90-test-drive-campaign-nov.txt, data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 77,
@@ -1605,6 +1985,7 @@
   "sub_model": null,
   "types": "시승혜택",
   "title": "Volvo EX90 시승 신청 캠페인",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "신청 기간: 2026-11-02 ~ 2026-12-15; 현장 시승 기간: 2026-11-02 ~ 2026-12-31; 규칙: 시승·계약 혜택 각 1회, 중복 참여 불가. 온라인 신청 → 영업사원 배정(MMS) → 일정 확인 → 전시장 시승; 선택 가능 모델: ES90",
   "reward": "혜택: 시승 완료 고객: 스타벅스 '든든한 아침 식사' 모바일 쿠폰; EX90 계약 완료 고객: 헬리녹스 체어원(re) 2개 출고 시 증정 (선착순, 출고 기한 2027-03-31로 한정될 수 있음)",
@@ -1614,7 +1995,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/",
   "confidence": "high",
   "source_record_id": 223,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_ex90-test-drive-campaign-nov.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 78,
@@ -1626,6 +2011,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "ES90 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 1000000,
   "discount": "최대 100만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1635,7 +2021,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 218,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 79,
@@ -1647,6 +2037,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "EX30 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1656,7 +2047,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 213,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 80,
@@ -1668,6 +2063,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "EX30 CC 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1677,7 +2073,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 214,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 81,
@@ -1689,6 +2089,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "EX90 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 2000000,
   "discount": "최대 200만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1698,7 +2099,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 221,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 82,
@@ -1710,6 +2115,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "S90 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 2000000,
   "discount": "최대 200만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1719,7 +2125,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 219,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 83,
@@ -1731,6 +2141,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "V60 CC 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 1000000,
   "discount": "최대 100만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1740,7 +2151,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 216,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 84,
@@ -1752,6 +2167,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "XC40 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 1000000,
   "discount": "최대 100만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1761,7 +2177,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 215,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 85,
@@ -1773,6 +2193,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "XC60 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 1000000,
   "discount": "최대 100만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1782,7 +2203,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 217,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 86,
@@ -1794,6 +2219,7 @@
   "sub_model": null,
   "types": "할인,금융",
   "title": "XC90 볼보 패밀리 재구매 프로그램",
+  "max_benefit_krw": 2000000,
   "discount": "최대 200만원",
   "conditions": "대상: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).",
   "reward": null,
@@ -1803,7 +2229,11 @@
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
   "source_record_id": 220,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/volvo/2026-11-06_family_repurchase.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 87,
@@ -1815,6 +2245,7 @@
   "sub_model": null,
   "types": "할인,금융,증정",
   "title": "트랙스 크로스오버 11월 구매혜택",
+  "max_benefit_krw": 2000000,
   "discount": "상세 안내: 11월 구매혜택(택1): 유류비 지원 할부 이용 시 100만원 할인; 일시불 이용 시 100만원 할인; 생산월별 재고 할인 30~40만원; 유의: 콤보 할부 프로그램은 추가 할인금액이 없는 모델은 선택 불가; % 할인 시 만원 미만 절사; 구성(만원): 기본 할인: 100",
   "conditions": "적용기준: 2026년 11월 출고, 출고일(세금계산서 발급일) 기준; 명기된 할부기간 외 변경 불가; 예고 없이 변경 가능; 트레이드인: 대상: 쉐보레 고객; 대상 차종(매각): 스파크, 마티즈, 다마스, 라보, 크루즈, 라세티, 아베오, 말리부 (지정 중고차업체 매각 고객); 유의: 출고 시 중고차 실차 확인서, 자동차등록원부(갑)",
   "reward": "특별혜택(중복 가능): 쉐보레 트레이드인 프로그램 70만원 할인 & 롯데렌탈 모바일상품권 10만원; 혜택: 70만원 할인 + 롯데렌탈 모바일상품권 10만원",
@@ -1824,7 +2255,11 @@
   "link": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
   "confidence": "high",
   "source_record_id": 37,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/chevrolet/2026-11-06_offers-faq.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 88,
@@ -1836,6 +2271,7 @@
   "sub_model": null,
   "types": "할인,금융,증정",
   "title": "트레일블레이저 11월 구매혜택",
+  "max_benefit_krw": 2000000,
   "discount": "상세 안내: 11월 구매혜택(택1): 유류비 지원 할부 이용 시 100만원 할인; 일시불 이용 시 100만원 할인; 생산월별 재고 할인 30~40만원; 유의: 콤보 할부 프로그램은 추가 할인금액이 없는 모델은 선택 불가; % 할인 시 만원 미만 절사; 구성(만원): 기본 할인: 100",
   "conditions": "적용기준: 2026년 11월 출고, 출고일(세금계산서 발급일) 기준; 명기된 할부기간 외 변경 불가; 예고 없이 변경 가능; 트레이드인: 대상: 쉐보레 고객; 대상 차종(매각): 스파크, 마티즈, 다마스, 라보, 크루즈, 라세티, 아베오, 말리부 (지정 중고차업체 매각 고객); 유의: 출고 시 중고차 실차 확인서, 자동차등록원부(갑)",
   "reward": "특별혜택(중복 가능): 쉐보레 트레이드인 프로그램 70만원 할인 & 롯데렌탈 모바일상품권 10만원; 혜택: 70만원 할인 + 롯데렌탈 모바일상품권 10만원",
@@ -1845,7 +2281,11 @@
   "link": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
   "confidence": "high",
   "source_record_id": 38,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/chevrolet/2026-11-06_offers-faq.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 89,
@@ -1857,6 +2297,7 @@
   "sub_model": "2026",
   "types": "할인,금융",
   "title": "A6 Sedan (2026)",
+  "max_benefit_krw": null,
   "discount": "잔존가치: 62%; 월 납입금: 월 20만원대; 잔존가치: 60%; 월 납입금: 월 30만원대; 월 납입금: 월 40만원대; 밸류+ 할부: 조건: 선수금 30%",
   "conditions": "term: 최장 60개월",
   "reward": null,
@@ -1866,7 +2307,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 1,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 90,
@@ -1878,6 +2323,7 @@
   "sub_model": "2025",
   "types": "할인,금융",
   "title": "Audi A5 Saloon (2025)",
+  "max_benefit_krw": null,
   "discount": "리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 A5를 월 60만원대",
   "conditions": null,
   "reward": null,
@@ -1887,7 +2333,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 5,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 91,
@@ -1899,6 +2349,7 @@
   "sub_model": "2025",
   "types": "할인,금융",
   "title": "Audi A6 e-tron performance (2025)",
+  "max_benefit_krw": null,
   "discount": "리스: 월 40만원대; 할부: 최장 60개월, 월 100만원대",
   "conditions": null,
   "reward": null,
@@ -1908,7 +2359,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 3,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 92,
@@ -1920,6 +2375,7 @@
   "sub_model": "2026",
   "types": "할인,금융",
   "title": "Audi Q3 (2026)",
+  "max_benefit_krw": null,
   "discount": "리스: 월 50만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
   "conditions": null,
   "reward": null,
@@ -1929,7 +2385,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 2,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 93,
@@ -1941,6 +2401,7 @@
   "sub_model": "2026 / Sportback",
   "types": "기타",
   "title": "Audi Q3 Sportback (2026)",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "참고: 밸류⁺ 섹션 미발견(페이지 로드 이상 가능). 재확인 필요",
   "reward": null,
@@ -1950,7 +2411,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 6,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 94,
@@ -1962,6 +2427,7 @@
   "sub_model": "2025",
   "types": "할인,금융",
   "title": "Audi Q5 SUV (2025)",
+  "max_benefit_krw": null,
   "discount": "리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대",
   "conditions": null,
   "reward": null,
@@ -1971,7 +2437,11 @@
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
   "confidence": "medium",
   "source_record_id": 4,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 95,
@@ -1983,6 +2453,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "제네시스 11월 고객 감사 이벤트",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": "11/01~11/15 응모. 1등 신차 구매혜택 100만원(매일 10명), 2등 50만원(매일 30명). 쿠폰은 11/30까지 출고 시 적용. 대상: 전 차종(GV80 HYBRID 제외). 개인·개인사업자만.",
@@ -1992,7 +2463,11 @@
   "link": "https://www.genesis.com/kr/ko/support/genesis-events/detail/0623.html",
   "confidence": "high",
   "source_record_id": 44,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 96,
@@ -2004,6 +2479,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "G80 11월 구매혜택",
+  "max_benefit_krw": 8450000,
   "discount": "즉시 구매 가능한 모델(8월 이전 생산) 5%",
   "conditions": null,
   "reward": null,
@@ -2013,7 +2489,11 @@
   "link": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
   "confidence": "high",
   "source_record_id": 42,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 97,
@@ -2025,6 +2505,7 @@
   "sub_model": "Black",
   "types": "할인",
   "title": "G80 Black 11월 구매혜택",
+  "max_benefit_krw": 8610000,
   "discount": "즉시 구매 가능한 모델(8월 이전 생산) 5%",
   "conditions": null,
   "reward": null,
@@ -2034,7 +2515,11 @@
   "link": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
   "confidence": "high",
   "source_record_id": 43,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 98,
@@ -2046,6 +2531,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "GV70 11월 구매혜택",
+  "max_benefit_krw": 6420000,
   "discount": "즉시 구매 가능한 모델(8월 이전 생산) 3%",
   "conditions": null,
   "reward": null,
@@ -2055,7 +2541,11 @@
   "link": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
   "confidence": "high",
   "source_record_id": 41,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 99,
@@ -2067,6 +2557,7 @@
   "sub_model": null,
   "types": "할인,보증·서비스",
   "title": "JEEP 85주년 기념 MVP 프로모션",
+  "max_benefit_krw": null,
   "discount": "정품 소모품 교환 할인 패키지 최대 20% 할인",
   "conditions": "혜택: 엔진오일 교환 1회 무료 제공 (기간 내 MVP 구매 고객 850명 한정)",
   "reward": null,
@@ -2076,7 +2567,11 @@
   "link": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
   "confidence": "medium",
   "source_record_id": 91,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 100,
@@ -2088,6 +2583,7 @@
   "sub_model": null,
   "types": "할인,증정,보증·서비스",
   "title": "랭글러",
+  "max_benefit_krw": null,
   "discount": "최대 혜택: 최대 1,270만원 (제휴 금융상품 이용 시); 혜택: 4도어 사이드 스텝 (120만원 상당); 화이트 컬러 선택 시 추가 100만원 혜택 (소진 시까지)",
   "conditions": null,
   "reward": "평생 엔진오일 쿠폰 제공 (루비콘·에디션 모델 제외)",
@@ -2097,7 +2593,11 @@
   "link": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
   "confidence": "medium",
   "source_record_id": 90,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 101,
@@ -2109,6 +2609,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "2026 ESCALADE & ESCALADE ESV 11월 프로모션",
+  "max_benefit_krw": null,
   "discount": "기본 프로그램(택1): 700만원 할인; 3.5% 제휴할부 (36개월, 선수금 30% 기준); 3.5% 제휴오토리스 (60개월, 보증금 30% 기준); 중복 적용 가능: 법인 및 개인사업자 2% 할인; 프리미엄 브랜드 차량 보유 고객 1% 할인; 재고 프로그램 2% 할인(특정 재고 한정)",
   "conditions": null,
   "reward": "출고 사은품: 11월 출고 고객 리모와(RIMOWA) 캐리어 증정(선착순 50명)",
@@ -2118,7 +2619,11 @@
   "link": "https://www.cadillac.co.kr/purchase/current-offers.gm",
   "confidence": "high",
   "source_record_id": 35,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 102,
@@ -2130,6 +2635,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "2026 ESCALADE IQ & ESCALADE IQL 11월 프로모션",
+  "max_benefit_krw": null,
   "discount": "기본 프로그램: 500만원 할인; 재구매 할인율(%): 2",
   "conditions": null,
   "reward": null,
@@ -2139,7 +2645,11 @@
   "link": "https://www.cadillac.co.kr/purchase/current-offers.gm",
   "confidence": "high",
   "source_record_id": 36,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 103,
@@ -2151,16 +2661,21 @@
   "sub_model": null,
   "types": "시승혜택",
   "title": "토요타 전국 시승 이벤트",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "정책 미수집",
-  "reward": "시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V 등(전체 경품 목록 일부만 확인). 당첨 발표 2026-12-10 개별 안내",
-  "detail": "시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V 등(전체 경품 목록 일부만 확인). 당첨 발표 2026-12-10 개별 안내 / 이벤트 2026-11-04~11-30, 시승 기간 2026-11-04~12-03",
+  "reward": "시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+빈 오거나이저 파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V, 30명 오아 슬리머 온열 안마기(색상 랜덤). 당첨 발표 2026-12-10 개별 안내",
+  "detail": "시승 신청 후 시승 완료 고객 추첨 선물: 1명 LEADVAULT 오딧 캐리어 29인치+빈 오거나이저 파우치 세트, 3명 케어팟 스텐 큐브 가습기 X50V, 30명 오아 슬리머 온열 안마기(색상 랜덤). 당첨 발표 2026-12-10 개별 안내 / 이벤트 2026-11-04~2026-11-30, 시승 기간 2026-11-04~2026-12-03 (당첨자 선정: 11/30까지 신청, 12/3까지 시승 완료 고객)",
   "period_start": "2026-11-04",
   "period_end": "2026-11-30",
   "link": "https://www.toyota.co.kr/seasonal-event/2026-nov-testdrive/",
   "confidence": "medium",
   "source_record_id": null,
-  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴"
+  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_nov-testdrive-event.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 104,
@@ -2172,6 +2687,7 @@
   "sub_model": null,
   "types": "금융",
   "title": "ALL-NEW RAV4",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "프로그램: AMAZING SWITCH 잔존가치 보장 할부 프로그램",
   "reward": null,
@@ -2181,7 +2697,11 @@
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 209,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_benefit-monthly.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 105,
@@ -2193,6 +2713,7 @@
   "sub_model": "HEV",
   "types": "할인,금융,증정,보증·서비스",
   "title": "CAMRY HEV",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 200만원",
   "conditions": null,
   "reward": "토요타파이낸셜 저금리 할부 + SMS 쿠폰 1매",
@@ -2202,7 +2723,11 @@
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 205,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_benefit-monthly.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 106,
@@ -2214,6 +2739,7 @@
   "sub_model": "HEV",
   "types": "금융,증정,보증·서비스",
   "title": "CROWN HEV",
+  "max_benefit_krw": null,
   "discount": "택1: 토요타파이낸셜 저금리 할부",
   "conditions": null,
   "reward": "SMS 쿠폰 1매",
@@ -2223,7 +2749,11 @@
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 206,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_benefit-monthly.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 107,
@@ -2235,6 +2765,7 @@
   "sub_model": "HEV",
   "types": "할인,증정,보증·서비스",
   "title": "HIGHLANDER HEV",
+  "max_benefit_krw": null,
   "discount": "25MY: 현금 500만원",
   "conditions": null,
   "reward": "26연식별 택1: 토요타파이낸셜 금융 프로그램 + SMS 쿠폰 1매; SMS 쿠폰 2매",
@@ -2244,7 +2775,11 @@
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 208,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_benefit-monthly.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 108,
@@ -2256,6 +2791,7 @@
   "sub_model": "HEV",
   "types": "할인,금융,증정,보증·서비스",
   "title": "SIENNA HEV",
+  "max_benefit_krw": null,
   "discount": "택1: 현금 300만원",
   "conditions": null,
   "reward": "토요타파이낸셜 저금리 할부 + SMS 쿠폰 1매",
@@ -2265,7 +2801,11 @@
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
   "source_record_id": 207,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/toyota/2026-11-06_benefit-monthly.txt",
+  "evidence_date": "2026-11-06"
  },
  {
   "id": 109,
@@ -2277,6 +2817,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "카이엔 일렉트릭",
+  "max_benefit_krw": null,
   "discount": "요약: 카이엔 일렉트릭 출시, 충전 지원금 100만원 혜택; 월 납입금 시작: 125만원 ~ (조건 미확인)",
   "conditions": null,
   "reward": null,
@@ -2286,7 +2827,11 @@
   "link": "https://www.porsche-fs.co.kr/ (포르쉐 파이낸셜 서비스 코리아)",
   "confidence": "medium",
   "source_record_id": 195,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 110,
@@ -2298,6 +2843,7 @@
   "sub_model": null,
   "types": "시승혜택",
   "title": "Golf R Roadshow",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "시승/상담 신청 통합",
   "reward": "Golf R을 가까이에서 만나는 로드쇼(시승 연계 여부·혜택 상세 미수집)",
@@ -2307,7 +2853,11 @@
   "link": "https://www.volkswagen.co.kr/app/local/testdrive/event",
   "confidence": "medium",
   "source_record_id": null,
-  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴"
+  "extract_note": "시승 인덱스(testdrive.json)에서 가져옴",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 111,
@@ -2319,6 +2869,7 @@
   "sub_model": null,
   "types": "기타",
   "title": "폭스바겐 프로모션",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2328,7 +2879,11 @@
   "link": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
   "confidence": "medium",
   "source_record_id": 212,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 112,
@@ -2340,6 +2895,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "The Golf",
+  "max_benefit_krw": null,
   "discount": "혜택: 첫 6개월간 월 납입금 7만원대",
   "conditions": "5년/15만km 보증 연장",
   "reward": "Welcome Kit 제공",
@@ -2349,7 +2905,11 @@
   "link": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
   "confidence": "medium",
   "source_record_id": 211,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 113,
@@ -2361,6 +2921,7 @@
   "sub_model": null,
   "types": "할인,금융,증정,보증·서비스",
   "title": "The Touareg",
+  "max_benefit_krw": null,
   "discount": "혜택: 60개월 무이자",
   "conditions": "5년/15만km 보증 연장",
   "reward": "Welcome Kit 제공",
@@ -2370,7 +2931,11 @@
   "link": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
   "confidence": "medium",
   "source_record_id": 210,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 114,
@@ -2382,6 +2947,7 @@
   "sub_model": null,
   "types": "할인,보증·서비스",
   "title": "폴스타 공통 보증",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": "8년/16만km 배터리 보증; 5년/10만km 차량 보증",
   "reward": null,
@@ -2391,7 +2957,11 @@
   "link": "https://www.polestar.com/kr/",
   "confidence": "medium",
   "source_record_id": 194,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 115,
@@ -2403,6 +2973,7 @@
   "sub_model": "2027년식",
   "types": "기타",
   "title": "Polestar 3 (2027년식)",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2412,7 +2983,11 @@
   "link": "https://www.polestar.com/kr/",
   "confidence": "medium",
   "source_record_id": 193,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 116,
@@ -2424,6 +2999,7 @@
   "sub_model": "2027년식",
   "types": "할인,금융",
   "title": "Polestar 4 coupé (2027년식)",
+  "max_benefit_krw": null,
   "discount": "혜택: 삼성카드 캐시백: 기존 4%에 1% 추가 → 총 5% (행사기간 내 계약 시, 카드 승인·출고 시점에 적용, 기존 계약 고객도 출고 시 적용); 보조금 지원: 보조금 소진 지역 고객 대상 국고·지자체 보조금 지원. Performance 모델 180만원 고정 지원; 삼성카드 무이자/금리할인(삼성 개인신용카드, 국민행복/가족카드 제외, 다이렉트오토 카드할부, 오토할부 제외); 삼성카드 할부: 무이자: 3~12개월: 원금 무관 무이자; 24개월: 8,000만원 이하; 36개월: 5,000만원 이하",
   "conditions": null,
   "reward": null,
@@ -2433,7 +3009,11 @@
   "link": "https://www.polestar.com/kr/",
   "confidence": "medium",
   "source_record_id": 192,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 117,
@@ -2445,6 +3025,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "N 택시 인제스피디움 차량 구매 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2454,7 +3035,11 @@
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html",
   "confidence": "high",
   "source_record_id": 88,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 118,
@@ -2466,6 +3051,7 @@
   "sub_model": null,
   "types": "이벤트,할인",
   "title": "더현대트래블 여행 할인쿠폰",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2475,7 +3061,11 @@
   "link": "https://www.hyundai.com/kr/ko/event",
   "confidence": "high",
   "source_record_id": 86,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 119,
@@ -2487,6 +3077,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2496,7 +3087,11 @@
   "link": "https://www.hyundai.com/kr/ko/event",
   "confidence": "high",
   "source_record_id": 84,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 120,
@@ -2508,6 +3103,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "채비 충전 제휴 상품",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2517,7 +3113,11 @@
   "link": "https://www.hyundai.com/kr/ko/event",
   "confidence": "high",
   "source_record_id": 87,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 121,
@@ -2529,6 +3129,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "현대자동차 K-세일 페스타 프로모션",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2538,7 +3139,11 @@
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html",
   "confidence": "high",
   "source_record_id": 83,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 122,
@@ -2550,6 +3155,7 @@
   "sub_model": null,
   "types": "이벤트",
   "title": "현대자동차 X 직트럭 트레이드인 프로모션",
+  "max_benefit_krw": null,
   "discount": null,
   "conditions": null,
   "reward": null,
@@ -2559,7 +3165,11 @@
   "link": "https://www.hyundai.com/kr/ko/event",
   "confidence": "high",
   "source_record_id": 85,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 123,
@@ -2571,6 +3181,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "ST1 11월 구매혜택",
+  "max_benefit_krw": 2600000,
   "discount": "최대 260만원",
   "conditions": null,
   "reward": null,
@@ -2580,7 +3191,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 65,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 124,
@@ -2592,6 +3207,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "그랜저 11월 구매혜택",
+  "max_benefit_krw": 6400000,
   "discount": "최대 640만원",
   "conditions": null,
   "reward": null,
@@ -2601,7 +3217,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 51,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 125,
@@ -2613,6 +3233,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "그랜저 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 5600000,
   "discount": "최대 560만원",
   "conditions": null,
   "reward": null,
@@ -2622,7 +3243,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 52,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 126,
@@ -2634,6 +3259,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "넥쏘 11월 구매혜택",
+  "max_benefit_krw": 4700000,
   "discount": "최대 470만원",
   "conditions": null,
   "reward": null,
@@ -2643,7 +3269,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 67,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 127,
@@ -2655,6 +3285,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 그랜저 11월 구매혜택",
+  "max_benefit_krw": 3900000,
   "discount": "최대 390만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -2664,7 +3295,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 49,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 128,
@@ -2676,6 +3311,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "더 뉴 그랜저 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 5600000,
   "discount": "최대 560만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -2685,7 +3321,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 50,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 129,
@@ -2697,6 +3337,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 스타리아 11월 구매혜택",
+  "max_benefit_krw": 2100000,
   "discount": "최대 210만원",
   "conditions": null,
   "reward": null,
@@ -2706,7 +3347,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 69,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 130,
@@ -2718,6 +3363,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "더 뉴 스타리아 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -2727,7 +3373,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 70,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 131,
@@ -2739,6 +3389,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 스타리아 Electric 11월 구매혜택",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": null,
   "reward": null,
@@ -2748,7 +3399,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 73,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 132,
@@ -2760,6 +3415,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 스타리아 라운지 11월 구매혜택",
+  "max_benefit_krw": 2100000,
   "discount": "최대 210만원",
   "conditions": null,
   "reward": null,
@@ -2769,7 +3425,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 66,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 133,
@@ -2781,6 +3441,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "더 뉴 스타리아 라운지 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -2790,7 +3451,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 68,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 134,
@@ -2802,6 +3467,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 스타리아 라운지 Electric 11월 구매혜택",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": null,
   "reward": null,
@@ -2811,7 +3477,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 74,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 135,
@@ -2823,6 +3493,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "더 뉴 스타리아 리무진 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -2832,7 +3503,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 64,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 136,
@@ -2844,6 +3519,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 스타리아 리무진 Electric 11월 구매혜택",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": null,
   "reward": null,
@@ -2853,7 +3529,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 75,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 137,
@@ -2865,6 +3545,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "더 뉴 아이오닉 6 11월 구매혜택",
+  "max_benefit_krw": 2600000,
   "discount": "최대 260만원",
   "conditions": null,
   "reward": null,
@@ -2874,7 +3555,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 77,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 138,
@@ -2886,6 +3571,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "디 올 뉴 아반떼 11월 구매혜택",
+  "max_benefit_krw": 4000000,
   "discount": "최대 400만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -2895,7 +3581,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 47,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 139,
@@ -2907,6 +3597,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "디 올 뉴 아반떼 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 2930000,
   "discount": "최대 293만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -2916,7 +3607,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 48,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 140,
@@ -2928,6 +3623,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "디 올 뉴 투싼 11월 구매혜택",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": null,
   "reward": null,
@@ -2937,7 +3633,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 55,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 141,
@@ -2949,6 +3649,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "디 올 뉴 투싼 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 500000,
   "discount": "최대 50만원",
   "conditions": null,
   "reward": null,
@@ -2958,7 +3659,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 56,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 142,
@@ -2970,6 +3675,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "베뉴 11월 구매혜택",
+  "max_benefit_krw": 1000000,
   "discount": "최대 100만원",
   "conditions": null,
   "reward": null,
@@ -2979,7 +3685,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 59,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 143,
@@ -2991,6 +3701,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "싼타페 11월 구매혜택",
+  "max_benefit_krw": 4300000,
   "discount": "최대 430만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -3000,7 +3711,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 62,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 144,
@@ -3012,6 +3727,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "싼타페 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 5000000,
   "discount": "최대 500만원",
   "conditions": "K-세일 페스타 대상",
   "reward": null,
@@ -3021,7 +3737,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 63,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 145,
@@ -3033,6 +3753,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "쏘나타 디 엣지 11월 구매혜택",
+  "max_benefit_krw": 1700000,
   "discount": "최대 170만원",
   "conditions": null,
   "reward": null,
@@ -3042,7 +3763,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 45,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 146,
@@ -3054,6 +3779,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "쏘나타 디 엣지 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 1700000,
   "discount": "최대 170만원",
   "conditions": null,
   "reward": null,
@@ -3063,7 +3789,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 46,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 147,
@@ -3075,6 +3805,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아반떼 11월 구매혜택",
+  "max_benefit_krw": 1200000,
   "discount": "최대 120만원",
   "conditions": null,
   "reward": null,
@@ -3084,7 +3815,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 53,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 148,
@@ -3096,6 +3831,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "아반떼 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 1200000,
   "discount": "최대 120만원",
   "conditions": null,
   "reward": null,
@@ -3105,7 +3841,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 54,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 149,
@@ -3117,6 +3857,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아반떼 N 11월 구매혜택",
+  "max_benefit_krw": 1200000,
   "discount": "최대 120만원",
   "conditions": null,
   "reward": null,
@@ -3126,7 +3867,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 81,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 150,
@@ -3138,6 +3883,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아이오닉 5 11월 구매혜택",
+  "max_benefit_krw": 2600000,
   "discount": "최대 260만원",
   "conditions": null,
   "reward": null,
@@ -3147,7 +3893,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 72,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 151,
@@ -3159,6 +3909,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아이오닉 5 N 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -3168,7 +3919,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 80,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 152,
@@ -3180,6 +3935,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아이오닉 6 N 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -3189,7 +3945,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 78,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 153,
@@ -3201,6 +3961,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "아이오닉 9 11월 구매혜택",
+  "max_benefit_krw": 4000000,
   "discount": "최대 400만원",
   "conditions": null,
   "reward": null,
@@ -3210,7 +3971,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 76,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 154,
@@ -3222,6 +3987,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "코나 11월 구매혜택",
+  "max_benefit_krw": 1200000,
   "discount": "최대 120만원",
   "conditions": null,
   "reward": null,
@@ -3231,7 +3997,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 60,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 155,
@@ -3243,6 +4013,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "코나 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 1200000,
   "discount": "최대 120만원",
   "conditions": null,
   "reward": null,
@@ -3252,7 +4023,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 61,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 156,
@@ -3264,6 +4039,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "코나 Electric 11월 구매혜택",
+  "max_benefit_krw": 2800000,
   "discount": "최대 280만원",
   "conditions": null,
   "reward": null,
@@ -3273,7 +4049,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 71,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 157,
@@ -3285,6 +4065,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "팰리세이드 11월 구매혜택",
+  "max_benefit_krw": 4100000,
   "discount": "최대 410만원",
   "conditions": null,
   "reward": null,
@@ -3294,7 +4075,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 57,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 158,
@@ -3306,6 +4091,7 @@
   "sub_model": "Hybrid",
   "types": "할인",
   "title": "팰리세이드 Hybrid 11월 구매혜택",
+  "max_benefit_krw": 4800000,
   "discount": "최대 480만원",
   "conditions": null,
   "reward": null,
@@ -3315,7 +4101,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 58,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 159,
@@ -3327,6 +4117,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "포터 II 11월 구매혜택",
+  "max_benefit_krw": 2400000,
   "discount": "최대 240만원",
   "conditions": null,
   "reward": null,
@@ -3336,7 +4127,11 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 82,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  },
  {
   "id": 160,
@@ -3348,6 +4143,7 @@
   "sub_model": null,
   "types": "할인",
   "title": "포터 II Electric 11월 구매혜택",
+  "max_benefit_krw": 2500000,
   "discount": "최대 250만원",
   "conditions": null,
   "reward": null,
@@ -3357,6 +4153,10 @@
   "link": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
   "confidence": "high",
   "source_record_id": 79,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
  }
 ]

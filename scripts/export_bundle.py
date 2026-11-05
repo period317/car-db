@@ -44,7 +44,8 @@ if ben:
     L.append(f"## 월별 혜택 ({ym} 기준)")
     L.append("- 항목마다 유형(할인/금융/증정/시승혜택/이벤트/보증·서비스), 차종·세부모델, 할인·금융 내용, 조건, 증정·경품, 기간, 링크를 적었습니다.")
     L.append("- `기간 상태`: 기준월 해당 / 기간 만료 / 시작 전 / 기간 미표기. **기간 만료는 지금 받을 수 있는 혜택이 아닙니다.**")
-    L.append("- 할인·조건·증정 칸은 원문 문장을 키워드로 나눈 값이라 틀릴 수 있습니다. 정확한 금액과 조건은 '세부내용'과 링크 기준으로 답하세요.\n")
+    L.append("- 할인·조건·증정 칸은 원문 문장을 키워드로 나눈 값이라 틀릴 수 있습니다. 정확한 금액과 조건은 '세부내용'과 링크 기준으로 답하세요.")
+    L.append("- `검증`: 항목의 금액·%·개월·모델명·기간이 수집한 공식 페이지 원문에 실제로 있는지 자동 대조한 결과입니다. '원문 대조 완료'만 금액을 확정해서 말해도 됩니다. '원문 대조 안 됨'이면 \"공식 페이지에서 확인 필요\"라고 함께 안내하세요.\n")
     grp = collections.OrderedDict()
     for b in ben:
         grp.setdefault(b["brand_ko"], []).append(b)
@@ -53,7 +54,8 @@ if ben:
         for b in items:
             who = " / ".join(x for x in [b.get("model"), b.get("sub_model")] if x) or "브랜드 공통"
             per = f"{b['period_start'] or '?'}~{b['period_end'] or '?'}" if (b.get("period_start") or b.get("period_end")) else "기간 미표기"
-            L.append(f"- **[{b['types']}] {b['title']}** — 차종: {who} | 기준 {b['ym']} | 기간 {per} ({b['period_status']})")
+            vtag = {"검증됨": "원문 대조 완료", "일부 미확인": "원문 대조 불일치(확인 필요)", "증거 없음": "원문 대조 안 됨"}.get(b.get("verification"), "")
+            L.append(f"- **[{b['types']}] {b['title']}** — 차종: {who} | 기준 {b['ym']} | 기간 {per} ({b['period_status']}) | 검증: {vtag}")
             if b.get("discount"):
                 L.append(f"  - 할인·금융: {b['discount'][:500]}")
             if b.get("conditions"):

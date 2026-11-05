@@ -149,9 +149,27 @@ if os.path.exists(bp):
             add("WARN", "benefit-raw-key", r, f"세부내용에 영문 내부 키가 남음: {b.get('title')}")
         if (b.get("model") or "").strip() == "" and b.get("types") in ("할인",) and not b.get("detail"):
             add("WARN", "benefit-no-scope", r, f"어느 모델 혜택인지 불명: {b.get('title')}")
+    # 원문 대조(verify_evidence.py) 결과: 원문에 없는 숫자·모델명·기간이 있으면 게시하지 않는다
+    for b in ben:
+        r = {"id": b.get("id"), "brand_ko": b.get("brand_ko"), "brand_id": b.get("brand_id")}
+        v = b.get("verification")
+        if v is None:
+            add("ERROR", "verify-not-run", r, "verify_evidence.py 가 실행되지 않음")
+        elif v == "일부 미확인":
+            add("ERROR", "claim-not-in-source", r, f"원문에 없는 내용: {b.get('title')} → {b.get('unverified_claims')}")
+        elif v == "증거 없음":
+            add("INFO", "no-evidence", r, f"원문 증거 파일 없음: {b.get('title')}")
+        ed = b.get("evidence_date")
+        if ed and (TODAY - datetime.date.fromisoformat(ed)).days > 10:
+            add("WARN", "evidence-old", r, f"증거 원문이 {ed}에 저장된 것으로 오래됨: {b.get('title')}")
+    ver_ok = sum(1 for b in ben if b.get("verification") == "검증됨")
+    ver_rate = round(100 * ver_ok / len(ben), 1) if ben else 0
+    if ver_rate < 80:
+        add("WARN", "low-verification-rate", {"id": None, "brand_ko": "전체"}, f"원문 대조 완료 비율 {ver_rate}% ({ver_ok}/{len(ben)}). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)")
     stats_ben = len(ben)
 else:
     stats_ben = 0
+    ver_rate = 0
     add("ERROR", "benefits-missing", {"id": None, "brand_ko": "전체"}, "benefits.jsonl 이 없음: build_benefits.py 를 먼저 실행")
 
 # 커버리지
@@ -169,12 +187,14 @@ for b in brands:
         add("WARN", "no-benefit-brand", {"id": None, "brand_ko": b.get("brand_ko"), "brand_id": b["id"]}, "가격만 있고 혜택(할인·이벤트·금융) 레코드가 없음")
 
 # 직전 실행과 비교
-stats = dict(date=str(TODAY), records=len(recs), by_category=dict(collections.Counter(r["category"] for r in recs)),
+stats = dict(date=str(TODAY), records=len(recs), verified_rate=ver_rate, by_category=dict(collections.Counter(r["category"] for r in recs)),
              brand_counts={k: v for k, v in per_brand.items()})
 if prev:
     ps_ = prev.get("stats", {})
     if ps_.get("records") and len(recs) < ps_["records"] * 0.8:
         add("ERROR", "records-dropped", {"id": None, "brand_ko": "전체"}, f"레코드 수 급감: {ps_['records']} → {len(recs)}")
+    if ps_.get("verified_rate") is not None and ver_rate < ps_["verified_rate"] - 10:
+        add("ERROR", "verified-rate-dropped", {"id": None, "brand_ko": "전체"}, f"원문 검증 비율 하락: {ps_['verified_rate']}% → {ver_rate}%")
     for bid, n in (ps_.get("brand_counts") or {}).items():
         now = per_brand.get(bid, 0)
         if n > 0 and now == 0:
