@@ -147,6 +147,28 @@ if os.path.exists(bp):
             add("WARN", "benefit-expired", r, f"기준월에 받을 수 없는 혜택(기간 만료): {b.get('title')}")
         if re.search(r"[a-z]+_[a-z]+", b.get("detail") or ""):
             add("WARN", "benefit-raw-key", r, f"세부내용에 영문 내부 키가 남음: {b.get('title')}")
+        # 차량 모델과 이벤트명은 분리: 모델·세부모델에 혜택/금융/이벤트 말이 있으면 안 되고, 이벤트명은 있어야 한다
+        for f in ("model", "sub_model"):
+            if b.get(f) and re.search(r"혜택|프로모션|이벤트|금융|할인|리스|할부|납입|프로그램|캠페인|무이자|지원|쿠폰|경품", b[f]):
+                add("ERROR", "model-has-event-words", r, f"{f}에 혜택/이벤트 문구: '{b[f]}'")
+            if b.get(f) and re.search(r"20\d\d|\d\d\s*MY|\d\d\s*년식", b[f]):
+                add("ERROR", "model-has-year", r, f"{f}에 연식이 섞임(model_year로 분리): '{b[f]}'")
+        if not b.get("event_name"):
+            add("ERROR", "benefit-no-event-name", r, f"이벤트명 없음: {b.get('title')}")
+        elif b.get("model") and b["event_name"].strip().lower() == b["model"].strip().lower():
+            add("ERROR", "event-name-is-model", r, f"이벤트명이 모델명과 같음: {b['event_name']}")
+        elif "이벤트명 미표기" in b["event_name"]:
+            add("INFO", "event-name-missing", r, f"공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: {b.get('title')}")
+        # 할인 금액은 별도 컬럼: 할인 구분이 정액/정률이면 숫자가 있어야 하고, 숫자는 원문(할인 내용)에서 나와야 한다
+        dt = b.get("discount_type") or ""
+        if "정액" in dt and not b.get("discount_amount_krw"):
+            add("ERROR", "discount-amount-missing", r, f"정액 할인인데 할인금액 컬럼이 비어 있음: {b.get('title')}")
+        if "정률" in dt and not b.get("discount_rate_pct"):
+            add("ERROR", "discount-rate-missing", r, f"정률 할인인데 할인율 컬럼이 비어 있음: {b.get('title')}")
+        if b.get("discount_amount_krw") and not (b.get("discount") or b.get("max_benefit_krw")):
+            add("ERROR", "discount-amount-no-source", r, f"할인금액이 있는데 근거 문구가 없음: {b.get('title')}")
+        if "할인" in (b.get("types") or "") and dt == "할인 없음":
+            add("WARN", "discount-type-no-amount", r, f"유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): {b.get('title')}")
         if (b.get("model") or "").strip() == "" and b.get("types") in ("할인",) and not b.get("detail"):
             add("WARN", "benefit-no-scope", r, f"어느 모델 혜택인지 불명: {b.get('title')}")
     # 원문 대조(verify_evidence.py) 결과: 원문에 없는 숫자·모델명·기간이 있으면 게시하지 않는다

@@ -203,10 +203,112 @@ for t in td:
         period_start=ps, period_end=pe, link=t.get("event_url") or t.get("apply_url"), confidence="medium",
         source_record_id=None, extract_note="시승 인덱스(testdrive.json)에서 가져옴"))
 
+# ---------- 차량 모델 / 이벤트명 분리, 할인 금액 컬럼 ----------
+# model·sub_model 에는 차량 이름만, event_name 에는 이벤트(프로그램)명만 둔다. 연식은 model_year, 적용 범위는 target_scope.
+BRAND_PREFIX = re.compile(r"^(THE NEW BMW|BMW|Audi|아우디)\s+", re.I)
+YEAR_PAT = re.compile(r"\(?\s*(?:(20\d\d)\s*년식?|(\d\d)\s*년식|(\d\d)\s*MY|(20\d\d))\s*\)?", re.I)
+GROUP_PAT = re.compile(r"전\s*모델|전기차 전|내연기관")
+NOT_MODEL = re.compile(r"혜택|프로모션|이벤트|금융|할인|리스|할부|납입|프로그램|캠페인|무이자|지원|쿠폰|경품")
+DEFAULT_EVENT = {"toyota": "이달의 구매 혜택", "audi": "금융 프로모션(리스·할부)"}
+
+def year_of(*texts):
+    for t in texts:
+        m = YEAR_PAT.search(t or "")
+        if m:
+            y = m.group(1) or m.group(4) or ("20" + (m.group(2) or m.group(3)))
+            return y
+    return None
+
+def strip_year(s):
+    return re.sub(r"\s{2,}", " ", YEAR_PAT.sub(" ", s or "")).strip(" /-—·()")
+
+def clean_vehicle(r):
+    model, sub, title = r.get("model"), r.get("sub_model"), r.get("title") or ""
+    year = year_of(model, sub, title)
+    scope = None
+    if model and GROUP_PAT.search(model):          # 'AMG 전 모델', 'MINI 전기차 전 모델' 같은 묶음은 모델이 아니라 적용 범위
+        scope = strip_year(model)
+        model = None
+    if model:
+        model = strip_year(BRAND_PREFIX.sub("", model))
+    if sub:
+        sub_parts = [strip_year(p) for p in re.split(r"\s*/\s*", sub)]
+        sub_parts = [p for p in sub_parts if p and p.lower() != "label" and not NOT_MODEL.search(p) and not re.fullmatch(r"20\d\d|\d\d?MY", p, re.I)]
+        sub = " / ".join(sub_parts) or None
+    if not model and not scope:
+        scope = "브랜드 공통(모델 미지정)"
+    elif model:
+        scope = scope or "특정 모델"
+    r["model"], r["sub_model"], r["model_year"], r["target_scope"] = model, sub, year, scope
+
+def event_name_of(r):
+    t = re.sub(r"\(만원/월\)", "", r.get("title") or "")
+    raw_model = r.get("_raw_model") or ""
+    for s in sorted(filter(None, {raw_model, r.get("model"), r.get("sub_model"), BRAND_PREFIX.sub("", raw_model)}), key=len, reverse=True):
+        t = re.sub(re.escape(s), " ", t, flags=re.I)
+    t = strip_year(re.sub(r"\(\s*\)", " ", t))
+    t = re.sub(r"\s{2,}", " ", t).strip(" -—·/")
+    if "월 납입금" in t and len(t.replace("월 납입금", "").strip()) < 3:
+        t = "월 납입금 프로모션"
+    if len(re.sub(r"[\s()]", "", t)) < 2 or t in {r.get("brand_ko")}:
+        base = DEFAULT_EVENT.get(r["brand_id"])
+        t = base or ("금융 프로모션(리스·할부)" if r.get("types") == "금융" else "월 구매 혜택(이벤트명 미표기)")
+    return t
+
+FIN = re.compile(r"금리|이자|선수|선납|잔존|잔가|리스|납입|무이자|\d\s*개월")
+AMT = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*만\s*원?")
+CTX = re.compile(r"할인|현금|지원|캐시백|인센티브|최대|보조|혜택")
+RATE = re.compile(r"(\d+(?:\.\d+)?)\s*%\s*(?:까지\s*)?할인|할인율\(%\):\s*(\d+(?:\.\d+)?)")
+
+def parse_discount(r):
+    """할인 금액·율을 숫자 컬럼으로. 선택지가 여러 개면 전부 discount_options 에 두고, discount_amount_krw/rate 는 그중 최대값(=최대 할인)."""
+    amts, rates, opts = [], [], []
+    for seg in re.split(r"\s*;\s*", r.get("discount") or ""):
+        if re.search(r"월 납입금", seg) and not re.search(r"할인|현금", seg):
+            continue
+        hit = False
+        for m in AMT.finditer(seg):
+            pre, post = seg[max(0, m.start() - 10):m.start()], seg[m.end():m.end() + 6]
+            if re.search(r"월\s*(최대\s*)?$", pre) or post.startswith("대") or post.lstrip().startswith("상당"):
+                continue
+            if CTX.search(pre + post):
+                amts.append(round(float(m.group(1).replace(",", "")) * 10000)); hit = True
+        for m in RATE.finditer(seg):
+            rates.append(float(m.group(1) or m.group(2))); hit = True
+        if not hit and r.get("max_benefit_krw") and not FIN.search(seg):   # 제네시스 '... 5%' 처럼 '할인' 글자 없이 %만 있는 경우
+            for m in re.finditer(r"(\d+(?:\.\d+)?)\s*%", seg):
+                rates.append(float(m.group(1))); hit = True
+        if hit and seg.strip() not in opts:
+            opts.append(seg.strip()[:80])
+    if r.get("max_benefit_krw"):
+        amts.append(int(r["max_benefit_krw"]))
+    amt = max(amts) if amts else None
+    rate = max(rates) if rates else None
+    types = r.get("types") or ""
+    if amt and rate:
+        dt = "정액+정률 할인"
+    elif amt:
+        dt = "정액 할인"
+    elif rate:
+        dt = "정률 할인"
+    elif "금융" in types or FIN.search(r.get("discount") or ""):
+        dt = "금융 조건(금리·월납입금, 할인 금액 없음)"
+    else:
+        dt = "할인 없음"
+    r["discount_type"], r["discount_amount_krw"], r["discount_rate_pct"] = dt, amt, rate
+    r["discount_options"] = " | ".join(opts) or None
+
+for x in rows:
+    x["_raw_model"] = x.get("model")
+    clean_vehicle(x)
+    x["event_name"] = event_name_of(x)
+    parse_discount(x)
+
 rows.sort(key=lambda x: (x["brand_ko"] or "", x["model"] or "", x["title"] or ""))
 for i, x in enumerate(rows, 1):
     x["id"] = i
-cols = ["id", "ym", "period_status", "brand_id", "brand_ko", "model", "sub_model", "types", "title", "max_benefit_krw", "discount", "conditions", "reward",
+cols = ["id", "ym", "period_status", "brand_id", "brand_ko", "model", "sub_model", "model_year", "target_scope", "event_name", "types", "title",
+        "discount_type", "discount_amount_krw", "discount_rate_pct", "discount_options", "max_benefit_krw", "discount", "conditions", "reward",
         "detail", "period_start", "period_end", "link", "confidence", "source_record_id", "extract_note"]
 with open(os.path.join(U, "benefits.jsonl"), "w", encoding="utf-8") as f:
     for x in rows:
