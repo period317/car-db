@@ -40,6 +40,23 @@
 2. `python -I scripts/build_db.py` 로 통합본 재생성.
 3. `python -I scripts/verify.py data/sources.json` 로 URL 점검.
 
+## 자동 갱신 · 다른 PC 동기화
+- 저장소: https://github.com/period317/car-db (공개)
+- **수집 PC(Claude)**: 예약 작업 `car-db-weekly-refresh`가 매주 월요일 오전 9시경 `docs/REFRESH_PLAYBOOK.md`대로 공식 사이트를 다시 읽고 `scripts/update_all.ps1`로 커밋·푸시. (PC가 켜져 있고 Claude 앱이 실행 중이어야 함. 꺼져 있으면 다음 실행 때 수행)
+- **다른 PC(자동 내려받기)**
+  - git 있는 PC: 한 번만 실행 → 이후 매일 자동 `git pull`
+    `powershell -ExecutionPolicy Bypass -File setup_other_pc.ps1 -RepoUrl https://github.com/period317/car-db.git -Target C:\car-db -Time 09:00` (저장소의 `sync/` 폴더 파일)
+  - git 없는 PC: `sync/sync_download.ps1 -Owner period317 -Repo car-db` (최신 md·csv만 ZIP으로 내려받음)
+  - AI에게 읽힐 파일: `C:\car-db\dist\car_db_for_ai.md` (시승 정보 포함 단일 파일)
+- 직접 주소(인터넷 되는 AI/도구용):
+  - https://raw.githubusercontent.com/period317/car-db/main/dist/car_db_for_ai.md
+  - https://raw.githubusercontent.com/period317/car-db/main/data/unified/offers.csv
+  - https://raw.githubusercontent.com/period317/car-db/main/data/unified/testdrive.csv
+- 갱신이 필요한 곳 점검: `python -I scripts/check_stale.py`
+
+## 시승 정보 읽는 법
+`data/unified/testdrive.csv|json`: 브랜드당 1행. `can_apply_online`(온라인 신청 가능), `apply_url`, `models`, `policy`, `has_event`(시승 이벤트/혜택), `event_*`, `detail_level`(full/partial/url_only/none).
+
 ## 알려진 공백
 푸조(네이버 스토어 프로모션), 쉐보레 일부 모델, 아우디 Q3 Sportback·A3·Q7·Q8, 랜드로버 나머지 모델, 지프 캐러셀 5건, 토요타 RAV4 상세, 폴스타 3 상세, 포르쉐 브랜드 사이트 혜택, KGM 시승 정책, 상용차(타타대우 등).
 메일(뉴스레터) 연동은 아직 미구현 — 방향 미정.
