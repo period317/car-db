@@ -37,7 +37,7 @@
   }
  },
  "counts": {
-  "WARN": 25,
+  "WARN": 50,
   "INFO": 41
  },
  "issues": [
@@ -348,6 +348,181 @@
    "id": null,
    "brand": "맥라렌",
    "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 1,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): 120 M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 2,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): 220 그란 쿠페 M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 3,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): M135 xDrive 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 4,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): M235 xDrive 그란 쿠페 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 5,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): 520i 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 6,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): 530i xDrive M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 7,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): 740i xDrive M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 8,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): i7 eDrive50 M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 9,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): X5 xDrive 30d M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 10,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): X6 xDrive 30d M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 11,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): X7 xDrive 40i M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 12,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): X3 20 xDrive M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 13,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): X3 M50 xDrive 프로 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 14,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): XM 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 15,
+   "brand": "BMW",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): iX3 50 xDrive M 스포츠 패키지 월 납입금"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 20,
+   "brand": "KG모빌리티",
+   "message": "세부내용 미수집: KGM 드라이브 페스타"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 65,
+   "brand": "링컨",
+   "message": "유형을 분류하지 못함: 링컨 모델별 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 70,
+   "brand": "메르세데스-벤츠",
+   "message": "유형을 분류하지 못함: 메르세데스-벤츠 신한카드"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 71,
+   "brand": "메르세데스-벤츠",
+   "message": "유형을 분류하지 못함: 파이낸셜 이용 공통 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 82,
+   "brand": "아우디",
+   "message": "유형을 분류하지 못함: Audi Q3 Sportback (2026)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 98,
+   "brand": "포드",
+   "message": "유형을 분류하지 못함: 포드 모델별 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-expired",
+   "id": 100,
+   "brand": "폭스바겐",
+   "message": "기준월에 받을 수 없는 혜택(기간 만료): Golf R Roadshow"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 101,
+   "brand": "폭스바겐",
+   "message": "유형을 분류하지 못함: 폭스바겐 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-type-unknown",
+   "id": 105,
+   "brand": "폴스타",
+   "message": "유형을 분류하지 못함: Polestar 3 (2027년식)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 105,
+   "brand": "폴스타",
+   "message": "세부내용 미수집: Polestar 3 (2027년식)"
   },
   {
    "level": "WARN",

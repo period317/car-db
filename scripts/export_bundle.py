@@ -36,8 +36,38 @@ L.append("4. 벤츠·포르쉐·마세라티 등은 금액 비공개(딜러 문�
 L.append("5. 혼다·시트로엥·맥라렌·재규어는 국내 신차 판매 여부 불확실.")
 L.append("6. `[신뢰도]` high=페이지에서 수치 직접 확인, medium=해석 필요, low=점검 결과/추정.\n")
 
+# 월별 혜택 (정규화): 이 DB의 핵심 목적
+bp = os.path.join(U, "benefits.jsonl")
+ben = [json.loads(l) for l in open(bp, encoding="utf-8")] if os.path.exists(bp) else []
+if ben:
+    ym = max(b["ym"] for b in ben if b.get("ym"))
+    L.append(f"## 월별 혜택 ({ym} 기준)")
+    L.append("- 항목마다 유형(할인/금융/증정/시승혜택/이벤트/보증·서비스), 차종·세부모델, 할인·금융 내용, 조건, 증정·경품, 기간, 링크를 적었습니다.")
+    L.append("- `기간 상태`: 기준월 해당 / 기간 만료 / 시작 전 / 기간 미표기. **기간 만료는 지금 받을 수 있는 혜택이 아닙니다.**")
+    L.append("- 할인·조건·증정 칸은 원문 문장을 키워드로 나눈 값이라 틀릴 수 있습니다. 정확한 금액과 조건은 '세부내용'과 링크 기준으로 답하세요.\n")
+    grp = collections.OrderedDict()
+    for b in ben:
+        grp.setdefault(b["brand_ko"], []).append(b)
+    for name, items in grp.items():
+        L.append(f"### {name}")
+        for b in items:
+            who = " / ".join(x for x in [b.get("model"), b.get("sub_model")] if x) or "브랜드 공통"
+            per = f"{b['period_start'] or '?'}~{b['period_end'] or '?'}" if (b.get("period_start") or b.get("period_end")) else "기간 미표기"
+            L.append(f"- **[{b['types']}] {b['title']}** — 차종: {who} | 기준 {b['ym']} | 기간 {per} ({b['period_status']})")
+            if b.get("discount"):
+                L.append(f"  - 할인·금융: {b['discount'][:500]}")
+            if b.get("conditions"):
+                L.append(f"  - 조건: {b['conditions'][:500]}")
+            if b.get("reward"):
+                L.append(f"  - 증정·경품: {b['reward'][:400]}")
+            if not (b.get("discount") or b.get("conditions") or b.get("reward")) or len(b.get("detail") or "") > 0:
+                L.append(f"  - 세부내용: {(b['detail'] or '')[:700]}")
+            if b.get("link"):
+                L.append(f"  - 링크: {b['link']}")
+        L.append("")
+
 # 요약표: 현재 가격/최대혜택 있는 것
-L.append("## 빠른 비교표 (가격·최대혜택 숫자가 있는 레코드)")
+L.append("## 참고: 가격·최대혜택 숫자가 있는 레코드 (가격은 참고 정보)")
 L.append("| 브랜드 | 모델 | 가격 | 최대혜택 | 비고 |")
 L.append("|---|---|---|---|---|")
 for r in recs:
@@ -80,7 +110,9 @@ for bid, rs in by.items():
         L.append("- (수집 데이터 없음)")
         continue
     for r in sorted(rs, key=lambda x: order.get(x["category"], 9)):
-        parts = [f"[{r['category']}][{r['confidence']}] {r['title']}"]
+        if ben and r["category"] in ("benefit", "finance", "event"):
+            continue  # 혜택류는 위 '월별 혜택' 섹션에 정리돼 있음
+        parts =[f"[{r['category']}][{r['confidence']}] {r['title']}"]
         if r["price_krw"]:
             parts.append(f"가격 {won(r['price_krw'])}")
         if r["max_benefit_krw"]:

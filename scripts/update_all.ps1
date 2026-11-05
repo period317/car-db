@@ -6,6 +6,7 @@ $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 
 python -I scripts/build_db.py
+python -I scripts/build_benefits.py
 python -I scripts/export_bundle.py
 
 # 수집 후 품질 점검: ERROR 가 있으면 게시하지 않는다 (docs/QUALITY_REPORT.md 참고)

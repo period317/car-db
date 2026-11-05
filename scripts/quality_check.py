@@ -126,6 +126,32 @@ for t in td:
     if t.get("detail_level") in ("url_only", "none"):
         add("INFO", "td-thin", r, f"시승 상세 미수집({t.get('detail_level')}): 신청 URL만 있음")
 
+# 정규화된 월별 혜택(benefits.jsonl) 점검
+bp = os.path.join(U, "benefits.jsonl")
+if os.path.exists(bp):
+    ben = load_jsonl(bp)
+    for b in ben:
+        r = {"id": b.get("id"), "brand_ko": b.get("brand_ko"), "brand_id": b.get("brand_id")}
+        for f in ("ym", "brand_ko", "title", "types", "detail"):
+            if not b.get(f):
+                add("ERROR", "benefit-required", r, f"혜택 항목에 {f} 없음")
+        if not b.get("link"):
+            add("WARN", "benefit-no-link", r, f"링크 없음: {b.get('title')}")
+        if b.get("types") == "기타":
+            add("WARN", "benefit-type-unknown", r, f"유형을 분류하지 못함: {b.get('title')}")
+        if "미수집" in (b.get("detail") or "") and len(b["detail"]) < 60:
+            add("WARN", "benefit-no-detail", r, f"세부내용 미수집: {b.get('title')}")
+        if b.get("period_status") == "기간 만료":
+            add("WARN", "benefit-expired", r, f"기준월에 받을 수 없는 혜택(기간 만료): {b.get('title')}")
+        if re.search(r"[a-z]+_[a-z]+", b.get("detail") or ""):
+            add("WARN", "benefit-raw-key", r, f"세부내용에 영문 내부 키가 남음: {b.get('title')}")
+        if (b.get("model") or "").strip() == "" and b.get("types") in ("할인",) and not b.get("detail"):
+            add("WARN", "benefit-no-scope", r, f"어느 모델 혜택인지 불명: {b.get('title')}")
+    stats_ben = len(ben)
+else:
+    stats_ben = 0
+    add("ERROR", "benefits-missing", {"id": None, "brand_ko": "전체"}, "benefits.jsonl 이 없음: build_benefits.py 를 먼저 실행")
+
 # 커버리지
 per_brand = collections.Counter(r["brand_id"] for r in recs if r["category"] != "status")
 benefit_brand = collections.Counter(r["brand_id"] for r in recs if r["category"] in ("benefit", "event", "finance"))
