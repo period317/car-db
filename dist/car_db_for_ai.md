@@ -1,6 +1,6 @@
 # 국내 신차 시승·할인·구매정보 DB (오프라인 단일 파일)
 
-- 기준일: 2026-11-05 수집 / 생성 2026-11-05 / 레코드 213건 / 브랜드 37곳
+- 기준일: 2026-11-05 수집 / 생성 2026-11-06 / 레코드 213건 / 브랜드 37곳
 - 출처: 각 브랜드 공식 홈페이지·공식 금융사 (수집 당시 화면). 인터넷 없이 이 파일만으로 답하세요.
 
 ## AI 사용 지침
@@ -525,7 +525,7 @@
 
 ### 쉐보레 (chevrolet)
 - 공식 사이트: https://www.chevrolet.co.kr / 금융사: (확인필요) GM한국사업장 제휴 금융사
-- [benefit][medium] offers
+- [benefit][medium] 쉐보레 구매 혜택
   - models: 트랙스 크로스오버 / 트레일블레이저; period: 2026-11-01 ~ 2026-11-30 (출고 기준); max_benefit_manwon: 200; breakdown_manwon: 기본 할인: 100; 쉐보레 트레이드인 프로그램: 70; 재고 할인: 30; trade_in: 대상: 쉐보레 고객; 대상 차종(매각): 스파크, 마티즈, 다마스, 라보, 크루즈, 라세티, 아베오, 말리부 (지정 중고차업체 매각 고객); 혜택: 70만원 할인 + 롯데렌탈 모바일상품권 10만원; 기간: 2026년 11월 출고 고객 한정; 유의: 출고 시 중고차 실차 확인서, 자동차등록원부(갑) / 출고 후 롯데렌탈로 소유권 이전 완료된 등록원부(갑) / 가족 증명 시 가족관계증명서 필요(본인의 배우자·부모·자녀·배우자의 부모) / 중고차 보유기간: 2026-10-31 기준; caveat: 금액은 26.11월 최대 혜택 예시이며 모델·조건에 따라 달라질 수 있음. 금융 상품은 금융사 정책으로 변경/조기 종료 가능.; offers_faq_detail: 11월 구매혜택(택1): 유류비 지원 할부 이용 시 100만원 할인 / 일시불 이용 시 100만원 할인; 특별혜택(중복 가능): 쉐보레 트레이드인 프로그램 70만원 할인 & 롯데렌탈 모바일상품권 10만원 / 생산월별 재고 할인 30~40만원; 적용기준: 2026년 11월 출고, 출고일(세금계산서 발급일) 기준; 유의: 콤보 할부 프로그램은 추가 할인금액이 없는 모델은 선택 불가 / 수입모델 생산월별 혜택은 한국지엠 PDI 완료 시점 기준 / 명기된 할부기간 외 변경 불가 / % 할인 시 만원 미만 절사 / 예고 없이 변경 가능; breakdown_note: 이벤트 페이지는 최대 200만원 = 기본 100 + 트레이드인 70 + 재고 30으로 표기
   - 출처: https://www.chevrolet.co.kr/events/trax-trailblazer-promotion
 
@@ -547,58 +547,73 @@
 - [finance][medium] X3 20 xDrive M 스포츠 패키지 월 납입금(만원/월) | 가격 7,560만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":119,"스마트 리스":68,"스마트 할부":56} 일반할부 선납45% 36개월 1.92% / 리스 선납30% 60개월 잔가52% 연1만km 취득세포함 / 스마트할부 선납30% 36개월 잔가54% 5.48%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] X3 M50 xDrive 프로 월 납입금(만원/월) | 가격 9,990만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":124,"스마트 리스":103,"스마트 할부":97} 일반할부 선납57% 36개월 2.15% / 리스 선납30% 60개월 잔가44% / 스마트할부 선납30% 36개월 잔가46% 6.12%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] X5 xDrive 30d M 스포츠 패키지 월 납입금(만원/월) | 가격 12,430만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":210,"스마트 리스":94,"스마트 할부":102} 
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] X6 xDrive 30d M 스포츠 패키지 월 납입금(만원/월) | 가격 12,790만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":212,"스마트 리스":99,"스마트 할부":109} 
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] X7 xDrive 40i M 스포츠 패키지 월 납입금(만원/월) | 가격 15,620만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":219,"스마트 리스":121,"스마트 할부":133} 
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] iX3 50 xDrive M 스포츠 패키지 월 납입금(만원/월) | 가격 8,760만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":59,"스마트 리스":57} 리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영 / 할부금: 취득세 미포함, 국비 285만 반영
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] 120 M 스포츠 패키지 월 납입금(만원/월) | 가격 5,340만원 | 기간 2026-10-01~2026-10-31
   - {"스마트 리스":41,"스마트 할부":42} 리스 선납45% 60개월 잔가42%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] 220 그란 쿠페 M 스포츠 패키지 월 납입금(만원/월) | 가격 5,430만원 | 기간 2026-10-01~2026-10-31
   - {"스마트 리스":44,"스마트 할부":47} 리스 선납45% 60개월 잔가39%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] M135 xDrive 월 납입금(만원/월) | 가격 6,260만원 | 기간 2026-10-01~2026-10-31
   - {"스마트 리스":53,"스마트 할부":59} 리스 선납45% 60개월 잔가36%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] M235 xDrive 그란 쿠페 월 납입금(만원/월) | 가격 6,490만원 | 기간 2026-10-01~2026-10-31
   - {"스마트 리스":57,"스마트 할부":65} 리스 선납45% 60개월 잔가33%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] 520i 월 납입금(만원/월) | 가격 7,070만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":112,"스마트 리스":43,"스마트 할부":43} 리스 선납37% 36개월 잔가60%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] 530i xDrive M 스포츠 패키지 월 납입금(만원/월) | 가격 9,120만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":150,"스마트 리스":57,"스마트 할부":66} 리스 선납45% 60개월 잔가45%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] XM 월 납입금(만원/월) | 가격 22,910만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":410,"스마트 리스":237,"스마트 할부":253} 
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] 740i xDrive M 스포츠 패키지 월 납입금(만원/월) | 가격 17,740만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":312,"스마트 리스":141,"스마트 할부":147} 리스 선납40% 60개월 잔가40%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 - [finance][medium] i7 eDrive50 M 스포츠 패키지 월 납입금(만원/월) | 가격 18,250만원 | 기간 2026-10-01~2026-10-31
   - {"일반 할부":322,"스마트 리스":159,"스마트 할부":174} 리스 선납40% 60개월 잔가33%
   - 비고: 페이지 적용기간 2026-10 표기, 11월 유효 불명
+  - 출처: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
 
 ### 미니 (mini)
 - 공식 사이트: https://www.mini.co.kr / 금융사: BMW파이낸셜서비스코리아 https://www.bmwfs.co.kr
-- [finance][medium] finance_promotion
+- [finance][medium] 미니 금융 프로모션
   - headline: 최대 3개월간 월 납입금 0원 (MINI 스마일 운용리스); support: 운용리스 이용 시 월 최대 130만원씩 3개월, 총 최대 390만원 지원 (2026년식 MINI 컨트리맨 혜택 기준, 모델·상품별 상이); benefit_1: 26년식 내연기관 전 모델: 전 고객 대상 월 리스료 최대 3개월 지원; benefit_2: MINI 전기차 전 모델: 운용리스 이용 시 MINI NEW 풀케어 프로그램 1년 제공; conditions: MINI 운용리스, 2026년식 내연기관 모델, 선납 0%, 계약기간 60개월, 주행거리 연 10,000km, 취득세 포함. 계약 후 최초 3개월만 지원, 이후 기본 월 리스료 납부. 차액 환급 없음. 통합취득세는 고객 부담.; example: MINI 컨트리맨 S ALL4 Classic (2026), 운용리스 선납 0% 60개월 10,000km: 월 리스료 97만원, 첫 3개월 0원; target_models: MINI JCW / MINI 쿠퍼 / 올일렉트릭 MINI 컨트리맨 / MINI 쿠퍼 5-DOOR / 올일렉트릭 MINI 쿠퍼 / MINI JCW 컨트리맨 / MINI 쿠퍼 컨버터블 / MINI 컨트리맨 S ALL4 / MINI 폴스미스 에디션 / 올일렉트릭 MINI 에이스맨
   - 출처: https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html
 
 ### 롤스로이스 (rolls_royce)
 - 공식 사이트: https://www.rolls-roycemotorcars.com/ko_KR/home.html / 금융사: -
-- [status][low] rolls_royce 점검 결과
+- [status][low] 롤스로이스 공식 사이트 점검 결과
   - 프로모션 미게시: 딜러 찾기만. 가격·프로모션 게시 없음
   - 출처: https://www.rolls-roycemotorcars.com/ko_KR/home.html
 
@@ -652,7 +667,7 @@
 - [benefit][medium] The Golf
   - items: 첫 6개월간 월 납입금 7만원대 / 5년/15만km 보증 연장 / 자기부담금 지원 프로그램 / Welcome Kit 제공 / 바디 프로텍션 / 파츠 프로텍션
   - 출처: https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html
-- [benefit][medium] promotions
+- [benefit][medium] 폭스바겐 프로모션
   - event: Golf R Roadshow; period: 2026-02-02 ~; url: https://www.volkswagen.co.kr/app/local/testdrive/event
   - 출처: https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html
 
@@ -664,13 +679,13 @@
 
 ### 벤틀리 (bentley)
 - 공식 사이트: https://www.bentleymotors.com/en/ / 금융사: - / 비고: /ko.html 404, 영문 사이트만
-- [status][low] bentley 점검 결과
+- [status][low] 벤틀리 공식 사이트 점검 결과
   - 프로모션 미게시: /ko.html 은 404. 영문 사이트에 시승 요청·딜러 찾기만. 한국어 페이지 없음
   - 출처: https://www.bentleymotors.com/en/
 
 ### 람보르기니 (lamborghini)
 - 공식 사이트: https://www.lamborghini.com/ko-en / 금융사: -
-- [status][low] lamborghini 점검 결과
+- [status][low] 람보르기니 공식 사이트 점검 결과
   - 프로모션 미게시: 딜러 찾기만 있음. 가격·프로모션 게시 없음
   - 출처: https://www.lamborghini.com/ko-en
 
@@ -678,10 +693,13 @@
 - 공식 사이트: https://www.volvocar.co.kr / 금융사: 볼보 파이낸셜 서비스(글로벌 도메인 내 한국 페이지, 한국 URL 확인필요) https://www.volvofinancialservices.com / 비고: volvocars.com/kr 접속 시 volvocar.co.kr 링크로 연결
 - [benefit][medium] 볼보 패밀리 재구매 프로그램
   - since: 출고 기준 2025-01-02부터; eligibility: 개인: 본인·배우자·본인/배우자의 부모·조부모·형제자매·자녀·자녀배우자·손주. 법인: 동일 법인명·대표 가족. 공식 딜러사 구매(신차 또는 인증 중고차) 이력 + 재구매 출고일 기준 볼보 소유자(리스 포함).; benefit_krw_vat_included: EX30, EX30 CC: 500000; XC40, V60 CC, XC60, ES90: 1000000; S90, XC90, EX90: 2000000
+  - 출처: https://www.volvocar.co.kr
 - [benefit][medium] SELEKT 트레이드인 프로그램
   - benefit: 신차 구매하며 보유 볼보 중고차(6년/12만km 이내)를 SELEKT로 매각 시 인센티브 50만원; note: 인센티브는 매입한 SELEKT 전시장에서 지급(신차 구매 전시장 아님)
+  - 출처: https://www.volvocar.co.kr
 - [benefit][medium] Volvo EX90 시승 신청 캠페인
   - apply_period: 2026-11-02 ~ 2026-12-15; onsite_test_drive_period: 2026-11-02 ~ 2026-12-31; benefits: 시승 완료 고객: 스타벅스 '든든한 아침 식사' 모바일 쿠폰 / EX90 계약 완료 고객: 헬리녹스 체어원(re) 2개 출고 시 증정 (선착순, 출고 기한 2027-03-31로 한정될 수 있음); rules: 시승·계약 혜택 각 1회, 중복 참여 불가. 온라인 신청 → 영업사원 배정(MMS) → 일정 확인 → 전시장 시승; selectable_models: ES90 / EX90 / EX30 / XC90 / XC60 / XC40 / S90 (CROSS COUNTRY 포함) / V60 Cross Country
+  - 출처: https://www.volvocar.co.kr
 
 ### 폴스타 (polestar)
 - 공식 사이트: https://www.polestar.com/kr / 금융사: (확인필요)
@@ -691,7 +709,7 @@
 - [benefit][medium] Polestar 3 (2027년식)
   - status: '진행 중인 프로모션' 목록에 있음, 상세 미수집
   - 출처: https://www.polestar.com/kr/
-- [benefit][medium] common_warranty
+- [benefit][medium] 폴스타 공통 보증
   - 8년/16만km 배터리 보증 / 5년/10만km 차량 보증 / 5년 긴급 출동 서비스 / 3년 무료 커넥티드 서비스(플러스) 포함 / OTA 업데이트
   - 출처: https://www.polestar.com/kr/
 
@@ -746,13 +764,13 @@
 
 ### 포드 (ford)
 - 공식 사이트: https://flak.co.kr / 금융사: (확인필요) 포드 제휴 금융사 / 비고: 2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr
-- [benefit][medium] models
+- [benefit][medium] 포드 모델별 혜택
   - ford: EXPLORER / EXPEDITION / BRONCO / MUSTANG; lincoln: NAUTILUS / NAVIGATOR / AVIATOR
   - 출처: https://flak.co.kr
 
 ### 링컨 (lincoln)
 - 공식 사이트: https://flak.co.kr / 금융사: (확인필요) / 비고: 2026-01 에프엘오토코리아(구 선인자동차)가 포드·링컨 유통 독립 출범. 통합 사이트 flak.co.kr
-- [benefit][medium] models
+- [benefit][medium] 링컨 모델별 혜택
   - ford: EXPLORER / EXPEDITION / BRONCO / MUSTANG; lincoln: NAUTILUS / NAVIGATOR / AVIATOR
   - 출처: https://flak.co.kr
 
@@ -767,24 +785,24 @@
 
 ### 푸조 (peugeot)
 - 공식 사이트: https://www.epeugeot.co.kr / 금융사: 푸조 파이낸셜 서비스 코리아(우리금융캐피탈 전속, 2024-03) / 2026-10 기사에는 하나캐피탈 언급 / 비고: 네이버 공식스토어 온라인 판매(예약금 100만원), 공식 금융파트너 하나캐피탈(2026-10 기사). 사이트는 봇 차단(403)이라 브라우저 스캔 필요
-- [status][low] 공식 사이트 점검 결과
+- [status][low] 푸조 공식 사이트 점검 결과
   - 공식 사이트의 '이 달의 프로모션'(/Sales/promotion)이 404(페이지를 찾을 수 없음)로 표시됨 → 사이트에서 혜택 확인 불가. 푸조는 네이버 공식 스토어에서 전 차종 온라인 판매(예약금 100만원)하며 프로모션도 거기서 게시되는 것으로 보도됨.
   - 출처: https://www.epeugeot.co.kr
 
 ### 시트로엥 (citroen)
 - 공식 사이트: None / 금융사: (확인필요) / 비고: citroen.co.kr 접속 실패, 철수 추정(공식 확인 필요)
-- [status][low] citroen 점검 결과
+- [status][low] 시트로엥 공식 사이트 점검 결과
   - 판매 종료 추정: citroen.co.kr 접속 실패(연결 오류). 2022년 철수 보도와 일치 → 신차 판매 종료로 추정(공식 확인 필요)
 
 ### DS오토모빌 (ds)
 - 공식 사이트: https://www.dsautomobiles.co.kr / 금융사: (확인필요)
-- [status][low] ds 점검 결과
+- [status][low] DS오토모빌 공식 사이트 점검 결과
   - 확인 불충분: 홈이 'Index' 제목만 있고 링크는 부품가격 페이지뿐. 신차 프로모션/구매 메뉴를 찾지 못함. 스텔란티스코리아 소관(지프·푸조와 동일 법인)
   - 출처: https://www.dsautomobiles.co.kr
 
 ### 마세라티 (maserati)
 - 공식 사이트: https://www.maserati.com/kr/ko / 금융사: -
-- [status][low] maserati 점검 결과
+- [status][low] 마세라티 공식 사이트 점검 결과
   - 프로모션 미게시: 시승신청(/kr/ko/shopping-tools/test-drive)과 견적문의(/kr/ko/shopping-tools/wtlapnt)만 있고 가격·프로모션 게시 없음
   - 출처: https://www.maserati.com/kr/ko
 
@@ -799,7 +817,7 @@
 
 ### 재규어 (jaguar)
 - 공식 사이트: https://www.jaguar.com/ko-kr / 금융사: (확인필요) JLR 파이낸셜 / 비고: 재규어 한국 사이트는 신차 판매·프로모션 메뉴 없음(브랜드 캠페인만). 판매 중단 여부 공식 확인 필요
-- [status][low] 공식 사이트 점검 결과
+- [status][low] 재규어 공식 사이트 점검 결과
   - 재규어 한국 사이트는 브랜드 재탄생 캠페인(Copy Nothing, Type 01, 01 of a Kind)만 노출하고 신차 구매·프로모션·가격·시승 신청 메뉴가 없음 → 현재 국내 신차 판매 라인업/오퍼 없음으로 보임(공식 확인 필요). 사이트 메뉴: 재규어 소개, 재규어 찾기, 소식 받기, 고객 지원.
   - 출처: https://www.jaguar.com/ko-kr/index.html
 
@@ -857,23 +875,24 @@
 
 ### 페라리 (ferrari)
 - 공식 사이트: https://www.ferrari.com/ko-KR / 금융사: -
-- [status][low] ferrari 점검 결과
+- [status][low] 페라리 공식 사이트 점검 결과
   - 프로모션 미게시: 딜러 찾기, 849 Testarossa/Spider 컨피규레이터만. 가격·프로모션 게시 없음
   - 출처: https://www.ferrari.com/ko-KR
 
 ### 맥라렌 (mclaren)
 - 공식 사이트: https://cars.mclaren.com/kr-ko / 금융사: -
-- [status][low] mclaren 점검 결과
+- [status][low] 맥라렌 공식 사이트 점검 결과
   - 확인 불충분: https://cars.mclaren.com/kr-ko 가 mclaren.com/cars/kr-ko 로 리다이렉트되며 'Page Not Found'. 한국 사이트 불확실/철수 가능성(공식 확인 필요)
+  - 출처: https://cars.mclaren.com/kr-ko
 
 ### 애스턴마틴 (aston_martin)
 - 공식 사이트: https://www.astonmartin.com/en/dealers / 금융사: - / 비고: /ko 404, 영문 사이트만
-- [status][low] aston_martin 점검 결과
+- [status][low] 애스턴마틴 공식 사이트 점검 결과
   - 프로모션 미게시: /ko 는 404. 영문 사이트에 딜러 찾기만. 한국어 페이지 없음
   - 출처: https://www.astonmartin.com/en/dealers
 
 ### 로터스 (lotus)
 - 공식 사이트: https://www.lotuscars.com/ko-kr / 금융사: -
-- [status][low] lotus 점검 결과
+- [status][low] 로터스 공식 사이트 점검 결과
   - 시승만 확인: Eletre·Emira 시승 예약 페이지만 확인(/ko-KR/eletre/test-drive, /ko-KR/emira/test-drive). 가격·프로모션 게시 없음
   - 출처: https://www.lotuscars.com/ko-KR

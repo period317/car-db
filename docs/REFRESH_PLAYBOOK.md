@@ -3,6 +3,11 @@
 목표: 공식 사이트에서 최신 혜택·가격·시승 정보를 다시 읽어 `data/`를 갱신하고, 통합본을 만든 뒤 GitHub에 올린다.
 작업 폴더: `car-db/` (이 파일의 상위). 브라우저는 Claude in Chrome(실제 Chrome) 사용.
 
+## 목적과 수집 원칙
+- **이 DB의 목적은 월별 혜택**(할인, 이벤트, 금융 프로모션, 시승 이벤트)이다. 차량 가격은 참고 정보이며 혜택 수집보다 앞서지 않는다.
+- **대표값을 고르지 않는다.** 페이지에 트림·모델·조건이 여러 개면 전부 기록한다(중간값, 최저가, 최다판매 트림만 넣는 방식 금지). 트림 이름이 있으면 함께 적고, 없으면 없다고 `note`에 쓴다.
+- 데이터가 늘어나도 있는 정보를 줄이지 않는다.
+
 ## 0. 안전 규칙
 - **공식 브랜드/금융사 사이트만** 읽는다. 뉴스·블로그 수치는 넣지 않는다(넣더라도 `confidence: low`, '미확인' 표기).
 - 쿠키 배너: 비필수 쿠키는 **거절/필수만 저장**. '전체 동의' 금지.
@@ -47,7 +52,8 @@ python -I scripts/check_stale.py
 python -I scripts/verify.py data/sources.json   # (선택) URL 접속 점검
 powershell -ExecutionPolicy Bypass -File scripts\update_all.ps1
 ```
-`update_all.ps1`가 통합본(`data/unified`, `dist/car_db_for_ai.md`) 생성 → 변경 있으면 커밋 → 푸시한다. 푸시 실패 시 오류를 사용자에게 보고(재시도 반복 금지).
+`update_all.ps1`가 통합본(`data/unified`, `dist/car_db_for_ai.md`) 생성 → **품질 점검(`scripts/quality_check.py`)** → 통과하면 커밋·푸시·gist 갱신한다.
+품질 점검에서 ERROR가 나오면 게시하지 않는다. `docs/QUALITY_REPORT.md`를 읽고 원본 JSON(`data/offers/`)이나 `build_db.py`를 고친 뒤 다시 실행한다. WARN은 게시하되 종료 보고에 적는다. 푸시 실패 시 오류를 사용자에게 보고(재시도 반복 금지).
 
 ## 4. 종료 보고
 - 갱신한 브랜드 / 못 읽은 브랜드와 이유 / 기간 만료로 남은 항목 / 새로 생긴 이벤트(특히 시승 이벤트)를 5줄 이내로 요약.

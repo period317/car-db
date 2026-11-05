@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "total_records": 213,
   "files": {
     "offers/audi_2026-11-05.json": {
@@ -13,7 +13,7 @@
       "brand_id": "bmw",
       "records": 15,
       "captured": "2026-11-05",
-      "source": null,
+      "source": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
       "caveat": "수집일(11/05) 기준 10월 프로모션이 만료된 상태로 페이지에 남아 있음. 11월분 갱신 여부 주기적 재확인 필요."
     },
     "offers/byd_2026-11-05.json": {

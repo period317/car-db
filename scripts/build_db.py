@@ -18,10 +18,18 @@ def man(n):  #万원 -> 원
 
 def add(brand, file, cat, title, model=None, price=None, maxb=None, text=None,
         start=None, end=None, url=None, cap="2026-11-05", conf="medium", note=None):
+    url = url or (BR.get(brand) or {}).get("site")  # 개별 URL이 없으면 브랜드 공식 사이트로 대체
     rows.append(dict(
         brand_id=brand, brand_ko=(BR.get(brand) or {}).get("brand_ko"), model=model, category=cat, title=title,
         price_krw=price, max_benefit_krw=maxb, text=(text or "")[:900], period_start=start, period_end=end,
         source_url=url, captured=cap, confidence=conf, note=note, raw_file=file))
+
+KEY_LABEL = {"offers": "구매 혜택", "promotions": "프로모션", "programs": "프로그램", "models": "모델별 혜택",
+             "events": "이벤트", "finance_promotion": "금융 프로모션", "common_warranty": "공통 보증"}
+
+def label(brand, key):
+    """원본 JSON의 영문 키가 제목으로 새지 않도록 사람이 읽는 제목으로 바꾼다."""
+    return f"{(BR.get(brand) or {}).get('brand_ko', brand)} {KEY_LABEL.get(key, key)}"
 
 def j(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":"))
@@ -38,7 +46,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
     d = json.load(open(path, encoding="utf-8"))
     m = d.get("meta", {})
     bid = m.get("brand_id")
-    src = m.get("source_url") or m.get("site")
+    src = m.get("source_url") or m.get("site") or m.get("index_url")
     n0 = len(rows)
 
     if bid == "kia":
@@ -100,7 +108,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
             add("landrover", fn, "finance", f"{o['model']} 금융 예시", o["model"], price=o.get("price_from_krw"), text=flat({k: v for k, v in o.items() if k not in ("model", "price_from_krw")}), url=m["offers_index"], conf="medium")
     elif "brands" in d:  # others_*.json
         for b in d["brands"]:
-            add(b["id"], fn, "status", f"{b['id']} 점검 결과", text=f"{b['status']}: {b['finding']}", url=b.get("site"), conf="low")
+            add(b["id"], fn, "status", f"{(BR.get(b['id']) or {}).get('brand_ko', b['id'])} 공식 사이트 점검 결과", text=f"{b['status']}: {b['finding']}", url=b.get("site"), conf="low")
     else:
         # 일반 폴백: 대표 리스트 키의 각 원소를 한 레코드로
         ids = m.get("brand_ids") or [bid]
@@ -112,15 +120,15 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                 for it in items:
                     cat = "event" if k == "events" else ("finance" if k == "finance_promotion" else "benefit")
                     if isinstance(it, dict):
-                        name = it.get("model") or it.get("name") or it.get("program") or it.get("title") or k
+                        name = it.get("model") or it.get("name") or it.get("program") or it.get("title") or label(bid0, k)
                         add(bid0, fn, cat, str(name), it.get("model"), text=flat({a: b for a, b in it.items() if a not in ("model", "name")}), url=src, conf="medium")
                         made += 1
                     elif isinstance(it, str) or k == "finance_promotion":
-                        add(bid0, fn, cat, k, text=flat(items if isinstance(d[k], list) else d[k]), url=src, conf="medium")
+                        add(bid0, fn, cat, label(bid0, k), text=flat(items if isinstance(d[k], list) else d[k]), url=src, conf="medium")
                         made += 1
                         break
             if made == 0 and m.get("finding"):
-                add(bid0, fn, "status", "공식 사이트 점검 결과", text=m["finding"], url=src, conf="low")
+                add(bid0, fn, "status", f"{(BR.get(bid0) or {}).get('brand_ko', bid0)} 공식 사이트 점검 결과", text=m["finding"], url=src, conf="low")
     manifest[fn] = dict(brand_id=bid or m.get("brand_ids"), records=len(rows) - n0, captured=m.get("captured"),
                         source=src, caveat=(m.get("caveat") or m.get("caveats") or m.get("STALE_WARNING") or m.get("finding")))
 

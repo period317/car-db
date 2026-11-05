@@ -1,0 +1,507 @@
+{
+ "stats": {
+  "date": "2026-11-06",
+  "records": 213,
+  "by_category": {
+   "benefit": 117,
+   "finance": 19,
+   "price": 52,
+   "event": 9,
+   "status": 12,
+   "testdrive": 4
+  },
+  "brand_counts": {
+   "audi": 6,
+   "bmw": 15,
+   "byd": 13,
+   "cadillac": 2,
+   "chevrolet": 1,
+   "ford": 1,
+   "lincoln": 1,
+   "genesis": 5,
+   "hyundai": 45,
+   "jeep": 2,
+   "kgm": 18,
+   "kia": 51,
+   "landrover": 2,
+   "lexus": 8,
+   "mercedes": 6,
+   "mini": 1,
+   "polestar": 3,
+   "porsche": 1,
+   "renault": 3,
+   "tesla": 6,
+   "toyota": 5,
+   "volkswagen": 3,
+   "volvo": 3
+  }
+ },
+ "counts": {
+  "WARN": 25,
+  "INFO": 41
+ },
+ "issues": [
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 7,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 8,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 9,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 10,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 11,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 12,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 13,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 14,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 15,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 16,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 17,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 18,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 19,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 20,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "expired",
+   "id": 21,
+   "brand": "BMW",
+   "message": "기간 만료: 2026-10-31"
+  },
+  {
+   "level": "WARN",
+   "rule": "required-field",
+   "id": 177,
+   "brand": "시트로엥",
+   "message": "source_url 비어 있음"
+  },
+  {
+   "level": "WARN",
+   "rule": "td-event-no-period",
+   "id": null,
+   "brand": "KG모빌리티",
+   "message": "시승 이벤트 기간 미표기"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "BMW",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "미니",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "르노코리아",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "쉐보레",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "캐딜락",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "메르세데스-벤츠",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "아우디",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "포르쉐",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "폴스타",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "렉서스",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "포드",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "링컨",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "테슬라",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "지프",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "푸조",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "랜드로버",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "재규어",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "마세라티",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "로터스",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "벤틀리",
+   "message": "시승 상세 미수집(url_only): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "페라리",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "람보르기니",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "롤스로이스",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "애스턴마틴",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "DS오토모빌",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "시트로엥",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "td-thin",
+   "id": null,
+   "brand": "맥라렌",
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "쉐보레",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "타타대우모빌리티",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "미니",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "롤스로이스",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "메르세데스-벤츠",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "벤틀리",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "람보르기니",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "볼보",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "혼다",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "포드",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "링컨",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "푸조",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "시트로엥",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "DS오토모빌",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "마세라티",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "재규어",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "WARN",
+   "rule": "no-benefit-brand",
+   "id": null,
+   "brand": "테슬라",
+   "message": "가격만 있고 혜택(할인·이벤트·금융) 레코드가 없음"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-model",
+   "id": null,
+   "brand": "BYD",
+   "message": "혜택은 있으나 어느 모델에 적용되는지(model) 정보가 없음"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "페라리",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "맥라렌",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "애스턴마틴",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  },
+  {
+   "level": "INFO",
+   "rule": "no-data-brand",
+   "id": null,
+   "brand": "로터스",
+   "message": "수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)"
+  }
+ ]
+}
