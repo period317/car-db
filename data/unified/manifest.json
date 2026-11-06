@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-06",
-  "total_records": 229,
+  "total_records": 273,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -49,14 +49,14 @@
     },
     "offers/genesis_2026-11-05.json": {
       "brand_id": "genesis",
-      "records": 4,
+      "records": 10,
       "captured": "2026-11-05",
       "source": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
       "caveat": null
     },
     "offers/hyundai_2026-11-05.json": {
       "brand_id": "hyundai",
-      "records": 44,
+      "records": 72,
       "captured": "2026-11-05",
       "source": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
       "caveat": null
@@ -77,14 +77,14 @@
     },
     "offers/kgm_2026-11-05.json": {
       "brand_id": "kgm",
-      "records": 17,
+      "records": 18,
       "captured": "2026-11-05",
       "source": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
       "caveat": null
     },
     "offers/kia_2026-11-05.json": {
       "brand_id": "kia",
-      "records": 50,
+      "records": 59,
       "captured": "2026-11-05",
       "source": "https://www.kia.com/kr/buy/special-offers",
       "caveat": [

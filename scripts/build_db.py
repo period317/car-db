@@ -176,6 +176,11 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                         break
             if made == 0 and m.get("finding"):
                 add(bid0, fn, "status", f"{(BR.get(bid0) or {}).get('brand_ko', bid0)} 공식 사이트 점검 결과", text=m["finding"], url=src, conf="low")
+    # 공식 이벤트 목록 페이지에서 추가로 수집한 이벤트(events_extra): 브랜드 공통 처리
+    for e in d.get("events_extra", []):
+        ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
+        add(bid, fn, "event", e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
+            url=e["url"], cap="2026-11-06", conf=e.get("conf", "medium"))
     manifest[fn] = dict(brand_id=bid or m.get("brand_ids"), records=len(rows) - n0, captured=m.get("captured"),
                         source=src, caveat=(m.get("caveat") or m.get("caveats") or m.get("STALE_WARNING") or m.get("finding")))
 

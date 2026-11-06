@@ -160,7 +160,7 @@ for r in recs:
         types=",".join(types_of(r, text)), title=re.sub(r"\(만원/월\)", "", r["title"] or "").strip(),
         discount="; ".join(disc[:6]) or (f"최대 {won(r['max_benefit_krw'])}" if r.get("max_benefit_krw") else None),
         conditions="; ".join(cond[:6]) or None, reward="; ".join(gift[:6]) or None,
-        max_benefit_krw=r.get("max_benefit_krw"), detail=human[:1500], period_start=r.get("period_start"), period_end=r.get("period_end"),
+        _cat=r["category"], max_benefit_krw=r.get("max_benefit_krw"), detail=human[:1500], period_start=r.get("period_start"), period_end=r.get("period_end"),
         link=r.get("source_url"), confidence=r.get("confidence"), source_record_id=r["id"],
         extract_note="할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"))
 
@@ -247,6 +247,8 @@ def clean_vehicle(r):
 
 def event_name_of(r):
     t = re.sub(r"\(만원/월\)", "", r.get("title") or "")
+    if r.get("_cat") == "event":      # 이벤트는 이름 자체가 이벤트명이다(모델명이 이름 일부여도 자르지 않는다)
+        return re.sub(r"\s{2,}", " ", t).strip()
     raw_model = r.get("_raw_model") or ""
     for s in sorted(filter(None, {raw_model, r.get("model"), r.get("sub_model"), BRAND_PREFIX.sub("", raw_model)}), key=len, reverse=True):
         t = re.sub(re.escape(s), " ", t, flags=re.I)

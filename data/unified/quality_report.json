@@ -1,13 +1,13 @@
 {
  "stats": {
   "date": "2026-11-06",
-  "records": 229,
-  "verified_rate": 20.4,
+  "records": 273,
+  "verified_rate": 40.0,
   "by_category": {
    "benefit": 127,
    "finance": 20,
    "price": 52,
-   "event": 12,
+   "event": 56,
    "status": 14,
    "testdrive": 4
   },
@@ -17,11 +17,11 @@
    "byd": 13,
    "cadillac": 2,
    "chevrolet": 2,
-   "genesis": 5,
-   "hyundai": 45,
+   "genesis": 11,
+   "hyundai": 73,
    "jeep": 2,
-   "kgm": 18,
-   "kia": 51,
+   "kgm": 19,
+   "kia": 60,
    "landrover": 2,
    "lexus": 8,
    "mercedes": 10,
@@ -36,8 +36,8 @@
   }
  },
  "counts": {
-  "WARN": 57,
-  "INFO": 196
+  "WARN": 92,
+  "INFO": 190
  },
  "issues": [
   {
@@ -162,79 +162,72 @@
   {
    "level": "WARN",
    "rule": "required-field",
-   "id": 183,
+   "id": 227,
    "brand": "시트로엥",
    "message": "source_url 비어 있음"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 215,
+   "id": 259,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 216,
+   "id": 260,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 217,
+   "id": 261,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 218,
+   "id": 262,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 219,
+   "id": 263,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 220,
+   "id": 264,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 221,
+   "id": 265,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 222,
+   "id": 266,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
    "rule": "benefit-without-price",
-   "id": 223,
+   "id": 267,
    "brand": "볼보",
    "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
-  },
-  {
-   "level": "WARN",
-   "rule": "td-event-no-period",
-   "id": null,
-   "brand": "KG모빌리티",
-   "message": "시승 이벤트 기간 미표기"
   },
   {
    "level": "INFO",
@@ -526,261 +519,513 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 19,
-   "brand": "KG모빌리티",
-   "message": "세부내용 미수집: KGM 드라이브 페스타"
+   "id": 27,
+   "brand": "기아",
+   "message": "세부내용 미수집: 글로벌 RE100 가입 국내기업 재직자 기아EV 특별 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 28,
+   "brand": "기아",
+   "message": "세부내용 미수집: 기아 비즈 법인 무료 체험 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 29,
+   "brand": "기아",
+   "message": "세부내용 미수집: 기아 인증중고차 11월 혜택 모아보기"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 30,
+   "brand": "기아",
+   "message": "세부내용 미수집: 기아 전용카드 11월 신차 구매 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 32,
+   "brand": "기아",
+   "message": "세부내용 미수집: 더드림 페스티벌 이벤트"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 30,
+   "id": 37,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): EV6 GT 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 34,
+   "id": 41,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): K9 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 35,
+   "id": 42,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): PV5 WAV 구매혜택"
   },
   {
    "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 43,
+   "brand": "기아",
+   "message": "세부내용 미수집: 기아 X 서울시 PV5 WAV 특별구매혜택"
+  },
+  {
+   "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 36,
+   "id": 44,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): PV5 오픈베드 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 39,
+   "id": 47,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 니로 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 40,
+   "id": 48,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 레이 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 42,
+   "id": 50,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 모닝 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 45,
+   "id": 53,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 셀토스 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 46,
+   "id": 54,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 스포티지 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 47,
+   "id": 55,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 쏘렌토 구매혜택"
   },
   {
    "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 56,
+   "brand": "기아",
+   "message": "세부내용 미수집: 「The new Carnival」 보증연장 서비스 할인 프로모션"
+  },
+  {
+   "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 48,
+   "id": 56,
+   "brand": "기아",
+   "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 「The new Carnival」 보증연장 서비스 할인 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "discount-type-no-amount",
+   "id": 57,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 카니발 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 49,
+   "id": 58,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 카니발 하이리무진 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 50,
+   "id": 59,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 타스만 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 53,
+   "id": 62,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: ES (ES 350e BEV)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 54,
+   "id": 63,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: LS 500h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 55,
+   "id": 64,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: NX 350h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 56,
+   "id": 65,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: NX 450h+"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 57,
+   "id": 66,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 350h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 58,
+   "id": 67,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 450h+"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 59,
+   "id": 68,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 500h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 60,
+   "id": 69,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: UX 300h"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 67,
+   "id": 76,
    "brand": "메르세데스-벤츠",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 개별소비세 할인 혜택"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 68,
+   "id": 77,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 메르세데스-벤츠 신한카드"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 69,
+   "id": 78,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 파이낸셜 이용 공통 혜택"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 95,
+   "id": 104,
    "brand": "아우디",
    "message": "유형을 분류하지 못함: Audi Q3 Sportback (2026)"
   },
   {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 108,
+   "brand": "제네시스",
+   "message": "세부내용 미수집: 제네시스 전기차 대한항공 마일리지 적립 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 109,
+   "brand": "제네시스",
+   "message": "세부내용 미수집: 제네시스 타이어 안심 교체 서비스"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 110,
+   "brand": "제네시스",
+   "message": "세부내용 미수집: 제네시스 트레이드인 프로그램 11월 혜택 안내"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 111,
+   "brand": "제네시스",
+   "message": "세부내용 미수집: 제네시스 현대카드 the Honors 회원 대상 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 112,
+   "brand": "제네시스",
+   "message": "세부내용 미수집: 해비치 호텔&리조트 제주 Honors G 라운지 프로모션"
+  },
+  {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 102,
+   "id": 117,
    "brand": "지프",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: 랭글러"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 111,
+   "id": 126,
    "brand": "포르쉐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: 카이엔 일렉트릭"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 113,
+   "id": 128,
    "brand": "폭스바겐",
    "message": "유형을 분류하지 못함: 폭스바겐 프로모션"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 114,
+   "id": 129,
    "brand": "폭스바겐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: The Golf"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 115,
+   "id": 130,
    "brand": "폭스바겐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: The Touareg"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 116,
+   "id": 131,
    "brand": "폴스타",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 폴스타 공통 보증"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 117,
+   "id": 132,
    "brand": "폴스타",
    "message": "유형을 분류하지 못함: Polestar 3 (2027년식)"
   },
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 117,
+   "id": 132,
    "brand": "폴스타",
    "message": "세부내용 미수집: Polestar 3 (2027년식)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 117,
+   "id": 132,
    "brand": "폴스타",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: Polestar 3 (2027년식)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 118,
+   "id": 133,
    "brand": "폴스타",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: Polestar 4 coupé (2027년식)"
   },
   {
    "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 134,
+   "brand": "현대",
+   "message": "세부내용 미수집: 11월 전용카드 신차 구매 혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 135,
+   "brand": "현대",
+   "message": "세부내용 미수집: K-세일 페스타 기념 최대 100만원의 혜택을 드립니다"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 137,
+   "brand": "현대",
+   "message": "세부내용 미수집: N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 렌트/리스"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 138,
+   "brand": "현대",
+   "message": "세부내용 미수집: N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 할부"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 140,
+   "brand": "현대",
+   "message": "세부내용 미수집: The Empowered TUCSON 웹사이트 오픈"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 141,
+   "brand": "현대",
+   "message": "세부내용 미수집: [선착순 한정] 싼타페•팰리세이드 무이자 할부 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 142,
+   "brand": "현대",
+   "message": "세부내용 미수집: 내 차 지금 시세는 얼마? 트레이드인 11월 혜택 안내"
+  },
+  {
+   "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 120,
+   "id": 142,
+   "brand": "현대",
+   "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 내 차 지금 시세는 얼마? 트레이드인 11월 혜택 안내"
+  },
+  {
+   "level": "WARN",
+   "rule": "discount-type-no-amount",
+   "id": 143,
    "brand": "현대",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 더현대트래블 여행 할인쿠폰"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 144,
+   "brand": "현대",
+   "message": "세부내용 미수집: 드라이빙라운지 X 다이치 안전 캠페인"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 145,
+   "brand": "현대",
+   "message": "세부내용 미수집: 부산엑스더스카이 신규 런칭 기념 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 146,
+   "brand": "현대",
+   "message": "세부내용 미수집: 블루링크 스토어 X 현대해상 제휴 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 147,
+   "brand": "현대",
+   "message": "세부내용 미수집: 서울과 대구에서 만나는 N Moment 팝업 스토어"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 150,
+   "brand": "현대",
+   "message": "세부내용 미수집: 트럭/버스 K-세일페스타"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 151,
+   "brand": "현대",
+   "message": "세부내용 미수집: 파킹프렌즈 신규 런칭 기념 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 152,
+   "brand": "현대",
+   "message": "세부내용 미수집: 한화손보 캐롯 전기차 긴급 출동 충전 특약 런칭"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 153,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대 EV 렌트/리스 프로모션"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 154,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대 EV 부담 DOWN + 포터 EV 부담 DOWN + 넥쏘 부담 DOWN"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 155,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대 EV, 넥쏘 오너 대상 현대백화점 우수고객 혜택 제공 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "discount-type-no-amount",
+   "id": 157,
+   "brand": "현대",
+   "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 현대 제네시스 셀렉션 친구초대 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 160,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대자동차 어드밴티지 프로그램"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 161,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대자동차가 준비한 운전결심만의 전용혜택!"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 162,
+   "brand": "현대",
+   "message": "세부내용 미수집: 현대차증권 X 현대자동차 제휴 프로모션 출시 이벤트"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 163,
+   "brand": "현대",
+   "message": "세부내용 미수집: 홈충전기 구독 서비스, 마이홈차저"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-no-detail",
+   "id": 181,
+   "brand": "현대",
+   "message": "세부내용 미수집: 디 올 뉴 아반떼 입고 기념 이벤트"
   },
   {
    "level": "INFO",
@@ -911,13 +1156,6 @@
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 19,
-   "brand": "KG모빌리티",
-   "message": "원문 증거 파일 없음: KGM 드라이브 페스타"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
    "id": 20,
    "brand": "KG모빌리티",
    "message": "원문 증거 파일 없음: 액티언 스페셜 혜택"
@@ -960,728 +1198,693 @@
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 26,
+   "id": 33,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV3 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 27,
+   "id": 34,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV4 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 28,
+   "id": 35,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV5 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 29,
+   "id": 36,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV6 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 30,
+   "id": 37,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV6 GT 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 31,
+   "id": 38,
    "brand": "기아",
    "message": "원문 증거 파일 없음: EV9 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 32,
+   "id": 39,
    "brand": "기아",
    "message": "원문 증거 파일 없음: K5 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 33,
+   "id": 40,
    "brand": "기아",
    "message": "원문 증거 파일 없음: K8 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 34,
+   "id": 41,
    "brand": "기아",
    "message": "원문 증거 파일 없음: K9 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 35,
+   "id": 42,
    "brand": "기아",
    "message": "원문 증거 파일 없음: PV5 WAV 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 36,
+   "id": 44,
    "brand": "기아",
    "message": "원문 증거 파일 없음: PV5 오픈베드 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 37,
+   "id": 45,
    "brand": "기아",
    "message": "원문 증거 파일 없음: PV5 카고 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 38,
+   "id": 46,
    "brand": "기아",
    "message": "원문 증거 파일 없음: PV5 패신저 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 39,
+   "id": 47,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 니로 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 40,
+   "id": 48,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 레이 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 41,
+   "id": 49,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 레이 EV 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 42,
+   "id": 50,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 모닝 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 43,
+   "id": 51,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 봉고Ⅲ EV 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 44,
+   "id": 52,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 봉고Ⅲ 트럭 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 45,
+   "id": 53,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 셀토스 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 46,
+   "id": 54,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 스포티지 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 47,
+   "id": 55,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 쏘렌토 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 48,
+   "id": 57,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 카니발 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 49,
+   "id": 58,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 카니발 하이리무진 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 50,
+   "id": 59,
    "brand": "기아",
    "message": "원문 증거 파일 없음: 타스만 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 51,
+   "id": 60,
    "brand": "랜드로버",
    "message": "원문 증거 파일 없음: Defender (26MY) 금융 예시"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 52,
+   "id": 61,
    "brand": "랜드로버",
    "message": "원문 증거 파일 없음: Range Rover P550e SWB Autobiography (26MY) 금융 예시"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 53,
+   "id": 62,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: ES (ES 350e BEV)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 54,
+   "id": 63,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: LS 500h"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 55,
+   "id": 64,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: NX 350h"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 56,
+   "id": 65,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: NX 450h+"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 57,
+   "id": 66,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: RX 350h"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 58,
+   "id": 67,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: RX 450h+"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 59,
+   "id": 68,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: RX 500h"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 60,
+   "id": 69,
    "brand": "렉서스",
    "message": "원문 증거 파일 없음: UX 300h"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 62,
+   "id": 71,
    "brand": "르노코리아",
    "message": "원문 증거 파일 없음: Arkana 11월 르노 세일 페스타"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 63,
+   "id": 72,
    "brand": "르노코리아",
    "message": "원문 증거 파일 없음: Filante 11월 르노 세일 페스타"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 65,
+   "id": 74,
    "brand": "르노코리아",
    "message": "원문 증거 파일 없음: Grand Koleos 11월 르노 세일 페스타"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 76,
+   "id": 85,
    "brand": "미니",
    "message": "원문 증거 파일 없음: MINI 스마일 운용리스 최대 3개월 월 납입금 0원"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 77,
+   "id": 86,
    "brand": "미니",
    "message": "원문 증거 파일 없음: MINI 전기차 운용리스 이용 시 풀케어 1년 제공"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 91,
+   "id": 100,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: Audi A5 Saloon (2025)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 92,
+   "id": 101,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: A6 Sedan (2026)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 93,
+   "id": 102,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: Audi A6 e-tron performance (2025)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 94,
+   "id": 103,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: Audi Q3 (2026)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 95,
+   "id": 104,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: Audi Q3 Sportback (2026)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 96,
+   "id": 105,
    "brand": "아우디",
    "message": "원문 증거 파일 없음: Audi Q5 SUV (2025)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 97,
+   "id": 106,
    "brand": "제네시스",
    "message": "원문 증거 파일 없음: 제네시스 11월 고객 감사 이벤트"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 98,
+   "id": 113,
    "brand": "제네시스",
    "message": "원문 증거 파일 없음: G80 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 99,
+   "id": 114,
    "brand": "제네시스",
    "message": "원문 증거 파일 없음: G80 Black 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 100,
+   "id": 115,
    "brand": "제네시스",
    "message": "원문 증거 파일 없음: GV70 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 101,
+   "id": 116,
    "brand": "지프",
    "message": "원문 증거 파일 없음: JEEP 85주년 기념 MVP 프로모션"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 102,
+   "id": 117,
    "brand": "지프",
    "message": "원문 증거 파일 없음: 랭글러"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 111,
+   "id": 126,
    "brand": "포르쉐",
    "message": "원문 증거 파일 없음: 카이엔 일렉트릭"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 112,
+   "id": 127,
    "brand": "폭스바겐",
    "message": "원문 증거 파일 없음: Golf R Roadshow"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 113,
+   "id": 128,
    "brand": "폭스바겐",
    "message": "원문 증거 파일 없음: 폭스바겐 프로모션"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 114,
+   "id": 129,
    "brand": "폭스바겐",
    "message": "원문 증거 파일 없음: The Golf"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 115,
+   "id": 130,
    "brand": "폭스바겐",
    "message": "원문 증거 파일 없음: The Touareg"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 116,
+   "id": 131,
    "brand": "폴스타",
    "message": "원문 증거 파일 없음: 폴스타 공통 보증"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 117,
+   "id": 132,
    "brand": "폴스타",
    "message": "원문 증거 파일 없음: Polestar 3 (2027년식)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 118,
+   "id": 133,
    "brand": "폴스타",
    "message": "원문 증거 파일 없음: Polestar 4 coupé (2027년식)"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 119,
+   "id": 139,
    "brand": "현대",
    "message": "원문 증거 파일 없음: N 택시 인제스피디움 차량 구매 혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 120,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 더현대트래블 여행 할인쿠폰"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 121,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 122,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 채비 충전 제휴 상품"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 123,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 현대자동차 K-세일 페스타 프로모션"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 124,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 현대자동차 X 직트럭 트레이드인 프로모션"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 125,
+   "id": 164,
    "brand": "현대",
    "message": "원문 증거 파일 없음: ST1 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 126,
+   "id": 165,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 그랜저 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 127,
+   "id": 166,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 그랜저 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 128,
+   "id": 167,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 넥쏘 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 129,
+   "id": 168,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 그랜저 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 130,
+   "id": 169,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 그랜저 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 131,
+   "id": 170,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 132,
+   "id": 171,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 133,
+   "id": 172,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 Electric 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 134,
+   "id": 173,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 라운지 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 135,
+   "id": 174,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 라운지 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 136,
+   "id": 175,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 라운지 Electric 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 137,
+   "id": 176,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 리무진 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 138,
+   "id": 177,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 스타리아 리무진 Electric 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 139,
+   "id": 178,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 더 뉴 아이오닉 6 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 140,
+   "id": 179,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 디 올 뉴 아반떼 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 141,
+   "id": 180,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 디 올 뉴 아반떼 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 142,
+   "id": 184,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 디 올 뉴 투싼 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 143,
+   "id": 185,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 디 올 뉴 투싼 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 144,
+   "id": 186,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 베뉴 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 145,
+   "id": 187,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 싼타페 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 146,
+   "id": 188,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 싼타페 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 147,
+   "id": 189,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 쏘나타 디 엣지 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 148,
+   "id": 190,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 쏘나타 디 엣지 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 149,
+   "id": 191,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아반떼 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 150,
+   "id": 192,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아반떼 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 151,
+   "id": 193,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아반떼 N 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 152,
+   "id": 194,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아이오닉 5 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 153,
+   "id": 195,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아이오닉 5 N 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 154,
+   "id": 196,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아이오닉 6 N 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 155,
+   "id": 198,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아이오닉 9 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 156,
+   "id": 199,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 코나 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 157,
+   "id": 200,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 코나 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 158,
+   "id": 201,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 코나 Electric 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 159,
+   "id": 202,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 팰리세이드 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 160,
+   "id": 203,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 팰리세이드 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 161,
+   "id": 204,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 포터 II 11월 구매혜택"
   },
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 162,
+   "id": 205,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 포터 II Electric 11월 구매혜택"
   },
@@ -1690,7 +1893,7 @@
    "rule": "low-verification-rate",
    "id": null,
    "brand": "전체",
-   "message": "원문 대조 완료 비율 20.4% (33/162). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)"
+   "message": "원문 대조 완료 비율 40.0% (82/205). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)"
   },
   {
    "level": "INFO",

@@ -32,8 +32,14 @@
     "세단/SUV/EV 전 라인업"
    ],
    "policy": "전국 27개 드라이빙라운지, 카마스터 동승 또는 단독(Semi-Untact), 기본 1시간, 만 21세 이상, 1인 1건, 연 6회(EV스테이션 제외). 제네시스·캐스퍼는 별도 신청",
-   "has_event": false,
-   "detail_level": "full"
+   "has_event": true,
+   "event_name": "현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼",
+   "event_benefit": "전국 27개 드라이빙 라운지 응모(만 21세 이상): 시승 당첨 54팀 디 올 뉴 아반떼 1박 2일 이용권, 우수 후기 5명 BOSE QC ULTRA 2세대 헤드폰 2명·QC 헤드폰 2세대 3명",
+   "event_period": "이벤트 2026-11-02~2026-11-08 (시승 2026-11-19~20, 11-26~27)",
+   "event_url": "https://www.hyundai.com/kr/ko/event/event-hyundai-drivinglounge-2610",
+   "event_detail_collected": true,
+   "note": "별도 이벤트: 아이오닉 6 N X G-STAR 2026 시승 이벤트(응모 2026-10-30~11-08, 행사 11-21~22 부산 BEXCO, G-STAR 입장권·N 머천다이즈) https://www.hyundai.com/kr/ko/event/event-hyundai-ioniq6-n-driving-gstar-2611",
+   "detail_level": "event_collected"
   },
   {
    "brand_id": "genesis",
@@ -77,12 +83,12 @@
    ],
    "policy": "4단계(모델→장소→일정→개인정보 동의). 정책 상세 미수집. 고객센터 080-500-5582",
    "has_event": true,
-   "event_name": "KGM 드라이브 페스타",
-   "event_benefit": "홈 배너 '올 가을 더 특별한 시승, KGM 드라이브 페스타 OPEN!' (혜택·기간 상세 미수집)",
-   "event_period": null,
-   "event_url": "https://www.kg-mobility.com/",
-   "event_detail_collected": false,
-   "detail_level": "partial"
+   "event_name": "KGM 가을 드라이브 페스타",
+   "event_benefit": "홈페이지 시승 신청 후 시승 완료 고객 자동 응모·추첨: 헬리녹스 선셋체어 블랙아웃 에디션 3명, 할리스 아메리카노 커피 300명. 12월 중 당첨자 개별 안내",
+   "event_period": "2026-10-16~2026-11-30 (시승 완료 시점 기준)",
+   "event_url": "https://www.kg-mobility.com/br/news/event/0000001544",
+   "event_detail_collected": true,
+   "detail_level": "event_collected"
   },
   {
    "brand_id": "bmw",

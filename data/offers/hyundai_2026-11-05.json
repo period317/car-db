@@ -1,60 +1,447 @@
 {
-  "meta": {
-    "brand_id": "hyundai",
-    "source_url": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
-    "page_updated": "2026-11-03 (페이지 표기: 2026년 11월 출고기준, '26.11.03 업데이트)",
-    "captured": "2026-11-05",
-    "method": "Chrome javascript_tool innerText 파싱. 이미지 아님. 링크 추출 시 href 쿼리스트링은 도구가 차단하므로 pathname만 사용.",
-    "scope": "승용 차종 탭 37개. '상용 차종' 탭, 각 모델 '열기' 상세(혜택 내역 분해)는 미수집.",
-    "units": "price_min_manwon=시작가(만원), max_benefit_manwon=최대혜택(만원). 금리할인은 전 모델 '-'.",
-    "related_events": [
-      {"name":"현대자동차 K-세일 페스타 프로모션","period":"2026-10-31 ~ 2026-12-31","url":"https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html"},
-      {"name":"신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택","period":"2026-11-02 ~ 2026-11-08","url":"https://www.hyundai.com/kr/ko/event"},
-      {"name":"현대자동차 X 직트럭 트레이드인 프로모션","period":"2026-10-22 ~ 2026-12-31","url":"https://www.hyundai.com/kr/ko/event"},
-      {"name":"더현대트래블 여행 할인쿠폰","period":"2026-06-05 ~ 2026-12-31","url":"https://www.hyundai.com/kr/ko/event"},
-      {"name":"채비 충전 제휴 상품","period":"2026-05-08 ~ 2026-12-31","url":"https://www.hyundai.com/kr/ko/event"},
-      {"name":"N 택시 인제스피디움 차량 구매 혜택","period":"2026-05-06 ~ 2026-12-30","url":"https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html"}
-    ],
-    "other_urls": {"purchase_consult":"https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult","eco_incentive":"https://www.hyundai.com/kr/ko/e/vehicles/eco-incentive","purchase_guide":"https://www.hyundai.com/kr/ko/e/vehicles/purchase-guide","branches":"https://www.hyundai.com/kr/ko/e/customer/branch"}
+ "meta": {
+  "brand_id": "hyundai",
+  "source_url": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
+  "page_updated": "2026-11-03 (페이지 표기: 2026년 11월 출고기준, '26.11.03 업데이트)",
+  "captured": "2026-11-05",
+  "method": "Chrome javascript_tool innerText 파싱. 이미지 아님. 링크 추출 시 href 쿼리스트링은 도구가 차단하므로 pathname만 사용.",
+  "scope": "승용 차종 탭 37개. '상용 차종' 탭, 각 모델 '열기' 상세(혜택 내역 분해)는 미수집.",
+  "units": "price_min_manwon=시작가(만원), max_benefit_manwon=최대혜택(만원). 금리할인은 전 모델 '-'.",
+  "related_events": [
+   {
+    "name": "현대자동차 K-세일 페스타 프로모션",
+    "period": "2026-10-31 ~ 2026-12-31",
+    "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html"
+   },
+   {
+    "name": "신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택",
+    "period": "2026-11-02 ~ 2026-11-08",
+    "url": "https://www.hyundai.com/kr/ko/event"
+   },
+   {
+    "name": "현대자동차 X 직트럭 트레이드인 프로모션",
+    "period": "2026-10-20 ~ 2026-12-31",
+    "url": "https://www.hyundai.com/kr/ko/event"
+   },
+   {
+    "name": "더현대트래블 여행 할인쿠폰",
+    "period": "2026-06-05 ~ 2026-12-31",
+    "url": "https://www.hyundai.com/kr/ko/event"
+   },
+   {
+    "name": "채비 충전 제휴 상품",
+    "period": "2026-05-08 ~ 2026-12-31",
+    "url": "https://www.hyundai.com/kr/ko/event"
+   },
+   {
+    "name": "N 택시 인제스피디움 차량 구매 혜택",
+    "period": "2026-05-06 ~ 2026-12-30",
+    "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html"
+   }
+  ],
+  "other_urls": {
+   "purchase_consult": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-consult",
+   "eco_incentive": "https://www.hyundai.com/kr/ko/e/vehicles/eco-incentive",
+   "purchase_guide": "https://www.hyundai.com/kr/ko/e/vehicles/purchase-guide",
+   "branches": "https://www.hyundai.com/kr/ko/e/customer/branch"
+  }
+ },
+ "offers": [
+  {
+   "model": "쏘나타 디 엣지",
+   "price_min_manwon": 2876,
+   "max_benefit_manwon": 170
   },
-  "offers": [
-    {"model":"쏘나타 디 엣지","price_min_manwon":2876,"max_benefit_manwon":170},
-    {"model":"쏘나타 디 엣지 Hybrid","price_min_manwon":3328,"max_benefit_manwon":170},
-    {"model":"디 올 뉴 아반떼","price_min_manwon":2398,"max_benefit_manwon":400,"k_sale_festa":true},
-    {"model":"디 올 뉴 아반떼 Hybrid","price_min_manwon":2942,"max_benefit_manwon":293,"k_sale_festa":true},
-    {"model":"더 뉴 그랜저","price_min_manwon":4245,"max_benefit_manwon":390,"k_sale_festa":true},
-    {"model":"더 뉴 그랜저 Hybrid","price_min_manwon":4833,"max_benefit_manwon":560,"k_sale_festa":true},
-    {"model":"그랜저","price_min_manwon":3852,"max_benefit_manwon":640},
-    {"model":"그랜저 Hybrid","price_min_manwon":4417,"max_benefit_manwon":560},
-    {"model":"아반떼","price_min_manwon":2062,"max_benefit_manwon":120},
-    {"model":"아반떼 Hybrid","price_min_manwon":2555,"max_benefit_manwon":120},
-    {"model":"디 올 뉴 투싼","price_min_manwon":3140,"max_benefit_manwon":50},
-    {"model":"디 올 뉴 투싼 Hybrid","price_min_manwon":3615,"max_benefit_manwon":50},
-    {"model":"팰리세이드","price_min_manwon":4478,"max_benefit_manwon":410},
-    {"model":"팰리세이드 Hybrid","price_min_manwon":5077,"max_benefit_manwon":480},
-    {"model":"베뉴","price_min_manwon":1994,"max_benefit_manwon":100},
-    {"model":"코나","price_min_manwon":2393,"max_benefit_manwon":120},
-    {"model":"코나 Hybrid","price_min_manwon":2938,"max_benefit_manwon":120},
-    {"model":"싼타페","price_min_manwon":3657,"max_benefit_manwon":430,"k_sale_festa":true},
-    {"model":"싼타페 Hybrid","price_min_manwon":4022,"max_benefit_manwon":500,"k_sale_festa":true},
-    {"model":"더 뉴 스타리아 리무진 Hybrid","price_min_manwon":5980,"max_benefit_manwon":280},
-    {"model":"ST1","price_min_manwon":5738,"max_benefit_manwon":260},
-    {"model":"더 뉴 스타리아 라운지","price_min_manwon":4772,"max_benefit_manwon":210},
-    {"model":"넥쏘","price_min_manwon":7647,"max_benefit_manwon":470},
-    {"model":"더 뉴 스타리아 라운지 Hybrid","price_min_manwon":4499,"max_benefit_manwon":280},
-    {"model":"더 뉴 스타리아","price_min_manwon":3259,"max_benefit_manwon":210},
-    {"model":"더 뉴 스타리아 Hybrid","price_min_manwon":3625,"max_benefit_manwon":280},
-    {"model":"코나 Electric","price_min_manwon":4152,"max_benefit_manwon":280},
-    {"model":"아이오닉 5","price_min_manwon":4735,"max_benefit_manwon":260},
-    {"model":"더 뉴 스타리아 Electric","price_min_manwon":5792,"max_benefit_manwon":50},
-    {"model":"더 뉴 스타리아 라운지 Electric","price_min_manwon":6359,"max_benefit_manwon":50},
-    {"model":"더 뉴 스타리아 리무진 Electric","price_min_manwon":8482,"max_benefit_manwon":50},
-    {"model":"아이오닉 9","price_min_manwon":6759,"max_benefit_manwon":400},
-    {"model":"더 뉴 아이오닉 6","price_min_manwon":4856,"max_benefit_manwon":260},
-    {"model":"아이오닉 6 N","price_min_manwon":7990,"max_benefit_manwon":280},
-    {"model":"포터 II Electric","price_min_manwon":4350,"max_benefit_manwon":250},
-    {"model":"아이오닉 5 N","price_min_manwon":7879,"max_benefit_manwon":280},
-    {"model":"아반떼 N","price_min_manwon":3356,"max_benefit_manwon":120},
-    {"model":"포터 II","price_min_manwon":2141,"max_benefit_manwon":240}
-  ]
+  {
+   "model": "쏘나타 디 엣지 Hybrid",
+   "price_min_manwon": 3328,
+   "max_benefit_manwon": 170
+  },
+  {
+   "model": "디 올 뉴 아반떼",
+   "price_min_manwon": 2398,
+   "max_benefit_manwon": 400,
+   "k_sale_festa": true
+  },
+  {
+   "model": "디 올 뉴 아반떼 Hybrid",
+   "price_min_manwon": 2942,
+   "max_benefit_manwon": 293,
+   "k_sale_festa": true
+  },
+  {
+   "model": "더 뉴 그랜저",
+   "price_min_manwon": 4245,
+   "max_benefit_manwon": 390,
+   "k_sale_festa": true
+  },
+  {
+   "model": "더 뉴 그랜저 Hybrid",
+   "price_min_manwon": 4833,
+   "max_benefit_manwon": 560,
+   "k_sale_festa": true
+  },
+  {
+   "model": "그랜저",
+   "price_min_manwon": 3852,
+   "max_benefit_manwon": 640
+  },
+  {
+   "model": "그랜저 Hybrid",
+   "price_min_manwon": 4417,
+   "max_benefit_manwon": 560
+  },
+  {
+   "model": "아반떼",
+   "price_min_manwon": 2062,
+   "max_benefit_manwon": 120
+  },
+  {
+   "model": "아반떼 Hybrid",
+   "price_min_manwon": 2555,
+   "max_benefit_manwon": 120
+  },
+  {
+   "model": "디 올 뉴 투싼",
+   "price_min_manwon": 3140,
+   "max_benefit_manwon": 50
+  },
+  {
+   "model": "디 올 뉴 투싼 Hybrid",
+   "price_min_manwon": 3615,
+   "max_benefit_manwon": 50
+  },
+  {
+   "model": "팰리세이드",
+   "price_min_manwon": 4478,
+   "max_benefit_manwon": 410
+  },
+  {
+   "model": "팰리세이드 Hybrid",
+   "price_min_manwon": 5077,
+   "max_benefit_manwon": 480
+  },
+  {
+   "model": "베뉴",
+   "price_min_manwon": 1994,
+   "max_benefit_manwon": 100
+  },
+  {
+   "model": "코나",
+   "price_min_manwon": 2393,
+   "max_benefit_manwon": 120
+  },
+  {
+   "model": "코나 Hybrid",
+   "price_min_manwon": 2938,
+   "max_benefit_manwon": 120
+  },
+  {
+   "model": "싼타페",
+   "price_min_manwon": 3657,
+   "max_benefit_manwon": 430,
+   "k_sale_festa": true
+  },
+  {
+   "model": "싼타페 Hybrid",
+   "price_min_manwon": 4022,
+   "max_benefit_manwon": 500,
+   "k_sale_festa": true
+  },
+  {
+   "model": "더 뉴 스타리아 리무진 Hybrid",
+   "price_min_manwon": 5980,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "ST1",
+   "price_min_manwon": 5738,
+   "max_benefit_manwon": 260
+  },
+  {
+   "model": "더 뉴 스타리아 라운지",
+   "price_min_manwon": 4772,
+   "max_benefit_manwon": 210
+  },
+  {
+   "model": "넥쏘",
+   "price_min_manwon": 7647,
+   "max_benefit_manwon": 470
+  },
+  {
+   "model": "더 뉴 스타리아 라운지 Hybrid",
+   "price_min_manwon": 4499,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "더 뉴 스타리아",
+   "price_min_manwon": 3259,
+   "max_benefit_manwon": 210
+  },
+  {
+   "model": "더 뉴 스타리아 Hybrid",
+   "price_min_manwon": 3625,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "코나 Electric",
+   "price_min_manwon": 4152,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "아이오닉 5",
+   "price_min_manwon": 4735,
+   "max_benefit_manwon": 260
+  },
+  {
+   "model": "더 뉴 스타리아 Electric",
+   "price_min_manwon": 5792,
+   "max_benefit_manwon": 50
+  },
+  {
+   "model": "더 뉴 스타리아 라운지 Electric",
+   "price_min_manwon": 6359,
+   "max_benefit_manwon": 50
+  },
+  {
+   "model": "더 뉴 스타리아 리무진 Electric",
+   "price_min_manwon": 8482,
+   "max_benefit_manwon": 50
+  },
+  {
+   "model": "아이오닉 9",
+   "price_min_manwon": 6759,
+   "max_benefit_manwon": 400
+  },
+  {
+   "model": "더 뉴 아이오닉 6",
+   "price_min_manwon": 4856,
+   "max_benefit_manwon": 260
+  },
+  {
+   "model": "아이오닉 6 N",
+   "price_min_manwon": 7990,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "포터 II Electric",
+   "price_min_manwon": 4350,
+   "max_benefit_manwon": 250
+  },
+  {
+   "model": "아이오닉 5 N",
+   "price_min_manwon": 7879,
+   "max_benefit_manwon": 280
+  },
+  {
+   "model": "아반떼 N",
+   "price_min_manwon": 3356,
+   "max_benefit_manwon": 120
+  },
+  {
+   "model": "포터 II",
+   "price_min_manwon": 2141,
+   "max_benefit_manwon": 240
+  }
+ ],
+ "events_extra": [
+  {
+   "name": "K-세일 페스타 기념 최대 100만원의 혜택을 드립니다",
+   "period": "2026-10-31 ~ 2026-11-15",
+   "text": "대상: 모든회원 / 목록 제목 기준 K-세일 페스타 기념 최대 100만원 혜택 (상세 조건 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "디 올 뉴 아반떼 퍼스트 무브 플랜 (First Move Plan)",
+   "model": "디 올 뉴 아반떼",
+   "period": "2026-11-05 ~ 2026-11-30",
+   "text": "대상: 모든회원 / 월 17만원으로 누리는 스마트한 초이스, 디 올 뉴 아반떼 저금리 할부 (상세 조건 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event"
+  },
+  {
+   "name": "서울과 대구에서 만나는 N Moment 팝업 스토어",
+   "period": "2026-11-03 ~ 2026-11-17",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "트럭/버스 K-세일페스타",
+   "period": "2026-11-02 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "내 차 지금 시세는 얼마? 트레이드인 11월 혜택 안내",
+   "period": "2026-11-02 ~ 2026-11-30",
+   "text": "대상: 모든회원 / 신차 구매 시 특별한 할인 혜택(트레이드인) (상세 조건 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼",
+   "model": "디 올 뉴 아반떼",
+   "period": "2026-11-02 ~ 2026-11-08",
+   "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-drivinglounge-2610",
+   "conf": "high",
+   "text": "대상: 모든회원, 만 21세 이상, 전국 27개 현대 드라이빙 라운지에서 H-EVENT 페이지로 응모 / 시승 당첨자 54팀: 디 올 뉴 아반떼 1박 2일 이용권 (시승 1차 2026-11-19~20, 2차 2026-11-26~27) / 우수 후기 고객 5명: 1등 BOSE QC ULTRA 2세대 헤드폰 2명, 2등 QC 헤드폰 2세대 3명 / 당첨자 안내 11월 2주차 예정, 후기 콘텐츠 업로드 기한 2026-12-06"
+  },
+  {
+   "name": "N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 할부",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 렌트/리스",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "[선착순 한정] 싼타페•팰리세이드 무이자 할부 프로모션",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원, 싼타페·팰리세이드 / 선착순 한정 무이자 할부 (상세 조건 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대 EV 부담 DOWN + 포터 EV 부담 DOWN + 넥쏘 부담 DOWN",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대 EV 렌트/리스 프로모션",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "11월 전용카드 신차 구매 혜택",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "아이오닉 6 N X G-STAR 2026 시승 이벤트",
+   "model": "아이오닉 6 N",
+   "period": "2026-10-30 ~ 2026-11-08",
+   "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-ioniq6-n-driving-gstar-2611",
+   "conf": "high",
+   "text": "대상: 모든회원 / 응모 기간 2026-10-30 10시 ~ 2026-11-08 18시, 당첨자 발표 2026-11-11 이후 개별 연락 / 행사 2026-11-21~22 10시~18시, BEXCO 제2전시장 외부 광장(부산 해운대구), 아이오닉 6 N 직접 주행 시승(전문 도슨트 동승, 약 1시간) / 당첨자 혜택: G-STAR 2026 입장권, N 머천다이즈(시승 완료 후 만족도 조사 참여 시) / 구매 혜택: 시승 이벤트 참여 후 2027년 1월 이내 N 차량 출고 고객에게 HMG 드라이빙 익스피리언스 Level1 체험권 증정, the Nthusiast 이용권 및 적립금 제공"
+  },
+  {
+   "name": "The Empowered TUCSON 웹사이트 오픈",
+   "period": "2026-10-21 ~ 2026-11-20",
+   "text": "대상: 모든회원 / TUCSON 웹사이트 오픈 이벤트 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "파킹프렌즈 신규 런칭 기념 이벤트",
+   "period": "2026-10-19 ~ 2026-11-30",
+   "text": "대상: 블루멤버스 회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "부산엑스더스카이 신규 런칭 기념 이벤트",
+   "period": "2026-10-19 ~ 2026-11-30",
+   "text": "대상: 블루멤버스 회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대자동차가 준비한 운전결심만의 전용혜택!",
+   "period": "2026-10-01 ~ 2026-12-31",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대 제네시스 셀렉션 앱 리뷰 작성 이벤트",
+   "period": "2026-10-01 ~ 2026-11-30",
+   "text": "대상: 모든회원 / 앱 리뷰 작성만 해도 무료 커피 쿠폰 증정",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "홈충전기 구독 서비스, 마이홈차저",
+   "period": "2026-09-30 ~ 2026-12-31",
+   "text": "대상: 차량구매회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "디 올 뉴 아반떼 입고 기념 이벤트",
+   "model": "디 올 뉴 아반떼",
+   "period": "2026-09-15 ~ 2026-11-30",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event"
+  },
+  {
+   "name": "현대 제네시스 셀렉션 친구초대 이벤트",
+   "period": "2026-07-27 ~ 2026-12-10",
+   "text": "대상: 모든회원 / 구독 할인 쿠폰과 배달의 민족 상품권 기회",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대차증권 X 현대자동차 제휴 프로모션 출시 이벤트",
+   "period": "2026-07-10 ~ 2026-12-11",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "한화손보 캐롯 전기차 긴급 출동 충전 특약 런칭",
+   "period": "2026-05-25 ~ 2026-12-31",
+   "text": "대상: 차량구매회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "블루링크 스토어 X 현대해상 제휴 프로모션",
+   "period": "2026-04-06 ~ 2027-03-31",
+   "text": "대상: 차량구매회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대 EV, 넥쏘 오너 대상 현대백화점 우수고객 혜택 제공 이벤트",
+   "period": "2026-01-19 ~ 2026-12-31",
+   "text": "대상: 차량구매회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "현대자동차 어드밴티지 프로그램",
+   "period": "2026-01-01 ~ 2026-12-31",
+   "text": "대상: 차량구매회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "KB손해보험 다이렉트 자동차보험 가입하고 주유권 받아가세요.",
+   "period": "2026-01-01 ~ 2026-12-31",
+   "text": "대상: 모든회원 / 블루멤버스 회원이라면 KB손해보험 다이렉트 자동차보험 가입 시 주유권 증정",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  },
+  {
+   "name": "드라이빙라운지 X 다이치 안전 캠페인",
+   "period": "2025-12-08 ~ 2026-12-07",
+   "text": "대상: 모든회원 (상세 미수집)",
+   "url": "https://www.hyundai.com/kr/ko/event",
+   "model": null
+  }
+ ]
 }

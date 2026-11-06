@@ -1,91 +1,101 @@
 {
-  "meta": {
-    "brand_id": "kgm",
-    "captured": "2026-11-05",
-    "source_url": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
-    "period": "11월 (페이지 표기 '11월 금융 프로모션')",
-    "method": "Chrome javascript_tool innerText (이미지 아님)",
-    "units": "가격은 원 단위 시작가(원문 '부터').",
-    "scope": "모델별 '스페셜 혜택'까지 수집(모델 탭 클릭 방식). 금융 프로모션·재구매·소방 타겟혜택은 전 모델 공통. 모델별 현금 할인액은 KGM 페이지에 없음(스페셜 혜택이 없으면 null).",
-    "other_urls": {
-      "test_drive": "https://www.kg-mobility.com/od/network/test-driving",
-      "purchase_consult": "https://www.kg-mobility.com/od/network/purchase-consult",
-      "pre_order": "https://www.kg-mobility.com/cm/pre-order/10000810025"
-    },
-    "note_common": "금융 프로모션/재구매 로열티/Thank You 119는 모든 모델 동일"
+ "meta": {
+  "brand_id": "kgm",
+  "captured": "2026-11-05",
+  "source_url": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
+  "period": "11월 (페이지 표기 '11월 금융 프로모션')",
+  "method": "Chrome javascript_tool innerText (이미지 아님)",
+  "units": "가격은 원 단위 시작가(원문 '부터').",
+  "scope": "모델별 '스페셜 혜택'까지 수집(모델 탭 클릭 방식). 금융 프로모션·재구매·소방 타겟혜택은 전 모델 공통. 모델별 현금 할인액은 KGM 페이지에 없음(스페셜 혜택이 없으면 null).",
+  "other_urls": {
+   "test_drive": "https://www.kg-mobility.com/od/network/test-driving",
+   "purchase_consult": "https://www.kg-mobility.com/od/network/purchase-consult",
+   "pre_order": "https://www.kg-mobility.com/cm/pre-order/10000810025"
   },
-  "finance_promotion": [
-    "무이자 12개월 (선수율 50%)",
-    "4.8% 48개월 (선수율 0%)",
-    "5.2% 60개월 (선수율 0%)",
-    "5.5% 72개월 (선수율 0%)"
-  ],
-  "other_benefits": {
-    "재구매 로열티": "2대째 10만원, 3대째 20만원",
-    "Thank You 119": "소방공무원·의용소방대원·순직/공상 소방관 유가족 30만원",
-    "무쏘 비즈 서포트": "사업자 고객 자동차세 10년 지원 or 트리플 오일 패스 택1 (무쏘 페이지에서만 표시)"
+  "note_common": "금융 프로모션/재구매 로열티/Thank You 119는 모든 모델 동일"
+ },
+ "finance_promotion": [
+  "무이자 12개월 (선수율 50%)",
+  "4.8% 48개월 (선수율 0%)",
+  "5.2% 60개월 (선수율 0%)",
+  "5.5% 72개월 (선수율 0%)"
+ ],
+ "other_benefits": {
+  "재구매 로열티": "2대째 10만원, 3대째 20만원",
+  "Thank You 119": "소방공무원·의용소방대원·순직/공상 소방관 유가족 30만원",
+  "무쏘 비즈 서포트": "사업자 고객 자동차세 10년 지원 or 트리플 오일 패스 택1 (무쏘 페이지에서만 표시)"
+ },
+ "models": [
+  {
+   "model": "무쏘",
+   "price_from": 30400000,
+   "trims": "M5 / M7 / M9",
+   "special_benefit": null
   },
-  "models": [
-    {
-      "model": "무쏘",
-      "price_from": 30400000,
-      "trims": "M5 / M7 / M9",
-      "special_benefit": null
-    },
-    {
-      "model": "액티언 하이브리드",
-      "price_from": 38950000,
-      "trims": "S8",
-      "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 23만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스"
-    },
-    {
-      "model": "토레스 하이브리드",
-      "price_from": 33020000,
-      "trims": "T5 / T7",
-      "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 19만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스"
-    },
-    {
-      "model": "무쏘 EV",
-      "price_from": 48500000,
-      "trims": "MX / 블랙엣지",
-      "special_benefit": null
-    },
-    {
-      "model": "토레스",
-      "price_from": 29960000,
-      "trims": "T5 / T7",
-      "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
-    },
-    {
-      "model": "토레스 밴",
-      "price_from": 28150000,
-      "trims": "TV5 / TV7",
-      "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
-    },
-    {
-      "model": "토레스 EVX",
-      "price_from": 46020000,
-      "trims": "E5 / E7",
-      "special_benefit": null
-    },
-    {
-      "model": "액티언",
-      "price_from": 36170000,
-      "trims": "S8",
-      "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
-    },
-    {
-      "model": "렉스턴 뉴 아레나",
-      "price_from": 41060000,
-      "trims": "프리미엄 / 노블레스 / 써밋",
-      "special_benefit": null
-    },
-    {
-      "model": "티볼리",
-      "price_from": 20970000,
-      "trims": "1.6MPI: V1/V3, 1.5GDI: V5/V7",
-      "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 13만원대, 선수금 30%, 5.6%(60개월), 최대 50% 유예 + 트리플 오일 패스"
-    }
-  ],
-  "event_hint": "홈페이지 메인에 '올 가을 더 특별한 시승, KGM 드라이브 페스타' 배너(상세 미수집)"
+  {
+   "model": "액티언 하이브리드",
+   "price_from": 38950000,
+   "trims": "S8",
+   "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 23만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스"
+  },
+  {
+   "model": "토레스 하이브리드",
+   "price_from": 33020000,
+   "trims": "T5 / T7",
+   "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 19만원대, 선수금 30%, 5.6%(60개월), 최대 53% 유예 + 트리플 오일 패스"
+  },
+  {
+   "model": "무쏘 EV",
+   "price_from": 48500000,
+   "trims": "MX / 블랙엣지",
+   "special_benefit": null
+  },
+  {
+   "model": "토레스",
+   "price_from": 29960000,
+   "trims": "T5 / T7",
+   "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
+  },
+  {
+   "model": "토레스 밴",
+   "price_from": 28150000,
+   "trims": "TV5 / TV7",
+   "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
+  },
+  {
+   "model": "토레스 EVX",
+   "price_from": 46020000,
+   "trims": "E5 / E7",
+   "special_benefit": null
+  },
+  {
+   "model": "액티언",
+   "price_from": 36170000,
+   "trims": "S8",
+   "special_benefit": "트리플 오일 패스 무상지원: 엔진오일 SET 3회 무상 교환"
+  },
+  {
+   "model": "렉스턴 뉴 아레나",
+   "price_from": 41060000,
+   "trims": "프리미엄 / 노블레스 / 써밋",
+   "special_benefit": null
+  },
+  {
+   "model": "티볼리",
+   "price_from": 20970000,
+   "trims": "1.6MPI: V1/V3, 1.5GDI: V5/V7",
+   "special_benefit": "라이트(Lite)페이 플랜(유예할부형): 60개월 최소 월 13만원대, 선수금 30%, 5.6%(60개월), 최대 50% 유예 + 트리플 오일 패스"
+  }
+ ],
+ "event_hint": "홈페이지 메인에 '올 가을 더 특별한 시승, KGM 드라이브 페스타' 배너(상세 미수집)",
+ "events_extra": [
+  {
+   "name": "KGM 가을 드라이브 페스타",
+   "period": "2026-10-16 ~ 2026-11-30",
+   "url": "https://www.kg-mobility.com/br/news/event/0000001544",
+   "conf": "high",
+   "text": "대상: 전국 KGM 전시장에서 홈페이지 시승 신청 후 시승을 완료한 고객(로그인, 마케팅 수신 동의 필수, 만 30세 이상 운전면허 보유, 시승 완료 시 자동 응모, 차종 무관) / 시승 완료 고객 추첨 선물: 헬리녹스 선셋체어 블랙아웃 에디션 3명, 할리스 아메리카노 커피 300명 / 당첨 안내 12월 중 개별 안내",
+   "model": null
+  }
+ ]
 }
