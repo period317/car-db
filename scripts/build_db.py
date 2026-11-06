@@ -87,6 +87,9 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
             p = o.get("price_from") or o.get("price_gasoline_from")
             add("renault", fn, "benefit", f"{o['model']} 11월 르노 세일 페스타", o["model"], price=p,
                 text=flat([o.get("installment"), o.get("limited_discount_26MY") or o.get("limited_discount"), o.get("special")]), start="2026-11-01", end="2026-11-30", url=src, conf="high")
+        for e in d.get("events", []):
+            ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
+            add("renault", fn, "event", e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None, url=e["url"], conf="high")
     elif bid == "tesla":
         for o in d["prices_krw"]:
             add("tesla", fn, "price", f"{o['model']} {o['trim']}", o["model"], price=o["price"], url=d["meta"]["site"], conf="high", note="보조금 미반영")

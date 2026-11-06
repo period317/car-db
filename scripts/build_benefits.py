@@ -180,7 +180,11 @@ for t in td:
     def norm(s):
         return re.sub(r"[\s\-—·'‘’\"()]", "", s or "")
     key = norm(t.get("event_name"))[:6]
-    dup = next((x for x in rows if x["brand_id"] == t["brand_id"] and key and key in norm(x["title"]) and x["types"].split(",")[0] in ("이벤트", "시승혜택", "할인", "증정", "기타")), None)
+    _types = ("이벤트", "시승혜택", "할인", "증정", "기타")
+    full = norm(t.get("event_name"))
+    # 이벤트명이 통째로 같은 행을 먼저 찾고(르노처럼 '세일 페스타'가 여러 행 제목에 들어간 경우 오병합 방지), 없으면 앞 6글자로 찾는다
+    dup = next((x for x in rows if x["brand_id"] == t["brand_id"] and full and full in norm(x["title"]) and x["types"].split(",")[0] in _types), None) \
+        or next((x for x in rows if x["brand_id"] == t["brand_id"] and key and key in norm(x["title"]) and x["types"].split(",")[0] in _types), None)
     if dup:
         dup["reward"] = dup.get("reward") or t.get("event_benefit")
         dup["conditions"] = dup.get("conditions") or t.get("policy")

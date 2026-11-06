@@ -137,6 +137,11 @@ for r in rows:
         for lab, d in (("기간 시작일", s), ("기간 종료일", e_)):
             if not date_present(d, ev_text, whole) and not acked(r, lab):
                 missing.append(f"{lab} {d}")
+    if not own and missing:
+        # 이 항목의 페이지(링크)와 같은 주소의 증거가 없는데, 다른 페이지 증거와도 안 맞는 것은 '불일치'가 아니라 '증거 없음'이다
+        r.update(verification="증거 없음", unverified_claims=None, evidence_files=None, evidence_date=None)
+        stats[r["brand_ko"]]["증거 없음"] += 1
+        continue
     status = "검증됨" if not missing else "일부 미확인"
     r.update(verification=status, unverified_claims="; ".join(missing) or None,
              evidence_files=", ".join(e["file"] for e in pool), evidence_date=max(e["date"] for e in pool))

@@ -5,7 +5,7 @@ genesis,제네시스,True,https://www.genesis.com/kr/ko/experience/genesis-drive
 kgm,KG모빌리티,True,https://www.kg-mobility.com/od/network/test-driving,"무쏘(스탠다드/롱 데크), 액티언 하이브리드, 토레스 하이브리드, 토레스, 액티언, 토레스 EVX, 렉스턴 뉴 아레나, 티볼리, 무쏘 EV",4단계(모델→장소→일정→개인정보 동의). 정책 상세 미수집. 고객센터 080-500-5582,True,KGM 드라이브 페스타,"홈 배너 '올 가을 더 특별한 시승, KGM 드라이브 페스타 OPEN!' (혜택·기간 상세 미수집)",,https://www.kg-mobility.com/,False,partial,
 bmw,BMW,True,https://www.bmw.co.kr/ko/fastlane/tda-experience.html,,정책 미수집,False,,,,,,url_only,
 mini,미니,True,https://www.mini.co.kr/ko_KR/home/ecrm/test-drive.html,,정책 미수집,False,,,,,,url_only,
-renault,르노코리아,True,https://www.renault.co.kr/ko/side/app_testdrive.jsp,"Grand Koleos, Filante, Arkana",정책 미수집(구매혜택 카드에 '시승 신청' 버튼 있음),False,,,,,,url_only,
+renault,르노코리아,True,https://www.renault.co.kr/ko/side/app_testdrive.jsp,"Grand Koleos, Filante, Arkana",전국 전시장 방문 후 QR 시승 등록(이벤트 응모 조건). 그 외 정책 미수집,True,르노 세일 페스타 기념 특별 시승 이벤트,"전시장 방문 후 QR 시승 등록 완료 고객 추첨: 주유상품권 30만원 5명, 르노 머그컵 50명, 모모스 커피 부산 블렌드 100명. 당첨 발표 2026-12-07 공식 홈페이지. 10월 31일까지 시승 완료 고객은 '잠실 더 라스트 이닝' 티켓 이벤트와 함께 응모",이벤트 2026-10-14~2026-11-30,https://www.renault.co.kr/ko/inside/event_view.jsp?t_seq=9408,True,event_collected,"별도 이벤트: 필랑트 누아르 에디션 출시 기념 이벤트(2026-11-05~11-30, 필랑트 시승 완료 고객 렉슨 미나 조명 100명 등) https://www.renault.co.kr/ko/model/filante_noir_event.jsp"
 chevrolet,쉐보레,,,,미확인,False,,,,,,none,
 cadillac,캐딜락,True,https://www.cadillac.co.kr/campaign/request-test-drive.gm,,정책 미수집,False,,,,,,url_only,
 mercedes,메르세데스-벤츠,True,https://www.mercedes-benz.co.kr/passengercars/test-drive.html,,온라인 시승 신청(정책 미수집),False,,,,,,url_only,11월 AMG '구매상담' 추첨 이벤트는 상담/출고 완료 조건이며 시승 이벤트 아님

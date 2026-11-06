@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-06",
-  "total_records": 227,
+  "total_records": 229,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -154,7 +154,7 @@
     },
     "offers/renault_2026-11-05.json": {
       "brand_id": "renault",
-      "records": 3,
+      "records": 5,
       "captured": "2026-11-05",
       "source": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
       "caveat": null

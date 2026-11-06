@@ -111,9 +111,15 @@
     "Filante",
     "Arkana"
    ],
-   "policy": "정책 미수집(구매혜택 카드에 '시승 신청' 버튼 있음)",
-   "has_event": false,
-   "detail_level": "url_only"
+   "policy": "전국 전시장 방문 후 QR 시승 등록(이벤트 응모 조건). 그 외 정책 미수집",
+   "has_event": true,
+   "event_name": "르노 세일 페스타 기념 특별 시승 이벤트",
+   "event_benefit": "전시장 방문 후 QR 시승 등록 완료 고객 추첨: 주유상품권 30만원 5명, 르노 머그컵 50명, 모모스 커피 부산 블렌드 100명. 당첨 발표 2026-12-07 공식 홈페이지. 10월 31일까지 시승 완료 고객은 '잠실 더 라스트 이닝' 티켓 이벤트와 함께 응모",
+   "event_period": "이벤트 2026-10-14~2026-11-30",
+   "event_url": "https://www.renault.co.kr/ko/inside/event_view.jsp?t_seq=9408",
+   "event_detail_collected": true,
+   "note": "별도 이벤트: 필랑트 누아르 에디션 출시 기념 이벤트(2026-11-05~11-30, 필랑트 시승 완료 고객 렉슨 미나 조명 100명 등) https://www.renault.co.kr/ko/model/filante_noir_event.jsp",
+   "detail_level": "event_collected"
   },
   {
    "brand_id": "chevrolet",
