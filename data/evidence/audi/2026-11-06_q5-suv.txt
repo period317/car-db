@@ -1,0 +1,5 @@
+# url: https://www.audi.co.kr/ko/models/q5/q5-suv-2025/
+# captured: 2026-11-06T15:06:00
+# method: Chrome javascript_tool document.body.innerText (밸류⁺ 금융프로그램 섹션 발췌, 가공 없음)
+---
+Q5 밸류⁺ 금융프로그램 낮은 부담과 확실한 가치, 두 가지 방식으로 완성하는 오너십 월 40만원대 - 밸류⁺ 리스 월 40만원대로 만나는 프리미엄 올라운드 SUV, Audi Q5 최장 60개월 - 밸류⁺ 할부 6천만원대 Audi Q5를 월 80만원대로 만나는 기회

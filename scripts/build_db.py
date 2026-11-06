@@ -168,7 +168,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                     cat = "event" if k == "events" else ("finance" if k == "finance_promotion" else "benefit")
                     if isinstance(it, dict):
                         name = it.get("model") or it.get("name") or it.get("program") or it.get("title") or label(bid0, k)
-                        add(bid0, fn, cat, str(name), it.get("model"), text=flat({a: b for a, b in it.items() if a not in ("model", "name")}), url=src, conf="medium")
+                        add(bid0, fn, cat, str(name), it.get("model"), text=flat({a: b for a, b in it.items() if a not in ("model", "name")}), url=it.get("url") or (it.get("source") if str(it.get("source") or "").startswith("http") else None) or src, conf="medium")
                         made += 1
                     elif isinstance(it, str) or k == "finance_promotion":
                         add(bid0, fn, cat, label(bid0, k), text=flat(items if isinstance(d[k], list) else d[k]), url=src, conf="medium")

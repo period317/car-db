@@ -1,0 +1,8 @@
+# url: https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html
+# captured: 2026-11-06T14:40:00
+# method: Chrome javascript_tool document.body.innerText (이달의 프로모션 본문 발췌, 가공 없음. 메뉴·푸터 생략)
+---
+이달의 프로모션 Volkswagen Promotion 놓칠 수 없는 혜택을 만나보세요.
+Golf R Roadshow 기다려온 Golf R을 가까이에서 만나보세요 Golf R Roadshow 자세히 보기 2026.02.02 ~
+The Touareg 플래그십 SUV 투아렉 - 60개월 무이자 - 5년 / 15만 km 보증 연장 - 자기부담금 지원 프로그램 - Welcome Kit 제공 - 바디 프로텍션 - 파츠 프로텍션 The Touareg 자세히 보기
+The Golf 프리미엄 해치백 - 첫 6개월간 월 납입금 7만원대 - 5년 / 15만 km 보증 연장 - 자기부담금 지원 프로그램 - Welcome Kit 제공 - 바디 프로텍션 - 파츠 프로텍션 Golf 자세히 보기

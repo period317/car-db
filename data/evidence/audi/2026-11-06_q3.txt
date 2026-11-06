@@ -1,0 +1,5 @@
+# url: https://www.audi.co.kr/ko/models/q3/q3_2026/
+# captured: 2026-11-06T15:08:00
+# method: Chrome javascript_tool document.body.innerText (밸류⁺ 금융프로그램 섹션 발췌, 가공 없음)
+---
+The new Audi Q3 밸류⁺ 금융프로그램 낮은 부담과 확실한 가치, 두 가지 방식으로 완성하는 오너십 월 50만원대 - 밸류⁺ 리스 월 50만원대로 시작하는 프리미엄 SUV Audi Q3 최장 60개월 - 밸류⁺ 할부 5천만원대 Audi Q3, 월 70만원대로 만나보세요

@@ -1,0 +1,7 @@
+# url: https://www.landroverkorea.co.kr/offers/the-new-range-rover/index.html
+# captured: 2026-11-06T14:35:00
+# method: Chrome javascript_tool document.body.innerText (금융 프로그램 본문 발췌, 약관 부분 생략)
+---
+Price From ₩249,700,000 (26MY) 월 납입금 ₩2,119,000 *필수적용조건 선납금 30%(₩74,910,000) / 기간 36개월 / 잔존가치율 60% 매월 일정액의 리스료를 납입하며 차량을 임차하여 사용하며 리스기간 동안 규칙적으로 발생하는 모든 비용을 월 납입금에 포함시킬 수 있는 금융프로그램입니다.
+Range Rover P550e SWB Autobiography 저금리할부 Price From ₩249,700,000 (26MY) 이자율 5.90 % *필수적용조건 선납금 30%(₩74,910,000) / 기간 36개월 월 납입금 ₩5,309,000
+연간주행거리 20,000Km 금리는 최저 연0.0%~최대 연12.0%(고정금리) 금리산출시점: 2026.07

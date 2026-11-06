@@ -1,0 +1,5 @@
+# url: https://www.audi.co.kr/ko/models/a-6-e-tron/a6-e-tron-performance-2025/
+# captured: 2026-11-06T15:04:00
+# method: Chrome javascript_tool document.body.innerText (밸류⁺ 금융프로그램 섹션 발췌, 가공 없음)
+---
+A6 e-tron 밸류⁺ 금융프로그램 시승 신청 내 차량 만들기 월 40만원대 - 밸류⁺ 리스 월 40만 원대로 시작하는 A6 e-tron 라이프 최장 60개월 - 밸류⁺ 할부 월 100만 원대로 만나는 Audi A6 e-tron 구동전동기의 최고출력 270 kW A6 e-tron performance 기준 주행거리 (복합) 504 km A6 e-tron performance 기준 가속력 (0-100km/h) 5.4 초 A6 e-tron performance 기준
