@@ -29,6 +29,8 @@
 | `data/testdrive/index.json` | 시승 정책·시승 이벤트(브랜드당 1건 슬롯) |
 | `data/evidence/<brand>/<날짜>_<slug>.txt` | **읽은 공식 페이지 원문**(검증 근거) |
 | `data/verify_ack.json`, `data/quality_ack.json` | 이유를 적은 예외 승인 |
+| `docs/PROGRESS_SUMMARY.md` | 지금까지의 작업 요약(가장 먼저 읽기) |
+| `data/history/` | **누적 이력(append-only, 삭제·덮어쓰기 금지)**: `benefits_history.jsonl`(원본 로그), `.csv`(표, gist에도 올라감), `snapshots/`(날짜별 사본), `index.json`. 조회: `scripts/query_history.py` |
 | `docs/REFRESH_PLAYBOOK.md` | 주기 갱신 절차(예약 작업이 따르는 문서) |
 | `docs/COLLECTION_GUIDE.md` | 수집 정책, 데이터 규칙, 검증 방식 |
 | `docs/SITE_GUIDE.md` | 브랜드별 사이트 주소·이벤트 목록 위치·읽는 방법·확인 현황 |

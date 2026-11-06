@@ -13,6 +13,7 @@ U = os.path.join(ROOT, "data", "unified")
 
 recs = [json.loads(l) for l in open(os.path.join(U, "offers.jsonl"), encoding="utf-8-sig") if l.strip()]
 td = json.load(open(os.path.join(U, "testdrive.json"), encoding="utf-8-sig"))
+TARGET_YM = max((r.get("captured") or "")[:7] for r in recs) or "2026-11"   # 가장 최근 수집 월 = 대상 월
 
 KEYS = {  # 원본 JSON의 영문 키 -> 읽을 수 있는 말
     "choose_one": "택1", "items": "혜택", "conditions": "조건", "eligibility": "대상", "period": "기간",
@@ -195,7 +196,7 @@ for t in td:
         dup["detail"] = (dup["detail"] + " / 시승 정보: " + (t.get("event_benefit") or "") + " " + (t.get("event_period") or "")).strip()[:1500]
         dup["link"] = dup.get("link") or t.get("event_url")
         continue
-    _ym = "2026-11"
+    _ym = TARGET_YM
     _st = "기간 미표기"
     if ps and pe:
         _st = "기간 만료" if pe < f"{_ym}-01" else ("시작 전" if ps > f"{_ym}-31" else "기준월 해당")

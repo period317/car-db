@@ -55,6 +55,13 @@
 ## 6. 품질 점검 (`scripts/quality_check.py`) — ERROR가 있으면 게시하지 않는다
 필수 필드, 영문 내부 키 노출, 모델명 이상(점검·결과 등), 모델에 혜택/연식 섞임, 이벤트명 누락·모델명과 동일, 정액/정률 할인인데 숫자 컬럼 비어 있음, 가격 범위, 혜택>가격, 기간 순서·만료, 중복, 시승 일관성, 브랜드 커버리지, 이전 실행 대비 감소(브랜드 소실은 `data/quality_ack.json` 에 이유 필요), 원문 대조 결과.
 
+## 6.5 누적 이력 — 덮어쓰지 않는다 (`scripts/update_history.py`)
+- `benefits.*`(현재 월 표)는 매번 새로 만들어지지만, **지난 혜택은 `data/history/` 에 계속 쌓인다.** `benefits_history.jsonl` 은 append-only 로그라 **지우거나 고치지 않는다**(실수로 잘못 들어간 행은 고치지 말고 다음 버전을 덧붙인다).
+- 항목 키 = 브랜드·모델·세부모델·제목. 매 갱신마다 키별로 비교해 **new**(처음 관측) / **changed**(할인·조건·경품·기간·링크 변경) / **ended**(공식 페이지에서 사라짐) / **expired**(기간이 지난 채 관측)만 덧붙인다. 같은 날 다시 실행해도 중복이 생기지 않는다.
+- 날짜별 전체 사본은 `data/history/snapshots/benefits_YYYY-MM-DD.jsonl.gz`, 표 형태는 `benefits_history.csv`(gist 에도 올라감).
+- **과거 월 조회 규칙**: 공식 기간(period_start~end)이 있으면 그 기간이 해당 월과 겹치는 항목, 기간이 없으면 관측 구간(valid_from~valid_to)이 겹치는 항목. 같은 항목의 여러 버전은 그 월 말에 유효했던 하나만. `python -I scripts/query_history.py --ym 2026-10 [--brand X] [--model Y] [--discount-only]`, `--as-of 날짜`, `--changes --since 날짜`, `--months`.
+- 월이 바뀌면 새 달 원본 JSON 을 새 날짜 파일로 저장하고 이전 날짜 파일은 `data/archive/` 로 **옮긴다(삭제 금지)**. 기준월·기간은 파일의 `captured` 날짜에서 자동 계산된다.
+
 ## 7. 게시 (`scripts/update_all.ps1`)
-`build_db` → `build_benefits` → `verify_evidence` → `diff_benefits`(직전 커밋과 비교, `docs/CHANGES.md`) → `export_bundle`(`dist/car_db_for_ai.md`) → `quality_check`(게이트) → 통과 시 git 커밋·푸시 → gist 3개 파일 갱신.
+`build_db` → `build_benefits` → `verify_evidence` → `update_history`(누적 이력) → `diff_benefits`(직전 커밋과 비교, `docs/CHANGES.md`) → `export_bundle`(`dist/car_db_for_ai.md`) → `quality_check`(게이트) → 통과 시 git 커밋·푸시 → gist 3개 파일 갱신.
 AI용 파일 맨 위에는 **표 작성 규칙**(열 정의, 필터 말뜻, 정렬, 금지, 예시)이 들어간다. 회사 AI가 표를 달라고 하면 이 열을 그대로 복사하도록 유도하기 위해서다.

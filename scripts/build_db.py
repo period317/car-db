@@ -1,7 +1,7 @@
 """data/sources.json + data/offers/*.json + data/testdrive/*.json -> data/unified/ (jsonl, csv, sqlite, brands.json, manifest.json)
 실행: python -I scripts/build_db.py   (car-db 폴더에서)
 """
-import json, csv, sqlite3, glob, os, re, datetime
+import json, csv, sqlite3, glob, os, re, datetime, calendar
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, "data")
@@ -12,17 +12,19 @@ sources = json.load(open(os.path.join(D, "sources.json"), encoding="utf-8"))
 BR = {b["id"]: b for b in sources["brands"]}
 rows = []
 manifest = {}
+CUR_CAP = "2026-11-05"   # 지금 읽는 원본 파일의 수집일(루프에서 갱신)
+MS = ME = None            # 그 파일의 수집 월 1일/말일(월별 프로모션 기간)
 
 def man(n):  #万원 -> 원
     return int(round(n * 10000)) if isinstance(n, (int, float)) else None
 
 def add(brand, file, cat, title, model=None, price=None, maxb=None, text=None,
-        start=None, end=None, url=None, cap="2026-11-05", conf="medium", note=None):
+        start=None, end=None, url=None, cap=None, conf="medium", note=None):
     url = url or (BR.get(brand) or {}).get("site")  # 개별 URL이 없으면 브랜드 공식 사이트로 대체
     rows.append(dict(
         brand_id=brand, brand_ko=(BR.get(brand) or {}).get("brand_ko"), model=model, category=cat, title=title,
         price_krw=price, max_benefit_krw=maxb, text=(text or "")[:900], period_start=start, period_end=end,
-        source_url=url, captured=cap, confidence=conf, note=note, raw_file=file))
+        source_url=url, captured=(cap or CUR_CAP), confidence=conf, note=note, raw_file=file))
 
 KEY_LABEL = {"offers": "구매 혜택", "promotions": "프로모션", "programs": "프로그램", "models": "모델별 혜택",
              "events": "이벤트", "finance_promotion": "금융 프로모션", "common_warranty": "공통 보증"}
@@ -48,6 +50,9 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
     bid = m.get("brand_id")
     src = m.get("source_url") or m.get("site") or m.get("index_url")
     n0 = len(rows)
+    CUR_CAP = m.get("captured") or CUR_CAP
+    _y, _mo = int(CUR_CAP[:4]), int(CUR_CAP[5:7])
+    MS, ME = f"{CUR_CAP[:7]}-01", f"{CUR_CAP[:7]}-{calendar.monthrange(_y, _mo)[1]:02d}"
 
     if bid == "kia":
         for o in d["offers"]:
@@ -59,22 +64,22 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
         for o in d["offers"]:
             add("hyundai", fn, "benefit", f"{o['model']} 11월 구매혜택", o["model"], price=man(o["price_min_manwon"]),
                 maxb=man(o["max_benefit_manwon"]), text=("K-세일 페스타 대상" if o.get("k_sale_festa") else ""),
-                start="2026-11-01", end="2026-11-30", url=src, conf="high")
+                start=MS, end=ME, url=src, conf="high")
         for e in m.get("related_events", []):
             p = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
             add("hyundai", fn, "event", e["name"], text=e["period"], start=p[0] if p else None, end=p[1] if len(p) > 1 else None, url=e["url"], conf="high")
     elif bid == "genesis":
         for o in d["offers"]:
             add("genesis", fn, "benefit", f"{o['model']} 11월 구매혜택", o["model"], price=man(o["base_price_manwon"]),
-                maxb=man(o["max_benefit_manwon"]), text=flat([o.get("special_offer"), o.get("tradein")]), start="2026-11-01", end="2026-11-30", url=src, conf="high")
+                maxb=man(o["max_benefit_manwon"]), text=flat([o.get("special_offer"), o.get("tradein")]), start=MS, end=ME, url=src, conf="high")
         for e in d.get("events", []):
-            add("genesis", fn, "event", e["name"], text=flat([e.get("event1"), e.get("event2")]), start="2026-11-01", end="2026-11-30", url=e["url"], conf="high")
+            add("genesis", fn, "event", e["name"], text=flat([e.get("event1"), e.get("event2")]), start=MS, end=ME, url=e["url"], conf="high")
     elif bid == "kgm":
-        add("kgm", fn, "finance", "11월 공통 금융 프로모션", text=flat(d["finance_promotion"]) + " | " + flat(d["other_benefits"]), start="2026-11-01", end="2026-11-30", url=src, conf="high")
+        add("kgm", fn, "finance", "11월 공통 금융 프로모션", text=flat(d["finance_promotion"]) + " | " + flat(d["other_benefits"]), start=MS, end=ME, url=src, conf="high")
         for o in d["models"]:
             add("kgm", fn, "price", f"{o['model']} 시작가", o["model"], price=o["price_from"], text=o.get("trims"), url=src, conf="high")
             if o.get("special_benefit"):
-                add("kgm", fn, "benefit", f"{o['model']} 스페셜 혜택", o["model"], text=o["special_benefit"], start="2026-11-01", end="2026-11-30", url=src, conf="high")
+                add("kgm", fn, "benefit", f"{o['model']} 스페셜 혜택", o["model"], text=o["special_benefit"], start=MS, end=ME, url=src, conf="high")
     elif bid == "bmw":
         for o in d["offers"]:
             for t in o.get("trims", []):
@@ -86,7 +91,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
         for o in d["models"]:
             p = o.get("price_from") or o.get("price_gasoline_from")
             add("renault", fn, "benefit", f"{o['model']} 11월 르노 세일 페스타", o["model"], price=p,
-                text=flat([o.get("installment"), o.get("limited_discount_26MY") or o.get("limited_discount"), o.get("special")]), start="2026-11-01", end="2026-11-30", url=src, conf="high")
+                text=flat([o.get("installment"), o.get("limited_discount_26MY") or o.get("limited_discount"), o.get("special")]), start=MS, end=ME, url=src, conf="high")
         for e in d.get("events", []):
             ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
             add("renault", fn, "event", e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None, url=e["url"], conf="high")
@@ -111,7 +116,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
             for mdl in o["models"]:
                 add("chevrolet", fn, "benefit", f"{mdl} 11월 구매혜택", mdl, maxb=man(o.get("max_benefit_manwon")),
                     text=flat({"offers_faq_detail": o.get("offers_faq_detail"), "breakdown_manwon": o.get("breakdown_manwon"), "trade_in": o.get("trade_in")}),
-                    start="2026-11-01", end="2026-11-30", url=src, conf="high", note=o.get("breakdown_note"))
+                    start=MS, end=ME, url=src, conf="high", note=o.get("breakdown_note"))
     elif bid == "mini":  # 내연기관 / 전기차 대상을 나눈다
         fp = d["finance_promotion"]
         ev = [x for x in fp["target_models"] if x.startswith("올일렉트릭")]
@@ -128,8 +133,8 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                     add("mercedes", fn, "benefit", f"{mdl} {p['name']}", mdl, text=flat(p["text"]), url=src, conf="medium", note=p.get("models_note"))
             else:
                 mdl = "AMG 전 모델" if "AMG" in p["name"] else None
-                add("mercedes", fn, "benefit", p["name"], mdl, text=flat(p.get("text")), start="2026-11-01" if p.get("period") else None,
-                    end="2026-11-30" if p.get("period") else None, url=src, conf="medium")
+                add("mercedes", fn, "benefit", p["name"], mdl, text=flat(p.get("text")), start=MS if p.get("period") else None,
+                    end=ME if p.get("period") else None, url=src, conf="medium")
     elif bid == "volvo":
         for p in d["programs"]:
             if p.get("benefit_krw_vat_included"):
@@ -149,7 +154,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                 text=f"공식 사이트 프로모션 페이지에 진행 중인 이벤트 없음. 종료된 캠페인: {ended}. 판매 모델: {', '.join(d['models'][bi])}", url=m["urls"].get(f"{bi}_promotion") or src, conf="medium")
     elif bid == "cadillac":
         for o in d["offers"]:
-            add("cadillac", fn, "benefit", f"{o['model']} 11월 프로모션", o["model"], text=flat({k: v for k, v in o.items() if k != "model"}), start="2026-11-01", end="2026-11-30", url=src, conf="high")
+            add("cadillac", fn, "benefit", f"{o['model']} 11월 프로모션", o["model"], text=flat({k: v for k, v in o.items() if k != "model"}), start=MS, end=ME, url=src, conf="high")
     elif bid == "landrover":
         for o in d["offers"]:
             add("landrover", fn, "finance", f"{o['model']} 금융 예시", o["model"], price=o.get("price_from_krw"), text=flat({k: v for k, v in o.items() if k not in ("model", "price_from_krw")}),
@@ -181,7 +186,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
     for e in d.get("events_extra", []):
         ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
         add(bid, fn, "event", e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
-            url=e["url"], cap="2026-11-06", conf=e.get("conf", "medium"))
+            url=e["url"], cap=e.get("captured") or CUR_CAP, conf=e.get("conf", "medium"))
     manifest[fn] = dict(brand_id=bid or m.get("brand_ids"), records=len(rows) - n0, captured=m.get("captured"),
                         source=src, caveat=(m.get("caveat") or m.get("caveats") or m.get("STALE_WARNING") or m.get("finding")))
 

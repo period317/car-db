@@ -65,6 +65,12 @@ python -I scripts/check_stale.py
 4. **독립 재확인(새 에이전트)**: 금액이 바뀐 항목(`docs/CHANGES.md`의 '금액·숫자 변경')과 새로 생긴 항목은, 수집한 에이전트가 아닌 **새 서브에이전트**에게 `data/evidence` 원문과 해당 항목 행만 주고 "숫자·조건·기간이 원문과 일치하는가"를 묻는다. 불일치가 있으면 고친 뒤 다시 실행한다.
 5. 게시 후 `docs/CHANGES.md`(추가·삭제·금액 변경)를 종료 보고에 요약한다.
 
+## 2.8 누적 이력과 월 전환 — 덮어쓰지 않는다
+- `data/history/`(benefits_history.jsonl/.csv, snapshots, index.json)는 **절대 삭제·수정하지 않는다.** `update_all.ps1` 이 갱신 때마다 새 항목·변경·종료만 자동으로 덧붙인다(별도 작업 불필요).
+- **새 달(매월 1~7일 첫 실행)**: 모든 브랜드를 새로 읽어 새 날짜 파일(`<브랜드>_YYYY-MM-DD.json`)로 저장하고, 이전 달 파일은 `data/archive/` 로 **옮긴다(삭제 금지)**. 기준월과 월별 프로모션 기간은 파일의 `captured` 날짜에서 자동 계산되므로 코드를 고치지 않는다. 이전 달에 있던 혜택이 새 달 페이지에서 사라지면 이력에 ended 로 기록된다.
+- 수집 범위(구매 혜택: 할인·시승·금융)와 공식 페이지 원칙은 `docs/COLLECTION_GUIDE.md`. 범위 밖 서비스성 항목이 새로 나오면 `data/scope_exclude.json` 에 규칙을 추가한다.
+- 과거 조회: `python -I scripts/query_history.py --ym YYYY-MM [--brand ...]`.
+
 ## 3. 검증·생성·게시
 ```
 python -I scripts/verify.py data/sources.json   # (선택) URL 접속 점검

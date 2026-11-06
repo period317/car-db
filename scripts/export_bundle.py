@@ -26,9 +26,10 @@ order = {"price": 0, "benefit": 1, "finance": 2, "event": 3, "testdrive": 4, "st
 
 L = []
 L.append("# 국내 신차 시승·할인·구매정보 DB (오프라인 단일 파일)\n")
-L.append(f"- 기준일: 2026-11-05 수집 / 생성 {datetime.date.today().isoformat()} / 레코드 {len(recs)}건 / 브랜드 {len(brands)}곳")
+L.append(f"- 기준일: {max((r.get('captured') or '') for r in recs)} 수집 / 생성 {datetime.date.today().isoformat()} / 레코드 {len(recs)}건 / 브랜드 {len(brands)}곳")
 L.append("- 출처: 각 브랜드 공식 홈페이지·공식 금융사 (수집 당시 화면). 인터넷 없이 이 파일만으로 답하세요.")
-L.append("- **데이터 수집 방법·정책·사이트 가이드·검증 방식은 이 파일 맨 끝 '부록: 데이터 수집 가이드'에 있습니다.**\n")
+L.append("- **데이터 수집 방법·정책·사이트 가이드·검증 방식은 이 파일 맨 끝 '부록: 데이터 수집 가이드'에 있습니다.**")
+L.append("- **과거 월 혜택은 같은 gist 의 `benefits_history.csv`(누적)에 있습니다.** 이 파일은 현재 월 기준이며, 월별 목차와 조회 규칙은 '월별 혜택 이력' 절에 있습니다.\n")
 L.append("## AI 사용 지침")
 L.append("1. 답할 때 **브랜드·모델·수치·기간**을 이 파일에서 그대로 인용하고, 없으면 '이 DB에 없음'이라고 말하세요. 추측 금지.")
 L.append("2. 금액 단위: 만원(표기 그대로). 최대혜택은 조건 합산치(제휴금융 이용 등)이므로 개인 조건에 그대로 적용하지 말 것.")
@@ -175,8 +176,52 @@ for bid, rs in by.items():
         if r["source_url"]:
             L.append(f"  - 출처: {r['source_url']}")
 
+# 월별 이력 목차 + 과거 월 조회 방법 (이 파일의 월별 혜택 표는 '현재 월'만, 과거는 benefits_history.csv 에 누적)
+hp = os.path.join(ROOT, "data", "history", "benefits_history.jsonl")
+if os.path.exists(hp):
+    import calendar
+    hist = [json.loads(l) for l in open(hp, encoding="utf-8") if l.strip()]
+    byk = collections.defaultdict(list)
+    for h_ in hist:
+        byk[h_["key"]].append(h_)
+    vers = []
+    for k_, vs_ in byk.items():
+        vs_.sort(key=lambda x: x["valid_from"])
+        for i_, v_ in enumerate(vs_):
+            vers.append(dict(v_, valid_to=vs_[i_ + 1]["valid_from"] if i_ + 1 < len(vs_) else (v_["valid_from"] if v_["change"] == "ended" else "")))
+    cands = [m_ for m_ in ((v_.get("period_start") or "")[:7] for v_ in vers) if m_] + [v_["valid_from"][:7] for v_ in vers]
+    if cands:
+        y0, m0 = map(int, min(cands).split("-")); y1, m1 = map(int, max(cands).split("-"))
+        L.append("\n---\n")
+        L.append("## 월별 혜택 이력 (과거 월 조회)")
+        L.append("- **이 파일의 '월별 혜택 표'는 현재 월 혜택만** 담습니다. 과거 월 혜택은 같은 gist 의 **`benefits_history.csv`**(누적, 지우지 않음)에 있습니다. 과거 월을 물으면 그 파일을 기준으로 답하세요.")
+        L.append("- `benefits_history.csv` 열: key, change(new 처음 관측/changed 내용 변경/ended 사라짐/expired 기간 지난 채 관측), valid_from(이 버전을 처음 본 날), valid_to(다음 버전을 본 날, 비면 현재), row_status, ym(수집 월), period_month, 브랜드·모델·세부모델·이벤트명·할인 열, 기간, 링크, 검증.")
+        L.append("- **월 판단 규칙**: 공식 기간(period_start~period_end)이 있으면 그 기간이 해당 월과 겹치는 항목이 그 월의 혜택. 기간이 없으면 우리가 관측한 구간(valid_from~valid_to)이 그 월과 겹치는 항목. 같은 항목의 여러 버전(change=changed)은 그 월 말 시점에 유효했던 하나만 봅니다. ended 행은 혜택이 아니라 '사라진 시점' 표시입니다.")
+        first_obs = min(v_["valid_from"][:7] for v_ in vers)
+        L.append(f"- 이력은 매주 일요일 갱신 때마다 새 항목·변경·종료만 덧붙입니다(덮어쓰기 없음). **수집·누적은 {first_obs}부터 시작**했습니다. 그 이전 월에는 공식 기간이 그 달부터 이어지는 장기 이벤트만 잡혀 있어 **완전하지 않습니다**(예: 10월 BMW 금융 프로모션처럼 기간이 지난 채 관측된 것은 기간 기준으로 해당 월에 잡힘).\n")
+        L.append("| 월 | 해당 월 혜택 항목 수 | 브랜드 수 | 비고 |")
+        L.append("|---|---|---|---|")
+        y, m = y0, m0
+        while (y, m) <= (y1, m1):
+            lo_, hi_ = f"{y}-{m:02d}-01", f"{y}-{m:02d}-{calendar.monthrange(y, m)[1]:02d}"
+            seen_ = {}
+            for v_ in vers:
+                if v_["change"] == "ended":
+                    continue
+                if v_.get("period_start") or v_.get("period_end"):
+                    ok_ = (v_.get("period_start") or "0000-00-00") <= hi_ and (v_.get("period_end") or "9999-99-99") >= lo_
+                else:
+                    ok_ = v_["valid_from"] <= hi_ and (not v_["valid_to"] or v_["valid_to"] >= lo_)
+                if ok_:
+                    seen_[v_["key"]] = v_.get("brand_ko")
+            L.append(f"| {y}-{m:02d} | {len(seen_)} | {len(set(seen_.values()))} | {'수집 시작 전: 기간이 이어진 장기 이벤트만(불완전)' if f'{y}-{m:02d}' < first_obs else ('수집 중' if f'{y}-{m:02d}' == first_obs else '')} |")
+            m += 1
+            if m > 12:
+                y, m = y + 1, 1
+
 # 부록: 수집 방법·정책·사이트 가이드 (웹 접속이 안 되는 AI도 읽을 수 있게 같은 파일에 싣는다)
-APPX = [("COLLECTION_GUIDE.md", "수집 가이드 — 정책, 데이터 규칙, 검증"),
+APPX = [("PROGRESS_SUMMARY.md", "작업 요약 — 무엇을 어떻게 만들었고 지금 어디까지 왔는지"),
+        ("COLLECTION_GUIDE.md", "수집 가이드 — 정책, 데이터 규칙, 검증, 누적 이력"),
         ("SITE_GUIDE.md", "사이트 가이드 — 브랜드별 주소·읽는 방법·확인 현황"),
         ("HANDOFF.md", "인수인계 — 목적, 파일 지도, 이어서 작업하는 법, 남은 일"),
         ("LESSONS.md", "작업하며 얻은 지식 — 사용자 선호, 실수와 교훈, 도구 함정")]

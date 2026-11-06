@@ -17,6 +17,7 @@ git show HEAD:data/unified/benefits.jsonl 2>$null | Out-File -Encoding utf8 $pre
 Step "원본 통합" @("scripts/build_db.py")
 Step "혜택 정리" @("scripts/build_benefits.py")
 Step "원문 대조" @("scripts/verify_evidence.py")
+Step "이력 누적" @("scripts/update_history.py")      # 덮어쓰지 않고 새 항목·변경·종료만 data/history 에 덧붙임
 Step "변경 비교" @("scripts/diff_benefits.py", $prevBen)
 Step "AI용 파일" @("scripts/export_bundle.py")
 
@@ -43,11 +44,13 @@ if (-not $NoPush) {
     gh gist edit $gist -f offers.jsonl data/unified/offers.jsonl | Out-Host
     # 수집 가이드 문서도 gist에 별도 파일로 올린다(car_db_for_ai.md 부록에도 같은 내용이 들어 있음)
     $gfiles = @(gh gist view $gist --files)
-    foreach ($doc in @("COLLECTION_GUIDE", "SITE_GUIDE", "HANDOFF", "LESSONS")) {
-        if ($gfiles -contains "$doc.md") {
-            gh gist edit $gist -f "$doc.md" "docs/$doc.md" | Out-Host      # 이미 있는 파일은 내용 교체
+    # docs/ 문서 4개 + 누적 이력(csv). gist 에 이미 있으면 내용 교체(-f), 없으면 새 파일로 추가(--add)
+    foreach ($f in @("docs/PROGRESS_SUMMARY.md", "docs/COLLECTION_GUIDE.md", "docs/SITE_GUIDE.md", "docs/HANDOFF.md", "docs/LESSONS.md", "data/history/benefits_history.csv")) {
+        $name = Split-Path -Leaf $f
+        if ($gfiles -contains $name) {
+            gh gist edit $gist -f $name $f | Out-Host
         } else {
-            gh gist edit $gist --add "docs/$doc.md" | Out-Host              # 처음엔 --add 로 새 파일 추가
+            gh gist edit $gist --add $f | Out-Host
         }
     }
 }
