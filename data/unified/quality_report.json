@@ -2,7 +2,7 @@
  "stats": {
   "date": "2026-11-06",
   "records": 276,
-  "verified_rate": 40.9,
+  "verified_rate": 45.2,
   "by_category": {
    "benefit": 127,
    "finance": 20,
@@ -36,8 +36,8 @@
   }
  },
  "counts": {
-  "WARN": 93,
-  "INFO": 189
+  "WARN": 83,
+  "INFO": 180
  },
  "issues": [
   {
@@ -540,13 +540,6 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 31,
-   "brand": "기아",
-   "message": "세부내용 미수집: 기아 전용카드 11월 신차 구매 혜택"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
    "id": 33,
    "brand": "기아",
    "message": "세부내용 미수집: 더드림 페스티벌 이벤트"
@@ -571,13 +564,6 @@
    "id": 43,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): PV5 WAV 구매혜택"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
-   "id": 44,
-   "brand": "기아",
-   "message": "세부내용 미수집: 기아 X 서울시 PV5 WAV 특별구매혜택"
   },
   {
    "level": "WARN",
@@ -855,20 +841,6 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 137,
-   "brand": "현대",
-   "message": "세부내용 미수집: 11월 전용카드 신차 구매 혜택"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
-   "id": 138,
-   "brand": "현대",
-   "message": "세부내용 미수집: K-세일 페스타 기념 최대 100만원의 혜택을 드립니다"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
    "id": 140,
    "brand": "현대",
    "message": "세부내용 미수집: N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 렌트/리스"
@@ -876,37 +848,9 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 141,
-   "brand": "현대",
-   "message": "세부내용 미수집: N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 할부"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
    "id": 143,
    "brand": "현대",
    "message": "세부내용 미수집: The Empowered TUCSON 웹사이트 오픈"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
-   "id": 144,
-   "brand": "현대",
-   "message": "세부내용 미수집: [선착순 한정] 싼타페•팰리세이드 무이자 할부 프로모션"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
-   "id": 145,
-   "brand": "현대",
-   "message": "세부내용 미수집: 내 차 지금 시세는 얼마? 트레이드인 11월 혜택 안내"
-  },
-  {
-   "level": "WARN",
-   "rule": "discount-type-no-amount",
-   "id": 145,
-   "brand": "현대",
-   "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 내 차 지금 시세는 얼마? 트레이드인 11월 혜택 안내"
   },
   {
    "level": "WARN",
@@ -946,13 +890,6 @@
   {
    "level": "WARN",
    "rule": "benefit-no-detail",
-   "id": 153,
-   "brand": "현대",
-   "message": "세부내용 미수집: 트럭/버스 K-세일페스타"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
    "id": 154,
    "brand": "현대",
    "message": "세부내용 미수집: 파킹프렌즈 신규 런칭 기념 이벤트"
@@ -970,13 +907,6 @@
    "id": 156,
    "brand": "현대",
    "message": "세부내용 미수집: 현대 EV 렌트/리스 프로모션"
-  },
-  {
-   "level": "WARN",
-   "rule": "benefit-no-detail",
-   "id": 157,
-   "brand": "현대",
-   "message": "세부내용 미수집: 현대 EV 부담 DOWN + 포터 EV 부담 DOWN + 넥쏘 부담 DOWN"
   },
   {
    "level": "WARN",
@@ -1618,13 +1548,6 @@
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 142,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: N 택시 인제스피디움 차량 구매 혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
    "id": 167,
    "brand": "현대",
    "message": "원문 증거 파일 없음: ST1 11월 구매혜택"
@@ -1744,20 +1667,6 @@
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 187,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 디 올 뉴 투싼 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 188,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 디 올 뉴 투싼 Hybrid 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
    "id": 189,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 베뉴 11월 구매혜택"
@@ -1772,13 +1681,6 @@
   {
    "level": "INFO",
    "rule": "no-evidence",
-   "id": 191,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 싼타페 Hybrid 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
    "id": 192,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 쏘나타 디 엣지 11월 구매혜택"
@@ -1789,27 +1691,6 @@
    "id": 193,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 쏘나타 디 엣지 Hybrid 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 194,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 아반떼 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 195,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 아반떼 Hybrid 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 196,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 아반떼 N 11월 구매혜택"
   },
   {
    "level": "INFO",
@@ -1838,20 +1719,6 @@
    "id": 201,
    "brand": "현대",
    "message": "원문 증거 파일 없음: 아이오닉 9 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 202,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 코나 11월 구매혜택"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 203,
-   "brand": "현대",
-   "message": "원문 증거 파일 없음: 코나 Hybrid 11월 구매혜택"
   },
   {
    "level": "INFO",
@@ -1893,7 +1760,7 @@
    "rule": "low-verification-rate",
    "id": null,
    "brand": "전체",
-   "message": "원문 대조 완료 비율 40.9% (85/208). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)"
+   "message": "원문 대조 완료 비율 45.2% (94/208). 증거 원문을 더 저장해야 함(docs/VERIFY_CHECKLIST.md)"
   },
   {
    "level": "INFO",

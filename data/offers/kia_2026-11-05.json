@@ -397,9 +397,10 @@
   {
    "name": "기아 전용카드 11월 신차 구매 혜택",
    "period": "2026-11-01 ~ 2026-11-30",
-   "text": "목록 제목만 확인 (상세 미수집)",
-   "url": "https://www.kia.com/kr/event/list",
-   "model": null
+   "text": "대상 카드: Kia Members 신용카드 Edition2, Kia Members 전기차 신용카드, Kia Members 경차전용카드 / 일시불: 1.5% M포인트 적립 또는 최대 1% 캐시백(캐시백은 세이브-오토 이용 시 1%, 미이용 시 미지급, 중복 불가) / 카드 할부: 2~3개월 무이자, 4~15개월 1.0%, 20·30·40·50개월 5.7%, 60개월 5.9%(대출 이력 미포함, 중도상환 수수료 없음, 할부 시 M포인트·캐시백 적용 불가)",
+   "url": "https://www.kia.com/kr/event/detail?eventId=575",
+   "model": null,
+   "conf": "medium"
   },
   {
    "name": "「The new Carnival」 보증연장 서비스 할인 프로모션",
@@ -426,8 +427,9 @@
    "name": "기아 X 서울시 PV5 WAV 특별구매혜택",
    "model": "PV5 WAV",
    "period": "2026-04-30 ~ 2026-12-31",
-   "text": "목록 제목만 확인 (상세 미수집)",
-   "url": "https://www.kia.com/kr/event/list"
+   "text": "대상: The Kia PV5 WAV 출고 고객 중 서울 소재 사회복지시설(공공·민간) 또는 장애를 가진 서울 시민·가족(장애등급 무관) / 혜택: 차량 출고 시 100만원 할인 및 동행 충전기 무상설치 지원(충전기 신청은 서울특별시 홈페이지, 조건 미충족 시 설치 불가할 수 있음) / 기간 ~2026-12-31",
+   "url": "https://www.kia.com/kr/event/detail?eventId=525",
+   "conf": "medium"
   },
   {
    "name": "더드림 페스티벌 이벤트",

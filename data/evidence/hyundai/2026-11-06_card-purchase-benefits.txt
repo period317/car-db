@@ -1,0 +1,6 @@
+# url: https://www.hyundai.com/kr/ko/event/event-hc-purchase-benefits-202611
+# captured: 2026-11-06T06:22:00
+# method: Chrome javascript_tool document.body.innerText (이벤트 본문 발췌, 가공 없음. 혜택 예시 이후는 출력 한도로 생략)
+---
+11월 전용카드 신차 구매 혜택	모든회원 2026-11-01 ~ 2026-11-30
+HYUNDAI Hyundai Card Hyundai Mobility카드 11월 신차 구매 혜택 2026. 11. 1 ~ 11. 30 일시불(포인트형·캐시백형) 최대 2% 블루멤버스 포인트 적립 또는 최대 1% 캐시백 대상카드 Hyundai Mobility카드 Hyundai EV카드 캐시백 이벤트 : 블루 세이브-오토 이용 시 1%, 미이용 시 미지급 블루멤버스 포인트 적립과 캐시백 중복 적용 불가 EVENT 카드 할부 대상카드 Hyundai Mobility카드 Hyundai Mobility Platinum카드 Hyundai EV카드 2~3개월 무이자, 4~15개월 1.0%, 20·30·40·50개월 5.7%, 60개월 5.9% 블루 세이브-오토(선지급 포인트 서비스) 차종별 20만/30만/50만원 선포인트 사용하고 최장 36개월간 카드 이용 금액에 대해 블루 세이브-오토 포인트를 적립받아 상환하는 차량 구매 프로그램 차량 금액 차감 최대 50만원

@@ -6,8 +6,8 @@
 ## 우선 브랜드 (판매량 순으로 처리. 10월 집계는 못 찾아 4월 국산차 집계와 수입차 일반 순위를 참고)
 | 브랜드 | 구매혜택 페이지 | 이벤트 목록 | 확인 | 읽는 방법 / 메모 |
 |---|---|---|---|---|
-| 기아 | /kr/buy/special-offers | https://www.kia.com/kr/event/list | ✅ 9건 | 목록 항목은 링크가 없고 클릭하면 `/kr/event/detail?eventId=N`. 상세 본문은 **이미지**(innerText에는 제목·기간만) → 스크롤 스크린샷으로 읽음. 상세는 스토어 방문 이벤트만 읽음 |
-| 현대 | /kr/ko/e/vehicles/monthly-benefit | https://www.hyundai.com/kr/ko/event | ✅ 34건 | 진행중 34건이 **3페이지**(12/12/10). 페이지 번호 버튼을 JS로 클릭해 읽음. 상세 URL은 `/kr/ko/event/event-hyundai-<slug>`. 시승 이벤트 2건은 본문이 텍스트라 innerText로 읽힘. 나머지 28건은 목록만 |
+| 기아 | /kr/buy/special-offers | https://www.kia.com/kr/event/list | ✅ 9건 | 목록 항목은 링크가 없고 클릭하면 `/kr/event/detail?eventId=N`. 상세 본문은 **이미지**(innerText에는 제목·기간만) → 스크롤 스크린샷으로 읽음. 상세는 스토어 방문, 전용카드(eventId=575), 서울시 PV5 WAV(eventId=525) 3건만 읽음. 「The new Carnival」 보증연장·인증중고차 항목은 **외부 링크(↗)**라 클릭해도 목록에 머문다(미수집). RE100·비즈·더드림·세일 페스타는 목록만 |
+| 현대 | /kr/ko/e/vehicles/monthly-benefit | https://www.hyundai.com/kr/ko/event | ✅ 34건 | 진행중 34건이 **3페이지**(12/12/10). 페이지 번호 버튼을 JS로 클릭해 읽음. 상세 URL은 `/kr/ko/event/event-<slug>`(목록 항목의 가장 가까운 `a` 태그 href, 쿼리 제거). **상세 본문은 텍스트**라 innerText로 읽힘(`모든회원` 다음부터). 할인·시승 핵심 10건(K-세일 페스타, 아반떼 퍼스트 무브, 트레이드인, 싼타페·팰리세이드 무이자, N-FINANCE 할부, EV 부담 DOWN, 전용카드, 트럭/버스, 시승 이벤트 2건)은 상세까지 수집. 나머지 20여 건(N-FINANCE 렌트/리스, EV 렌트/리스, 어드밴티지 프로그램, 제휴 이벤트 등)은 목록만 |
 | 제네시스 | /kr/ko/shopping/monthly-offer.html | https://www.genesis.com/kr/ko/support/genesis-events.html | ✅ 7건 | 텍스트. 상세 `/support/genesis-events/detail/<id>.html`. 6건은 목록만 |
 | 르노코리아 | /ko/buy/tm_purchasing.jsp | https://www.renault.co.kr/ko/inside/salesfesta_list.jsp | ✅ 4건 | 카드 목록(세일 페스타 금융·구매·시승, 티켓 이벤트). 카드를 클릭하면 `/ko/inside/event_view.jsp?t_seq=N`, 본문은 **이미지**. 모델 이벤트는 `/ko/model/<model>_event.jsp`(텍스트). 구매혜택은 '열기' 아코디언 |
 | KGM | /od/promotion/monthly-benefits | 홈 배너 → `/br/news/event/<id>` | ✅ 시승 이벤트 | 이벤트 목록 주소는 못 찾음(홈 배너 클릭으로 진입). 상세는 텍스트. K-세일 페스타(~11/15) 배너도 있음(미수집) |
