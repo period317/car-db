@@ -28,6 +28,13 @@ python -I scripts/check_stale.py
 - 텍스트 DOM으로 읽히면 `javascript_tool`로 `document.body.innerText` 추출(가장 정확). 이미지 페이지(쉐보레 이벤트, MINI 프로모션)는 스크린샷을 스크롤하며 읽는다.
 - 기간 표기(`period_*`, `valid`)를 반드시 옮긴다. 기간이 지난 프로모션은 `STALE`로 표시하고 새 페이지가 올라왔는지 확인한다.
 
+### 2.1 이벤트 목록 페이지도 반드시 연다 (르노에서 시승 이벤트를 놓친 교훈)
+구매혜택 페이지만 읽으면 시승 이벤트·추첨 경품·제휴 프로모션이 빠진다. 브랜드마다 **이벤트 목록 페이지의 진행 중 항목 전부**를 DB와 대조한다.
+- 목록에서 새로 찾은 이벤트는 `data/offers/<브랜드>_*.json` 의 `events_extra` 배열에 `{name, period, text, url, model(없으면 null), conf}` 로 넣는다(`build_db.py` 가 읽음).
+- 목록 수준만 읽었으면 `text` 에 "(상세 미수집)"이라고 쓴다. 시승·할인·경품 이벤트는 상세 페이지까지 읽는다.
+- 시승 이벤트는 `data/testdrive/index.json` 의 `has_event`, `event_name`, `event_benefit`, `event_period`, `event_url` 도 고친다(브랜드당 1건 슬롯, 나머지는 `note`).
+- 이벤트 목록 주소·읽는 요령·확인 현황은 `docs/SITE_GUIDE.md`, 정책과 데이터 규칙은 `docs/COLLECTION_GUIDE.md`, 이어받는 순서는 `docs/HANDOFF.md`. 새로 알게 된 사이트 구조나 함정은 끝나기 전에 `SITE_GUIDE.md`/`LESSONS.md` 에 추가한다.
+
 사이트별 힌트(이전 수집에서 확인):
 | 브랜드 | 위치 | 방식 |
 |---|---|---|

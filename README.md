@@ -1,10 +1,14 @@
 # car-db — 국내 신차 시승·할인·구매정보 DB
 
-기준일: 2026-11-05 (수집 후 갱신 필요). 다른 AI가 읽도록 만든 폴더입니다. **처음 읽는 AI는 이 문서 → `data/unified/manifest.json` → 질문에 맞는 파일 순서로 보세요.**
+기준일: 2026-11-06 (수집 후 갱신 필요). 다른 AI가 읽도록 만든 폴더입니다.
+- **이어서 수집하려는 AI(웹 접속 가능)**: `docs/HANDOFF.md` → `docs/COLLECTION_GUIDE.md` → `docs/SITE_GUIDE.md` → `docs/LESSONS.md` 순서로 읽으세요.
+- **데이터를 읽기만 하는 AI**: 이 문서 → `dist/car_db_for_ai.md`(맨 위에 표 작성 규칙) → 필요하면 `data/unified/benefits.csv`.
 
 ## 한눈에
+- 이 DB의 목적은 **월별 혜택**(할인·이벤트·금융 프로모션·시승 혜택)입니다. 가격은 참고 정보입니다.
 - 대상: 국내 판매 브랜드 37곳(국산 + 수입). 데이터가 있는 곳 35곳, 없는 곳: 타타대우(상용, 미수집), 혼다(자동차 철수 보도).
-- 레코드 213건: benefit(혜택) 117 · price(가격) 52 · finance(금융) 19 · event(이벤트) 9 · status(점검결과) 12 · testdrive(시승) 4
+- 월별 혜택 205건(2026-11 기준), 통합 레코드 273건. 이벤트 목록 전수 확인은 기아·현대·제네시스·르노까지 했고 나머지는 `docs/SITE_GUIDE.md` 의 확인 현황 참고.
+- 각 혜택은 `원문 대조 완료`/`원문 대조 안 됨` 표시가 붙습니다(공식 페이지 원문 `data/evidence/` 와 자동 대조).
 
 ## 파일 구조
 | 경로 | 용도 |
@@ -44,7 +48,7 @@
 
 ## 자동 갱신 · 다른 PC 동기화
 - 저장소: https://github.com/period317/car-db (공개)
-- **수집 PC(Claude)**: 예약 작업 `car-db-weekly-refresh`가 매주 월요일 오전 9시경 `docs/REFRESH_PLAYBOOK.md`대로 공식 사이트를 다시 읽고 `scripts/update_all.ps1`로 커밋·푸시. (PC가 켜져 있고 Claude 앱이 실행 중이어야 함. 꺼져 있으면 다음 실행 때 수행)
+- **수집 PC(Claude)**: 예약 작업 `car-db-weekly-refresh`가 매주 일요일 오전 10시경 `docs/REFRESH_PLAYBOOK.md`대로 공식 사이트를 다시 읽고 `scripts/update_all.ps1`로 커밋·푸시. (PC가 켜져 있고 Claude 앱이 실행 중이어야 함. 꺼져 있으면 다음 실행 때 수행)
 - **다른 PC(자동 내려받기)**
   - git 있는 PC: 한 번만 실행 → 이후 매일 자동 `git pull`
     `powershell -ExecutionPolicy Bypass -File setup_other_pc.ps1 -RepoUrl https://github.com/period317/car-db.git -Target C:\car-db -Time 09:00` (저장소의 `sync/` 폴더 파일)
