@@ -86,14 +86,14 @@
     "apply_url": "https://www.mini.co.kr/ko_KR/home/ecrm/test-drive.html",
     "models": null,
     "policy": "정책 미수집",
-    "has_event": false,
-    "event_name": null,
-    "event_benefit": null,
+    "has_event": true,
+    "event_name": "MINI BEV MEMBERSHIP",
+    "event_benefit": "신차 구매 고객 대상 MINI 전기차 1주일 시승 1회 제공(충전비·보험료 무료, 본인부담금 최대 100만원). 운전자 만 26세 이상, 타인 양도 불가, 시승 모델 ALL-ELECTRIC MINI COOPER, 밴티지 앱으로 예약",
     "event_period": null,
-    "event_url": null,
-    "event_detail_collected": null,
-    "detail_level": "url_only",
-    "note": null
+    "event_url": "https://www.mini.co.kr/ko_KR/home/BEV_Membership.html",
+    "event_detail_collected": true,
+    "detail_level": "event_collected",
+    "note": "상시 프로그램(기간 미표기). 2026-11 진행 중인 별도 시승 이벤트는 검색·사이트에서 확인되지 않음"
   },
   {
     "brand_id": "renault",
@@ -269,7 +269,7 @@
     "event_url": null,
     "event_detail_collected": null,
     "detail_level": "url_only",
-    "note": null
+    "note": "2026 가을 전국 시승회(응모 2026-10-06~10-31, 시승 ~11-03, 결과 발표 11-10: 54명 추첨 경품)는 응모 기간이 끝남. 11월 시승회 페이지는 확인되지 않음. 월별 혜택 표에는 만료 이벤트로 기록 https://www.lexus.co.kr/2026-oct-test-drive/"
   },
   {
     "brand_id": "ford",

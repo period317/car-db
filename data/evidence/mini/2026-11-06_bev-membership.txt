@@ -1,0 +1,13 @@
+# url: https://www.mini.co.kr/ko_KR/home/BEV_Membership.html
+# captured: 2026-11-06T07:15:00
+# method: Chrome javascript_tool document.body.innerText (main 본문 발췌, 가공 없음. 예약 가이드 뒷부분은 출력 한도로 생략)
+---
+MINI BEV MEMBERSHIP. 더 짜릿해진 MINI를 만나다.
+MINI BEV MEMBERSHIP은 MINI 전기차를 보다 깊이 있게 경험할 수 있는 장기 시승 프로그램 입니다. 단순한 시승을 넘어, 일주일 동안 내차처럼 운행하며 MINI 전기차의 성능과 기술을 직접 경험할 수 있습니다.
+혜택 안내.
+- 1주일 간 MINI BEV 시승차 1회 제공
+- 신차 구매 고객에게 제공하는 혜택으로, 타인 양도 불가
+- 운전자 나이 기준 : 만 26세 이상
+- 충전비 무료, 보험료 무료 (본인부담금 최대 100만원)
+시승 모델 라인업. ALL-ELECTRIC MINI COOPER.
+MINI BEV MEMBERSHIP 예약 가이드. STEP 1. MINI BEV MEMBERSHIP은 밴티지 앱을 통해 예약하실 수 있습니다.
