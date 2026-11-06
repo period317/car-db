@@ -96,8 +96,14 @@
    "apply_url": "https://www.bmw.co.kr/ko/fastlane/tda-experience.html",
    "models": null,
    "policy": "정책 미수집",
-   "has_event": false,
-   "detail_level": "url_only"
+   "has_event": true,
+   "event_name": "BMW BEV MEMBERSHIP",
+   "event_benefit": "신차 구매 고객 대상 BMW 전기차 1주일 시승(충전비·통행료·보험료 무료, 본인부담금 최대 100만원). 운전자 만 26세 이상, 타인 양도 불가. 시승 라인업에 i5 eDrive40, i4 eDrive40 그란 쿠페 등",
+   "event_period": null,
+   "event_url": "https://www.bmw.co.kr/ko/discover/bmw-bev-membership.html",
+   "event_detail_collected": true,
+   "note": "상시 프로그램(기간 미표기). 2026 BMW 네이버 특별 프로모션 페이지는 '캠페인 운영기간이 아닙니다', M FEST 2026은 2026-04-25~26 종료",
+   "detail_level": "event_collected"
   },
   {
    "brand_id": "mini",

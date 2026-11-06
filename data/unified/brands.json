@@ -156,7 +156,8 @@
     "status": null,
     "note": null,
     "collected_categories": [
-      "benefit"
+      "benefit",
+      "event"
     ],
     "has_data": true
   },
@@ -218,6 +219,7 @@
     "status": null,
     "note": null,
     "collected_categories": [
+      "event",
       "finance"
     ],
     "has_data": true
