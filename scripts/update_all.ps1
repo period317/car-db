@@ -41,4 +41,8 @@ if (-not $NoPush) {
     gh gist edit $gist -f car_db_for_ai.md dist/car_db_for_ai.md | Out-Host
     gh gist edit $gist -f testdrive.json data/unified/testdrive.json | Out-Host
     gh gist edit $gist -f offers.jsonl data/unified/offers.jsonl | Out-Host
+    # 수집 가이드 문서도 gist에 별도 파일로 올린다(car_db_for_ai.md 부록에도 같은 내용이 들어 있음)
+    foreach ($doc in @("COLLECTION_GUIDE", "SITE_GUIDE", "HANDOFF", "LESSONS")) {
+        gh gist edit $gist -f "$doc.md" "docs/$doc.md" | Out-Host
+    }
 }

@@ -16,6 +16,7 @@
 - 회사 AI에게는 **링크 하나**만 준다(여러 개 주면 헷갈려 한다).
   `https://gist.githubusercontent.com/period317/aeef56510f90aceae6561d65f9a81335/raw/car_db_for_ai.md`
   (secret gist, 같은 주소 유지. `gh gist edit aeef56510f90aceae6561d65f9a81335 -f car_db_for_ai.md dist/car_db_for_ai.md` 로 갱신. raw 주소는 CDN 캐시로 몇 분 늦게 바뀜)
+- 이 링크의 파일 **맨 끝 '부록'에 수집 가이드(COLLECTION_GUIDE, SITE_GUIDE, HANDOFF, LESSONS)가 그대로 들어 있어** 링크 하나로 수집 방법·정책·검증 방식까지 볼 수 있다. 같은 문서가 gist 에 별도 파일(`COLLECTION_GUIDE.md` 등)로도 올라간다. (`scripts/export_bundle.py` 가 부록을 붙이고 `scripts/update_all.ps1` 이 gist 에 올린다. 문서를 고치면 다음 갱신 때 자동 반영)
 - 저장소: https://github.com/period317/car-db (공개). 갱신은 `scripts/update_all.ps1` 이 커밋·푸시·gist 갱신까지 한다.
 - 자동 갱신: Claude 예약 작업 `car-db-weekly-refresh`(표시명 "신차 DB 주간 갱신"), 매주 **일요일 10시경**. 사용자 PC와 Claude 데스크톱 앱이 켜져 있어야 한다(모바일 앱은 해당 없음).
 

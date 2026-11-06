@@ -27,7 +27,8 @@ order = {"price": 0, "benefit": 1, "finance": 2, "event": 3, "testdrive": 4, "st
 L = []
 L.append("# 국내 신차 시승·할인·구매정보 DB (오프라인 단일 파일)\n")
 L.append(f"- 기준일: 2026-11-05 수집 / 생성 {datetime.date.today().isoformat()} / 레코드 {len(recs)}건 / 브랜드 {len(brands)}곳")
-L.append("- 출처: 각 브랜드 공식 홈페이지·공식 금융사 (수집 당시 화면). 인터넷 없이 이 파일만으로 답하세요.\n")
+L.append("- 출처: 각 브랜드 공식 홈페이지·공식 금융사 (수집 당시 화면). 인터넷 없이 이 파일만으로 답하세요.")
+L.append("- **데이터 수집 방법·정책·사이트 가이드·검증 방식은 이 파일 맨 끝 '부록: 데이터 수집 가이드'에 있습니다.**\n")
 L.append("## AI 사용 지침")
 L.append("1. 답할 때 **브랜드·모델·수치·기간**을 이 파일에서 그대로 인용하고, 없으면 '이 DB에 없음'이라고 말하세요. 추측 금지.")
 L.append("2. 금액 단위: 만원(표기 그대로). 최대혜택은 조건 합산치(제휴금융 이용 등)이므로 개인 조건에 그대로 적용하지 말 것.")
@@ -173,6 +174,22 @@ for bid, rs in by.items():
             L.append(f"  - 비고: {r['note']}")
         if r["source_url"]:
             L.append(f"  - 출처: {r['source_url']}")
+
+# 부록: 수집 방법·정책·사이트 가이드 (웹 접속이 안 되는 AI도 읽을 수 있게 같은 파일에 싣는다)
+APPX = [("COLLECTION_GUIDE.md", "수집 가이드 — 정책, 데이터 규칙, 검증"),
+        ("SITE_GUIDE.md", "사이트 가이드 — 브랜드별 주소·읽는 방법·확인 현황"),
+        ("HANDOFF.md", "인수인계 — 목적, 파일 지도, 이어서 작업하는 법, 남은 일"),
+        ("LESSONS.md", "작업하며 얻은 지식 — 사용자 선호, 실수와 교훈, 도구 함정")]
+L.append("\n---\n")
+L.append("# 부록: 데이터 수집 가이드 (이 DB를 어떻게 모으고 검증했는지)")
+L.append("- 아래는 저장소 `docs/` 문서를 그대로 옮긴 것입니다. 혜택이 어디서 왔는지, 어떤 규칙으로 정리했는지, 어떻게 검증했는지 물으면 이 부록으로 답하세요.\n")
+for fn_, title_ in APPX:
+    p_ = os.path.join(ROOT, "docs", fn_)
+    if not os.path.exists(p_):
+        continue
+    L.append(f"\n## 부록 · {title_}\n")
+    for ln in open(p_, encoding="utf-8").read().splitlines():
+        L.append(("##" + ln) if ln.startswith("#") else ln)
 
 md = os.path.join(DIST, "car_db_for_ai.md")
 open(md, "w", encoding="utf-8").write("\n".join(L) + "\n")
