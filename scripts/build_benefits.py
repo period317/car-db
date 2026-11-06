@@ -311,10 +311,25 @@ for x in rows:
     parse_discount(x)
 
 # 대상 월(수집한 달)과 기간이 겹치지 않는 항목(기간 만료 / 시작 전)은 월별 혜택 표에서 뺀다. 지우지 않고 benefits_excluded.* 에 이유와 함께 보관한다.
-excluded = [x for x in rows if x["period_status"] in ("기간 만료", "시작 전")]
-rows = [x for x in rows if x["period_status"] not in ("기간 만료", "시작 전")]
-for x in excluded:
-    x["exclude_reason"] = f"대상 월({x['ym']})과 기간이 겹치지 않음: {x['period_status']} ({x.get('period_start') or '?'}~{x.get('period_end') or '?'})"
+scope_path = os.path.join(ROOT, "data", "scope_exclude.json")
+SCOPE = json.load(open(scope_path, encoding="utf-8")).get("rules", []) if os.path.exists(scope_path) else []
+def scope_reason(x):
+    for r_ in SCOPE:
+        if r_["brand_id"] == x["brand_id"] and r_["name_contains"] in (x.get("event_name") or x.get("title") or ""):
+            return "범위 밖(11월 구매 혜택이 아님): " + r_["reason"]
+    return None
+excluded = []
+kept = []
+for x in rows:
+    why = scope_reason(x)
+    if why is None and x["period_status"] in ("기간 만료", "시작 전"):
+        why = f"대상 월({x['ym']})과 기간이 겹치지 않음: {x['period_status']} ({x.get('period_start') or '?'}~{x.get('period_end') or '?'})"
+    if why:
+        x["exclude_reason"] = why
+        excluded.append(x)
+    else:
+        kept.append(x)
+rows = kept
 
 rows.sort(key=lambda x: (x["brand_ko"] or "", x["model"] or "", x["title"] or ""))
 for i, x in enumerate(rows, 1):

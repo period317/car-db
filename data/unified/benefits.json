@@ -471,72 +471,6 @@
   "sub_model": null,
   "model_year": null,
   "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "기아 비즈 법인 무료 체험 이벤트",
-  "types": "이벤트",
-  "title": "기아 비즈 법인 무료 체험 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "목록 제목만 확인 (상세 미수집)",
-  "period_start": "2026-07-01",
-  "period_end": "2026-12-31",
-  "link": "https://www.kia.com/kr/event/list",
-  "confidence": "medium",
-  "source_record_id": 205,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/kia/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 16,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "kia",
-  "brand_ko": "기아",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "기아 인증중고차 11월 혜택 모아보기",
-  "types": "이벤트",
-  "title": "기아 인증중고차 11월 혜택 모아보기",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "목록 제목만 확인 (상세 미수집)",
-  "period_start": "2026-11-01",
-  "period_end": "2026-11-30",
-  "link": "https://www.kia.com/kr/event/list",
-  "confidence": "medium",
-  "source_record_id": 199,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/kia/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 17,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "kia",
-  "brand_ko": "기아",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
   "event_name": "기아 전용카드 11월 신차 구매 혜택",
   "types": "이벤트,할인,금융",
   "title": "기아 전용카드 11월 신차 구매 혜택",
@@ -561,7 +495,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 18,
+  "id": 16,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -594,40 +528,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 19,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "kia",
-  "brand_ko": "기아",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "더드림 페스티벌 이벤트",
-  "types": "이벤트,할인",
-  "title": "더드림 페스티벌 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "기아 고객 대상 제휴 용품 할인 이벤트: 아이나비 블랙박스 FXD9900 249,000원→99,000원, QXD9900mini 309,000원→169,000원, VX5000 259,000원→139,000원",
-  "conditions": "구매: 아이나비몰 mall.inavi.com/kiaevent 접속 후 가입정보(계약번호/고객명) 기입, 본인 구매; 기간 2026-01-13~12-31",
-  "reward": null,
-  "detail": "기아 고객 대상 제휴 용품 할인 이벤트: 아이나비 블랙박스 FXD9900 249,000원→99,000원, QXD9900mini 309,000원→169,000원, VX5000 259,000원→139,000원 / 구매: 아이나비몰 mall.inavi.com/kiaevent 접속 후 가입정보(계약번호/고객명) 기입, 본인 구매 / 기간 2026-01-13~12-31",
-  "period_start": "2026-01-13",
-  "period_end": "2026-12-31",
-  "link": "https://www.kia.com/kr/event/detail?eventId=399",
-  "confidence": "medium",
-  "source_record_id": 207,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/kia/2026-11-06_dream-festival.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 20,
+  "id": 17,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -660,7 +561,7 @@
   "evidence_date": null
  },
  {
-  "id": 21,
+  "id": 18,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -693,7 +594,7 @@
   "evidence_date": null
  },
  {
-  "id": 22,
+  "id": 19,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -726,7 +627,7 @@
   "evidence_date": null
  },
  {
-  "id": 23,
+  "id": 20,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -759,7 +660,7 @@
   "evidence_date": null
  },
  {
-  "id": 24,
+  "id": 21,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -792,7 +693,7 @@
   "evidence_date": null
  },
  {
-  "id": 25,
+  "id": 22,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -825,7 +726,7 @@
   "evidence_date": null
  },
  {
-  "id": 26,
+  "id": 23,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -858,7 +759,7 @@
   "evidence_date": null
  },
  {
-  "id": 27,
+  "id": 24,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -891,7 +792,7 @@
   "evidence_date": null
  },
  {
-  "id": 28,
+  "id": 25,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -924,7 +825,7 @@
   "evidence_date": null
  },
  {
-  "id": 29,
+  "id": 26,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -957,7 +858,7 @@
   "evidence_date": null
  },
  {
-  "id": 30,
+  "id": 27,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -990,7 +891,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 31,
+  "id": 28,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1023,7 +924,7 @@
   "evidence_date": null
  },
  {
-  "id": 32,
+  "id": 29,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1056,7 +957,7 @@
   "evidence_date": null
  },
  {
-  "id": 33,
+  "id": 30,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1089,7 +990,7 @@
   "evidence_date": null
  },
  {
-  "id": 34,
+  "id": 31,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1122,7 +1023,7 @@
   "evidence_date": null
  },
  {
-  "id": 35,
+  "id": 32,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1155,7 +1056,7 @@
   "evidence_date": null
  },
  {
-  "id": 36,
+  "id": 33,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1188,7 +1089,7 @@
   "evidence_date": null
  },
  {
-  "id": 37,
+  "id": 34,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1221,7 +1122,7 @@
   "evidence_date": null
  },
  {
-  "id": 38,
+  "id": 35,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1254,7 +1155,7 @@
   "evidence_date": null
  },
  {
-  "id": 39,
+  "id": 36,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1287,7 +1188,7 @@
   "evidence_date": null
  },
  {
-  "id": 40,
+  "id": 37,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1320,7 +1221,7 @@
   "evidence_date": null
  },
  {
-  "id": 41,
+  "id": 38,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1353,7 +1254,7 @@
   "evidence_date": null
  },
  {
-  "id": 42,
+  "id": 39,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1386,40 +1287,7 @@
   "evidence_date": null
  },
  {
-  "id": 43,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "kia",
-  "brand_ko": "기아",
-  "model": "카니발",
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "「The new Carnival」 보증연장 서비스 할인 프로모션",
-  "types": "이벤트,할인,보증·서비스",
-  "title": "「The new Carnival」 보증연장 서비스 할인 프로모션",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "목록 제목만 확인 (상세 미수집)",
-  "period_start": "2026-10-15",
-  "period_end": "2026-12-31",
-  "link": "https://www.kia.com/kr/event/list",
-  "confidence": "medium",
-  "source_record_id": 203,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/kia/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 44,
+  "id": 40,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1452,7 +1320,7 @@
   "evidence_date": null
  },
  {
-  "id": 45,
+  "id": 41,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1485,7 +1353,7 @@
   "evidence_date": null
  },
  {
-  "id": 46,
+  "id": 42,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1518,7 +1386,7 @@
   "evidence_date": null
  },
  {
-  "id": 47,
+  "id": 43,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -1551,7 +1419,7 @@
   "evidence_date": null
  },
  {
-  "id": 48,
+  "id": 44,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -1584,7 +1452,7 @@
   "evidence_date": null
  },
  {
-  "id": 49,
+  "id": 45,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1617,7 +1485,7 @@
   "evidence_date": null
  },
  {
-  "id": 50,
+  "id": 46,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1650,7 +1518,7 @@
   "evidence_date": null
  },
  {
-  "id": 51,
+  "id": 47,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1683,7 +1551,7 @@
   "evidence_date": null
  },
  {
-  "id": 52,
+  "id": 48,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1716,7 +1584,7 @@
   "evidence_date": null
  },
  {
-  "id": 53,
+  "id": 49,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1749,7 +1617,7 @@
   "evidence_date": null
  },
  {
-  "id": 54,
+  "id": 50,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1782,7 +1650,7 @@
   "evidence_date": null
  },
  {
-  "id": 55,
+  "id": 51,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1815,7 +1683,7 @@
   "evidence_date": null
  },
  {
-  "id": 56,
+  "id": 52,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -1848,7 +1716,7 @@
   "evidence_date": null
  },
  {
-  "id": 57,
+  "id": 53,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -1881,7 +1749,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 58,
+  "id": 54,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -1914,7 +1782,7 @@
   "evidence_date": null
  },
  {
-  "id": 59,
+  "id": 55,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -1947,7 +1815,7 @@
   "evidence_date": null
  },
  {
-  "id": 60,
+  "id": 56,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -1980,7 +1848,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 61,
+  "id": 57,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2013,7 +1881,7 @@
   "evidence_date": null
  },
  {
-  "id": 62,
+  "id": 58,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "mercedes",
@@ -2046,73 +1914,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 63,
-  "ym": "2026-11",
-  "period_status": "기간 미표기",
-  "brand_id": "mercedes",
-  "brand_ko": "메르세데스-벤츠",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "Mercedes-Benz Circle 멤버십 가입 이벤트",
-  "types": "시승혜택",
-  "title": "Mercedes-Benz Circle 멤버십 가입 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": "대상: 2026년 9월부터 12월까지 카카오 메시지를 받은 고객이 Mercedes-Benz Circle 멤버십에 가입(승인 완료 상태)하면 Mercedes-Benz Collection 경품 이벤트에 자동 응모; 추첨 경품: 메르세데스-벤츠 미니 트래블 백 600명 또는 쇼퍼백 500명(색상 선택 불가)",
-  "detail": "대상: 2026년 9월부터 12월까지 카카오 메시지를 받은 고객이 Mercedes-Benz Circle 멤버십에 가입(승인 완료 상태)하면 Mercedes-Benz Collection 경품 이벤트에 자동 응모 / 추첨 경품: 메르세데스-벤츠 미니 트래블 백 600명 또는 쇼퍼백 500명(색상 선택 불가) / 당첨자는 이벤트 종료 후 개별 안내 / 멤버십에는 제휴 혜택, 멤버십 시승 행사, 브랜드 이벤트 초청이 포함",
-  "period_start": null,
-  "period_end": null,
-  "link": "https://www.mercedes-benz.co.kr/passengercars/campaigns/mercedes-benz-circle.html",
-  "confidence": "high",
-  "source_record_id": 230,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/mercedes/2026-11-06_benz-circle.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 64,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "mercedes",
-  "brand_ko": "메르세데스-벤츠",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "The all-new electric CLA 전시 팝업 및 사전 예약",
-  "types": "이벤트",
-  "title": "The all-new electric CLA 전시 팝업 및 사전 예약",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "The all-new electric CLA 전시 팝업: 2026-10-23~11-17, 메르세데스-벤츠 스튜디오 서울(서울 성동구 연무장길 73), 오전 11시~오후 8시, 매주 월요일 휴관 / 온라인 사전 예약·상담 접수, 시작가 52,900,000원~(참고)",
-  "period_start": "2026-10-23",
-  "period_end": "2026-11-17",
-  "link": "https://www.mercedes-benz.co.kr/passengercars/campaigns/cla-pre-order-campaign.html",
-  "confidence": "high",
-  "source_record_id": 229,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/mercedes/2026-11-06_cla-pre-order.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 65,
+  "id": 59,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2145,7 +1947,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 66,
+  "id": 60,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2178,7 +1980,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 67,
+  "id": 61,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2211,7 +2013,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 68,
+  "id": 62,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2244,7 +2046,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 69,
+  "id": 63,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2277,7 +2079,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 70,
+  "id": 64,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2310,7 +2112,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 71,
+  "id": 65,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2343,7 +2145,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 72,
+  "id": 66,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2376,7 +2178,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 73,
+  "id": 67,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2409,7 +2211,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 74,
+  "id": 68,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -2442,7 +2244,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 75,
+  "id": 69,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -2469,13 +2271,13 @@
   "confidence": "medium",
   "source_record_id": 231,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
+  "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
+  "evidence_files": "data/evidence/mini/2026-11-06_finance-promotion.txt",
+  "evidence_date": "2026-11-06"
  },
  {
-  "id": 76,
+  "id": 70,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -2504,11 +2306,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/mini/2026-11-06_bev-membership.txt",
+  "evidence_files": "data/evidence/mini/2026-11-06_finance-promotion.txt",
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 77,
+  "id": 71,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2541,7 +2343,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 78,
+  "id": 72,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volvo",
@@ -2574,7 +2376,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 79,
+  "id": 73,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2607,7 +2409,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 80,
+  "id": 74,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2640,7 +2442,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 81,
+  "id": 75,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2673,7 +2475,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 82,
+  "id": 76,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2706,7 +2508,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 83,
+  "id": 77,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2739,7 +2541,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 84,
+  "id": 78,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2772,7 +2574,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 85,
+  "id": 79,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2805,7 +2607,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 86,
+  "id": 80,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2838,7 +2640,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 87,
+  "id": 81,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -2871,40 +2673,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 88,
-  "ym": "2026-11",
-  "period_status": "기간 미표기",
-  "brand_id": "chevrolet",
-  "brand_ko": "쉐보레",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "쉐보레와 함께하는 겨울준비",
-  "types": "이벤트",
-  "title": "쉐보레와 함께하는 겨울준비",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "기간 미표기",
-  "reward": "점검 후 현장 QR 응모 시 스탠리 텀블러 추첨 증정",
-  "detail": "전국 쉐보레 서비스 네트워크에서 무상점검 / 점검 후 현장 QR 응모 시 스탠리 텀블러 추첨 증정 / 기간 미표기",
-  "period_start": null,
-  "period_end": null,
-  "link": "https://www.chevrolet.co.kr/",
-  "confidence": "medium",
-  "source_record_id": 41,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/chevrolet/2026-11-06_home.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 89,
+  "id": 82,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "chevrolet",
@@ -2937,7 +2706,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 90,
+  "id": 83,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -2970,7 +2739,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 91,
+  "id": 84,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -3003,7 +2772,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 92,
+  "id": 85,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3036,7 +2805,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 93,
+  "id": 86,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3069,7 +2838,7 @@
   "evidence_date": null
  },
  {
-  "id": 94,
+  "id": 87,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3102,7 +2871,7 @@
   "evidence_date": null
  },
  {
-  "id": 95,
+  "id": 88,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3135,7 +2904,7 @@
   "evidence_date": null
  },
  {
-  "id": 96,
+  "id": 89,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3168,7 +2937,7 @@
   "evidence_date": null
  },
  {
-  "id": 97,
+  "id": 90,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3201,7 +2970,7 @@
   "evidence_date": null
  },
  {
-  "id": 98,
+  "id": 91,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3234,7 +3003,7 @@
   "evidence_date": null
  },
  {
-  "id": 99,
+  "id": 92,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3267,7 +3036,7 @@
   "evidence_date": null
  },
  {
-  "id": 100,
+  "id": 93,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3300,7 +3069,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 101,
+  "id": 94,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3333,40 +3102,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 102,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "genesis",
-  "brand_ko": "제네시스",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "제네시스 타이어 안심 교체 서비스",
-  "types": "이벤트",
-  "title": "제네시스 타이어 안심 교체 서비스",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "제네시스 차종별 오리지널 타이어를 공식 가격 대비 평균 15% 낮은 가격으로 제공(직전년도 이후 생산 타이어만)",
-  "conditions": "서비스 런칭 2주년, 이용 고객 765명 만족도 98점; 기간 2026-09-07~11-30",
-  "reward": null,
-  "detail": "제네시스 차종별 오리지널 타이어를 공식 가격 대비 평균 15% 낮은 가격으로 제공(직전년도 이후 생산 타이어만) / 무료 픽업·딜리버리, 3D 휠 얼라인먼트·휠 밸런스 함께 제공 / 서비스 런칭 2주년, 이용 고객 765명 만족도 98점 / 기간 2026-09-07~11-30",
-  "period_start": "2026-09-07",
-  "period_end": "2026-11-30",
-  "link": "https://www.genesis.com/kr/ko/support/genesis-events/detail/0618.html",
-  "confidence": "high",
-  "source_record_id": 51,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_tire.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 103,
+  "id": 95,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3399,73 +3135,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 104,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "genesis",
-  "brand_ko": "제네시스",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "제네시스 현대카드 the Honors 회원 대상 이벤트",
-  "types": "이벤트",
-  "title": "제네시스 현대카드 the Honors 회원 대상 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 제네시스 현대카드 the Honors 보유 본인 회원; 기간 2026-09-30~12-31, 예약 문의 02-2230-5627",
-  "reward": null,
-  "detail": "대상: 제네시스 현대카드 the Honors 보유 본인 회원 / 혜택: 서울신라호텔 5층 제네시스 라운지 이용(ACCESS), 차와 다과 서비스 무상 월 1회(동반인 2인까지), 다이닝 코스는 유상 / 기간 2026-09-30~12-31, 예약 문의 02-2230-5627",
-  "period_start": "2026-09-30",
-  "period_end": "2026-12-31",
-  "link": "https://www.genesis.com/kr/ko/support/genesis-events/detail/0620.html",
-  "confidence": "high",
-  "source_record_id": 50,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_honors.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 105,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "genesis",
-  "brand_ko": "제네시스",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "해비치 호텔&리조트 제주 Honors G 라운지 프로모션",
-  "types": "이벤트",
-  "title": "해비치 호텔&리조트 제주 Honors G 라운지 프로모션",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: G90(Long Wheel Base, Black 포함) 보유 제네시스 멤버십 회원, 또는 G80·GV80·Electrified G80 보유 고객 중 해비치 호텔 멤버십 신청 후 투숙하는 멤버십 회원; 기간 2025-09-15~2026-12-31",
-  "reward": null,
-  "detail": "대상: G90(Long Wheel Base, Black 포함) 보유 제네시스 멤버십 회원, 또는 G80·GV80·Electrified G80 보유 고객 중 해비치 호텔 멤버십 신청 후 투숙하는 멤버십 회원 / 혜택: 해비치 호텔&리조트 제주 Honors G 라운지 2인 이용권(G90 회원은 비숙박 시에도 월 1회) / 기간 2025-09-15~2026-12-31",
-  "period_start": "2025-09-15",
-  "period_end": "2026-12-31",
-  "link": "https://www.genesis.com/kr/ko/support/genesis-events/detail/0590.html",
-  "confidence": "high",
-  "source_record_id": 54,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_haevichi.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 106,
+  "id": 96,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3498,7 +3168,7 @@
   "evidence_date": null
  },
  {
-  "id": 107,
+  "id": 97,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3531,7 +3201,7 @@
   "evidence_date": null
  },
  {
-  "id": 108,
+  "id": 98,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3564,7 +3234,7 @@
   "evidence_date": null
  },
  {
-  "id": 109,
+  "id": 99,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -3597,7 +3267,7 @@
   "evidence_date": null
  },
  {
-  "id": 110,
+  "id": 100,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -3630,7 +3300,7 @@
   "evidence_date": null
  },
  {
-  "id": 111,
+  "id": 101,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -3663,7 +3333,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 112,
+  "id": 102,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -3696,7 +3366,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 113,
+  "id": 103,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "toyota",
@@ -3729,7 +3399,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 114,
+  "id": 104,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -3762,7 +3432,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 115,
+  "id": 105,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -3795,7 +3465,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 116,
+  "id": 106,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -3828,7 +3498,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 117,
+  "id": 107,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -3861,7 +3531,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 118,
+  "id": 108,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -3894,7 +3564,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 119,
+  "id": 109,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -3927,7 +3597,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 120,
+  "id": 110,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -3960,7 +3630,7 @@
   "evidence_date": null
  },
  {
-  "id": 121,
+  "id": 111,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volkswagen",
@@ -3993,7 +3663,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 122,
+  "id": 112,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4026,7 +3696,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 123,
+  "id": 113,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4059,7 +3729,7 @@
   "evidence_date": null
  },
  {
-  "id": 124,
+  "id": 114,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4092,7 +3762,7 @@
   "evidence_date": null
  },
  {
-  "id": 125,
+  "id": 115,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4125,7 +3795,7 @@
   "evidence_date": null
  },
  {
-  "id": 126,
+  "id": 116,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4158,7 +3828,7 @@
   "evidence_date": null
  },
  {
-  "id": 127,
+  "id": 117,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4191,7 +3861,7 @@
   "evidence_date": null
  },
  {
-  "id": 128,
+  "id": 118,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4224,7 +3894,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 129,
+  "id": 119,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4257,40 +3927,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 130,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "KB손해보험 다이렉트 자동차보험 가입하고 주유권 받아가세요.",
-  "types": "이벤트",
-  "title": "KB손해보험 다이렉트 자동차보험 가입하고 주유권 받아가세요.",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원",
-  "reward": "블루멤버스 회원이라면 KB손해보험 다이렉트 자동차보험 가입 시 주유권 증정",
-  "detail": "대상: 모든회원 / 블루멤버스 회원이라면 KB손해보험 다이렉트 자동차보험 가입 시 주유권 증정",
-  "period_start": "2026-01-01",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 123,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 131,
+  "id": 120,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4323,7 +3960,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 132,
+  "id": 121,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4356,7 +3993,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 133,
+  "id": 122,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4389,40 +4026,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 134,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "The Empowered TUCSON 웹사이트 오픈",
-  "types": "이벤트",
-  "title": "The Empowered TUCSON 웹사이트 오픈",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원",
-  "reward": null,
-  "detail": "대상: 모든회원 / TUCSON 웹사이트 오픈 이벤트 (상세 미수집)",
-  "period_start": "2026-10-21",
-  "period_end": "2026-11-20",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 110,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 135,
+  "id": 123,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4455,7 +4059,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 136,
+  "id": 124,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4488,139 +4092,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 137,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "더현대트래블 여행 할인쿠폰",
-  "types": "이벤트,할인",
-  "title": "더현대트래블 여행 할인쿠폰",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "2026-06-05 ~ 2026-12-31",
-  "period_start": "2026-06-05",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "high",
-  "source_record_id": 94,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 138,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "드라이빙라운지 X 다이치 안전 캠페인",
-  "types": "이벤트",
-  "title": "드라이빙라운지 X 다이치 안전 캠페인",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 모든회원 (상세 미수집)",
-  "period_start": "2025-12-08",
-  "period_end": "2026-12-07",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 124,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 139,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "부산엑스더스카이 신규 런칭 기념 이벤트",
-  "types": "이벤트",
-  "title": "부산엑스더스카이 신규 런칭 기념 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 블루멤버스 회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 블루멤버스 회원 (상세 미수집)",
-  "period_start": "2026-10-19",
-  "period_end": "2026-11-30",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 112,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 140,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "블루링크 스토어 X 현대해상 제휴 프로모션",
-  "types": "이벤트",
-  "title": "블루링크 스토어 X 현대해상 제휴 프로모션",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 차량구매회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 차량구매회원 (상세 미수집)",
-  "period_start": "2026-04-06",
-  "period_end": "2027-03-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 120,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 141,
+  "id": 125,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4653,7 +4125,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 142,
+  "id": 126,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4686,40 +4158,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 143,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "채비 충전 제휴 상품",
-  "types": "이벤트",
-  "title": "채비 충전 제휴 상품",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": null,
-  "detail": "2026-05-08 ~ 2026-12-31",
-  "period_start": "2026-05-08",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "high",
-  "source_record_id": 95,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 144,
+  "id": 127,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4752,73 +4191,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 145,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "파킹프렌즈 신규 런칭 기념 이벤트",
-  "types": "이벤트",
-  "title": "파킹프렌즈 신규 런칭 기념 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 블루멤버스 회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 블루멤버스 회원 (상세 미수집)",
-  "period_start": "2026-10-19",
-  "period_end": "2026-11-30",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 111,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 146,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "한화손보 캐롯 전기차 긴급 출동 충전 특약 런칭",
-  "types": "이벤트",
-  "title": "한화손보 캐롯 전기차 긴급 출동 충전 특약 런칭",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 차량구매회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 차량구매회원 (상세 미수집)",
-  "period_start": "2026-05-25",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 119,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 147,
+  "id": 128,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4851,7 +4224,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 148,
+  "id": 129,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4884,106 +4257,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 149,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "현대 EV, 넥쏘 오너 대상 현대백화점 우수고객 혜택 제공 이벤트",
-  "types": "이벤트",
-  "title": "현대 EV, 넥쏘 오너 대상 현대백화점 우수고객 혜택 제공 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 차량구매회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 차량구매회원 (상세 미수집)",
-  "period_start": "2026-01-19",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 121,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 150,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "현대 제네시스 셀렉션 앱 리뷰 작성 이벤트",
-  "types": "이벤트",
-  "title": "현대 제네시스 셀렉션 앱 리뷰 작성 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원",
-  "reward": "앱 리뷰 작성만 해도 무료 커피 쿠폰 증정",
-  "detail": "대상: 모든회원 / 앱 리뷰 작성만 해도 무료 커피 쿠폰 증정",
-  "period_start": "2026-10-01",
-  "period_end": "2026-11-30",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 114,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 151,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "현대 제네시스 셀렉션 친구초대 이벤트",
-  "types": "이벤트,할인",
-  "title": "현대 제네시스 셀렉션 친구초대 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원",
-  "reward": "구독 할인 쿠폰과 배달의 민족 상품권 기회",
-  "detail": "대상: 모든회원 / 구독 할인 쿠폰과 배달의 민족 상품권 기회",
-  "period_start": "2026-07-27",
-  "period_end": "2026-12-10",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 117,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 152,
+  "id": 130,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5016,7 +4290,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 153,
+  "id": 131,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5049,7 +4323,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 154,
+  "id": 132,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5082,7 +4356,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 155,
+  "id": 133,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5115,73 +4389,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 156,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "현대차증권 X 현대자동차 제휴 프로모션 출시 이벤트",
-  "types": "이벤트",
-  "title": "현대차증권 X 현대자동차 제휴 프로모션 출시 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 모든회원 (상세 미수집)",
-  "period_start": "2026-07-10",
-  "period_end": "2026-12-11",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 118,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 157,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "홈충전기 구독 서비스, 마이홈차저",
-  "types": "이벤트",
-  "title": "홈충전기 구독 서비스, 마이홈차저",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 차량구매회원 (상세 미수집)",
-  "reward": null,
-  "detail": "대상: 차량구매회원 (상세 미수집)",
-  "period_start": "2026-09-30",
-  "period_end": "2026-12-31",
-  "link": "https://www.hyundai.com/kr/ko/event",
-  "confidence": "medium",
-  "source_record_id": 115,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_event-list.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 158,
+  "id": 134,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5214,7 +4422,7 @@
   "evidence_date": null
  },
  {
-  "id": 159,
+  "id": 135,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5247,7 +4455,7 @@
   "evidence_date": null
  },
  {
-  "id": 160,
+  "id": 136,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5280,7 +4488,7 @@
   "evidence_date": null
  },
  {
-  "id": 161,
+  "id": 137,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5313,7 +4521,7 @@
   "evidence_date": null
  },
  {
-  "id": 162,
+  "id": 138,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5346,7 +4554,7 @@
   "evidence_date": null
  },
  {
-  "id": 163,
+  "id": 139,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5379,7 +4587,7 @@
   "evidence_date": null
  },
  {
-  "id": 164,
+  "id": 140,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5412,7 +4620,7 @@
   "evidence_date": null
  },
  {
-  "id": 165,
+  "id": 141,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5445,7 +4653,7 @@
   "evidence_date": null
  },
  {
-  "id": 166,
+  "id": 142,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5478,7 +4686,7 @@
   "evidence_date": null
  },
  {
-  "id": 167,
+  "id": 143,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5511,7 +4719,7 @@
   "evidence_date": null
  },
  {
-  "id": 168,
+  "id": 144,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5544,7 +4752,7 @@
   "evidence_date": null
  },
  {
-  "id": 169,
+  "id": 145,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5577,7 +4785,7 @@
   "evidence_date": null
  },
  {
-  "id": 170,
+  "id": 146,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5610,7 +4818,7 @@
   "evidence_date": null
  },
  {
-  "id": 171,
+  "id": 147,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5643,7 +4851,7 @@
   "evidence_date": null
  },
  {
-  "id": 172,
+  "id": 148,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5676,7 +4884,7 @@
   "evidence_date": null
  },
  {
-  "id": 173,
+  "id": 149,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5709,7 +4917,7 @@
   "evidence_date": null
  },
  {
-  "id": 174,
+  "id": 150,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5742,40 +4950,7 @@
   "evidence_date": null
  },
  {
-  "id": 175,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": "디 올 뉴 아반떼",
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "디 올 뉴 아반떼 입고 기념 이벤트",
-  "types": "이벤트,할인",
-  "title": "디 올 뉴 아반떼 입고 기념 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 현대 제네시스 셀렉션 회원(만 26세 이상, 운전면허 1년 이상, 본인 명의 신용카드 소지자), 앱에서만 참여, 회원당 1회",
-  "reward": "경품: 아반떼 Monthly 구독 50% 할인권 1명(당첨자 개별 안내)",
-  "detail": "대상: 현대 제네시스 셀렉션 회원(만 26세 이상, 운전면허 1년 이상, 본인 명의 신용카드 소지자), 앱에서만 참여, 회원당 1회 / 현대셀렉션 앱에서 '2026 가솔린 2.0 Premium' 아반떼를 즐겨찾기한 뒤 응모 / 경품: 아반떼 Monthly 구독 50% 할인권 1명(당첨자 개별 안내)",
-  "period_start": "2026-09-15",
-  "period_end": "2026-11-30",
-  "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-the-all-new-avante-202609",
-  "confidence": "high",
-  "source_record_id": 116,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_hyundai-the-all-new-avante-202609.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 176,
+  "id": 151,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5808,7 +4983,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 177,
+  "id": 152,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5841,7 +5016,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 178,
+  "id": 153,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5874,7 +5049,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 179,
+  "id": 154,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5907,7 +5082,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 180,
+  "id": 155,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5940,7 +5115,7 @@
   "evidence_date": null
  },
  {
-  "id": 181,
+  "id": 156,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5973,7 +5148,7 @@
   "evidence_date": null
  },
  {
-  "id": 182,
+  "id": 157,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6006,7 +5181,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 183,
+  "id": 158,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6039,7 +5214,7 @@
   "evidence_date": null
  },
  {
-  "id": 184,
+  "id": 159,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6072,7 +5247,7 @@
   "evidence_date": null
  },
  {
-  "id": 185,
+  "id": 160,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6105,7 +5280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 186,
+  "id": 161,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6138,7 +5313,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 187,
+  "id": 162,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6171,7 +5346,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 188,
+  "id": 163,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6204,7 +5379,7 @@
   "evidence_date": null
  },
  {
-  "id": 189,
+  "id": 164,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6237,7 +5412,7 @@
   "evidence_date": null
  },
  {
-  "id": 190,
+  "id": 165,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6270,7 +5445,7 @@
   "evidence_date": null
  },
  {
-  "id": 191,
+  "id": 166,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6303,7 +5478,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 192,
+  "id": 167,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6336,7 +5511,7 @@
   "evidence_date": null
  },
  {
-  "id": 193,
+  "id": 168,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6369,7 +5544,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 194,
+  "id": 169,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6402,7 +5577,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 195,
+  "id": 170,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6435,7 +5610,7 @@
   "evidence_date": null
  },
  {
-  "id": 196,
+  "id": 171,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6468,7 +5643,7 @@
   "evidence_date": null
  },
  {
-  "id": 197,
+  "id": 172,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6501,7 +5676,7 @@
   "evidence_date": null
  },
  {
-  "id": 198,
+  "id": 173,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6534,7 +5709,7 @@
   "evidence_date": null
  },
  {
-  "id": 199,
+  "id": 174,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",

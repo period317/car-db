@@ -1,0 +1,30 @@
+{
+ "_설명": "수집 범위는 '11월 구매 혜택(할인·시승·금융)'이다. 아래는 구매 혜택이 아닌 서비스·멤버십·제휴 이벤트라 월별 혜택 표에서 뺀다(삭제하지 않고 benefits_excluded 에 이유와 함께 보관). brand_id + name_contains(이벤트명 일부)로 지정한다. 사용자 지시 2026-11-06: '저런 서비스까지는 안 해도 돼, 11월 구매 혜택(할인, 시승, 금융) 위주'",
+ "rules": [
+  {"brand_id": "hyundai", "name_contains": "파킹프렌즈", "reason": "제휴 서비스 런칭 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "부산엑스더스카이", "reason": "제휴 서비스 런칭 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "TUCSON 웹사이트", "reason": "웹사이트 오픈 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "마이홈차저", "reason": "홈충전기 구독 서비스(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "앱 리뷰", "reason": "구독 서비스 앱 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "친구초대", "reason": "구독 서비스 앱 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "입고 기념", "reason": "구독 서비스 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "현대차증권", "reason": "증권 제휴 이벤트(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "캐롯", "reason": "보험 특약 제휴(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "블루링크 스토어", "reason": "보험 제휴(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "현대백화점", "reason": "오너 제휴 혜택(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "KB손해보험", "reason": "보험 제휴(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "다이치", "reason": "안전 캠페인 제휴(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "더현대트래블", "reason": "여행 쿠폰 제휴(구매 혜택 아님)"},
+  {"brand_id": "hyundai", "name_contains": "채비 충전", "reason": "충전 제휴 상품(구매 혜택 아님)"},
+  {"brand_id": "kia", "name_contains": "인증중고차 11월", "reason": "중고차 서비스(신차 구매 혜택 아님)"},
+  {"brand_id": "kia", "name_contains": "보증연장", "reason": "보증연장 서비스(구매 혜택 아님)"},
+  {"brand_id": "kia", "name_contains": "비즈 법인 무료 체험", "reason": "법인 서비스 체험(구매 혜택 아님)"},
+  {"brand_id": "kia", "name_contains": "더드림 페스티벌", "reason": "용품(블랙박스) 할인(차량 구매 혜택 아님)"},
+  {"brand_id": "genesis", "name_contains": "타이어 안심 교체", "reason": "정비 서비스(구매 혜택 아님)"},
+  {"brand_id": "genesis", "name_contains": "the Honors", "reason": "카드 멤버십 라운지(구매 혜택 아님)"},
+  {"brand_id": "genesis", "name_contains": "해비치", "reason": "멤버십 라운지(구매 혜택 아님)"},
+  {"brand_id": "mercedes", "name_contains": "Mercedes-Benz Circle", "reason": "오너 멤버십 가입 이벤트(구매 혜택 아님)"},
+  {"brand_id": "mercedes", "name_contains": "CLA 전시 팝업", "reason": "전시 행사·사전예약 안내(할인·시승·금융 혜택 아님)"},
+  {"brand_id": "chevrolet", "name_contains": "겨울준비", "reason": "무상점검 서비스 이벤트(구매 혜택 아님)"}
+ ]
+}
