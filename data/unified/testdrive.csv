@@ -10,7 +10,7 @@ chevrolet,쉐보레,,,,미확인,False,,,,,,none,
 cadillac,캐딜락,True,https://www.cadillac.co.kr/campaign/request-test-drive.gm,,정책 미수집,False,,,,,,url_only,
 mercedes,메르세데스-벤츠,True,https://www.mercedes-benz.co.kr/passengercars/test-drive.html,,온라인 시승 신청(정책 미수집),False,,,,,,url_only,11월 AMG '구매상담' 추첨 이벤트는 상담/출고 완료 조건이며 시승 이벤트 아님
 audi,아우디,True,https://www.audi.co.kr/lms/application/applyTestDrive.do,,정책 미수집,False,,,,,,url_only,
-volkswagen,폭스바겐,True,https://www.volkswagen.co.kr/lms/application/applyTestDrive.do,,시승/상담 신청 통합,True,Golf R Roadshow,Golf R을 가까이에서 만나는 로드쇼(시승 연계 여부·혜택 상세 미수집),2026-02-02 ~ (종료일 미표기),https://www.volkswagen.co.kr/app/local/testdrive/event,False,partial,
+volkswagen,폭스바겐,True,https://www.volkswagen.co.kr/lms/application/applyTestDrive.do,,시승/상담 신청 통합,True,Golf R Roadshow,"Golf R 특별 전시(로드쇼): 대치·수원·일산·판교·대전·광주·동래·대구·인천 전시장 방문 예약(네이버), 전시장 방문 및 출고 고객 대상 혜택(내용 미표기)",2026-10-24 ~ 2026-11-26,https://www.volkswagen.co.kr/app/local/testdrive/event,False,partial,
 porsche,포르쉐,,,,미확인(브랜드 사이트 시승 페이지 미조사),False,,,,,,none,
 volvo,볼보,True,https://www.volvocar.co.kr/buy/purchase/test-drive/,"ES90, EX90, EX30, XC90, XC60, XC40, S90, V60 Cross Country",온라인 신청→영업사원 배정(MMS)→일정 확인→전시장 시승,True,Volvo EX90 시승 신청 캠페인,"시승 완료 시 스타벅스 모바일 쿠폰, EX90 계약 완료 시 헬리녹스 체어원(re) 2개(선착순, 출고 한정 2027-03-31 가능)","신청 2026-11-02~12-15, 현장 시승 ~2026-12-31",https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/,True,full,
 polestar,폴스타,True,https://www.polestar.com/kr/test-drive/booking/polestar-3/,"Polestar 3, Polestar 4 coupé",모델별 예약 페이지. 정책 미수집,False,,,,,,url_only,

@@ -1,0 +1,5 @@
+# url: https://www.genesis.com/kr/ko/support/genesis-events/detail/0590.html
+# captured: 2026-11-06T08:00:00
+# method: Chrome javascript_tool document.body.innerText (이벤트 본문 발췌, 공백 정리, 유의사항 뒷부분은 출력 한도로 생략)
+---
+해비치 호텔&리조트 제주 Honors G 라운지 프로모션 2025.09.15 ~ 2026.12.31 대상 G90, G90 Long Wheel Base, G90 Black, G90 Long Wheel Base Black를 보유하신 제네시스 멤버십 회원 G80, GV80, Electrified G80 보유 고객 중 해비치 호텔 멤버십을 신청하고 기간 내 투숙하시는 제네시스 멤버십 회원 혜택 해비치 호텔 & 리조트 제주 Honors G 라운지 2인 이용권 제공 G90 멤버십 회원님께서는 비숙박 기간에도 월 1회 이용하실 수 있습니다. 기간 2025년 9월 15일 (월) - 2026년 12월 31일 (목)

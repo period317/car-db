@@ -1,22 +1,67 @@
 {
-  "meta": {
-    "brand_id": "byd",
-    "captured": "2026-11-05",
-    "site": "https://www.bydauto.kr",
-    "method": "Chrome innerText (이미지 아님). 쿠키 배너는 건드리지 않고 DOM만 읽음.",
-    "price_note": "표기 가격 '만 원'. 보조금 반영 여부 페이지에 명시 없음(전기차 보조금 별도 가능성). 트림명은 일부만 확인.",
-    "urls": {"build_quote":"https://www.bydauto.kr/purchase/build-my-car","test_drive":"https://www.bydauto.kr/purchase/test-drive","consult":"https://www.bydauto.kr/purchase/purchase-consult","ev_conversion_calc":"https://www.bydauto.kr/purchase/conversion-cost-calculator","events":"https://www.bydauto.kr/brand/events"},
-    "caveat": "구매 혜택/할인/금융 프로모션 페이지는 사이트에서 찾지 못함. 견적내기(구성) 페이지는 이벤트 텍스트 외 정보 없음. 금융사 미확인."
+ "meta": {
+  "brand_id": "byd",
+  "captured": "2026-11-05",
+  "site": "https://www.bydauto.kr",
+  "method": "Chrome innerText (이미지 아님). 쿠키 배너는 건드리지 않고 DOM만 읽음.",
+  "price_note": "표기 가격 '만 원'. 보조금 반영 여부 페이지에 명시 없음(전기차 보조금 별도 가능성). 트림명은 일부만 확인.",
+  "urls": {
+   "build_quote": "https://www.bydauto.kr/purchase/build-my-car",
+   "test_drive": "https://www.bydauto.kr/purchase/test-drive",
+   "consult": "https://www.bydauto.kr/purchase/purchase-consult",
+   "ev_conversion_calc": "https://www.bydauto.kr/purchase/conversion-cost-calculator",
+   "events": "https://www.bydauto.kr/brand/events"
   },
-  "prices_manwon": [
-    {"model":"BYD DOLPHIN","prices":[2450,2920]},
-    {"model":"BYD ATTO 3","prices":[3490]},
-    {"model":"BYD SEAL","prices":[3990,4190,4690]},
-    {"model":"BYD SEALION 7","trims":{"BYD SEALION 7":4490,"BYD SEALION 7 Plus":4690,"BYD SEALION 7 Dynamic AWD":5390}},
-    {"model":"BYD SEALION 6 DM-i","prices":[3750,4190]}
-  ],
-  "events": [
-    {"name":"BYD x NETFLIX 전시장 이벤트","period":"2026-10-25 ~ 2026-11-29 (11.7-11.29)"},
-    {"name":"DM-i 전국 연비 챌린지 — BYD SEALION 6 DM-i 1년 시승권","period":"2026-10-25 ~ 2026-11-22 (11.6-11.22)"}
-  ]
+  "caveat": "구매 혜택/할인/금융 프로모션 페이지는 사이트에서 찾지 못함. 견적내기(구성) 페이지는 이벤트 텍스트 외 정보 없음. 금융사 미확인."
+ },
+ "prices_manwon": [
+  {
+   "model": "BYD DOLPHIN",
+   "prices": [
+    2450,
+    2920
+   ]
+  },
+  {
+   "model": "BYD ATTO 3",
+   "prices": [
+    3490
+   ]
+  },
+  {
+   "model": "BYD SEAL",
+   "prices": [
+    3990,
+    4190,
+    4690
+   ]
+  },
+  {
+   "model": "BYD SEALION 7",
+   "trims": {
+    "BYD SEALION 7": 4490,
+    "BYD SEALION 7 Plus": 4690,
+    "BYD SEALION 7 Dynamic AWD": 5390
+   }
+  },
+  {
+   "model": "BYD SEALION 6 DM-i",
+   "prices": [
+    3750,
+    4190
+   ]
+  }
+ ],
+ "events": [
+  {
+   "name": "BYD x NETFLIX 전시장 이벤트",
+   "period": "2026-11-07 ~ 2026-11-29 (이벤트 목록 게시 기간 2026-10-25 시작, 제목의 행사 기간 11.7-11.29)",
+   "url": "https://www.bydauto.kr/brand/events"
+  },
+  {
+   "name": "DM-i 전국 연비 챌린지 — BYD SEALION 6 DM-i 1년 시승권",
+   "period": "2026-11-06 ~ 2026-11-22 (이벤트 목록 게시 기간 2026-10-25 시작, 제목의 행사 기간 11.6-11.22)",
+   "url": "https://www.bydauto.kr/brand/events"
+  }
+ ]
 }

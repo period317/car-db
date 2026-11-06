@@ -1,0 +1,5 @@
+# url: https://www.genesis.com/kr/ko/support/genesis-events/detail/0614.html
+# captured: 2026-11-06T08:00:00
+# method: Chrome javascript_tool document.body.innerText (이벤트 본문 발췌, 공백 정리, 유의사항 뒷부분은 출력 한도로 생략)
+---
+제네시스 전기차 대한항공 마일리지 적립 프로모션 2026.08.01 ~ 2026.12.31 혜택 대한항공 1만 마일리지 적립 대상 Electrified G80, Electrified GV70, GV60 Magma, GV60를 구매하신 개인/개인사업자 고객님 기간 2026년 8월 1일 (토) - 12월 31일 (목) ※ 기간 내 출고 시 적용 추가 혜택. 푸켓, 괌 왕복 항공권 경품 추첨 이벤트 대상 제네시스 전기차 구매 후 대한항공 마일리지 적립 신청하신 고객님 당첨자 발표 2027년 2월 중 개별적으로 안내 예정 인천 ↔ 푸켓 왕복 항공권(2명) * 대한항공 일반석 2매 인천 ↔ 괌 왕복 항공권(2명) * 대한항공 일반석 2매

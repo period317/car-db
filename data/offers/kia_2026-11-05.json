@@ -412,9 +412,10 @@
   {
    "name": "글로벌 RE100 가입 국내기업 재직자 기아EV 특별 혜택",
    "period": "2026-07-13 ~ 2026-12-31",
-   "text": "목록 제목만 확인 (상세 미수집)",
-   "url": "https://www.kia.com/kr/event/list",
-   "model": null
+   "text": "대상: 글로벌 RE100 가입 국내 기업 재직자(부모·배우자·자녀 포함), RE100 정보플랫폼 가입 현황 기준(자회사·계열사·관계사 불가) / 차종: EV3, EV4, EV5, EV6, EV9, PV5 패신저 / 혜택: 출고 시 +2% 추가 할인, 출고 전 재직증명서·가족관계증명서 등 증빙 제출 시 적용 / 기간 2026-07-13~12-31",
+   "url": "https://www.kia.com/kr/event/detail?eventId=544",
+   "model": null,
+   "conf": "medium"
   },
   {
    "name": "기아 비즈 법인 무료 체험 이벤트",
@@ -434,9 +435,10 @@
   {
    "name": "더드림 페스티벌 이벤트",
    "period": "2026-01-13 ~ 2026-12-31",
-   "text": "목록 제목만 확인 (상세 미수집)",
-   "url": "https://www.kia.com/kr/event/list",
-   "model": null
+   "text": "기아 고객 대상 제휴 용품 할인 이벤트: 아이나비 블랙박스 FXD9900 249,000원→99,000원, QXD9900mini 309,000원→169,000원, VX5000 259,000원→139,000원 / 구매: 아이나비몰 mall.inavi.com/kiaevent 접속 후 가입정보(계약번호/고객명) 기입, 본인 구매 / 기간 2026-01-13~12-31",
+   "url": "https://www.kia.com/kr/event/detail?eventId=399",
+   "model": null,
+   "conf": "medium"
   }
  ]
 }

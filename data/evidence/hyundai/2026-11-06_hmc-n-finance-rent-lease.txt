@@ -1,0 +1,5 @@
+# url: https://www.hyundai.com/kr/ko/event/event-hmc-n-finance-rent-lease
+# captured: 2026-11-06T08:30:00
+# method: Chrome javascript_tool document.body.innerText (이벤트 본문 발췌, 공백 정리. 표·유의사항 뒷부분은 출력 한도로 생략)
+---
+N 고객의, N 고객에 의한, N 고객을 위한 N-FINANCE 렌트/리스	모든회원 2026-11-01 ~ 2026-11-30 대상 고객 2026년 11월 1일 ~ 2026년 11월 30일 아반떼 N / 아이오닉 5 N / 아이오닉 6 N 을 출고한 렌트/리스 고객 할인 유형 ① N-FINANCE 전 고객 대상 특별 할인 ② 12개월 또는 24개월 선택 시 추가 할인 (N-DOUBLE PICK) 추가 혜택 N 키케이스 26FW 신상 맨투맨 the Nthusiast 멤버십 이용권 N 퍼포먼스 세차키트

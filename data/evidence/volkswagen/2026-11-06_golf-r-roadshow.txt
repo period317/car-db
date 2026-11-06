@@ -1,0 +1,5 @@
+# url: https://www.volkswagen.co.kr/app/local/testdrive/event
+# captured: 2026-11-06T10:00:00
+# method: Chrome javascript_tool document.body.innerText (main 본문 발췌, 가공 없음)
+---
+Golf R Roadshow 특별 전시 기간 10/24 - 11/26 전시장별 운영 일정은 네이버 예약 페이지에서 확인해 주세요 대치 전시장 Meister Motors 방문 예약하기 수원 전시장 Klasse Auto 방문 예약하기 일산 전시장 Klasse Auto 방문 예약하기 판교 전시장 Autoplatz 방문 예약하기 대전 전시장 Autoplatz 방문 예약하기 광주 전시장 Gio Haus 방문 예약하기 동래 전시장 Klasse Auto 방문 예약하기 대구 전시장 G&B Automobile 방문 예약하기 인천 전시장 Meister Motors 방문 예약하기 Golf R 로드쇼 이벤트 안내 전시장 방문 및 출고 고객을 위한 다양한 혜택도 함께 준비했습니다

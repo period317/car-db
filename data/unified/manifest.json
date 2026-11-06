@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-06",
-  "total_records": 279,
+  "total_records": 284,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
-      "records": 6,
+      "records": 7,
       "captured": "2026-11-05",
       "source": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
       "caveat": null
@@ -77,7 +77,7 @@
     },
     "offers/kgm_2026-11-05.json": {
       "brand_id": "kgm",
-      "records": 18,
+      "records": 19,
       "captured": "2026-11-05",
       "source": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
       "caveat": null
@@ -109,7 +109,7 @@
     },
     "offers/mercedes_2026-11-05.json": {
       "brand_id": "mercedes",
-      "records": 10,
+      "records": 12,
       "captured": "2026-11-05",
       "source": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
       "caveat": null
@@ -175,11 +175,11 @@
     },
     "offers/volkswagen_2026-11-05.json": {
       "brand_id": "volkswagen",
-      "records": 3,
+      "records": 4,
       "captured": "2026-11-05",
       "source": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
       "caveat": [
-        "이달의 프로모션 페이지에 월/기간 명시 없음(Golf R Roadshow만 '2026.02.02 ~'). 11월 유효 여부 불명.",
+        "이달의 프로모션 페이지에 월/기간 명시 없음(Golf R Roadshow는 특별 전시 10/24~11/26). 11월 유효 여부 불명.",
         "금액·이자율 상세는 페이지에 없고 항목명만 게시. 세부는 전시장 문의.",
         "홈에는 Atlas·Golf GTI·Golf 프로모션 배너도 있으나 상세 미수집(이달의 프로모션에는 Touareg·Golf만 게시)."
       ]

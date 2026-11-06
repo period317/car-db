@@ -64,5 +64,23 @@
    "name": "파이낸셜 이용 공통 혜택",
    "text": "프로그램별 신차 교환 보상 및 타이어 교환 혜택. 모델별 구매 혜택·중복 여부·법인 프로그램은 전시장 문의."
   }
+ ],
+ "events_extra": [
+  {
+   "name": "The all-new electric CLA 전시 팝업 및 사전 예약",
+   "model": null,
+   "period": "2026-10-23 ~ 2026-11-17",
+   "url": "https://www.mercedes-benz.co.kr/passengercars/campaigns/cla-pre-order-campaign.html",
+   "conf": "high",
+   "text": "The all-new electric CLA 전시 팝업: 2026-10-23~11-17, 메르세데스-벤츠 스튜디오 서울(서울 성동구 연무장길 73), 오전 11시~오후 8시, 매주 월요일 휴관 / 온라인 사전 예약·상담 접수, 시작가 52,900,000원~(참고)"
+  },
+  {
+   "name": "Mercedes-Benz Circle 멤버십 가입 이벤트",
+   "model": null,
+   "period": "",
+   "url": "https://www.mercedes-benz.co.kr/passengercars/campaigns/mercedes-benz-circle.html",
+   "conf": "high",
+   "text": "대상: 2026년 9월부터 12월까지 카카오 메시지를 받은 고객이 Mercedes-Benz Circle 멤버십에 가입(승인 완료 상태)하면 Mercedes-Benz Collection 경품 이벤트에 자동 응모 / 추첨 경품: 메르세데스-벤츠 미니 트래블 백 600명 또는 쇼퍼백 500명(색상 선택 불가) / 당첨자는 이벤트 종료 후 개별 안내 / 멤버십에는 제휴 혜택, 멤버십 시승 행사, 브랜드 이벤트 초청이 포함"
+  }
  ]
 }

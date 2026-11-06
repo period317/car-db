@@ -1,0 +1,5 @@
+# url: https://www.bydauto.kr/brand/events
+# captured: 2026-11-06T10:00:00
+# method: Chrome javascript_tool document.body.innerText (이벤트 목록 진행중 2건, 가공 없음)
+---
+이벤트 진행중 이벤트 지난 이벤트 2026-10-25 ~ 2026-11-29 [BYD x NETFLIX] 넷플릭스의 세계가 BYD 전시장으로 (11.7-11.29) 2026-10-25 ~ 2026-11-22 [DM-i 전국 연비 챌린지] BYD SEALION 6 DM-i 1년 시승권의 주인공이 될 기회! (11.6-11.22)

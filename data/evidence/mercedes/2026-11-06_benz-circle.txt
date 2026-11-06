@@ -1,0 +1,5 @@
+# url: https://www.mercedes-benz.co.kr/passengercars/campaigns/mercedes-benz-circle.html
+# captured: 2026-11-06T09:30:00
+# method: Chrome javascript_tool document.body.innerText (main 본문 발췌, 가공 없음)
+---
+Welcome to Mercedes-Benz Circle 엄선된 제휴 혜택, 멤버십 시승 행사, 그리고 브랜드 이벤트 초청까지 폭넓은 경험을 선사합니다. 멤버십 가입 이벤트 2026년 9월부터 12월까지 카카오 메시지를 받으신 고객님께서는 Mercedes-Benz Circle 멤버십에 가입하시면 회원 전용 혜택은 물론, Mercedes-Benz Collection 경품 이벤트에도 자동으로 응모됩니다. 단, 멤버십은 반드시 승인 완료 상태여야 합니다. 추첨을 통해 메르세데스-벤츠 미니 트래블 백(600명) 또는 쇼퍼백(500명)을 증정합니다. *당첨자는 이벤트 종료 후 개별 안내해 드릴 예정입니다.
