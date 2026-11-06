@@ -35,501 +35,6 @@
  {
   "id": 2,
   "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "1시리즈 / 2시리즈 그란 쿠페",
-  "sub_model": "120 M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "120 M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 스마트 리스 41, 스마트 할부 42; 조건: 리스 선납45% 60개월 잔가42%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 스마트 리스 41, 스마트 할부 42 ; 조건: 리스 선납45% 60개월 잔가42%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 14,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 3,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "1시리즈 / 2시리즈 그란 쿠페",
-  "sub_model": "220 그란 쿠페 M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "220 그란 쿠페 M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 스마트 리스 44, 스마트 할부 47; 조건: 리스 선납45% 60개월 잔가39%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 스마트 리스 44, 스마트 할부 47 ; 조건: 리스 선납45% 60개월 잔가39%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 15,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 4,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "1시리즈 / 2시리즈 그란 쿠페",
-  "sub_model": "M135 xDrive",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "M135 xDrive 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 스마트 리스 53, 스마트 할부 59; 조건: 리스 선납45% 60개월 잔가36%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 스마트 리스 53, 스마트 할부 59 ; 조건: 리스 선납45% 60개월 잔가36%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 16,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 5,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "1시리즈 / 2시리즈 그란 쿠페",
-  "sub_model": "M235 xDrive 그란 쿠페",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "M235 xDrive 그란 쿠페 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 스마트 리스 57, 스마트 할부 65; 조건: 리스 선납45% 60개월 잔가33%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 스마트 리스 57, 스마트 할부 65 ; 조건: 리스 선납45% 60개월 잔가33%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 17,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 6,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "5시리즈",
-  "sub_model": "520i",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "520i 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 112, 스마트 리스 43, 스마트 할부 43; 조건: 리스 선납37% 36개월 잔가60%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 112, 스마트 리스 43, 스마트 할부 43 ; 조건: 리스 선납37% 36개월 잔가60%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 18,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 7,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "5시리즈",
-  "sub_model": "530i xDrive M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "530i xDrive M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 150, 스마트 리스 57, 스마트 할부 66; 조건: 리스 선납45% 60개월 잔가45%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 150, 스마트 리스 57, 스마트 할부 66 ; 조건: 리스 선납45% 60개월 잔가45%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 19,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 8,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "7시리즈",
-  "sub_model": "740i xDrive M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "740i xDrive M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 312, 스마트 리스 141, 스마트 할부 147; 조건: 리스 선납40% 60개월 잔가40%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 312, 스마트 리스 141, 스마트 할부 147 ; 조건: 리스 선납40% 60개월 잔가40%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 21,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 9,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "7시리즈",
-  "sub_model": "i7 eDrive50 M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "i7 eDrive50 M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 322, 스마트 리스 159, 스마트 할부 174; 조건: 리스 선납40% 60개월 잔가33%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 322, 스마트 리스 159, 스마트 할부 174 ; 조건: 리스 선납40% 60개월 잔가33%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 22,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 10,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "X 패밀리",
-  "sub_model": "X5 xDrive 30d M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "X5 xDrive 30d M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 210, 스마트 리스 94, 스마트 할부 102",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 210, 스마트 리스 94, 스마트 할부 102",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 10,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 11,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "X 패밀리",
-  "sub_model": "X6 xDrive 30d M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "X6 xDrive 30d M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 212, 스마트 리스 99, 스마트 할부 109",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 212, 스마트 리스 99, 스마트 할부 109",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 11,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 12,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "X 패밀리",
-  "sub_model": "X7 xDrive 40i M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "X7 xDrive 40i M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 219, 스마트 리스 121, 스마트 할부 133",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 219, 스마트 리스 121, 스마트 할부 133",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 12,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 13,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "X3",
-  "sub_model": "X3 20 xDrive M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "X3 20 xDrive M 스포츠 패키지 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 119, 스마트 리스 68, 스마트 할부 56; 조건: 일반할부 선납45% 36개월 1.92%; 리스 선납30% 60개월 잔가52% 연1만km 취득세포함; 스마트할부 선납30% 36개월 잔가54% 5.48%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 119, 스마트 리스 68, 스마트 할부 56 ; 조건: 일반할부 선납45% 36개월 1.92% / 리스 선납30% 60개월 잔가52% 연1만km 취득세포함 / 스마트할부 선납30% 36개월 잔가54% 5.48%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 8,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 14,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "X3",
-  "sub_model": "X3 M50 xDrive 프로",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "X3 M50 xDrive 프로 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 124, 스마트 리스 103, 스마트 할부 97; 조건: 일반할부 선납57% 36개월 2.15%; 리스 선납30% 60개월 잔가44%; 스마트할부 선납30% 36개월 잔가46% 6.12%",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 124, 스마트 리스 103, 스마트 할부 97 ; 조건: 일반할부 선납57% 36개월 2.15% / 리스 선납30% 60개월 잔가44% / 스마트할부 선납30% 36개월 잔가46% 6.12%",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 9,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 15,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "XM",
-  "sub_model": "XM",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융",
-  "title": "XM 월 납입금",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 410, 스마트 리스 237, 스마트 할부 253",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 410, 스마트 리스 237, 스마트 할부 253",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 20,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 16,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "bmw",
-  "brand_ko": "BMW",
-  "model": "iX3",
-  "sub_model": "iX3 50 xDrive M 스포츠 패키지",
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "월 납입금 프로모션",
-  "types": "금융,할인",
-  "title": "iX3 50 xDrive M 스포츠 패키지 월 납입금",
-  "discount_type": "정액 할인",
-  "discount_amount_krw": 850000,
-  "discount_rate_pct": null,
-  "discount_options": "조건: 리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영",
-  "max_benefit_krw": null,
-  "discount": "월 납입금(만원/월): 일반 할부 59, 스마트 리스 57; 조건: 리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영",
-  "conditions": null,
-  "reward": null,
-  "detail": "월 납입금(만원/월): 일반 할부 59, 스마트 리스 57 ; 조건: 리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영 / 할부금: 취득세 미포함, 국비 285만 반영",
-  "period_start": "2026-10-01",
-  "period_end": "2026-10-31",
-  "link": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-  "confidence": "medium",
-  "source_record_id": 13,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
-  "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
- },
- {
-  "id": 17,
-  "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "byd",
   "brand_ko": "BYD",
@@ -561,7 +66,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 18,
+  "id": 3,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "byd",
@@ -594,7 +99,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 19,
+  "id": 4,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -627,7 +132,7 @@
   "evidence_date": null
  },
  {
-  "id": 20,
+  "id": 5,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kgm",
@@ -660,7 +165,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 21,
+  "id": 6,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -693,7 +198,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 22,
+  "id": 7,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -726,7 +231,7 @@
   "evidence_date": null
  },
  {
-  "id": 23,
+  "id": 8,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -759,7 +264,7 @@
   "evidence_date": null
  },
  {
-  "id": 24,
+  "id": 9,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -792,7 +297,7 @@
   "evidence_date": null
  },
  {
-  "id": 25,
+  "id": 10,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -825,7 +330,7 @@
   "evidence_date": null
  },
  {
-  "id": 26,
+  "id": 11,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -858,7 +363,7 @@
   "evidence_date": null
  },
  {
-  "id": 27,
+  "id": 12,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -891,7 +396,7 @@
   "evidence_date": null
  },
  {
-  "id": 28,
+  "id": 13,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -924,7 +429,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 29,
+  "id": 14,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -957,7 +462,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 30,
+  "id": 15,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -990,7 +495,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 31,
+  "id": 16,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1023,7 +528,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 32,
+  "id": 17,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1056,7 +561,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 33,
+  "id": 18,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1089,7 +594,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 34,
+  "id": 19,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1122,7 +627,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 35,
+  "id": 20,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1155,7 +660,7 @@
   "evidence_date": null
  },
  {
-  "id": 36,
+  "id": 21,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1188,7 +693,7 @@
   "evidence_date": null
  },
  {
-  "id": 37,
+  "id": 22,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1221,7 +726,7 @@
   "evidence_date": null
  },
  {
-  "id": 38,
+  "id": 23,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1254,7 +759,7 @@
   "evidence_date": null
  },
  {
-  "id": 39,
+  "id": 24,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1287,7 +792,7 @@
   "evidence_date": null
  },
  {
-  "id": 40,
+  "id": 25,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1320,7 +825,7 @@
   "evidence_date": null
  },
  {
-  "id": 41,
+  "id": 26,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1353,7 +858,7 @@
   "evidence_date": null
  },
  {
-  "id": 42,
+  "id": 27,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1386,7 +891,7 @@
   "evidence_date": null
  },
  {
-  "id": 43,
+  "id": 28,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1419,7 +924,7 @@
   "evidence_date": null
  },
  {
-  "id": 44,
+  "id": 29,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1452,7 +957,7 @@
   "evidence_date": null
  },
  {
-  "id": 45,
+  "id": 30,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1485,7 +990,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 46,
+  "id": 31,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1518,7 +1023,7 @@
   "evidence_date": null
  },
  {
-  "id": 47,
+  "id": 32,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1551,7 +1056,7 @@
   "evidence_date": null
  },
  {
-  "id": 48,
+  "id": 33,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1584,7 +1089,7 @@
   "evidence_date": null
  },
  {
-  "id": 49,
+  "id": 34,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1617,7 +1122,7 @@
   "evidence_date": null
  },
  {
-  "id": 50,
+  "id": 35,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1650,7 +1155,7 @@
   "evidence_date": null
  },
  {
-  "id": 51,
+  "id": 36,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1683,7 +1188,7 @@
   "evidence_date": null
  },
  {
-  "id": 52,
+  "id": 37,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1716,7 +1221,7 @@
   "evidence_date": null
  },
  {
-  "id": 53,
+  "id": 38,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1749,7 +1254,7 @@
   "evidence_date": null
  },
  {
-  "id": 54,
+  "id": 39,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1782,7 +1287,7 @@
   "evidence_date": null
  },
  {
-  "id": 55,
+  "id": 40,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1815,7 +1320,7 @@
   "evidence_date": null
  },
  {
-  "id": 56,
+  "id": 41,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1848,7 +1353,7 @@
   "evidence_date": null
  },
  {
-  "id": 57,
+  "id": 42,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1881,7 +1386,7 @@
   "evidence_date": null
  },
  {
-  "id": 58,
+  "id": 43,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1914,7 +1419,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 59,
+  "id": 44,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1947,7 +1452,7 @@
   "evidence_date": null
  },
  {
-  "id": 60,
+  "id": 45,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1980,7 +1485,7 @@
   "evidence_date": null
  },
  {
-  "id": 61,
+  "id": 46,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -2013,7 +1518,7 @@
   "evidence_date": null
  },
  {
-  "id": 62,
+  "id": 47,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -2046,7 +1551,7 @@
   "evidence_date": null
  },
  {
-  "id": 63,
+  "id": 48,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -2079,40 +1584,7 @@
   "evidence_date": null
  },
  {
-  "id": 64,
-  "ym": "2026-11",
-  "period_status": "기간 만료",
-  "brand_id": "lexus",
-  "brand_ko": "렉서스",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "렉서스 전국 시승회 AUTUMN TEST DRIVE EVENT",
-  "types": "시승혜택",
-  "title": "렉서스 전국 시승회 AUTUMN TEST DRIVE EVENT",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객; 이벤트 기간은 10/31 종료(시승 기한 11/3), 11월 시승회 페이지는 확인되지 않음",
-  "reward": "시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명; 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담",
-  "detail": "All-New ES 출시 기념 전국 시승 이벤트 / 대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객 / 시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명 / 결과 발표 2026-11-10 / 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담 / 이벤트 기간은 10/31 종료(시승 기한 11/3), 11월 시승회 페이지는 확인되지 않음",
-  "period_start": "2026-10-06",
-  "period_end": "2026-10-31",
-  "link": "https://www.lexus.co.kr/2026-oct-test-drive/",
-  "confidence": "high",
-  "source_record_id": 218,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_autumn-test-drive.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 65,
+  "id": 49,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2145,7 +1617,7 @@
   "evidence_date": null
  },
  {
-  "id": 66,
+  "id": 50,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2178,7 +1650,7 @@
   "evidence_date": null
  },
  {
-  "id": 67,
+  "id": 51,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2211,7 +1683,7 @@
   "evidence_date": null
  },
  {
-  "id": 68,
+  "id": 52,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2244,7 +1716,7 @@
   "evidence_date": null
  },
  {
-  "id": 69,
+  "id": 53,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2277,7 +1749,7 @@
   "evidence_date": null
  },
  {
-  "id": 70,
+  "id": 54,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2310,7 +1782,7 @@
   "evidence_date": null
  },
  {
-  "id": 71,
+  "id": 55,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2343,7 +1815,7 @@
   "evidence_date": null
  },
  {
-  "id": 72,
+  "id": 56,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2376,7 +1848,7 @@
   "evidence_date": null
  },
  {
-  "id": 73,
+  "id": 57,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2409,7 +1881,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 74,
+  "id": 58,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2442,7 +1914,7 @@
   "evidence_date": null
  },
  {
-  "id": 75,
+  "id": 59,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2475,7 +1947,7 @@
   "evidence_date": null
  },
  {
-  "id": 76,
+  "id": 60,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2508,7 +1980,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 77,
+  "id": 61,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2541,7 +2013,7 @@
   "evidence_date": null
  },
  {
-  "id": 78,
+  "id": 62,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "mercedes",
@@ -2574,7 +2046,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 79,
+  "id": 63,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2607,7 +2079,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 80,
+  "id": 64,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "mercedes",
@@ -2640,7 +2112,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 81,
+  "id": 65,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2673,7 +2145,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 82,
+  "id": 66,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2706,7 +2178,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 83,
+  "id": 67,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2739,7 +2211,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 84,
+  "id": 68,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2772,7 +2244,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 85,
+  "id": 69,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2805,7 +2277,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 86,
+  "id": 70,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2838,7 +2310,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 87,
+  "id": 71,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2871,7 +2343,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 88,
+  "id": 72,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2904,7 +2376,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 89,
+  "id": 73,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2937,7 +2409,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 90,
+  "id": 74,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -2970,7 +2442,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 91,
+  "id": 75,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -3003,7 +2475,7 @@
   "evidence_date": null
  },
  {
-  "id": 92,
+  "id": 76,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -3036,7 +2508,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 93,
+  "id": 77,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3069,7 +2541,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 94,
+  "id": 78,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volvo",
@@ -3102,7 +2574,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 95,
+  "id": 79,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3135,7 +2607,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 96,
+  "id": 80,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3168,7 +2640,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 97,
+  "id": 81,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3201,7 +2673,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 98,
+  "id": 82,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3234,7 +2706,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 99,
+  "id": 83,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3267,7 +2739,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 100,
+  "id": 84,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3300,7 +2772,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 101,
+  "id": 85,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3333,7 +2805,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 102,
+  "id": 86,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3366,7 +2838,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 103,
+  "id": 87,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3399,7 +2871,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 104,
+  "id": 88,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "chevrolet",
@@ -3432,7 +2904,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 105,
+  "id": 89,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "chevrolet",
@@ -3465,7 +2937,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 106,
+  "id": 90,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -3498,7 +2970,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 107,
+  "id": 91,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -3531,7 +3003,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 108,
+  "id": 92,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3564,7 +3036,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 109,
+  "id": 93,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3597,7 +3069,7 @@
   "evidence_date": null
  },
  {
-  "id": 110,
+  "id": 94,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3630,7 +3102,7 @@
   "evidence_date": null
  },
  {
-  "id": 111,
+  "id": 95,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3663,7 +3135,7 @@
   "evidence_date": null
  },
  {
-  "id": 112,
+  "id": 96,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3696,7 +3168,7 @@
   "evidence_date": null
  },
  {
-  "id": 113,
+  "id": 97,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3729,7 +3201,7 @@
   "evidence_date": null
  },
  {
-  "id": 114,
+  "id": 98,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -3762,7 +3234,7 @@
   "evidence_date": null
  },
  {
-  "id": 115,
+  "id": 99,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3795,7 +3267,7 @@
   "evidence_date": null
  },
  {
-  "id": 116,
+  "id": 100,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3828,7 +3300,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 117,
+  "id": 101,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3861,7 +3333,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 118,
+  "id": 102,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3894,7 +3366,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 119,
+  "id": 103,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3927,7 +3399,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 120,
+  "id": 104,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3960,7 +3432,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 121,
+  "id": 105,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -3993,7 +3465,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 122,
+  "id": 106,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4026,7 +3498,7 @@
   "evidence_date": null
  },
  {
-  "id": 123,
+  "id": 107,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4059,7 +3531,7 @@
   "evidence_date": null
  },
  {
-  "id": 124,
+  "id": 108,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4092,7 +3564,7 @@
   "evidence_date": null
  },
  {
-  "id": 125,
+  "id": 109,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -4125,7 +3597,7 @@
   "evidence_date": null
  },
  {
-  "id": 126,
+  "id": 110,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -4158,7 +3630,7 @@
   "evidence_date": null
  },
  {
-  "id": 127,
+  "id": 111,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -4191,7 +3663,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 128,
+  "id": 112,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -4224,7 +3696,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 129,
+  "id": 113,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "toyota",
@@ -4257,7 +3729,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 130,
+  "id": 114,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -4290,7 +3762,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 131,
+  "id": 115,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -4323,7 +3795,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 132,
+  "id": 116,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -4356,7 +3828,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 133,
+  "id": 117,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -4389,7 +3861,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 134,
+  "id": 118,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -4422,7 +3894,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 135,
+  "id": 119,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -4455,7 +3927,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 136,
+  "id": 120,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -4488,7 +3960,7 @@
   "evidence_date": null
  },
  {
-  "id": 137,
+  "id": 121,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volkswagen",
@@ -4521,7 +3993,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 138,
+  "id": 122,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4554,7 +4026,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 139,
+  "id": 123,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4587,7 +4059,7 @@
   "evidence_date": null
  },
  {
-  "id": 140,
+  "id": 124,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -4620,7 +4092,7 @@
   "evidence_date": null
  },
  {
-  "id": 141,
+  "id": 125,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4653,7 +4125,7 @@
   "evidence_date": null
  },
  {
-  "id": 142,
+  "id": 126,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4686,7 +4158,7 @@
   "evidence_date": null
  },
  {
-  "id": 143,
+  "id": 127,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -4719,7 +4191,7 @@
   "evidence_date": null
  },
  {
-  "id": 144,
+  "id": 128,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4752,7 +4224,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 145,
+  "id": 129,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4785,7 +4257,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 146,
+  "id": 130,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4818,7 +4290,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 147,
+  "id": 131,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4851,7 +4323,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 148,
+  "id": 132,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4884,7 +4356,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 149,
+  "id": 133,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4917,7 +4389,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 150,
+  "id": 134,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4950,7 +4422,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 151,
+  "id": 135,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -4983,7 +4455,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 152,
+  "id": 136,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5016,7 +4488,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 153,
+  "id": 137,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5049,7 +4521,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 154,
+  "id": 138,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5082,7 +4554,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 155,
+  "id": 139,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5115,7 +4587,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 156,
+  "id": 140,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5148,7 +4620,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 157,
+  "id": 141,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5181,7 +4653,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 158,
+  "id": 142,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5214,7 +4686,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 159,
+  "id": 143,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5247,7 +4719,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 160,
+  "id": 144,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5280,7 +4752,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 161,
+  "id": 145,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5313,7 +4785,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 162,
+  "id": 146,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5346,7 +4818,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 163,
+  "id": 147,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5379,7 +4851,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 164,
+  "id": 148,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5412,7 +4884,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 165,
+  "id": 149,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5445,7 +4917,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 166,
+  "id": 150,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5478,7 +4950,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 167,
+  "id": 151,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5511,7 +4983,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 168,
+  "id": 152,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5544,7 +5016,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 169,
+  "id": 153,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5577,7 +5049,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 170,
+  "id": 154,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5610,7 +5082,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 171,
+  "id": 155,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5643,7 +5115,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 172,
+  "id": 156,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5676,7 +5148,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 173,
+  "id": 157,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5709,7 +5181,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 174,
+  "id": 158,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5742,7 +5214,7 @@
   "evidence_date": null
  },
  {
-  "id": 175,
+  "id": 159,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5775,7 +5247,7 @@
   "evidence_date": null
  },
  {
-  "id": 176,
+  "id": 160,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5808,7 +5280,7 @@
   "evidence_date": null
  },
  {
-  "id": 177,
+  "id": 161,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5841,7 +5313,7 @@
   "evidence_date": null
  },
  {
-  "id": 178,
+  "id": 162,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5874,7 +5346,7 @@
   "evidence_date": null
  },
  {
-  "id": 179,
+  "id": 163,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5907,7 +5379,7 @@
   "evidence_date": null
  },
  {
-  "id": 180,
+  "id": 164,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5940,7 +5412,7 @@
   "evidence_date": null
  },
  {
-  "id": 181,
+  "id": 165,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5973,7 +5445,7 @@
   "evidence_date": null
  },
  {
-  "id": 182,
+  "id": 166,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6006,7 +5478,7 @@
   "evidence_date": null
  },
  {
-  "id": 183,
+  "id": 167,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6039,7 +5511,7 @@
   "evidence_date": null
  },
  {
-  "id": 184,
+  "id": 168,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6072,7 +5544,7 @@
   "evidence_date": null
  },
  {
-  "id": 185,
+  "id": 169,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6105,7 +5577,7 @@
   "evidence_date": null
  },
  {
-  "id": 186,
+  "id": 170,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6138,7 +5610,7 @@
   "evidence_date": null
  },
  {
-  "id": 187,
+  "id": 171,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6171,7 +5643,7 @@
   "evidence_date": null
  },
  {
-  "id": 188,
+  "id": 172,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6204,7 +5676,7 @@
   "evidence_date": null
  },
  {
-  "id": 189,
+  "id": 173,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6237,7 +5709,7 @@
   "evidence_date": null
  },
  {
-  "id": 190,
+  "id": 174,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6270,7 +5742,7 @@
   "evidence_date": null
  },
  {
-  "id": 191,
+  "id": 175,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6303,7 +5775,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 192,
+  "id": 176,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6336,7 +5808,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 193,
+  "id": 177,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6369,7 +5841,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 194,
+  "id": 178,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6402,7 +5874,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 195,
+  "id": 179,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6435,7 +5907,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 196,
+  "id": 180,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6468,7 +5940,7 @@
   "evidence_date": null
  },
  {
-  "id": 197,
+  "id": 181,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6501,7 +5973,7 @@
   "evidence_date": null
  },
  {
-  "id": 198,
+  "id": 182,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6534,7 +6006,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 199,
+  "id": 183,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6567,7 +6039,7 @@
   "evidence_date": null
  },
  {
-  "id": 200,
+  "id": 184,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6600,7 +6072,7 @@
   "evidence_date": null
  },
  {
-  "id": 201,
+  "id": 185,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6633,7 +6105,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 202,
+  "id": 186,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6666,7 +6138,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 203,
+  "id": 187,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6699,7 +6171,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 204,
+  "id": 188,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6732,7 +6204,7 @@
   "evidence_date": null
  },
  {
-  "id": 205,
+  "id": 189,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6765,7 +6237,7 @@
   "evidence_date": null
  },
  {
-  "id": 206,
+  "id": 190,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6798,7 +6270,7 @@
   "evidence_date": null
  },
  {
-  "id": 207,
+  "id": 191,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6831,7 +6303,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 208,
+  "id": 192,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6864,7 +6336,7 @@
   "evidence_date": null
  },
  {
-  "id": 209,
+  "id": 193,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6897,7 +6369,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 210,
+  "id": 194,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6930,7 +6402,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 211,
+  "id": 195,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6963,7 +6435,7 @@
   "evidence_date": null
  },
  {
-  "id": 212,
+  "id": 196,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6996,7 +6468,7 @@
   "evidence_date": null
  },
  {
-  "id": 213,
+  "id": 197,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7029,7 +6501,7 @@
   "evidence_date": null
  },
  {
-  "id": 214,
+  "id": 198,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7062,7 +6534,7 @@
   "evidence_date": null
  },
  {
-  "id": 215,
+  "id": 199,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",

@@ -310,6 +310,12 @@ for x in rows:
     x["event_name"] = event_name_of(x)
     parse_discount(x)
 
+# 대상 월(수집한 달)과 기간이 겹치지 않는 항목(기간 만료 / 시작 전)은 월별 혜택 표에서 뺀다. 지우지 않고 benefits_excluded.* 에 이유와 함께 보관한다.
+excluded = [x for x in rows if x["period_status"] in ("기간 만료", "시작 전")]
+rows = [x for x in rows if x["period_status"] not in ("기간 만료", "시작 전")]
+for x in excluded:
+    x["exclude_reason"] = f"대상 월({x['ym']})과 기간이 겹치지 않음: {x['period_status']} ({x.get('period_start') or '?'}~{x.get('period_end') or '?'})"
+
 rows.sort(key=lambda x: (x["brand_ko"] or "", x["model"] or "", x["title"] or ""))
 for i, x in enumerate(rows, 1):
     x["id"] = i
@@ -325,5 +331,14 @@ with open(os.path.join(U, "benefits.csv"), "w", encoding="utf-8-sig", newline=""
     w.writeheader()
     for x in rows:
         w.writerow({c: x.get(c) for c in cols})
+excols = [c for c in cols if c != "id"] + ["exclude_reason"]
+with open(os.path.join(U, "benefits_excluded.jsonl"), "w", encoding="utf-8") as f:
+    for x in excluded:
+        f.write(json.dumps({c: x.get(c) for c in excols}, ensure_ascii=False) + "\n")
+with open(os.path.join(U, "benefits_excluded.csv"), "w", encoding="utf-8-sig", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=excols)
+    w.writeheader()
+    for x in excluded:
+        w.writerow({c: x.get(c) for c in excols})
 from collections import Counter
-print("benefits:", len(rows), dict(Counter(x["types"].split(",")[0] for x in rows)))
+print("benefits:", len(rows), "| 제외(기간 불일치):", len(excluded), dict(Counter(x["types"].split(",")[0] for x in rows)))
