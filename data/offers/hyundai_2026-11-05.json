@@ -9,11 +9,6 @@
   "units": "price_min_manwon=시작가(만원), max_benefit_manwon=최대혜택(만원). 금리할인은 전 모델 '-'.",
   "related_events": [
    {
-    "name": "현대자동차 K-세일 페스타 프로모션",
-    "period": "2026-10-31 ~ 2026-12-31",
-    "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html"
-   },
-   {
     "name": "더현대트래블 여행 할인쿠폰",
     "period": "2026-06-05 ~ 2026-12-31",
     "url": "https://www.hyundai.com/kr/ko/event"
@@ -22,11 +17,6 @@
     "name": "채비 충전 제휴 상품",
     "period": "2026-05-08 ~ 2026-12-31",
     "url": "https://www.hyundai.com/kr/ko/event"
-   },
-   {
-    "name": "N 택시 인제스피디움 차량 구매 혜택",
-    "period": "2026-05-06 ~ 2026-12-30",
-    "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html"
    }
   ],
   "other_urls": {
@@ -462,6 +452,22 @@
    "url": "https://www.hyundai.com/kr/ko/event/event-zigrtruck-tradein-2610",
    "conf": "high",
    "text": "대상: 직트럭으로 2.5톤 이상 중고트럭을 매각하고 현대 트럭(마이티, 파비스, 뉴파워트럭, 엑시언트) 신차를 구매하는 고객 / 현대 구매 할인 100만원 + 출고 후 직트럭 캐시백: 직접매입 100만원(총 200만원), 개인거래 30만원(총 130만원) / 기간 2026-10-20~12-31"
+  },
+  {
+   "name": "현대자동차 K-세일 페스타 프로모션",
+   "model": null,
+   "period": "2026-10-31 ~ 2026-12-31",
+   "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html",
+   "conf": "high",
+   "text": "혜택 기간 2026-11-01~12-31 / 아반떼: 기본 100만 할인(가솔린 한정) + 인기사양 무상장착 20만 상당 + 바디케어 또는 워런티 플러스 토탈 카 케어 60만 상당(세차·코팅·타이어·주차 지원), 총 최대 약 280만 / 그랜저: 기본 혜택 140만 상당 + 인기사양 무상장착 100만 상당 + 하이브리드 한정 최대 100만 할인 + 토탈 카 케어 60만 상당, 총 최대 약 300만 / 싼타페: 기본 100만 할인 + 추가 최대 100만 할인 + 토탈 카 케어 60만 상당, 총 최대 약 260만 / 그랜저·싼타페 추가 혜택은 즉시 출고 가능 모델 한정 / 올해까지 하이브리드 구매 시 최대 106만 수준 세제 혜택 추가 적용 가능"
+  },
+  {
+   "name": "N 택시 인제스피디움 차량 구매 혜택",
+   "model": null,
+   "period": "2026-05-08 ~ 2026-12-30",
+   "url": "https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html",
+   "conf": "high",
+   "text": "대상: 인제스피디움 'N 서킷 택시' 또는 'N 드리프트 택시' 체험 후 2026년 N 차량(아반떼 N, 아이오닉 5 N, 아이오닉 6 N)을 구매·출고한 고객 / 혜택: 인제스피디움 호텔 숙박권 1매(수페리어 더블/트윈), 인제스피디움 스포츠 주행권 3매, the Nthusiast 멤버십 유료 회원권(멤버십 혜택은 2026년 6월까지 출고자 한정) / 프로모션 기간 2026년 4월~12월"
   }
  ]
 }

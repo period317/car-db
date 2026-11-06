@@ -1,0 +1,6 @@
+# url: https://www.polestar.com/kr/offers/new/polestar-3/
+# captured: 2026-11-06T16:10:00
+# method: Chrome javascript_tool document.body.innerText (진행 중인 프로모션 본문 발췌, 가공 없음. 쿠키·푸터 생략)
+---
+진행 중인 프로모션 개인 고객 Polestar 3 Polestar 3 프로모션 Polestar 3 2027년형 다양한 구매 혜택 특별 캐시백, 저금리, 장기 할부 등 다양한 프로모션으로 Polestar 3를 만나보세요. 구매 혜택 보기 Polestar 3 2027년형 재구매 혜택 Polestar와의 여정을 이어가는 고객을 위한 재구매 혜택을 만나보세요. 재구매 혜택 보기 Polestar 3 2027년형 신세계백화점 VIP 고객 대상 특별 혜택 신세계백화점 VIP 고객 대상으로 제공되는 특별한 구매 혜택을 만나보세요. 신세계백화점 VIP 혜택 보기 법인 구매 혜택은 상담 신청을 통해 안내 받으실 수 있으며 유선 문의는 폴스타오토모티브코리아고객 지원 센터(080-360-0100)로 연락주시기 바랍니다.
+Always with Polestar 무선 업데이트 (OTA) 8년 배터리 보증 5년 차량 보증 5년 긴급 출동 서비스 3년 무료 커넥티드 서비스 포함 배터리 보증: 8년 또는 160,000킬로미터 차량 보증: 5년 동안 또는 주행 거리 100,000km

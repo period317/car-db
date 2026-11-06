@@ -2,7 +2,8 @@
  "meta": {
   "brand_id": "porsche",
   "captured": "2026-11-05",
-  "source_url": "https://www.porsche-fs.co.kr/ (포르쉐 파이낸셜 서비스 코리아)",
+  "source_url": "https://www.porsche-fs.co.kr/",
+  "source_name": "포르쉐 파이낸셜 서비스 코리아",
   "phone": "02-918-0911",
   "method": "Chrome innerText. 포르쉐코리아 브랜드 사이트(porsche.com/korea/ko)는 링크 추출이 안 돼 혜택 페이지 미확인. 금융사 사이트의 첫 화면 프로모션만 수집.",
   "scope": "카이엔 일렉트릭 프로모션 배너와 PFS 공통 혜택만. 마칸·타이칸·911 월 납입금 및 구매 프로그램(스마트/할부/리스) 상세는 미수집.",

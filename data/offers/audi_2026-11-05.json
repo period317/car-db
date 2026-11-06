@@ -81,12 +81,13 @@
    "program": "밸류⁺ 금융프로그램",
    "lease": "월 40만원대",
    "installment": "최장 60개월, 6천만원대 A5를 월 60만원대"
-  },
+  }
+ ],
+ "no_benefit_info": [
   {
    "model": "Audi Q3 Sportback (2026)",
    "source": "https://www.audi.co.kr/ko/models/q3/q3sb_2026/",
-   "program": null,
-   "note": "밸류⁺ 섹션 미발견(페이지 로드 이상 가능). 재확인 필요"
+   "note": "2026-11-06 재확인: 페이지에 밸류⁺ 금융프로그램 등 혜택 섹션이 없음. 혜택 행으로 만들지 않음"
   }
  ],
  "events_extra": [

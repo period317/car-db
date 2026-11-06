@@ -25,6 +25,7 @@
   {"brand_id": "genesis", "name_contains": "해비치", "reason": "멤버십 라운지(구매 혜택 아님)"},
   {"brand_id": "mercedes", "name_contains": "Mercedes-Benz Circle", "reason": "오너 멤버십 가입 이벤트(구매 혜택 아님)"},
   {"brand_id": "mercedes", "name_contains": "CLA 전시 팝업", "reason": "전시 행사·사전예약 안내(할인·시승·금융 혜택 아님)"},
-  {"brand_id": "chevrolet", "name_contains": "겨울준비", "reason": "무상점검 서비스 이벤트(구매 혜택 아님)"}
+  {"brand_id": "chevrolet", "name_contains": "겨울준비", "reason": "무상점검 서비스 이벤트(구매 혜택 아님)"},
+  {"brand_id": "polestar", "name_contains": "폴스타 공통 보증", "reason": "상시 보증 안내(할인·시승·금융 혜택 아님)"}
  ]
 }

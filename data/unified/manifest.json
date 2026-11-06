@@ -1,10 +1,10 @@
 {
   "generated": "2026-11-06",
-  "total_records": 284,
+  "total_records": 283,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
-      "records": 7,
+      "records": 6,
       "captured": "2026-11-05",
       "source": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
       "caveat": null
@@ -149,7 +149,7 @@
       "brand_id": "porsche",
       "records": 2,
       "captured": "2026-11-05",
-      "source": "https://www.porsche-fs.co.kr/ (포르쉐 파이낸셜 서비스 코리아)",
+      "source": "https://www.porsche-fs.co.kr/",
       "caveat": "월 납입금 '125만원 ~'의 모델/조건은 배너 텍스트상 카이엔 일렉트릭 기준으로 보이나 정확한 조건 미확인."
     },
     "offers/renault_2026-11-05.json": {

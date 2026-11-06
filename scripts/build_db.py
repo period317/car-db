@@ -141,7 +141,7 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
                 ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", p.get("apply_period") or "")
                 add("volvo", fn, "event" if p.get("benefits") else "benefit", p["name"], text=flat({k: v for k, v in p.items() if k != "name"}),
                     start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
-                    url=(m.get("other_urls", {}).get("ex90_campaign") if p.get("benefits") else None) or src, conf="high")
+                    url=(m.get("other_urls", {}).get("ex90_campaign") if p.get("benefits") else (m.get("other_urls", {}).get("family_repurchase") if "SELEKT" in p["name"] else None)) or src, conf="high")
     elif bid is None and m.get("brand_ids") == ["ford", "lincoln"]:
         ended = flat([f"{e['name']} {e['period']} ({e['status']})" for e in d.get("ended_campaigns", [])])
         for bi in m["brand_ids"]:
@@ -152,7 +152,8 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
             add("cadillac", fn, "benefit", f"{o['model']} 11월 프로모션", o["model"], text=flat({k: v for k, v in o.items() if k != "model"}), start="2026-11-01", end="2026-11-30", url=src, conf="high")
     elif bid == "landrover":
         for o in d["offers"]:
-            add("landrover", fn, "finance", f"{o['model']} 금융 예시", o["model"], price=o.get("price_from_krw"), text=flat({k: v for k, v in o.items() if k not in ("model", "price_from_krw")}), url=m["offers_index"], conf="medium")
+            add("landrover", fn, "finance", f"{o['model']} 금융 예시", o["model"], price=o.get("price_from_krw"), text=flat({k: v for k, v in o.items() if k not in ("model", "price_from_krw")}),
+                url=("https://www.landroverkorea.co.kr/offers/new-defender/index.html" if "Defender" in o["model"] else "https://www.landroverkorea.co.kr/offers/the-new-range-rover/index.html" if "Range Rover" in o["model"] else m["offers_index"]), conf="medium")
     elif "brands" in d:  # others_*.json
         for b in d["brands"]:
             add(b["id"], fn, "status", f"{(BR.get(b['id']) or {}).get('brand_ko', b['id'])} 공식 사이트 점검 결과", text=f"{b['status']}: {b['finding']}", url=b.get("site"), conf="low")
