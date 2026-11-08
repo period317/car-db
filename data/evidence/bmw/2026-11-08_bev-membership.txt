@@ -1,0 +1,9 @@
+# url: https://www.bmw.co.kr/ko/discover/bmw-bev-membership.html
+# captured: 2026-11-08
+# method: Chrome get_page_text (innerText)
+---
+BMW BEV MEMBERSHIP. 전기차로 먼저 만나는 MY NEXT BMW.
+BMW BEV MEMBERSHIP은 BMW 전기차를 보다 깊이 있게 경험할 수 있는 장기 시승 프로그램입니다. 단순한 시승을 넘어, 일주일 동안 내차처럼 운행하며 BMW 전기차의 성능과 기술을 직접 경험할 수 있습니다.
+혜택 안내: BMW BEV 1주일 시승 기회 제공 / 신차 구매 고객에게 제공하는 혜택으로 타인 양도 불가 / 운전자 나이 기준 만 26세 이상 / 충전비 무료, 통행료 무료, 보험료 무료(본인부담금 최대 100만원)
+시승 모델 라인업: BMW i5 eDrive40, BMW i4 eDrive40 그란 쿠페, BMW iX xDrive45 M 스포츠, BMW iX2 eDrive20
+예약: 밴티지 앱을 통해 예약. 기간 미표기(상시 프로그램).

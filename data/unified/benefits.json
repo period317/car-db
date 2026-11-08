@@ -20,7 +20,7 @@
   "discount": "충전비 무료, 통행료 무료, 보험료 무료(본인부담금 최대 100만원)",
   "conditions": "신차 구매 고객 대상 BMW BEV 1주일 시승 기회(타인 양도 불가); 상시 프로그램(기간 미표기)",
   "reward": "신차 구매 고객 대상 BMW 전기차 1주일 시승(충전비·통행료·보험료 무료, 본인부담금 최대 100만원). 운전자 만 26세 이상, 타인 양도 불가. 시승 라인업에 i5 eDrive40, i4 eDrive40 그란 쿠페 등",
-  "detail": "신차 구매 고객 대상 BMW BEV 1주일 시승 기회(타인 양도 불가) / 운전자 만 26세 이상 / 충전비 무료, 통행료 무료, 보험료 무료(본인부담금 최대 100만원) / 시승 라인업: BMW i5 eDrive40, BMW i4 eDrive40 그란 쿠페 등 / 상시 프로그램(기간 미표기) / 시승 정보: 신차 구매 고객 대상 BMW 전기차 1주일 시승(충전비·통행료·보험료 무료, 본인부담금 최대 100만원). 운전자 만 26세 이상, 타인 양도 불가. 시승 라인업에 i5 eDrive40, i4 eDrive40 그란 쿠페 등",
+  "detail": "신차 구매 고객 대상 BMW BEV 1주일 시승 기회(타인 양도 불가) / 운전자 만 26세 이상 / 충전비 무료, 통행료 무료, 보험료 무료(본인부담금 최대 100만원) / 시승 라인업: BMW i5 eDrive40, BMW i4 eDrive40 그란 쿠페, BMW iX xDrive45 M 스포츠, BMW iX2 eDrive20 / 상시 프로그램(기간 미표기) / 시승 정보: 신차 구매 고객 대상 BMW 전기차 1주일 시승(충전비·통행료·보험료 무료, 본인부담금 최대 100만원). 운전자 만 26세 이상, 타인 양도 불가. 시승 라인업에 i5 eDrive40, i4 eDrive40 그란 쿠페 등",
   "period_start": null,
   "period_end": null,
   "link": "https://www.bmw.co.kr/ko/discover/bmw-bev-membership.html",
@@ -29,8 +29,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/bmw/2026-11-06_bev-membership.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/bmw/2026-11-08_bev-membership.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 2,
@@ -1462,17 +1462,17 @@
   "model_year": null,
   "target_scope": "특정 모델",
   "event_name": "월 구매 혜택(이벤트명 미표기)",
-  "types": "금융,보증·서비스",
+  "types": "할인,금융,보증·서비스",
   "title": "ES (ES 350e BEV)",
-  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
-  "discount_amount_krw": null,
+  "discount_type": "정액 할인",
+  "discount_amount_krw": 500000,
   "discount_rate_pct": null,
-  "discount_options": null,
+  "discount_options": "세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40",
   "max_benefit_krw": null,
-  "discount": "세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기.",
+  "discount": "세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기. 두 번째 LEXUS 차량 재구매 시 5%(300만원대) 추가혜택. 36개월간 자기부담금 지원 프로그램(사고 1건당 최대 50만원, 연간 최대 3회, 3년).; example_2026_11: ES 350e Premium 27년식 기준: 차량가격 71,600,000원, 선수금 30%(21,480,000원), 대출이용금액 70%(50,120,000원), 유예 10%(7,160,000원, 조건충족시 면제), 잔존가치 50%(35,800,000원), 보증금 20%(14,320,000원), 36개월 계약 금리 5.80%, 월 납입금 425,000원(2026년 11월 금융조건 기준)",
   "conditions": "프로그램: 어메이징 스위치 (잔존가치 보장 할부)",
   "reward": null,
-  "detail": "프로그램: 어메이징 스위치 (잔존가치 보장 할부); 세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기.; url: https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/",
+  "detail": "프로그램: 어메이징 스위치 (잔존가치 보장 할부); 세부: 36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기. 두 번째 LEXUS 차량 재구매 시 5%(300만원대) 추가혜택. 36개월간 자기부담금 지원 프로그램(사고 1건당 최대 50만원, 연간 최대 3회, 3년).; example_2026_11: ES 350e Premium 27년식 기준: 차량가격 71,600,000원, 선수금 30%(21,480,000원), 대출이용금액 70%(50,120,000원), 유예 10%(7,160,000원, 조건충족시 면제), 잔존가치 50%(35,800,000원), 보증금 20%(14,320,000원), 36개월 계약 금리 5.80%, 월 납입금 425,000원(2026년 11월 금융조건 기준); finance_approval: 여신금융협회 심의필 제 2026-C1h-13627호 (2026-09-07~2027-09-06); url: https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/",
   "period_start": null,
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/",
@@ -1481,8 +1481,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_amazing-switch-es.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_amazing-switch-es.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 46,
@@ -1514,8 +1514,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 47,
@@ -1547,8 +1547,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 48,
@@ -1580,8 +1580,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 49,
@@ -1613,8 +1613,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 50,
@@ -1646,8 +1646,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 51,
@@ -1679,8 +1679,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 52,
@@ -1712,8 +1712,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/lexus/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/lexus/2026-11-08_monthly-benefit.txt",
+  "evidence_date": "2026-11-08"
  },
  {
   "id": 53,

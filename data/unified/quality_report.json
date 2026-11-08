@@ -1,6 +1,6 @@
 {
  "stats": {
-  "date": "2026-11-06",
+  "date": "2026-11-08",
   "records": 283,
   "verified_rate": 100.0,
   "by_category": {
@@ -36,7 +36,7 @@
   }
  },
  "counts": {
-  "WARN": 39,
+  "WARN": 40,
   "INFO": 65
  },
  "issues": [
@@ -515,6 +515,13 @@
    "id": 42,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 타스만 구매혜택"
+  },
+  {
+   "level": "WARN",
+   "rule": "benefit-raw-key",
+   "id": 45,
+   "brand": "렉서스",
+   "message": "세부내용에 영문 내부 키가 남음: ES (ES 350e BEV)"
   },
   {
    "level": "INFO",

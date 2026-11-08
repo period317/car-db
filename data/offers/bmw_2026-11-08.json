@@ -1,0 +1,190 @@
+{
+ "meta": {
+  "brand_id": "bmw",
+  "captured": "2026-11-08",
+  "index_url": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
+  "test_drive_url": "https://www.bmw.co.kr/ko/fastlane/tda-experience.html",
+  "finance_url": "https://www.bmw.co.kr/ko/bmw-financial-services.html",
+  "method": "Chrome get_page_text (innerText). 모델별 상세 페이지 7개 전부 텍스트로 읽힘(이미지 OCR 불필요).",
+  "valid_period_on_page": "2026-10-01 ~ 2026-10-31 (X3, X 패밀리, 1·2시리즈, 5시리즈, XM, 7시리즈 모두 동일 표기. iX3는 기간 표기 없음)",
+  "STALE_WARNING": "수집일(11/08) 재확인: 11/05 수집 때와 동일하게 10월 프로모션이 그대로 페이지에 남아 있음(11월분 갱신 안 됨). 내용·금액 변동 없음. 다음 주기 갱신 때 다시 확인.",
+  "units": "금액은 만원. 월 납입금은 만원/월. 스마트 리스/할부 조건은 plans 문자열 참조(선납·기간·잔가·이자율)."
+ },
+ "offers": [
+  {
+   "model": "BMW X3",
+   "source": "x3-promotion.html",
+   "headline": "월 56만원부터",
+   "trims": [
+    {
+     "trim": "X3 20 xDrive M 스포츠 패키지",
+     "price": 7560,
+     "일반 할부": 119,
+     "스마트 리스": 68,
+     "스마트 할부": 56,
+     "detail": "일반할부 선납45% 36개월 1.92% / 리스 선납30% 60개월 잔가52% 연1만km 취득세포함 / 스마트할부 선납30% 36개월 잔가54% 5.48%"
+    },
+    {
+     "trim": "X3 M50 xDrive 프로",
+     "price": 9990,
+     "일반 할부": 124,
+     "스마트 리스": 103,
+     "스마트 할부": 97,
+     "detail": "일반할부 선납57% 36개월 2.15% / 리스 선납30% 60개월 잔가44% / 스마트할부 선납30% 36개월 잔가46% 6.12%"
+    }
+   ]
+  },
+  {
+   "model": "BMW X 패밀리",
+   "source": "bmw-x-family-promotion.html",
+   "headline": "X5 월 94만원부터 (일반할부 2%대 이자율)",
+   "trims": [
+    {
+     "trim": "X5 xDrive 30d M 스포츠 패키지",
+     "price": 12430,
+     "일반 할부": 210,
+     "스마트 리스": 94,
+     "스마트 할부": 102
+    },
+    {
+     "trim": "X6 xDrive 30d M 스포츠 패키지",
+     "price": 12790,
+     "일반 할부": 212,
+     "스마트 리스": 99,
+     "스마트 할부": 109
+    },
+    {
+     "trim": "X7 xDrive 40i M 스포츠 패키지",
+     "price": 15620,
+     "일반 할부": 219,
+     "스마트 리스": 121,
+     "스마트 할부": 133
+    }
+   ]
+  },
+  {
+   "model": "THE NEW BMW iX3",
+   "source": "bmw-ix3-promotion.html",
+   "headline": "월 57만원부터",
+   "benefits": [
+    "스마트 운용리스 시 최대 중고차가치 63% 보장(36개월, 연 1만km)",
+    "BMW 원상복구 케어: 운용리스 반납 시 부품 수리비 최대 100만원 면제"
+   ],
+   "trims": [
+    {
+     "trim": "iX3 50 xDrive M 스포츠 패키지",
+     "price": 8760,
+     "스마트 리스": 57,
+     "일반 할부": 59,
+     "detail": "리스료: 통합취득세 포함, 국비 285만 + 리스 추가보조금 85만 반영 / 할부금: 취득세 미포함, 국비 285만 반영",
+     "note": "할부 종류(일반/스마트) 라벨은 페이지 텍스트에서 불명확. 재확인 필요"
+    }
+   ]
+  },
+  {
+   "model": "BMW 1시리즈 / 2시리즈 그란 쿠페",
+   "source": "bmw-1-and-2-series-promotion.html",
+   "headline": "1시리즈 월 41만원부터, 2시리즈 그란 쿠페 월 44만원부터",
+   "trims": [
+    {
+     "trim": "120 M 스포츠 패키지",
+     "price": 5340,
+     "스마트 리스": 41,
+     "스마트 할부": 42,
+     "detail": "리스 선납45% 60개월 잔가42%"
+    },
+    {
+     "trim": "220 그란 쿠페 M 스포츠 패키지",
+     "price": 5430,
+     "스마트 리스": 44,
+     "스마트 할부": 47,
+     "detail": "리스 선납45% 60개월 잔가39%"
+    },
+    {
+     "trim": "M135 xDrive",
+     "price": 6260,
+     "스마트 리스": 53,
+     "스마트 할부": 59,
+     "detail": "리스 선납45% 60개월 잔가36%"
+    },
+    {
+     "trim": "M235 xDrive 그란 쿠페",
+     "price": 6490,
+     "스마트 리스": 57,
+     "스마트 할부": 65,
+     "detail": "리스 선납45% 60개월 잔가33%"
+    }
+   ]
+  },
+  {
+   "model": "BMW 5시리즈",
+   "source": "5-series-promotion.html",
+   "headline": "월 43만원부터",
+   "trims": [
+    {
+     "trim": "520i",
+     "price": 7070,
+     "스마트 리스": 43,
+     "스마트 할부": 43,
+     "일반 할부": 112,
+     "detail": "리스 선납37% 36개월 잔가60%"
+    },
+    {
+     "trim": "530i xDrive M 스포츠 패키지",
+     "price": 9120,
+     "스마트 리스": 57,
+     "스마트 할부": 66,
+     "일반 할부": 150,
+     "detail": "리스 선납45% 60개월 잔가45%"
+    }
+   ]
+  },
+  {
+   "model": "BMW XM Label",
+   "source": "special-offer-xm.html",
+   "headline": "8개월 리스료 지원 (일반할부 4%대 이자율)",
+   "trims": [
+    {
+     "trim": "XM",
+     "price": 22910,
+     "스마트 리스": 237,
+     "스마트 할부": 253,
+     "일반 할부": 410
+    }
+   ]
+  },
+  {
+   "model": "BMW 7시리즈",
+   "source": "special-offer-bmw-7.html",
+   "headline": "월 141만원",
+   "trims": [
+    {
+     "trim": "740i xDrive M 스포츠 패키지",
+     "price": 17740,
+     "스마트 리스": 141,
+     "스마트 할부": 147,
+     "일반 할부": 312,
+     "detail": "리스 선납40% 60개월 잔가40%"
+    },
+    {
+     "trim": "i7 eDrive50 M 스포츠 패키지",
+     "price": 18250,
+     "스마트 리스": 159,
+     "스마트 할부": 174,
+     "일반 할부": 322,
+     "detail": "리스 선납40% 60개월 잔가33%"
+    }
+   ]
+  }
+ ],
+ "events_extra": [
+  {
+   "name": "BMW BEV MEMBERSHIP",
+   "model": null,
+   "period": "",
+   "url": "https://www.bmw.co.kr/ko/discover/bmw-bev-membership.html",
+   "conf": "high",
+   "text": "신차 구매 고객 대상 BMW BEV 1주일 시승 기회(타인 양도 불가) / 운전자 만 26세 이상 / 충전비 무료, 통행료 무료, 보험료 무료(본인부담금 최대 100만원) / 시승 라인업: BMW i5 eDrive40, BMW i4 eDrive40 그란 쿠페, BMW iX xDrive45 M 스포츠, BMW iX2 eDrive20 / 상시 프로그램(기간 미표기)"
+  }
+ ]
+}

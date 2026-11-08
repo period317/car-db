@@ -260,7 +260,7 @@
     "brand_ko": "렉서스",
     "can_apply_online": true,
     "apply_url": "https://www.lexus.co.kr/test-drive/",
-    "models": "NX 350h, NX 450h+, UX 300h, RX 350h, RX 450h+, RX 500h, LS 500h, ES",
+    "models": "ES 350e, ES 500e, LX 700h, LM 500h, LS 500h, RX 350h, RX 450h+, RX 500h, NX 350h, NX 450h+, NX 450h+ F SPORT, UX 300h 2WD, UX 300h F SPORT",
     "policy": "모델 카드별 시승신청 버튼. 정책 미수집",
     "has_event": false,
     "event_name": null,
@@ -269,7 +269,7 @@
     "event_url": null,
     "event_detail_collected": null,
     "detail_level": "url_only",
-    "note": "2026 가을 전국 시승회(응모 2026-10-06~10-31, 시승 ~11-03, 결과 발표 11-10: 54명 추첨 경품)는 응모 기간이 끝남. 11월 시승회 페이지는 확인되지 않음. 월별 혜택 표에는 만료 이벤트로 기록 https://www.lexus.co.kr/2026-oct-test-drive/"
+    "note": "2026 가을 전국 시승회(응모 2026-10-06~10-31, 시승 ~11-03, 결과발표 11-10: 54명 경품)는 종료. 11/8 재확인: https://www.lexus.co.kr/2026-nov-test-drive/ 는 SPA 404(페이지 없음). 11월 시승회 아직 확인되지 않음. RZ 500e는 출시예정(시승 불가, UPCOMING 표기)이라 models에서 제외."
   },
   {
     "brand_id": "ford",

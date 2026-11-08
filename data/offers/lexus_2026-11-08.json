@@ -1,0 +1,90 @@
+{
+ "meta": {
+  "brand_id": "lexus",
+  "captured": "2026-11-08",
+  "source_url": "https://www.lexus.co.kr/purchase-benefit/monthly/",
+  "valid": "2026년 11월 출고 기준 (11/5 수집 내용과 동일, 변동 없음)",
+  "other_urls": {
+   "hybrid_benefit": "https://www.lexus.co.kr/purchase-benefit/hybrid/",
+   "value_plus": "https://www.lexus.co.kr/purchase-benefit/value-plus/",
+   "amazing_switch_es": "https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/",
+   "test_drive": "https://www.lexus.co.kr/test-drive/",
+   "dealers": "https://www.lexus.co.kr/find-dealers"
+  },
+  "finance_company": "토요타파이낸셜서비스코리아",
+  "method": "Chrome javascript_tool innerText (글자 단위로 쪼개져 있어 공백 결합으로 복원)",
+  "caveat": "ES, 밸류플러스, 하이브리드 혜택 페이지는 이번에도 이달의 구매혜택만 숫자로 수집. 하이브리드 혜택 페이지(혼잡통행료·공영주차장 할인, 배터리 보증 연장)는 브랜드 프로모션이 아닌 친환경차 일반 정책이라 수집 범위 밖으로 보고 제외. 밸류플러스 페이지는 숫자 없는 설명 페이지라 제외."
+ },
+ "offers": [
+  {
+   "model": "NX 350h",
+   "choose_one": [
+    "현금 300만원",
+    "토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매"
+   ]
+  },
+  {
+   "model": "NX 450h+",
+   "benefit_1": "충전 멤버십 카드 지급 (100만원)",
+   "benefit_2": [
+    "현금 300만원",
+    "또는 토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매 (택1)"
+   ]
+  },
+  {
+   "model": "UX 300h",
+   "choose_one": [
+    "현금 200만원",
+    "토요타파이낸셜 저금리 할부 + PMS 쿠폰 1매"
+   ]
+  },
+  {
+   "model": "RX 350h",
+   "choose_one": [
+    "현금 200만원",
+    "토요타파이낸셜 저금리 할부"
+   ]
+  },
+  {
+   "model": "RX 450h+",
+   "benefit_1": "충전 멤버십 카드 지급 (100만원)",
+   "benefit_2": [
+    "PMS 쿠폰 2매",
+    "또는 토요타파이낸셜 저금리 할부"
+   ]
+  },
+  {
+   "model": "RX 500h",
+   "choose_one": [
+    "현금 200만원",
+    "토요타파이낸셜 저금리 할부"
+   ]
+  },
+  {
+   "model": "LS 500h",
+   "benefits": [
+    "현금 고객 대상 법인명의 차량교체 지원 및 개인명의 국산 플래그십 업그레이드 지원(금액 미게시)",
+    "토요타파이낸셜 저금리 할부",
+    "현금 및 타사 할부/리스 구매 시 PMS 쿠폰 2매 (오토 케어 리스는 쿠폰 제외)"
+   ]
+  },
+  {
+   "model": "ES (ES 350e BEV)",
+   "program": "어메이징 스위치 (잔존가치 보장 할부)",
+   "detail": "36개월 후 ES BEV 가치보장. 36개월 계약 만기 시 매각/매각 및 재구매/전액상환/재금융 선택. 선수금 최대 차량 판매원가의 40%, 보증금 최대 50%. 잔존가치 50%+유예 10% 표기. 두 번째 LEXUS 차량 재구매 시 5%(300만원대) 추가혜택. 36개월간 자기부담금 지원 프로그램(사고 1건당 최대 50만원, 연간 최대 3회, 3년).",
+   "example_2026_11": "ES 350e Premium 27년식 기준: 차량가격 71,600,000원, 선수금 30%(21,480,000원), 대출이용금액 70%(50,120,000원), 유예 10%(7,160,000원, 조건충족시 면제), 잔존가치 50%(35,800,000원), 보증금 20%(14,320,000원), 36개월 계약 금리 5.80%, 월 납입금 425,000원(2026년 11월 금융조건 기준)",
+   "finance_approval": "여신금융협회 심의필 제 2026-C1h-13627호 (2026-09-07~2027-09-06)",
+   "url": "https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/"
+  }
+ ],
+ "events_extra": [
+  {
+   "name": "렉서스 전국 시승회 AUTUMN TEST DRIVE EVENT",
+   "model": null,
+   "period": "2026-10-06 ~ 2026-10-31",
+   "url": "https://www.lexus.co.kr/2026-oct-test-drive/",
+   "conf": "high",
+   "text": "All-New ES 출시 기념 전국 시승 이벤트 / 대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객 / 시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명 / 결과 발표 2026-11-10 / 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담 / 이벤트 기간은 10/31 종료(시승 기한 11/3). 11/8 재확인: https://www.lexus.co.kr/2026-nov-test-drive/ 는 '요청하신 페이지를 찾을 수 없습니다' (SPA 404). 11월 시승회 아직 없음"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# url: https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html
+# captured: 2026-11-08
+# method: Chrome get_page_text (innerText)
+---
+BMW X 패밀리 프로모션. 바로가기
+THE NEW BMW iX3 프로모션. 바로가기
+BMW 1시리즈 & BMW 2시리즈 그란 쿠페 프로모션. 바로가기
+BMW X3 프로모션. 바로가기
+BMW 5시리즈 프로모션. 바로가기
+BMW XM Label 프로모션. 바로가기
+BMW 7시리즈 프로모션. 바로가기

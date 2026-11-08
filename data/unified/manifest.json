@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-08",
   "total_records": 283,
   "files": {
     "offers/audi_2026-11-05.json": {
@@ -9,12 +9,12 @@
       "source": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
       "caveat": null
     },
-    "offers/bmw_2026-11-05.json": {
+    "offers/bmw_2026-11-08.json": {
       "brand_id": "bmw",
       "records": 16,
-      "captured": "2026-11-05",
+      "captured": "2026-11-08",
       "source": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-      "caveat": "수집일(11/05) 기준 10월 프로모션이 만료된 상태로 페이지에 남아 있음. 11월분 갱신 여부 주기적 재확인 필요."
+      "caveat": "수집일(11/08) 재확인: 11/05 수집 때와 동일하게 10월 프로모션이 그대로 페이지에 남아 있음(11월분 갱신 안 됨). 내용·금액 변동 없음. 다음 주기 갱신 때 다시 확인."
     },
     "offers/byd_2026-11-05.json": {
       "brand_id": "byd",
@@ -100,12 +100,12 @@
       "source": "https://www.landroverkorea.co.kr (landrover.co.kr 아님)",
       "caveat": "랜드로버는 현금 할인이 아니라 모델별 '월 납입금 예시'(운용리스/할부) 방식. 적용 기간 미표기. 가격 PDF는 2026-04-08 버전. 수집 모델: Defender, Range Rover만. 나머지 모델 페이지는 미수집."
     },
-    "offers/lexus_2026-11-05.json": {
+    "offers/lexus_2026-11-08.json": {
       "brand_id": "lexus",
       "records": 9,
-      "captured": "2026-11-05",
+      "captured": "2026-11-08",
       "source": "https://www.lexus.co.kr/purchase-benefit/monthly/",
-      "caveat": "ES, 밸류플러스, 하이브리드 혜택 페이지는 이번에 이달의 구매혜택만 수집. ES BEV 어메이징 스위치 일부만 확인."
+      "caveat": "ES, 밸류플러스, 하이브리드 혜택 페이지는 이번에도 이달의 구매혜택만 숫자로 수집. 하이브리드 혜택 페이지(혼잡통행료·공영주차장 할인, 배터리 보증 연장)는 브랜드 프로모션이 아닌 친환경차 일반 정책이라 수집 범위 밖으로 보고 제외. 밸류플러스 페이지는 숫자 없는 설명 페이지라 제외."
     },
     "offers/mercedes_2026-11-05.json": {
       "brand_id": "mercedes",
