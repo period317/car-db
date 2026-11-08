@@ -12,6 +12,7 @@
 4. 벤츠·포르쉐·마세라티 등은 금액 비공개(딜러 문의)이며 '혜택 없음'이 아님.
 5. 혼다·시트로엥·맥라렌·재규어는 국내 신차 판매 여부 불확실.
 6. `[신뢰도]` high=페이지에서 수치 직접 확인, medium=해석 필요, low=점검 결과/추정.
+7. **같은 달 안에서도 종료일이 이 파일의 '생성' 날짜보다 앞서면 이미 끝난 이벤트**입니다(기간상태가 '기준월 해당'이어도). '지금 받을 수 있는' 혜택을 물으면 종료일이 오늘 이후이거나 기간 미표기인 것만 안내하세요.
 
 ## 월별 혜택 (2026-11 기준)
 - 항목마다 유형(할인/금융/증정/시승혜택/이벤트/보증·서비스), 차종·세부모델, 할인·금융 내용, 조건, 증정·경품, 기간, 링크를 적었습니다.
@@ -1492,9 +1493,9 @@ AI용 파일 맨 위에는 **표 작성 규칙**(열 정의, 필터 말뜻, 정�
 | KGM | /od/promotion/monthly-benefits | 홈 배너 → `/br/news/event/<id>`, `/cm/pre-order/<id>` | ✅ 2건 | 이벤트 목록 주소는 못 찾음(홈 배너 클릭으로 진입). 상세는 텍스트. 가을 드라이브 페스타(시승)와 K-세일페스타(택1 구매혜택/할부, 차종별) 수집 |
 | 쉐보레 | /purchase/offers-faq.gm (텍스트), /events/… (이미지) | https://www.chevrolet.co.kr/past-events (지난 이벤트), 홈 배너 | △ | 진행 중 이벤트는 **홈 배너 텍스트**로 읽힘(겨울준비 무상점검 응모, 코리아 그랜드 페스티벌). 홈에 "최대 200만원 혜택"이 텍스트로 있어 이미지 페이지 값과 일치. 시승 이벤트는 8월 썸머 드라이브(종료)뿐. `/offers` 는 404 |
 | 벤츠 | /passengercars/buy/new-car/promotion.html | /passengercars/campaigns/*.html (캠페인 페이지) | △ | 뉴스·이벤트 페이지(`/brand/news-events.html`)는 2025년까지만 올라와 있음 → **캠페인 페이지로 확인**: `cla-pre-order-campaign.html`(CLA 전시 팝업 10/23~11/17, 사전예약), `mercedes-benz-circle.html`(멤버십 가입 경품). 금액 비공개, 쿠키 배너 처리 필요. 신한카드·AMG 구매상담·개별소비세 이벤트도 수집 |
-| BMW | /ko/finance/special-offer/financial-promotion.html | 목록 주소 못 찾음. 검색으로 개별 페이지 확인 | △ | 금융 프로모션(모델 7페이지, 기간 10월 표기 주의), 시승 `/ko/fastlane/tda-experience.html`. **BEV 멤버십**(`/ko/discover/bmw-bev-membership.html`, 상시 7일 시승) 수집. 네이버 특별 프로모션(bmwexperience.bmw.co.kr)은 "운영기간이 아닙니다", M FEST는 4월 종료. 서비스 프로모션은 공식 페이지에서 확인하지 못해 미수집. **홈 메뉴 '구매하기'**에 BMW 트레이드인/재구매(`/ko/used-car/tradein.html`, 금액 없이 영업사원 상담 안내), 리스·할부, 금융 프로모션. 금융 프로모션 모델별 7페이지(`/ko/finance/special-offer/financial-promotion/*.html`)는 2026-10-01~10-31 적용으로 표기돼 11월 혜택은 아직 없음(제외 처리) |
+| BMW | /ko/finance/special-offer/financial-promotion.html | 목록 주소 못 찾음. 검색으로 개별 페이지 확인 | △ (11/8 재확인) | 금융 프로모션(모델 7페이지, 기간 10월 표기 주의), 시승 `/ko/fastlane/tda-experience.html`. **BEV 멤버십**(`/ko/discover/bmw-bev-membership.html`, 상시 7일 시승, 시승 라인업 i5/i4 그란쿠페/iX/iX2 4종 확인) 수집. 네이버 특별 프로모션(bmwexperience.bmw.co.kr)은 "운영기간이 아닙니다", M FEST는 4월 종료. 서비스 프로모션은 공식 페이지에서 확인하지 못해 미수집. **홈 메뉴 '구매하기'**에 BMW 트레이드인/재구매(`/ko/used-car/tradein.html`, 금액 없이 영업사원 상담 안내), 리스·할부, 금융 프로모션. 금융 프로모션 모델별 7페이지(`/ko/finance/special-offer/financial-promotion/*.html`)는 11/8 재확인해도 여전히 2026-10-01~10-31 적용으로 표기돼 있음(11월분 갱신 안 됨, 숫자도 11/5와 동일, 제외 처리 유지) |
 | 테슬라 | /ko_kr/modely/design 등 | https://www.tesla.com/events/tesla-special-test-drive-event 등 | △ | 가격은 스크린샷. 시승 `/ko_kr/drive`, 트레이드인 `/ko_kr/tradein`. 시승 이벤트 페이지는 "No upcoming events nearby". `/ko_kr/campaign/zero-drive`(다짐 공유 추첨, 11/21~25, 연도 미표기)는 미수집 |
-| 렉서스 | /purchase-benefit/ (탭: 이달의 구매혜택·하이브리드 혜택·밸류플러스·어메이징 스위치) | 별도 목록 없음. 시승회는 월별 페이지 `/2026-oct-test-drive/`(예전엔 `/contents/2025-oct-test-drive/`) | △ | 글자 단위로 쪼개져 있어 공백 결합 필요. **`/event/` 등 아무 주소나 200을 돌려주므로(SPA) 상태코드로 존재 여부를 판단하지 말 것**(없는 페이지는 본문에 "요청하신 페이지를 찾을 수 없습니다"). 2026 가을 시승회는 응모 10/6~10/31로 종료(시승 ~11/3, 발표 11/10)해 만료 행으로 기록. 11월 시승회 `/2026-nov-test-drive/` 는 없음. 매달 `/YYYY-<mon>-test-drive/` 패턴을 확인할 것 |
+| 렉서스 | /purchase-benefit/ (탭: 이달의 구매혜택·하이브리드 혜택·밸류플러스·어메이징 스위치) | 별도 목록 없음. 시승회는 월별 페이지 `/2026-oct-test-drive/`(예전엔 `/contents/2025-oct-test-drive/`) | △ (11/8 재확인) | 글자 단위로 쪼개져 있어 공백 결합 필요(리스트형 페이지는 `get_page_text`가 마지막 카드만 줄 수 있어 `javascript_tool` innerText를 쓴다). **`/event/` 등 아무 주소나 200을 돌려주므로(SPA) 상태코드로 존재 여부를 판단하지 말 것**(없는 페이지는 본문에 "요청하신 페이지를 찾을 수 없습니다"). 2026 가을 시승회는 응모 10/6~10/31로 종료(시승 ~11/3, 발표 11/10)해 만료 행으로 기록. 11월 시승회 `/2026-nov-test-drive/` 는 11/8 재확인해도 여전히 없음(SPA 404). 매달 `/YYYY-<mon>-test-drive/` 패턴을 확인할 것. 이달의 구매혜택(NX·UX·RX·LS 7모델)은 11/5와 동일. 어메이징 스위치(ES BEV 잔존가치 보장 할부) 페이지의 "월 납입금 예시"는 그 달 금융조건으로 매번 갱신되므로(11월: 금리 5.80%, 월 425,000원) 매달 다시 읽는다 |
 | 아우디 | 모델 페이지(월 납입금 롤링 숫자) | `/ko/event/`, `/ko/event/taste-drive/` 는 지금 404 | △ | 상시 `Audi to you 찾아가는 시승 서비스`(`/ko/aboutaudi/Auditoyou/`) 수집. 검색 기준 최근 시승 이벤트는 2025-11, 여름 투어(7/6~8/31)는 종료. 현재 진행 이벤트 목록은 못 찾음. 홈 링크 추출 시 도구가 쿼리스트링 출력을 막음(LESSONS 참고) |
 | 볼보 | volvocar.co.kr 의 family_repurchase, ex90-test-drive-campaign-nov | – | △ | volvocars.com/kr 아님. 재구매·시승 캠페인 수집 |
 | 미니 | /ko_KR/home/offers/… | 못 찾음 | ❌ | 이달의 프로모션 페이지가 읽기 어려움. 상시 `MINI BEV MEMBERSHIP`(`/ko_KR/home/BEV_Membership.html`, 7일 시승) 수집. **홈 메뉴 '구매'에서 찾은 주소**: 이 달의 프로모션 `/ko_KR/home/offers/special-offers/this-month-special-offer.html`(JCW PACK 등 마케팅 이미지 위주, 금액 없음), 금융 프로모션 `/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html`(본문이 이미지라 스크롤 스크린샷으로 읽음: 26년식 내연기관 월 리스료 최대 3개월 지원, 전기차 풀케어 1년). `/ko_KR/home/offers.html` 은 오류 페이지. 검색에 나온 특별 혜택 페이지들은 2024년식·날짜 불명이라 미수집. 2026-11 진행 중인 시승 이벤트는 없음 |
@@ -1616,6 +1617,11 @@ Python은 항상 `python -I`(격리 모드)로 실행한다. 한글이 든 Power
 - 같은 이벤트가 `related_events`(제목만)와 상세 수집에 둘 다 있으면 중복 행이 생기므로 한쪽(상세, `events_extra`)으로 옮긴다.
 - 일부 브랜드는 이벤트 목록이 클릭 핸들러(기아)이거나 링크에 쿼리가 있어(제네시스) 도구 출력이 막힌다. 항목을 클릭해 상세로 들어가고 `location.pathname`으로 주소를 기록한다.
 
+#### 주간 자동 실행에서 배운 것 (2026-11-08)
+- 첫 일요일 실행(11/8)은 점검 스크립트가 지목한 BMW·렉서스 2곳만 다시 읽어 **나머지 18곳의 주간 이벤트 변동을 놓칠 뻔했다.** 그래서 `data/watch_pages.json`(전 브랜드의 이벤트 목록·구매혜택 페이지 목록)을 만들고 `check_stale.py` 가 매번 이를 출력하게 했다. 주간 실행은 이 목록을 **전부** 읽는다.
+- 실행 **후**에 `docs/` 를 고치면 gist 의 문서가 한 주 늦는다(11/8 15:07 gist 갱신 → 15:08 문서 수정). 문서는 `update_all.ps1` 실행 전에 고친다.
+- 같은 달 안에서 끝난 이벤트(예: 11/8 종료)도 월 기준으로는 '기준월 해당'으로 남는다. AI용 파일 지침 7번에 "종료일이 생성일보다 앞서면 이미 끝난 것"을 넣었고, `check_stale.py` 의 [종료 임박/종료]로 확인해 기간을 정정한다.
+
 #### 원문 저장 요령 (2026-11-06, 구매혜택 페이지)
 - 도구 출력은 한 번에 약 1,000자까지만 보이고 잘린다. 긴 본문은 `window.__t = text` 로 변수에 담고 `slice(0,950)`, `slice(950,1900)` … 로 **겹치지 않게** 나눠 읽는다(겹침을 주면 잘린 끝이 빠진다).
 - **숨겨진 탭 내용**(기아 구매혜택은 EV/승용/RV 탭이 있고 화면에 숨은 것은 `innerText`에 없음)은 `document.body.textContent` 로 읽는다. 팝업 열기·상담 신청 같은 UI 버튼 문구는 지워도 되지만 그 사실을 증거의 `# method:` 에 적는다.
@@ -1644,6 +1650,12 @@ Python은 항상 `python -I`(격리 모드)로 실행한다. 한글이 든 Power
   - 단일 페이지 앱(렉서스 등)은 없는 주소도 200을 돌려준다. 상태코드로 존재 여부를 판단하지 말 것.
   - 이미지로 된 이벤트 본문은 `scroll` + `screenshot` 으로 읽는다. 스크롤 직후 같은 화면이 찍히면 한 번 더 스크롤한다.
 - **아티팩트 삭제**는 이 환경에서 확인 절차가 없어 도구로 못 지운다. 사용자가 직접 지운다.
+
+#### 2026-11-08 주간 갱신에서 알게 된 것
+- **BMW 금융 프로모션 7페이지**는 11/5 → 11/8 재확인해도 내용·숫자 전부 동일하게 "2026년 10월 1일~10월 31일" 기간으로 남아 있었다(11월분 갱신 안 됨). 10월 기간은 11월과 안 겹쳐 계속 `benefits_excluded` 처리. 매주 재확인은 필요하지만 변경이 없으면 숫자를 다시 베끼지 말고 `STALE_WARNING`만 재확인 날짜로 갱신하면 된다.
+- **렉서스 `/2026-<month>-test-drive/` 패턴**: 11월 페이지(`/2026-nov-test-drive/`)를 열어도 200을 주지만 본문이 "요청하신 페이지를 찾을 수 없습니다"(SPA 404)였다. 상태코드로 판단하지 말고 `document.body.innerText`로 이 문구가 있는지 꼭 확인한다(LESSONS 기존 교훈과 동일 패턴, 11월에도 재확인됨).
+- **`get_page_text`(article 추출) 도구는 탭·아코디언형 SPA에서 마지막으로 렌더된 카드만 가져올 수 있다.** 렉서스 이달의 구매혜택 페이지에서 `get_page_text`는 LS 500h 카드 하나만 반환했지만, 같은 페이지에서 `javascript_tool`로 `document.body.innerText`를 직접 읽으면 NX~LS 전체가 나왔다. 페이지가 리스트형이면 `get_page_text`보다 `javascript_tool` innerText를 우선한다.
+- 렉서스 ES 어메이징 스위치(잔존가치 보장 할부) 페이지는 "월 납입금 예시"에 **그 달의 금융조건**(금리 5.80%, 월 납입금 42.5만원 등, "2026년 11월 금융조건 기준"이라고 명시)이 들어 있다. 이 예시 숫자는 매달 바뀔 수 있으니 재수집 때마다 다시 읽는다.
 
 #### 구조 메모
 - `scripts/build_benefits.py` 는 `title_contains` 예외 승인이 원제목(`title`)을 쓰므로 `title` 은 바꾸지 않았다. 이벤트명은 `event_name`.
