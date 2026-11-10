@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "brand_ids": [
+   "bmw",
+   "mini"
+  ],
+  "captured": "2026-11-10",
+  "source_url": "https://www.bmwfs.co.kr/kr/promotion/list?search=true&page=2",
+  "finance_company": "BMW파이낸셜서비스코리아",
+  "method": "BMW 파이낸셜 프로모션 목록 2페이지(Chrome). BMW Motorrad(오토바이)는 범위 밖이라 제외",
+  "not_collected": [
+   "BMW X3 등 1페이지 외 추가 차종(목록에 없음)",
+   "트림별 월 납입금(텍스트 없음)"
+  ]
+ },
+ "events_extra": [
+  {
+   "brand_id": "mini",
+   "category": "finance",
+   "name": "MINI 구매 혜택",
+   "model": null,
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1849",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "MINI 스마일 할부·스마일 리스 구매 혜택",
+   "finance_rate": "스마일 할부 및 일반 할부 금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "MINI 구매 혜택 / 리스료 최대 3개월 지원(최대 3개월 월 납입금 0원) / 계약기간 동안 잔존가치 보장 할부·리스, 만기 시 인수·반납·재금융 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음 / 스마일 할부 및 일반 할부 금융 이자율 연 0~9.49%(고정금리)"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "BMW Next Drive 프로모션",
+   "model": null,
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2215",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 Next Drive",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "BMW Next Drive 프로모션 / 계약기간 동안 잔존가치 보장 할부·리스, 만기 시 인수·반납·재금융 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음 / 할부금융 이자율 연 0~9.49%(고정금리)"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "BMW 재구매 프로모션",
+   "model": null,
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1858",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 재구매 프로모션",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리), 금융리스 연 5.99~8.99%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "BMW 재구매 프로모션 / 최대 150만원 상당의 특별 혜택 / 계약기간 동안 잔존가치 보장 할부·리스, 만기 시 인수·반납·재금융 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음 / 할부금융 이자율 연 0~9.49%(고정금리), 금융리스 연 5.99~8.99%(고정금리)"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "meta": {
+  "brand_ids": [
+   "tesla"
+  ],
+  "captured": "2026-11-10",
+  "source_url": "https://www.tesla.com/ko_kr/support/vehicle-financing-options",
+  "method": "Tesla 코리아 공식 사이트(Chrome). 11월 자체 보조금(모델 Y 215만원 등)은 보도만 있고 공식 페이지 텍스트로는 확인되지 않아 제외",
+  "not_collected": [
+   "테슬라 자체 보조금·프로모션(공식 페이지 미게시 또는 주문 단계에서만 표시)",
+   "우리금융캐피탈 테슬라 전용관 견적(이미지·계산기)",
+   "삼성카드 다이렉트 오토 테슬라 금리"
+  ]
+ },
+ "events_extra": [
+  {
+   "brand_id": "tesla",
+   "category": "finance",
+   "name": "Tesla 제휴 금융사 금융 서비스(우리금융캐피탈 리스·삼성카드 할부)",
+   "model": null,
+   "url": "https://www.tesla.com/ko_kr/support/vehicle-financing-options",
+   "period": "",
+   "conf": "high",
+   "finance_company": "우리금융캐피탈(리스), 삼성카드(할부)",
+   "finance_product": "Tesla 제휴 리스·할부(상시)",
+   "finance_rate": "",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "Tesla는 제휴 금융사를 통해 금융 서비스를 제공합니다. 리스 협력사 우리금융캐피탈 / 할부금융 협력사 삼성카드(다이렉트 오토 금융상품) / Tesla 구매고객에게 드리는 우리금융캐피탈만의 특별한 금융혜택, 프로모션은 금융사 사이트에서 견적 조회 / 금리·월 납입금은 이 페이지에 없음"
+  },
+  {
+   "brand_id": "tesla",
+   "category": "event",
+   "name": "Tesla 시승 신청",
+   "model": null,
+   "url": "https://www.tesla.com/ko_kr/drive",
+   "period": "",
+   "conf": "high",
+   "text": "시승 일정 예약하기: Model 3(스포츠 세단), Model Y(중형 SUV), Cybertruck 중 선택해 시승 신청 / 풀 셀프 드라이빙(감독형)은 Cybertruck 시승 시에만 이용 가능 / 상시 신청(기간 미표기)"
+  }
+ ]
+}

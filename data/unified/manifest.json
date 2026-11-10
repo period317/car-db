@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-10",
-  "total_records": 331,
+  "total_records": 336,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -35,6 +35,16 @@
       "records": 4,
       "captured": "2026-11-05",
       "source": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
+      "caveat": null
+    },
+    "offers/finance_bmwfs2_2026-11-10.json": {
+      "brand_id": [
+        "bmw",
+        "mini"
+      ],
+      "records": 3,
+      "captured": "2026-11-10",
+      "source": "https://www.bmwfs.co.kr/kr/promotion/list?search=true&page=2",
       "caveat": null
     },
     "offers/finance_bmwfs_2026-11-10.json": {
@@ -202,6 +212,15 @@
       "records": 6,
       "captured": "2026-11-05",
       "source": "https://www.tesla.com/ko_kr",
+      "caveat": null
+    },
+    "offers/tesla_2026-11-10.json": {
+      "brand_id": [
+        "tesla"
+      ],
+      "records": 2,
+      "captured": "2026-11-10",
+      "source": "https://www.tesla.com/ko_kr/support/vehicle-financing-options",
       "caveat": null
     },
     "offers/toyota_2026-11-05.json": {
