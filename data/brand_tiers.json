@@ -1,0 +1,152 @@
+{
+ "_rule": "최근 월 판매량(국산 KAMA·수입 KAIDA 신규등록) 400대 이상 = main(주요), 미만 = minor(예외). 분기마다(1·4·7·10월) 직전 3개월 평균으로 재판정. 한 번 main이 되면 2분기 연속 400대 미만일 때만 minor로 내린다(경계 브랜드가 흔들리지 않게).",
+ "basis_month": "2026-10",
+ "cutoff_units": 400,
+ "brands": [
+  {
+   "brand_id": "hyundai",
+   "brand_ko": "현대",
+   "units": 43100,
+   "tier": "main"
+  },
+  {
+   "brand_id": "kia",
+   "brand_ko": "기아",
+   "units": 51110,
+   "tier": "main"
+  },
+  {
+   "brand_id": "genesis",
+   "brand_ko": "제네시스",
+   "units": 5942,
+   "tier": "main"
+  },
+  {
+   "brand_id": "renault",
+   "brand_ko": "르노코리아",
+   "units": 2703,
+   "tier": "main"
+  },
+  {
+   "brand_id": "kgm",
+   "brand_ko": "KGM",
+   "units": 2037,
+   "tier": "main"
+  },
+  {
+   "brand_id": "chevrolet",
+   "brand_ko": "쉐보레(한국GM)",
+   "units": 799,
+   "tier": "main"
+  },
+  {
+   "brand_id": "tesla",
+   "brand_ko": "테슬라",
+   "units": 9165,
+   "tier": "main"
+  },
+  {
+   "brand_id": "mercedes",
+   "brand_ko": "벤츠",
+   "units": 6744,
+   "tier": "main"
+  },
+  {
+   "brand_id": "bmw",
+   "brand_ko": "BMW",
+   "units": 5633,
+   "tier": "main"
+  },
+  {
+   "brand_id": "volvo",
+   "brand_ko": "볼보",
+   "units": 1682,
+   "tier": "main"
+  },
+  {
+   "brand_id": "byd",
+   "brand_ko": "BYD",
+   "units": 1594,
+   "tier": "main"
+  },
+  {
+   "brand_id": "lexus",
+   "brand_ko": "렉서스",
+   "units": 1346,
+   "tier": "main"
+  },
+  {
+   "brand_id": "toyota",
+   "brand_ko": "토요타",
+   "units": 1038,
+   "tier": "main"
+  },
+  {
+   "brand_id": "volkswagen",
+   "brand_ko": "폭스바겐",
+   "units": 950,
+   "tier": "main"
+  },
+  {
+   "brand_id": "porsche",
+   "brand_ko": "포르쉐",
+   "units": 768,
+   "tier": "main"
+  },
+  {
+   "brand_id": "mini",
+   "brand_ko": "MINI",
+   "units": 704,
+   "tier": "main"
+  },
+  {
+   "brand_id": "audi",
+   "brand_ko": "아우디",
+   "units": 461,
+   "tier": "main"
+  },
+  {
+   "brand_id": "polestar",
+   "brand_ko": "폴스타",
+   "units": 244,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "landrover",
+   "brand_ko": "랜드로버",
+   "units": 231,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "honda",
+   "brand_ko": "혼다",
+   "units": 101,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "jeep",
+   "brand_ko": "지프",
+   "units": 81,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "peugeot",
+   "brand_ko": "푸조",
+   "units": 49,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "ford",
+   "brand_ko": "포드",
+   "units": 3,
+   "tier": "minor"
+  },
+  {
+   "brand_id": "lincoln",
+   "brand_ko": "링컨",
+   "units": 3,
+   "tier": "minor"
+  }
+ ],
+ "not_listed_minor": "이 표에 없는 브랜드(캐딜락·시트로엥·DS·마세라티·벤틀리·람보르기니 등 월 100대 안팎 이하 추정)는 모두 minor"
+}
