@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "brand_ids": [
+   "bmw"
+  ],
+  "captured": "2026-11-10",
+  "source_url": "https://www.bmwfs.co.kr/kr/promotion/list",
+  "finance_company": "BMW파이낸셜서비스코리아",
+  "method": "BMW 파이낸셜 서비스 코리아 프로모션 목록과 상세(Chrome). BMW 공식 홈페이지 금융 프로모션 페이지(10월 표기)와 달리 이 사이트에는 2026-11-01~11-30 구매 혜택이 게시됨",
+  "not_collected": [
+   "X3 등 목록 2페이지(페이지 이동이 동작하지 않거나 서버 오류 idx=2337)",
+   "트림별 월 납입금 표(텍스트 없음)"
+  ]
+ },
+ "events_extra": [
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "iX3 BMW파이낸셜 구매 혜택",
+   "model": "iX3",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2258",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 57만원부터",
+   "text": "THE NEW BMW iX3 구매 혜택. BMW iX3, 월 57만 원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "X 패밀리 X5 BMW파이낸셜 구매 혜택",
+   "model": "X 패밀리 (X5)",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2347",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 94만원부터",
+   "text": "BMW X 패밀리 구매 혜택. BMW X5, 월 94만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "1시리즈 BMW파이낸셜 구매 혜택",
+   "model": "1시리즈",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2136",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 41만원부터",
+   "text": "BMW 1시리즈 & BMW 2시리즈 구매 혜택. BMW 1시리즈, 월 41만원부터. BMW 2시리즈, 월 44만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "2시리즈 BMW파이낸셜 구매 혜택",
+   "model": "2시리즈",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2136",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 44만원부터",
+   "text": "BMW 1시리즈 & BMW 2시리즈 구매 혜택. BMW 1시리즈, 월 41만원부터. BMW 2시리즈, 월 44만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "5시리즈 BMW파이낸셜 구매 혜택",
+   "model": "5시리즈",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1801",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 43만원부터",
+   "text": "BMW 5시리즈 구매 혜택. BMW 5시리즈, 월 43만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "7시리즈 BMW파이낸셜 구매 혜택",
+   "model": "7시리즈",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1789",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "월 141만원부터",
+   "text": "BMW 7시리즈 구매 혜택. BMW 7시리즈, 월 141만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음"
+  },
+  {
+   "brand_id": "bmw",
+   "category": "finance",
+   "name": "XM Label BMW파이낸셜 구매 혜택",
+   "model": "XM (Label)",
+   "url": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1791",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "high",
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "BMW XM Label 구매 혜택. BMW XM Label, 8개월 리스료 지원. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 전 상품 취급 수수료 없음 / 8개월 리스료 지원"
+  }
+ ]
+}

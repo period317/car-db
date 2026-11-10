@@ -26,6 +26,7 @@
     "collected_categories": [
       "benefit",
       "event",
+      "finance",
       "testdrive"
     ],
     "has_data": true
@@ -56,6 +57,7 @@
     "collected_categories": [
       "benefit",
       "event",
+      "finance",
       "testdrive"
     ],
     "has_data": true
@@ -86,6 +88,7 @@
     "collected_categories": [
       "benefit",
       "event",
+      "finance",
       "price",
       "testdrive"
     ],
@@ -338,7 +341,8 @@
     "note": null,
     "collected_categories": [
       "benefit",
-      "event"
+      "event",
+      "finance"
     ],
     "has_data": true
   },

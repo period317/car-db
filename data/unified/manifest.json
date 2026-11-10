@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-08",
-  "total_records": 283,
+  "generated": "2026-11-10",
+  "total_records": 330,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -35,6 +35,35 @@
       "records": 4,
       "captured": "2026-11-05",
       "source": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
+      "caveat": null
+    },
+    "offers/finance_bmwfs_2026-11-10.json": {
+      "brand_id": [
+        "bmw"
+      ],
+      "records": 7,
+      "captured": "2026-11-10",
+      "source": "https://www.bmwfs.co.kr/kr/promotion/list",
+      "caveat": null
+    },
+    "offers/finance_hyundaicapital_2026-11-10.json": {
+      "brand_id": [
+        "hyundai",
+        "kia",
+        "genesis"
+      ],
+      "records": 38,
+      "captured": "2026-11-10",
+      "source": "https://www.hyundaicapital.com/nwcafn/prchprgm/CPNCPP0101.hc",
+      "caveat": null
+    },
+    "offers/finance_vwfs_2026-11-10.json": {
+      "brand_id": [
+        "volkswagen"
+      ],
+      "records": 2,
+      "captured": "2026-11-10",
+      "source": "https://www.vwfs.co.kr/ep/evtProIngList",
       "caveat": null
     },
     "offers/ford_lincoln_2026-11-05.json": {

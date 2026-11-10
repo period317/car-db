@@ -19,12 +19,12 @@ def man(n):  #万원 -> 원
     return int(round(n * 10000)) if isinstance(n, (int, float)) else None
 
 def add(brand, file, cat, title, model=None, price=None, maxb=None, text=None,
-        start=None, end=None, url=None, cap=None, conf="medium", note=None):
+        start=None, end=None, url=None, cap=None, conf="medium", note=None, extra=None):
     url = url or (BR.get(brand) or {}).get("site")  # 개별 URL이 없으면 브랜드 공식 사이트로 대체
     rows.append(dict(
         brand_id=brand, brand_ko=(BR.get(brand) or {}).get("brand_ko"), model=model, category=cat, title=title,
         price_krw=price, max_benefit_krw=maxb, text=(text or "")[:900], period_start=start, period_end=end,
-        source_url=url, captured=(cap or CUR_CAP), confidence=conf, note=note, raw_file=file))
+        source_url=url, captured=(cap or CUR_CAP), confidence=conf, note=note, raw_file=file, extra=extra))
 
 KEY_LABEL = {"offers": "구매 혜택", "promotions": "프로모션", "programs": "프로그램", "models": "모델별 혜택",
              "events": "이벤트", "finance_promotion": "금융 프로모션", "common_warranty": "공통 보증"}
@@ -183,10 +183,13 @@ for path in sorted(glob.glob(os.path.join(D, "offers", "*.json"))):
             if made == 0 and m.get("finding"):
                 add(bid0, fn, "status", f"{(BR.get(bid0) or {}).get('brand_ko', bid0)} 공식 사이트 점검 결과", text=m["finding"], url=src, conf="low")
     # 공식 이벤트 목록 페이지에서 추가로 수집한 이벤트(events_extra): 브랜드 공통 처리
+    FIN_KEYS = ("finance_company", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly", "vehicle_price_krw")
     for e in d.get("events_extra", []):
         ps_ = re.findall(r"\d{4}-\d{2}-\d{2}", e["period"])
-        add(bid, fn, "event", e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
-            url=e["url"], cap=e.get("captured") or CUR_CAP, conf=e.get("conf", "medium"))
+        ex_ = {k: e[k] for k in FIN_KEYS if e.get(k) not in (None, "")} or None
+        # category: event(기본) / finance(캐피탈 금융 혜택). brand_id: 여러 브랜드가 공유하는 금융사 파일에서 항목별 브랜드 지정
+        add(e.get("brand_id") or bid, fn, e.get("category", "event"), e["name"], e.get("model"), text=e["text"], start=ps_[0] if ps_ else None, end=ps_[1] if len(ps_) > 1 else None,
+            url=e["url"], cap=e.get("captured") or CUR_CAP, conf=e.get("conf", "medium"), extra=ex_)
     manifest[fn] = dict(brand_id=bid or m.get("brand_ids"), records=len(rows) - n0, captured=m.get("captured"),
                         source=src, caveat=(m.get("caveat") or m.get("caveats") or m.get("STALE_WARNING") or m.get("finding")))
 
@@ -214,7 +217,10 @@ cols = ["id", "brand_id", "brand_ko", "model", "category", "title", "price_krw",
         "period_start", "period_end", "source_url", "captured", "confidence", "note", "raw_file"]
 with open(os.path.join(OUT, "offers.jsonl"), "w", encoding="utf-8") as f:
     for r in rows:
-        f.write(json.dumps({c: r.get(c) for c in cols}, ensure_ascii=False) + "\n")
+        d_ = {c: r.get(c) for c in cols}
+        if r.get("extra"):          # 금융 혜택 구조화 필드(금융사·금리·기간 등)는 jsonl 에만 싣는다(csv·sqlite 는 고정 열)
+            d_["extra"] = r["extra"]
+        f.write(json.dumps(d_, ensure_ascii=False) + "\n")
 with open(os.path.join(OUT, "offers.csv"), "w", encoding="utf-8-sig", newline="") as f:
     w = csv.DictWriter(f, fieldnames=cols)
     w.writeheader()

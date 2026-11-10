@@ -43,3 +43,9 @@
 
 ## 8. 문서 지도
 `HANDOFF.md`(인수인계) · `COLLECTION_GUIDE.md`(정책·규칙·검증·이력) · `SITE_GUIDE.md`(브랜드별 주소·읽는 법·확인 현황) · `LESSONS.md`(실수와 교훈·도구 함정) · `REFRESH_PLAYBOOK.md`(예약 작업 절차) · 자동 생성: `QUALITY_REPORT.md`, `VERIFY_CHECKLIST.md`, `CHANGES.md`.
+
+## 캡티브 금융사 · 유형별 표 (2026-11-10 추가)
+- 표는 3종으로 분리: `data/unified/benefits_purchase.csv`(구매: 할인·증정·이벤트), `benefits_finance.csv`(금융: 금융사·상품·금리·기간·선수율·월 납입금 예시·차량가), `benefits_testdrive.csv`(시승). 마스터 `benefits.csv` 는 그대로. 한 행이 여러 유형이면 여러 표에 같은 id로 중복. AI 파일(`car_db_for_ai.md`)에는 표 A/B/C 로 실림.
+- 금융 행은 offers JSON 의 `events_extra` 에 `category: "finance"` + `finance_company/finance_product/finance_rate/finance_term/finance_down/finance_monthly/vehicle_price_krw` 로 넣는다. 증거는 여러 브랜드가 공유하는 금융사 페이지라 `data/evidence/_finance/` 에 저장(같은 URL로 매칭).
+- 수집 완료(11월): 현대캐피탈(현대·기아·제네시스 38행), BMW파이낸셜(BMW 7행; MINI 공용이나 별도 프로모션 미확인), 폭스바겐파이낸셜(골프 TDI·투아렉 11/2~11/30, 조건은 텍스트 없음 → 금리는 상품 범위만).
+- 미수집/한계: 아우디파이낸셜(재구매 이벤트만, 11월 구매 혜택 아님), 벤츠 파이낸셜(홈에 프로모션 목록 없음, '혜택/서비스' 메뉴 미확인), 토요타·볼보·우리금융캐피탈·모빌라이즈·JLR 미확인. BMW FS 목록 2페이지(X3 등)는 페이지 이동 불가/서버 오류(idx=2337)로 못 읽음. `data/watch_pages.json` 의 `*_finance` 항목을 주간 점검 대상에 포함.

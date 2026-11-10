@@ -35,3 +35,9 @@
 4. **웹 검색을 도메인 한정으로** 한다(예: `allowed_domains: bmw.co.kr`, 질의 "이벤트 진행중 시승"). 개별 이벤트 페이지 주소가 나오면 그 페이지를 직접 열어 확인한다(BMW BEV 멤버십, 쉐보레 지난 이벤트가 이렇게 나왔다). 검색 요약문의 날짜·금액은 근거로 쓰지 말고 반드시 페이지를 열어 읽는다.
 5. 홈페이지 본문 텍스트에도 배너 형태로 진행 중 이벤트가 있는 경우가 있다(쉐보레 홈).
 6. 그래도 못 찾으면 "확인 못 함"으로 `status` 에 남기고 넘어간다. "이벤트 없음"이라고 쓰지 않는다.
+
+## 캡티브 금융사 · 유형별 표 (2026-11-10 추가)
+- 표는 3종으로 분리: `data/unified/benefits_purchase.csv`(구매: 할인·증정·이벤트), `benefits_finance.csv`(금융: 금융사·상품·금리·기간·선수율·월 납입금 예시·차량가), `benefits_testdrive.csv`(시승). 마스터 `benefits.csv` 는 그대로. 한 행이 여러 유형이면 여러 표에 같은 id로 중복. AI 파일(`car_db_for_ai.md`)에는 표 A/B/C 로 실림.
+- 금융 행은 offers JSON 의 `events_extra` 에 `category: "finance"` + `finance_company/finance_product/finance_rate/finance_term/finance_down/finance_monthly/vehicle_price_krw` 로 넣는다. 증거는 여러 브랜드가 공유하는 금융사 페이지라 `data/evidence/_finance/` 에 저장(같은 URL로 매칭).
+- 수집 완료(11월): 현대캐피탈(현대·기아·제네시스 38행), BMW파이낸셜(BMW 7행; MINI 공용이나 별도 프로모션 미확인), 폭스바겐파이낸셜(골프 TDI·투아렉 11/2~11/30, 조건은 텍스트 없음 → 금리는 상품 범위만).
+- 미수집/한계: 아우디파이낸셜(재구매 이벤트만, 11월 구매 혜택 아님), 벤츠 파이낸셜(홈에 프로모션 목록 없음, '혜택/서비스' 메뉴 미확인), 토요타·볼보·우리금융캐피탈·모빌라이즈·JLR 미확인. BMW FS 목록 2페이지(X3 등)는 페이지 이동 불가/서버 오류(idx=2337)로 못 읽음. `data/watch_pages.json` 의 `*_finance` 항목을 주간 점검 대상에 포함.

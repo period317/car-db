@@ -20,10 +20,11 @@ os.makedirs(os.path.join(H, "snapshots"), exist_ok=True)
 TODAY = datetime.date.today().isoformat()
 
 HASH_FIELDS = ["types", "discount_type", "discount_amount_krw", "discount_rate_pct", "discount_options", "discount", "conditions", "reward",
-               "period_start", "period_end", "link", "model_year", "target_scope"]
+               "period_start", "period_end", "link", "model_year", "target_scope",
+               "finance_company", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly", "vehicle_price_krw"]
 COLS = ["key", "change", "valid_from", "valid_to", "row_status", "ym", "period_month", "brand_id", "brand_ko", "model", "sub_model", "model_year", "target_scope",
         "event_name", "title", "types", "discount_type", "discount_amount_krw", "discount_rate_pct", "discount_options", "max_benefit_krw", "discount", "conditions",
-        "reward", "period_start", "period_end", "period_status", "link", "confidence", "verification", "evidence_date", "detail"]
+        "reward", "finance_company", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly", "vehicle_price_krw", "period_start", "period_end", "period_status", "link", "confidence", "verification", "evidence_date", "detail"]
 
 
 def load(path):

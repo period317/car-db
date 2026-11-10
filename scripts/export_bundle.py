@@ -57,40 +57,38 @@ if ben:
     # ---- 표 작성 규칙: 다른 AI가 같은 표를 같은 방식으로 만들도록 열 정의·필터·정렬·예시를 못 박는다
     ex = next((x for x in ben if x["brand_id"] == "toyota" and x.get("model") == "CAMRY"), None)
     L.append("### 표 작성 규칙 (표·행·목록을 요청받으면 반드시 이 규칙대로)")
-    L.append("1. **열 정의**: 아래 '월별 혜택 표'의 19개 열이 기준입니다. 열 이름·순서를 바꾸지 말고, 표를 새로 계산하거나 요약하지 말고 **해당 행을 그대로 복사**하세요. 빈 칸은 '-'.")
+    L.append("1. **열 정의**: 아래 '유형별 혜택 표'(표 A 구매/표 B 금융/표 C 시승)의 열이 기준입니다. 열 이름·순서를 바꾸지 말고, 표를 새로 계산하거나 요약하지 말고 **해당 행을 그대로 복사**하세요. 빈 칸은 '-'.")
     L.append("2. **열 뜻**: 모델·세부모델=차량 이름만 / 연식=모델 연식 / 이벤트명=프로그램·행사 이름만(차량 이름 아님) / 유형=할인·금융·증정·시승혜택·이벤트·보증·서비스(여러 개 가능) / 할인구분=정액 할인·정률 할인·정액+정률 할인·금융 조건·할인 없음 / 할인금액(만원)=선택지 중 최대 정액 / 할인율(%)=선택지 중 최대 정률 / 할인 내용=선택지 전체 원문 / 시작·종료=혜택 기간(없으면 '-').")
     L.append("3. **필터 말뜻**: '모델이 선택된(지정된) 행' = 모델 열이 '-'가 아닌 행 / '브랜드 전체 이벤트' = 모델 열이 '-'인 행 / '할인 혜택' = 할인구분이 '정액 할인'·'정률 할인'·'정액+정률 할인'인 행 / '지금 받을 수 있는' = 기간상태가 '기간 만료'가 아닌 행 / '검증된' = 검증 열이 '검증됨'인 행.")
     L.append("4. **정렬**: 요청이 없으면 ID 순서(=브랜드 가나다·모델 순)를 유지. '할인 큰 순'이면 할인금액(만원) 내림차순(비어 있는 행은 맨 뒤), '할인율 순'이면 할인율(%) 내림차순.")
     L.append("5. **금지**: 값을 추정해 채우기, 금액 합산·평균·대표값 만들기, 없는 열 추가, 이 파일에 없는 브랜드·모델 언급. 값이 없으면 '이 DB에 없음'.")
     L.append("6. **검증 열**: '검증됨'만 금액을 확정해서 말해도 됩니다. '원문 대조 안 됨'이면 표 아래에 \"공식 페이지(링크 열)에서 확인 필요\"를 붙이세요.")
-    if ex:
-        def _c(v):
-            return re.sub(r"\s+", " ", str(v)).replace("|", "/") if v not in (None, "") else "-"
-        exrow = [ex["id"], ex["ym"], ex["period_status"], ex["brand_ko"], ex.get("model"), ex.get("sub_model"), ex.get("model_year"), ex.get("event_name"), ex["types"],
-                 ex.get("discount_type"), f"{ex['discount_amount_krw'] / 10000:g}" if ex.get("discount_amount_krw") else None,
-                 f"{ex['discount_rate_pct']:g}" if ex.get("discount_rate_pct") else None, ex.get("discount"), ex.get("conditions"), ex.get("reward"),
-                 ex.get("period_start"), ex.get("period_end"), ex.get("link"), {"검증됨": "검증됨", "일부 미확인": "불일치(확인 필요)"}.get(ex.get("verification"), "원문 대조 안 됨")]
-        L.append("7. **예시** — 요청: \"모델이 선택된 행 하나를 표로 보여줘\" → 정답 출력(열 19개 전부, 값 그대로):")
-        L.append("")
-        L.append("| " + " | ".join(["ID", "기준월", "기간상태", "브랜드", "모델", "세부모델", "연식", "이벤트명", "유형", "할인구분", "할인금액(만원)", "할인율(%)", "할인 내용", "조건", "증정·경품", "시작", "종료", "링크", "검증"]) + " |")
-        L.append("|" + "---|" * 19)
-        L.append("| " + " | ".join(_c(x) for x in exrow) + " |")
-        L.append("")
-    L.append("### 월별 혜택 표 (한 줄 = 혜택 하나)")
-    L.append("- **표를 요청받으면 아래 표의 열 이름·열 순서·셀 값을 그대로 복사해서 보여주세요. 값을 바꾸거나 요약하거나 다른 열을 추가·삭제하지 마세요.** 비어 있는 칸은 '-'입니다.")
-    L.append("- '모델이 선택된 행'을 요청받으면 모델 칸이 '-'가 아닌 행만 골라 같은 열로 보여주세요. 모델 칸이 '-'이면 브랜드 전체 이벤트입니다.")
-    L.append("- 모델·세부모델에는 차량 이름만, 이벤트명에는 프로그램 이름만 있습니다. 할인금액(만원)·할인율(%)은 별도 칸이며 선택지가 여러 개면 가장 큰 값입니다(전체는 '할인 내용').\n")
-    hdr = ["ID", "기준월", "기간상태", "브랜드", "모델", "세부모델", "연식", "이벤트명", "유형", "할인구분", "할인금액(만원)", "할인율(%)", "할인 내용", "조건", "증정·경품", "시작", "종료", "링크", "검증"]
-    L.append("| " + " | ".join(hdr) + " |")
-    L.append("|" + "---|" * len(hdr))
+    L.append("### 유형별 혜택 표 — 구매 혜택 / 금융 혜택 / 시승 혜택 (한 줄 = 혜택 하나)")
+    L.append("- **표를 요청받으면 아래 해당 표의 열 이름·열 순서·셀 값을 그대로 복사해서 보여주세요. 값을 바꾸거나 요약하거나 다른 열을 추가·삭제하지 마세요.** 비어 있는 칸은 '-'입니다.")
+    L.append("- 요청 유형 → 표: '할인·증정·이벤트·구매 혜택' = 표 A / '금융·할부·리스·금리·월 납입금' = 표 B / '시승' = 표 C. 한 혜택이 여러 유형이면 여러 표에 같은 ID로 나옵니다(ID 는 모든 표에서 같음).")
+    L.append("- '모델이 선택된 행' = 모델 칸이 '-'가 아닌 행, 모델 칸이 '-'이면 브랜드 전체 이벤트. 모델·세부모델에는 차량 이름만, 이벤트명에는 프로그램 이름만 있습니다. 할인금액(만원)·할인율(%)은 선택지가 여러 개면 가장 큰 값입니다(전체는 '할인 내용').")
+    L.append("- 금융 표의 '월 납입금'·'금리'는 금융사 공식 페이지에 적힌 예시/범위 그대로이며, 개인 신용·선수금에 따라 달라집니다. 값이 없으면 공식 페이지에 텍스트로 없다는 뜻입니다.\n")
     vmap = {"검증됨": "검증됨", "일부 미확인": "불일치(확인 필요)", "증거 없음": "원문 대조 안 됨"}
-    for b in ben:
-        amt = f"{b['discount_amount_krw'] / 10000:g}" if b.get("discount_amount_krw") else None
-        rate = f"{b['discount_rate_pct']:g}" if b.get("discount_rate_pct") else None
-        row = [b["id"], b["ym"], b["period_status"], b["brand_ko"], b.get("model"), b.get("sub_model"), b.get("model_year"), b.get("event_name"), b["types"],
-               b.get("discount_type"), amt, rate, b.get("discount"), b.get("conditions"), b.get("reward"),
-               b.get("period_start"), b.get("period_end"), b.get("link"), vmap.get(b.get("verification"), "-")]
-        L.append("| " + " | ".join(cell(x, 1500) for x in row) + " |")
+    man = lambda v: f"{v / 10000:g}" if v else None
+    pct = lambda v: f"{v:g}" if v else None
+    base = [("ID", "id"), ("브랜드", "brand_ko"), ("모델", "model"), ("세부모델", "sub_model"), ("이벤트명", "event_name")]
+    tail = [("시작", "period_start"), ("종료", "period_end"), ("기간상태", "period_status"), ("링크", "link"), ("검증", lambda b: vmap.get(b.get("verification"), "-"))]
+    TB = [
+        ("표 A. 구매 혜택 (할인·증정·이벤트)", lambda x: any(t in (x.get("types") or "") for t in ("할인", "증정", "이벤트", "기타")) or not any(t in (x.get("types") or "") for t in ("금융", "시승")),
+         base + [("유형", "types"), ("할인구분", "discount_type"), ("할인금액(만원)", lambda b: man(b.get("discount_amount_krw"))), ("할인율(%)", lambda b: pct(b.get("discount_rate_pct"))), ("할인 내용", "discount"), ("조건", "conditions"), ("증정·경품", "reward"), ("대상", "target_scope")] + tail),
+        ("표 B. 금융 혜택 (캐피탈·금융사 상품 포함)", lambda x: "금융" in (x.get("types") or "") or bool(x.get("finance_product")),
+         base + [("금융사", "finance_company"), ("상품", "finance_product"), ("금리", "finance_rate"), ("기간", "finance_term"), ("선수율", "finance_down"), ("월 납입금 예시", "finance_monthly"), ("차량가(만원)", lambda b: man(b.get("vehicle_price_krw"))), ("조건", "conditions"), ("대상", "target_scope")] + tail),
+        ("표 C. 시승 혜택", lambda x: "시승" in (x.get("types") or ""),
+         base + [("제목", "title"), ("혜택", "reward"), ("조건", "conditions"), ("대상", "target_scope")] + tail),
+    ]
+    for tname, pred, spec in TB:
+        sel = [b for b in ben if pred(b)]
+        L.append(f"#### {tname} — {len(sel)}행")
+        L.append("| " + " | ".join(h for h, _ in spec) + " |")
+        L.append("|" + "---|" * len(spec))
+        for b in sel:
+            L.append("| " + " | ".join(cell(f(b) if callable(f) else b.get(f), 1500) for _, f in spec) + " |")
+        L.append("")
     L.append("\n### 브랜드별 상세 (조건·증정·세부내용 전체)")
     grp = collections.OrderedDict()
     for b in ben:

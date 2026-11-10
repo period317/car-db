@@ -162,7 +162,7 @@ for r in recs:
         discount="; ".join(disc[:6]) or (f"최대 {won(r['max_benefit_krw'])}" if r.get("max_benefit_krw") else None),
         conditions="; ".join(cond[:6]) or None, reward="; ".join(gift[:6]) or None,
         _cat=r["category"], max_benefit_krw=r.get("max_benefit_krw"), detail=human[:1500], period_start=r.get("period_start"), period_end=r.get("period_end"),
-        link=r.get("source_url"), confidence=r.get("confidence"), source_record_id=r["id"],
+        link=r.get("source_url"), confidence=r.get("confidence"), source_record_id=r["id"], **(r.get("extra") or {}),
         extract_note="할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인"))
 
 # 시승 이벤트/혜택 (testdrive 인덱스에서)
@@ -311,6 +311,19 @@ for x in rows:
     x["event_name"] = event_name_of(x)
     parse_discount(x)
 
+# 금융 혜택 행의 금융사: 항목에 적혀 있으면 그대로, 없으면 data/sources.json 에 등록된 해당 브랜드의 캡티브(전속) 금융사
+_src = json.load(open(os.path.join(ROOT, "data", "sources.json"), encoding="utf-8"))
+FIN_CO = {}
+for _b in _src["brands"]:
+    for _f in (_b.get("finance") or []):
+        _n = (_f.get("name") or "")
+        if _n and "확인필요" not in _n:
+            FIN_CO[_b["id"]] = re.sub(r"\s*\(.*$", "", _n).strip()
+            break
+for x in rows:
+    if "금융" in (x.get("types") or "") and not x.get("finance_company"):
+        x["finance_company"] = FIN_CO.get(x["brand_id"])
+
 # 대상 월(수집한 달)과 기간이 겹치지 않는 항목(기간 만료 / 시작 전)은 월별 혜택 표에서 뺀다. 지우지 않고 benefits_excluded.* 에 이유와 함께 보관한다.
 scope_path = os.path.join(ROOT, "data", "scope_exclude.json")
 SCOPE = json.load(open(scope_path, encoding="utf-8")).get("rules", []) if os.path.exists(scope_path) else []
@@ -337,6 +350,7 @@ for i, x in enumerate(rows, 1):
     x["id"] = i
 cols = ["id", "ym", "period_status", "brand_id", "brand_ko", "model", "sub_model", "model_year", "target_scope", "event_name", "types", "title",
         "discount_type", "discount_amount_krw", "discount_rate_pct", "discount_options", "max_benefit_krw", "discount", "conditions", "reward",
+        "finance_company", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly", "vehicle_price_krw",
         "detail", "period_start", "period_end", "link", "confidence", "source_record_id", "extract_note"]
 with open(os.path.join(U, "benefits.jsonl"), "w", encoding="utf-8") as f:
     for x in rows:
@@ -356,5 +370,26 @@ with open(os.path.join(U, "benefits_excluded.csv"), "w", encoding="utf-8-sig", n
     w.writeheader()
     for x in excluded:
         w.writerow({c: x.get(c) for c in excols})
+# ---- 유형별 표(구매 혜택 / 금융 혜택 / 시승 혜택). 한 행이 여러 유형이면 여러 표에 중복 등장한다. 값은 benefits.csv 와 동일.
+BASE_C = ["id", "brand_ko", "model", "sub_model", "event_name"]
+TYPED = {
+    "purchase": (lambda x: any(t in (x.get("types") or "") for t in ("할인", "증정", "이벤트", "기타")) or not any(t in (x.get("types") or "") for t in ("금융", "시승")),
+                 BASE_C + ["types", "title", "discount_type", "discount_amount_krw", "discount_rate_pct", "discount_options", "max_benefit_krw", "discount", "conditions", "reward", "target_scope", "period_start", "period_end", "period_status", "link", "confidence"]),
+    "finance": (lambda x: "금융" in (x.get("types") or "") or bool(x.get("finance_product")),
+                BASE_C + ["finance_company", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly", "vehicle_price_krw", "title", "conditions", "target_scope", "period_start", "period_end", "period_status", "link", "confidence"]),
+    "testdrive": (lambda x: "시승" in (x.get("types") or ""),
+                  BASE_C + ["title", "reward", "conditions", "target_scope", "period_start", "period_end", "period_status", "link", "confidence"]),
+}
+for name, (pred, tcols) in TYPED.items():
+    sel = [x for x in rows if pred(x)]
+    with open(os.path.join(U, f"benefits_{name}.jsonl"), "w", encoding="utf-8") as f:
+        for x in sel:
+            f.write(json.dumps({c: x.get(c) for c in tcols}, ensure_ascii=False) + "\n")
+    with open(os.path.join(U, f"benefits_{name}.csv"), "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=tcols)
+        w.writeheader()
+        for x in sel:
+            w.writerow({c: x.get(c) for c in tcols})
+    print(f"  benefits_{name}: {len(sel)}행")
 from collections import Counter
 print("benefits:", len(rows), "| 제외(기간 불일치):", len(excluded), dict(Counter(x["types"].split(",")[0] for x in rows)))

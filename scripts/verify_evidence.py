@@ -51,7 +51,7 @@ CNT = re.compile(r"(\d+)\s*(명|분)")
 SYNTH_MODEL = re.compile(r"전 모델|공통|전체")
 
 def claims_of(r):
-    text = " ".join(str(r.get(k) or "") for k in ("title", "discount", "conditions", "reward", "detail"))
+    text = " ".join(str(r.get(k) or "") for k in ("title", "discount", "conditions", "reward", "detail", "finance_product", "finance_rate", "finance_term", "finance_down", "finance_monthly"))
     text = re.sub(r"만\s*km|\d+\s*km", " ", text)           # 주행거리 제외
     text = re.sub(r"\d{4}-\d{2}-\d{2}(\s*~\s*(\d{4}-)?\d{2}-\d{2})?", " ", text)  # 날짜 표기 제외(기간은 따로 검사)
     out = {}
@@ -115,12 +115,14 @@ def acked(r, claim):
 stats = collections.defaultdict(lambda: collections.Counter())
 for r in rows:
     ev = evidence.get(r["brand_id"], {})
-    if not ev:
+    shared = [e for e in evidence.get("_finance", {}).values() if e.get("url") and r.get("link") and e["url"].split("#")[0].rstrip("/") == r["link"].split("#")[0].rstrip("/")]
+    if not ev and not shared:
         r.update(verification="증거 없음", unverified_claims=None, evidence_files=None, evidence_date=None)
         stats[r["brand_ko"]]["증거 없음"] += 1
         continue
     # 이 항목의 링크와 같은 URL의 증거를 우선 사용, 없으면 브랜드의 모든 증거를 합쳐서 본다
-    own = [e for e in ev.values() if e.get("url") and r.get("link") and e["url"].split("#")[0].rstrip("/") == r["link"].split("#")[0].rstrip("/")]
+    # (data/evidence/_finance/ 는 여러 브랜드가 함께 쓰는 캡티브 금융사 페이지 원문 — 링크가 같을 때만 쓴다)
+    own = [e for e in ev.values() if e.get("url") and r.get("link") and e["url"].split("#")[0].rstrip("/") == r["link"].split("#")[0].rstrip("/")] + shared
     pool = own or list(ev.values())
     ev_text = "".join(e["text"] for e in pool)
     missing = []

@@ -1,0 +1,49 @@
+{
+ "meta": {
+  "brand_ids": [
+   "volkswagen"
+  ],
+  "captured": "2026-11-10",
+  "source_url": "https://www.vwfs.co.kr/ep/evtProIngList",
+  "finance_company": "폭스바겐파이낸셜서비스코리아",
+  "method": "VW 파이낸셜 이벤트 목록(Chrome)",
+  "not_collected": [
+   "프로모션별 금리·월납입금(텍스트 없음)",
+   "아우디파이낸셜 재구매 이벤트(상시 로열티, 11월 구매 혜택 아님)"
+  ]
+ },
+ "events_extra": [
+  {
+   "brand_id": "volkswagen",
+   "category": "finance",
+   "name": "11월 폭스바겐 골프 TDI 특별 금융 프로모션",
+   "model": "골프 TDI",
+   "url": "https://www.vwfs.co.kr/ep/evtProIngList",
+   "period": "2026-11-02 ~ 2026-11-30",
+   "conf": "medium",
+   "finance_company": "폭스바겐파이낸셜서비스코리아",
+   "finance_product": "특별 금융 프로모션",
+   "finance_rate": "신차 할부 연 0~10.2% (상품 전체 범위, 프로모션 개별 금리 미공개)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "11월 폭스바겐 골프 TDI 특별 금융 프로모션 2026.11.02 ~ 2026.11.30 / 신차대상 할부 금융상품은 최저금리 0% / 최고금리 10.2% 중도상환수수료 최대 1.59% / 상세 조건은 페이지에 텍스트로 없음"
+  },
+  {
+   "brand_id": "volkswagen",
+   "category": "finance",
+   "name": "11월 폭스바겐 투아렉 특별 금융 프로모션",
+   "model": "투아렉",
+   "url": "https://www.vwfs.co.kr/ep/evtProIngList",
+   "period": "2026-11-02 ~ 2026-11-30",
+   "conf": "medium",
+   "finance_company": "폭스바겐파이낸셜서비스코리아",
+   "finance_product": "특별 금융 프로모션",
+   "finance_rate": "신차 할부 연 0~10.2% (상품 전체 범위, 프로모션 개별 금리 미공개)",
+   "finance_term": "",
+   "finance_down": "",
+   "finance_monthly": "",
+   "text": "11월 폭스바겐 투아렉 특별 금융 프로모션 2026.11.02 ~ 2026.11.30 / 신차대상 할부 금융상품은 최저금리 0% / 최고금리 10.2% 중도상환수수료 최대 1.59% / 상세 조건은 페이지에 텍스트로 없음"
+  }
+ ]
+}
