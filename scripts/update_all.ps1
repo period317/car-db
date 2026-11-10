@@ -45,7 +45,7 @@ if (-not $NoPush) {
     # 수집 가이드 문서도 gist에 별도 파일로 올린다(car_db_for_ai.md 부록에도 같은 내용이 들어 있음)
     $gfiles = @(gh gist view $gist --files)
     # docs/ 문서 4개 + 누적 이력(csv). gist 에 이미 있으면 내용 교체(-f), 없으면 새 파일로 추가(--add)
-    foreach ($f in @("docs/PROGRESS_SUMMARY.md", "docs/COLLECTION_GUIDE.md", "docs/SITE_GUIDE.md", "docs/HANDOFF.md", "docs/LESSONS.md", "data/history/benefits_history.csv", "data/unified/benefits.csv", "data/unified/benefits_purchase.csv", "data/unified/benefits_finance.csv", "data/unified/benefits_testdrive.csv")) {
+    foreach ($f in @("docs/PROGRESS_SUMMARY.md", "docs/COLLECTION_GUIDE.md", "docs/SITE_GUIDE.md", "docs/HANDOFF.md", "docs/LESSONS.md", "docs/CAPTIVE_FINANCE.md", "data/history/benefits_history.csv", "data/unified/benefits.csv", "data/unified/benefits_purchase.csv", "data/unified/benefits_finance.csv", "data/unified/benefits_testdrive.csv")) {
         $name = Split-Path -Leaf $f
         if ($gfiles -contains $name) {
             gh gist edit $gist -f $name $f | Out-Host
