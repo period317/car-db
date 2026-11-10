@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-10",
-  "total_records": 330,
+  "total_records": 331,
   "files": {
     "offers/audi_2026-11-05.json": {
       "brand_id": "audi",
@@ -55,6 +55,15 @@
       "records": 38,
       "captured": "2026-11-10",
       "source": "https://www.hyundaicapital.com/nwcafn/prchprgm/CPNCPP0101.hc",
+      "caveat": null
+    },
+    "offers/finance_mobilizefs_2026-11-10.json": {
+      "brand_id": [
+        "renault"
+      ],
+      "records": 1,
+      "captured": "2026-11-10",
+      "source": "https://www.mobilize-fs.co.kr/micro/event/eventView.jsp?idx=1301",
       "caveat": null
     },
     "offers/finance_vwfs_2026-11-10.json": {

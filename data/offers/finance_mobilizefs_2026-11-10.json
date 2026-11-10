@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "brand_ids": [
+   "renault"
+  ],
+  "captured": "2026-11-10",
+  "source_url": "https://www.mobilize-fs.co.kr/micro/event/eventView.jsp?idx=1301",
+  "finance_company": "모빌라이즈파이낸셜서비스",
+  "method": "mobilize-fs.co.kr 이벤트 목록과 상세(이미지 판독). '이달의 금융 혜택' 페이지(/micro/finance/benefit.jsp)의 11월 섹션은 본문이 비어 있어 못 읽음",
+  "not_collected": [
+   "benefit.jsp 11월 프로모션·11월 금융 혜택 섹션(렌더링 안 됨)"
+  ]
+ },
+ "events_extra": [
+  {
+   "brand_id": "renault",
+   "category": "finance",
+   "name": "모빌라이즈파이낸셜서비스 재구매 고객 감사 이벤트",
+   "model": null,
+   "url": "https://www.mobilize-fs.co.kr/micro/event/eventView.jsp?idx=1301",
+   "period": "2026-11-01 ~ 2026-11-30",
+   "conf": "medium",
+   "finance_company": "모빌라이즈파이낸셜서비스(알씨아이파이낸셜서비스코리아)",
+   "finance_product": "바이백 상품·할부 재이용 캐시백",
+   "finance_rate": "",
+   "finance_term": "36개월",
+   "finance_down": "",
+   "finance_monthly": "월 30만원대 (조건 충족 시)",
+   "text": "월 30만원대 36개월 바이백 상품 이용 가능 (*조건충족 시, 고객 신용도에 따라 이용 및 대출이 제한될 수 있음) / 당사 할부 재이용 고객 30만 원 캐시백 / 르노코리아 차량 구매 혜택(신차 재구매 시 최대 100만원 혜택, 노후차(5년 이상) 보유 고객 50만원 지원, 26년도 5월까지 생산분 최대 300만원 할인; 차량 모델·트림·연식에 따라 상이) / 혜택 기간 2026.11.01 ~ 2026.11.30 / 대상 여부는 르노코리아 거점 영업 담당자에게 문의"
+  }
+ ]
+}

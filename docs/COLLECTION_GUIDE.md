@@ -71,3 +71,5 @@ AI용 파일 맨 위에는 **표 작성 규칙**(열 정의, 필터 말뜻, 정�
 - 금융 행은 offers JSON 의 `events_extra` 에 `category: "finance"` + `finance_company/finance_product/finance_rate/finance_term/finance_down/finance_monthly/vehicle_price_krw` 로 넣는다. 증거는 여러 브랜드가 공유하는 금융사 페이지라 `data/evidence/_finance/` 에 저장(같은 URL로 매칭).
 - 수집 완료(11월): 현대캐피탈(현대·기아·제네시스 38행), BMW파이낸셜(BMW 7행; MINI 공용이나 별도 프로모션 미확인), 폭스바겐파이낸셜(골프 TDI·투아렉 11/2~11/30, 조건은 텍스트 없음 → 금리는 상품 범위만).
 - 미수집/한계: 아우디파이낸셜(재구매 이벤트만, 11월 구매 혜택 아님), 벤츠 파이낸셜(홈에 프로모션 목록 없음, '혜택/서비스' 메뉴 미확인), 토요타·볼보·우리금융캐피탈·모빌라이즈·JLR 미확인. BMW FS 목록 2페이지(X3 등)는 페이지 이동 불가/서버 오류(idx=2337)로 못 읽음. `data/watch_pages.json` 의 `*_finance` 항목을 주간 점검 대상에 포함.
+
+- (2026-11-10 후속) 모빌라이즈 FS(mobilize-fs.co.kr) 재구매 이벤트 1행 추가. 토요타·렉서스·벤츠·포르쉐·하나캐피탈은 11월 구매 혜택 텍스트 없음. 상세는 docs/CAPTIVE_FINANCE.md.
