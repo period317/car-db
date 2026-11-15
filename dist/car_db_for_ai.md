@@ -1697,6 +1697,13 @@
 
 - (2026-11-10 보강) 주요 브랜드 기준 docs/BRAND_TIERS.md. 테슬라 2행, BMW FS 2페이지(MINI 구매 혜택·Next Drive·재구매) 추가. 상세 docs/CAPTIVE_FINANCE.md.
 
+#### 2026-11-15 주간 갱신 요약
+- `check_stale.py`의 [주간 필수 확인] 24곳(21개 브랜드 + 현대캐피탈·BMW파이낸셜·폭스바겐/아우디파이낸셜) 전부 다시 읽음.
+- 새 혜택: 현대 "쏘나타 디 엣지·스타리아 X 전용카드"(총 50만원, 11/9~11/30). 변경: 아우디 A6 Sedan 트림·수치, Q5 리스 월 납입금(40만원대→60만원대). **BMW X3가 bmwfs.co.kr 경로로 11월 포함됨**(bmw.co.kr은 여전히 10월, BMW FS는 11/11 신규 승인). KGM K-세일페스타 종료일(11/15) 홈 배너로 확정.
+- 제외 처리 신규: 현대 "르르르 디스플레이 테마"(경품 이벤트), 제네시스 "마이홈차저"(서비스).
+- 종료 확인: 현대 쓱데이·아이오닉6N G-STAR 시승·드라이빙라운지 시승(모두 11/8 종료) → 현대 시승 이벤트 슬롯 현재 없음(`data/testdrive/index.json`).
+- `scripts/update_all.ps1`에 PowerShell 인코딩 버그 수정(`[Console]::OutputEncoding` 추가, LESSONS 참고). 증거 슬러그를 "변동없음" 요약으로 재사용하면 이전 상세 증거를 덮어써 검증 ERROR가 나는 함정을 겪음(KGM·랜드로버·지프·캐딜락, LESSONS 참고).
+
 ## 부록 · 수집 가이드 — 정책, 데이터 규칙, 검증, 누적 이력
 
 ### 수집 가이드 — 정책, 데이터 규칙, 검증
@@ -1794,10 +1801,10 @@ AI용 파일 맨 위에는 **표 작성 규칙**(열 정의, 필터 말뜻, 정�
 | KGM | /od/promotion/monthly-benefits | 홈 배너 → `/br/news/event/<id>`, `/cm/pre-order/<id>` | ✅ 2건 | 이벤트 목록 주소는 못 찾음(홈 배너 클릭으로 진입). 상세는 텍스트. 가을 드라이브 페스타(시승)와 K-세일페스타(택1 구매혜택/할부, 차종별) 수집 |
 | 쉐보레 | /purchase/offers-faq.gm (텍스트), /events/… (이미지) | https://www.chevrolet.co.kr/past-events (지난 이벤트), 홈 배너 | △ | 진행 중 이벤트는 **홈 배너 텍스트**로 읽힘(겨울준비 무상점검 응모, 코리아 그랜드 페스티벌). 홈에 "최대 200만원 혜택"이 텍스트로 있어 이미지 페이지 값과 일치. 시승 이벤트는 8월 썸머 드라이브(종료)뿐. `/offers` 는 404 |
 | 벤츠 | /passengercars/buy/new-car/promotion.html | /passengercars/campaigns/*.html (캠페인 페이지) | △ | 뉴스·이벤트 페이지(`/brand/news-events.html`)는 2025년까지만 올라와 있음 → **캠페인 페이지로 확인**: `cla-pre-order-campaign.html`(CLA 전시 팝업 10/23~11/17, 사전예약), `mercedes-benz-circle.html`(멤버십 가입 경품). 금액 비공개, 쿠키 배너 처리 필요. 신한카드·AMG 구매상담·개별소비세 이벤트도 수집 |
-| BMW | /ko/finance/special-offer/financial-promotion.html | 목록 주소 못 찾음. 검색으로 개별 페이지 확인 | △ (11/8 재확인) | 금융 프로모션(모델 7페이지, 기간 10월 표기 주의), 시승 `/ko/fastlane/tda-experience.html`. **BEV 멤버십**(`/ko/discover/bmw-bev-membership.html`, 상시 7일 시승, 시승 라인업 i5/i4 그란쿠페/iX/iX2 4종 확인) 수집. 네이버 특별 프로모션(bmwexperience.bmw.co.kr)은 "운영기간이 아닙니다", M FEST는 4월 종료. 서비스 프로모션은 공식 페이지에서 확인하지 못해 미수집. **홈 메뉴 '구매하기'**에 BMW 트레이드인/재구매(`/ko/used-car/tradein.html`, 금액 없이 영업사원 상담 안내), 리스·할부, 금융 프로모션. 금융 프로모션 모델별 7페이지(`/ko/finance/special-offer/financial-promotion/*.html`)는 11/8 재확인해도 여전히 2026-10-01~10-31 적용으로 표기돼 있음(11월분 갱신 안 됨, 숫자도 11/5와 동일, 제외 처리 유지) |
+| BMW | /ko/finance/special-offer/financial-promotion.html | 목록 주소 못 찾음. 검색으로 개별 페이지 확인 | ✅ (11/15 재확인) | 금융 프로모션(모델 7페이지), 시승 `/ko/fastlane/tda-experience.html`. **BEV 멤버십**(`/ko/discover/bmw-bev-membership.html`, 상시 7일 시승, 시승 라인업 i5/i4 그란쿠페/iX/iX2 4종 확인) 수집. 네이버 특별 프로모션(bmwexperience.bmw.co.kr)은 "운영기간이 아닙니다", M FEST는 4월 종료. 서비스 프로모션은 공식 페이지에서 확인하지 못해 미수집. **홈 메뉴 '구매하기'**에 BMW 트레이드인/재구매(`/ko/used-car/tradein.html`, 금액 없이 영업사원 상담 안내), 리스·할부, 금융 프로모션. 금융 프로모션 모델별 7페이지 중 **X3를 제외한 6개는 11/15에 2026-11-01~11-30으로 갱신 확인**(숫자는 10월과 동일). X3만 여전히 2026-10-01~10-31로 멈춰 있어 bmw.co.kr 경로로는 제외하되, **BMW파이낸셜서비스(bmwfs.co.kr/kr/promotion/list)에 X3가 별도로 11월 프로모션(idx=2007, 여신금융협회 11/11 신규 승인)으로 올라와 있어 그 경로로 포함**. bmwfs.co.kr 목록 2페이지(MINI·Next Drive·재구매·Motorrad)는 11/15에 정상 접근됨(예전 서버오류 idx=2337은 해소된 듯) |
 | 테슬라 | /ko_kr/modely/design 등 | https://www.tesla.com/events/tesla-special-test-drive-event 등 | △ | 가격은 스크린샷. 시승 `/ko_kr/drive`, 트레이드인 `/ko_kr/tradein`. 시승 이벤트 페이지는 "No upcoming events nearby". `/ko_kr/campaign/zero-drive`(다짐 공유 추첨, 11/21~25, 연도 미표기)는 미수집 |
 | 렉서스 | /purchase-benefit/ (탭: 이달의 구매혜택·하이브리드 혜택·밸류플러스·어메이징 스위치) | 별도 목록 없음. 시승회는 월별 페이지 `/2026-oct-test-drive/`(예전엔 `/contents/2025-oct-test-drive/`) | △ (11/8 재확인) | 글자 단위로 쪼개져 있어 공백 결합 필요(리스트형 페이지는 `get_page_text`가 마지막 카드만 줄 수 있어 `javascript_tool` innerText를 쓴다). **`/event/` 등 아무 주소나 200을 돌려주므로(SPA) 상태코드로 존재 여부를 판단하지 말 것**(없는 페이지는 본문에 "요청하신 페이지를 찾을 수 없습니다"). 2026 가을 시승회는 응모 10/6~10/31로 종료(시승 ~11/3, 발표 11/10)해 만료 행으로 기록. 11월 시승회 `/2026-nov-test-drive/` 는 11/8 재확인해도 여전히 없음(SPA 404). 매달 `/YYYY-<mon>-test-drive/` 패턴을 확인할 것. 이달의 구매혜택(NX·UX·RX·LS 7모델)은 11/5와 동일. 어메이징 스위치(ES BEV 잔존가치 보장 할부) 페이지의 "월 납입금 예시"는 그 달 금융조건으로 매번 갱신되므로(11월: 금리 5.80%, 월 425,000원) 매달 다시 읽는다 |
-| 아우디 | 모델 페이지(월 납입금 롤링 숫자) | `/ko/event/`, `/ko/event/taste-drive/` 는 지금 404 | △ | 상시 `Audi to you 찾아가는 시승 서비스`(`/ko/aboutaudi/Auditoyou/`) 수집. 검색 기준 최근 시승 이벤트는 2025-11, 여름 투어(7/6~8/31)는 종료. 현재 진행 이벤트 목록은 못 찾음. 홈 링크 추출 시 도구가 쿼리스트링 출력을 막음(LESSONS 참고) |
+| 아우디 | 모델 페이지(월 납입금 롤링 숫자) | `/ko/event/`, `/ko/event/taste-drive/` 는 지금 404 | △ (11/15 재확인) | 상시 `Audi to you 찾아가는 시승 서비스`(`/ko/aboutaudi/Auditoyou/`) 수집. 검색 기준 최근 시승 이벤트는 2025-11, 여름 투어(7/6~8/31)는 종료. 현재 진행 이벤트 목록은 못 찾음. 홈 링크 추출 시 도구가 쿼리스트링 출력을 막음(LESSONS 참고). **밸류⁺ 금융프로그램 수치는 주 단위로 바뀐다**: 11/15 재확인 시 A6 Sedan 트림(45 TFSI quattro/40 TFSI Advanced → 40 TDI S-line)과 리스·할부 수치, Q5 리스 월 납입금(40만원대→60만원대)이 11/6 대비 변경됨. Q3·A6 e-tron·A5는 변동 없음. 매주 모델 페이지를 다시 읽는다 |
 | 볼보 | volvocar.co.kr 의 family_repurchase, ex90-test-drive-campaign-nov | – | △ | volvocars.com/kr 아님. 재구매·시승 캠페인 수집 |
 | 미니 | /ko_KR/home/offers/… | 못 찾음 | ❌ | 이달의 프로모션 페이지가 읽기 어려움. 상시 `MINI BEV MEMBERSHIP`(`/ko_KR/home/BEV_Membership.html`, 7일 시승) 수집. **홈 메뉴 '구매'에서 찾은 주소**: 이 달의 프로모션 `/ko_KR/home/offers/special-offers/this-month-special-offer.html`(JCW PACK 등 마케팅 이미지 위주, 금액 없음), 금융 프로모션 `/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html`(본문이 이미지라 스크롤 스크린샷으로 읽음: 26년식 내연기관 월 리스료 최대 3개월 지원, 전기차 풀케어 1년). `/ko_KR/home/offers.html` 은 오류 페이지. 검색에 나온 특별 혜택 페이지들은 2024년식·날짜 불명이라 미수집. 2026-11 진행 중인 시승 이벤트는 없음 |
 | 토요타 | /benefit/monthly/ | /seasonal-event/, /test-drive/event/ | ✅ 시승 이벤트 | 텍스트 |
@@ -1983,3 +1990,10 @@ Python은 항상 `python -I`(격리 모드)로 실행한다. 한글이 든 Power
 - `data/testdrive/index.json` 은 브랜드당 이벤트 1건 슬롯이다. 두 번째 이벤트는 `note` 에 적고, 월별 혜택 표에는 `events_extra` 로 넣는다.
 - 증거 파일은 같은 slug의 최신 날짜만 사용된다.
 - 2026-11-06 기준 최신 커밋은 `git log -1` 로 확인한다.
+
+#### 2026-11-15 주간 갱신에서 알게 된 것
+- **증거 slug를 재사용할 때 내용을 요약으로 줄이면 안 된다.** 같은 slug(예: `monthly-benefits`, `incentive-offer`, `current-offers`, `defender-finance`)로 새 날짜 파일을 올리면 예전 날짜의 더 자세한 증거를 **완전히 대체**한다(최신 날짜만 쓰임, 구조 메모 참고). 이번 주 "재확인, 변동없음" 요약만 적은 새 증거가 예전의 상세 숫자(모델별 %, 원단위 금액 등)를 가려서 `verify_evidence.py`가 12건을 "일부 미확인"으로 떨어뜨렸다(KGM·랜드로버·지프·캐딜락). 변동이 없으면 **①원문을 그대로 다시 옮겨 적거나 ②slug를 다르게** 지어 예전 파일과 공존시킨다. "변동없음"이라고 요약만 쓰고 싶으면 slug 끝에 `-recheck` 등을 붙인다.
+- **`# url:` 한 줄에 여러 주소를 쉼표로 나열하면 매칭이 전부 안 된다.** `verify_evidence.py`는 `# url:` 뒤 텍스트 전체를 항목의 `link`와 **완전히 같아야**(trailing slash 차이만 허용) "own" 증거로 인정한다. 모델 5개를 한 번에 읽었어도 **모델별로 파일을 나눠 각각의 정확한 URL**을 `# url:`에 적어야 한다(아우디 A6/Q3/Q5 사례).
+- **BMW 공식 홈페이지(bmw.co.kr)와 BMW파이낸셜서비스(bmwfs.co.kr)의 월 갱신 시점이 다를 수 있다.** 11/15 기준 bmw.co.kr의 X3 프로모션 페이지는 여전히 10월 기간으로 멈춰 있었지만, bmwfs.co.kr 프로모션 목록에는 X3가 새 여신금융협회 승인번호(11/11 발급)로 11월 프로모션이 따로 올라와 있었다(동일 월 56만원 수치). bmw.co.kr이 갱신 안 됐다고 바로 제외하지 말고 **bmwfs.co.kr 쪽도 확인**한다. 이전에는 "서버 오류"로 못 열던 bmwfs 2페이지도 이번엔 정상 접근됐다(MINI, Next Drive, 재구매, Motorrad 포함).
+- **아우디 모델 페이지 수치는 주 단위로도 바뀔 수 있다.** A6 Sedan은 트림 구성 자체가 바뀌었고(45 TFSI quattro/40 TFSI Advanced → 40 TDI S-line), Q5·Q3 리스 월 납입금도 11/6 대비 달라졌다. "페이지에 적용기간 표기가 없다"고 안심하지 말고 매주 숫자를 다시 비교한다.
+- **PowerShell 5.1에서 `git show ... | Out-File -Encoding utf8`로 직전 커밋 파일을 추출하면 한글이 깨진다.** 콘솔이 git의 stdout을 시스템 코드페이지(cp949)로 먼저 디코딩한 뒤 utf8로 다시 써서 모지바케가 나고, 깨진 바이트가 JSON 구조를 깨뜨려 `diff_benefits.py`가 `JSONDecodeError`로 죽었다. `update_all.ps1` 맨 앞에 `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`를 추가해 고쳤다(`git show` 출력을 파일로 저장하기 전에 항상 필요).

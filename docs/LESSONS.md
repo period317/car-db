@@ -78,3 +78,10 @@
 - `data/testdrive/index.json` 은 브랜드당 이벤트 1건 슬롯이다. 두 번째 이벤트는 `note` 에 적고, 월별 혜택 표에는 `events_extra` 로 넣는다.
 - 증거 파일은 같은 slug의 최신 날짜만 사용된다.
 - 2026-11-06 기준 최신 커밋은 `git log -1` 로 확인한다.
+
+## 2026-11-15 주간 갱신에서 알게 된 것
+- **증거 slug를 재사용할 때 내용을 요약으로 줄이면 안 된다.** 같은 slug(예: `monthly-benefits`, `incentive-offer`, `current-offers`, `defender-finance`)로 새 날짜 파일을 올리면 예전 날짜의 더 자세한 증거를 **완전히 대체**한다(최신 날짜만 쓰임, 구조 메모 참고). 이번 주 "재확인, 변동없음" 요약만 적은 새 증거가 예전의 상세 숫자(모델별 %, 원단위 금액 등)를 가려서 `verify_evidence.py`가 12건을 "일부 미확인"으로 떨어뜨렸다(KGM·랜드로버·지프·캐딜락). 변동이 없으면 **①원문을 그대로 다시 옮겨 적거나 ②slug를 다르게** 지어 예전 파일과 공존시킨다. "변동없음"이라고 요약만 쓰고 싶으면 slug 끝에 `-recheck` 등을 붙인다.
+- **`# url:` 한 줄에 여러 주소를 쉼표로 나열하면 매칭이 전부 안 된다.** `verify_evidence.py`는 `# url:` 뒤 텍스트 전체를 항목의 `link`와 **완전히 같아야**(trailing slash 차이만 허용) "own" 증거로 인정한다. 모델 5개를 한 번에 읽었어도 **모델별로 파일을 나눠 각각의 정확한 URL**을 `# url:`에 적어야 한다(아우디 A6/Q3/Q5 사례).
+- **BMW 공식 홈페이지(bmw.co.kr)와 BMW파이낸셜서비스(bmwfs.co.kr)의 월 갱신 시점이 다를 수 있다.** 11/15 기준 bmw.co.kr의 X3 프로모션 페이지는 여전히 10월 기간으로 멈춰 있었지만, bmwfs.co.kr 프로모션 목록에는 X3가 새 여신금융협회 승인번호(11/11 발급)로 11월 프로모션이 따로 올라와 있었다(동일 월 56만원 수치). bmw.co.kr이 갱신 안 됐다고 바로 제외하지 말고 **bmwfs.co.kr 쪽도 확인**한다. 이전에는 "서버 오류"로 못 열던 bmwfs 2페이지도 이번엔 정상 접근됐다(MINI, Next Drive, 재구매, Motorrad 포함).
+- **아우디 모델 페이지 수치는 주 단위로도 바뀔 수 있다.** A6 Sedan은 트림 구성 자체가 바뀌었고(45 TFSI quattro/40 TFSI Advanced → 40 TDI S-line), Q5·Q3 리스 월 납입금도 11/6 대비 달라졌다. "페이지에 적용기간 표기가 없다"고 안심하지 말고 매주 숫자를 다시 비교한다.
+- **PowerShell 5.1에서 `git show ... | Out-File -Encoding utf8`로 직전 커밋 파일을 추출하면 한글이 깨진다.** 콘솔이 git의 stdout을 시스템 코드페이지(cp949)로 먼저 디코딩한 뒤 utf8로 다시 써서 모지바케가 나고, 깨진 바이트가 JSON 구조를 깨뜨려 `diff_benefits.py`가 `JSONDecodeError`로 죽었다. `update_all.ps1` 맨 앞에 `[Console]::OutputEncoding = [System.Text.Encoding]::UTF8`를 추가해 고쳤다(`git show` 출력을 파일로 저장하기 전에 항상 필요).
