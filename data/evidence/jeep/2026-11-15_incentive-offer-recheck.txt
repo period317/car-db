@@ -1,0 +1,6 @@
+# url: https://www.jeep.co.kr/shopping_tools/incentive_offer.html
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+Jeep 85주년 특별 구매 프로그램(랭글러 최대 1,270만원 혜택 등)과 JEEP 85주년 기념 MVP 프로모션(2026-10-21~12-18)은 11/5 캡처와 완전히 동일, 변동 없음.
+신규 확인: "JEEP 투스카데로 에디션"(THE TOUGHEST PINK EVER) — 네이버 공식 스토어 단독 예약 전용, 20대 한정. 구매 혜택(할인·시승·금융)이 아니라 신규 스페셜 에디션 출시/예약 상품이라 범위 밖으로 판단, 행으로 추가하지 않음.

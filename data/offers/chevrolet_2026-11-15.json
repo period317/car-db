@@ -1,7 +1,7 @@
 {
  "meta": {
   "brand_id": "chevrolet",
-  "captured": "2026-11-05",
+  "captured": "2026-11-15",
   "source_url": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
   "events_list": "https://www.chevrolet.co.kr/events",
   "method": "이미지 기반 페이지(event-pc.png 1480x2259). 브라우저 스크린샷 3장을 스크롤하며 읽음(OCR 방식). 텍스트 DOM 없음.",
@@ -65,20 +65,12 @@
  ],
  "events_extra": [
   {
-   "name": "쉐보레와 함께하는 겨울준비",
+   "name": "11월 특별 구매 혜택",
    "model": null,
    "period": "",
    "url": "https://www.chevrolet.co.kr/",
    "conf": "medium",
-   "text": "전국 쉐보레 서비스 네트워크에서 무상점검 / 점검 후 현장 QR 응모 시 스탠리 텀블러 추첨 증정 / 기간 미표기"
-  },
-  {
-   "name": "코리아 그랜드 페스티벌 특별 혜택",
-   "model": null,
-   "period": "",
-   "url": "https://www.chevrolet.co.kr/",
-   "conf": "medium",
-   "text": "홈 배너: 최대 200만원 혜택, 코리아 그랜드 페스티벌 특별 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지 / 차종별 구매혜택은 각 모델 행 참고 / 기간 미표기"
+   "text": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지 / 차종별 구매혜택은 각 모델 행 참고 / 기간 미표기 (11/5에는 같은 배너가 '코리아 그랜드 페스티벌 특별 혜택'이라는 이름이었으나 11/15 재확인 시 '11월 특별 구매 혜택'으로 명칭만 변경, 금액·내용 동일). 11/5 홈 배너에 있던 '쉐보레와 함께하는 겨울준비' 무상점검 안내는 11/15 재확인 시 더 이상 노출되지 않음(종료 추정, 원래 범위 밖 서비스 항목)."
   }
  ]
 }

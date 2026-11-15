@@ -1,0 +1,7 @@
+# url: https://www.lexus.co.kr/purchase-benefit/monthly/ , https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/ , https://www.lexus.co.kr/2026-nov-test-drive/
+# captured: 2026-11-15
+# method: javascript_tool body.innerText
+---
+이달의 구매혜택(NX 350h/450h+, UX 300h, RX 350h/450h+/500h, LS 500h) — 11/8 캡처값과 완전히 동일, 변동 없음.
+ES BEV 어메이징 스위치 금융 예시: 차량가격 71,600,000원, 선수금 21,480,000원, 대출이용 50,120,000원, 유예 7,160,000원, 잔존가치 35,800,000원, 보증금 14,320,000원, 월 납입금 425,000원. 여신금융협회 심의필 제2026-C1h-13627호(2026-09-07~2027-09-06). → 11/8 캡처값과 완전히 동일(11월 금융조건 변동 없음).
+2026-nov-test-drive/ : 여전히 "요청하신 페이지를 찾을 수 없습니다"(SPA 404). 11월 시승회 아직 미게시 확인(10월 가을 시승회는 10/31로 종료된 채 유지).

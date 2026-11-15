@@ -1,0 +1,6 @@
+# url: https://www.vwfs.co.kr/ep/evtProIngList , https://www.audifs.co.kr/ep/evtProIngList
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+VW FS: 11월 골프TDI 특별 금융 프로모션(2026.11.02~11.30), 11월 투아렉 특별 금융 프로모션(2026.11.02~11.30), 재구매 이벤트(2025.12.08~2026.12.31, 상시). 11/10 캡처와 완전히 동일 — 변동 없음.
+Audi FS: 재구매 이벤트(2025.12.08~2026.12.31)만 게시, 11월 구매 혜택 텍스트 없음. 11/10과 동일 — 변동 없음.

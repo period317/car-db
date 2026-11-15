@@ -3,7 +3,7 @@
   "hash": "61ff0cf27492",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -50,7 +50,7 @@
   "hash": "5e216d77a927",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -97,7 +97,7 @@
   "hash": "253d5ec3ff5f",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -144,7 +144,7 @@
   "hash": "5db0af1cbfb8",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -188,10 +188,10 @@
   }
  },
  "kgm|||KGM K-세일페스타": {
-  "hash": "fe3f2715f19d",
+  "hash": "da192002624c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -210,7 +210,7 @@
    "discount_options": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) | 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 | 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) | 무쏘: 최대 200만원 또는 4.8% 60개월 할부",
    "max_benefit_krw": null,
    "discount": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택); 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부; 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함); 무쏘: 최대 200만원 또는 4.8% 60개월 할부; 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부",
-   "conditions": "차종별·생산월별 한정, 소진 시 자동 종료; 홈 배너에 ~11/15 표기(기간은 페이지에 미표기)",
+   "conditions": "차종별·생산월별 한정, 소진 시 자동 종료; 기간은 홈 배너 기준 2026-11-01~11-15(pre-order 페이지 자체에는 기간 텍스트 없음, 11/15 재확인)",
    "reward": null,
    "finance_company": null,
    "finance_product": null,
@@ -219,17 +219,17 @@
    "finance_down": null,
    "finance_monthly": null,
    "vehicle_price_krw": null,
-   "period_start": null,
-   "period_end": null,
-   "period_status": "기간 미표기",
+   "period_start": "2026-11-01",
+   "period_end": "2026-11-15",
+   "period_status": "기준월 해당",
    "link": "https://www.kg-mobility.com/cm/pre-order/10000810025",
    "confidence": "high",
-   "verification": "검증됨",
+   "verification": "일부 미확인",
    "evidence_date": "2026-11-06",
-   "detail": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) / 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 / 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) / 무쏘: 최대 200만원 또는 4.8% 60개월 할부 / 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부 / 차종별·생산월별 한정, 소진 시 자동 종료 / 홈 배너에 ~11/15 표기(기간은 페이지에 미표기)",
+   "detail": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) / 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 / 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) / 무쏘: 최대 200만원 또는 4.8% 60개월 할부 / 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부 / 차종별·생산월별 한정, 소진 시 자동 종료 / 기간은 홈 배너 기준 2026-11-01~11-15(pre-order 페이지 자체에는 기간 텍스트 없음, 11/15 재확인)",
    "key": "kgm|||KGM K-세일페스타",
    "change": "changed",
-   "valid_from": "2026-11-10",
+   "valid_from": "2026-11-15",
    "row_status": "active",
    "period_month": "2026-11"
   }
@@ -238,7 +238,7 @@
   "hash": "72f498a8ce2a",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -285,7 +285,7 @@
   "hash": "3d2e256453d1",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -332,7 +332,7 @@
   "hash": "1e343dcd11db",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -379,7 +379,7 @@
   "hash": "3d2e256453d1",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -426,7 +426,7 @@
   "hash": "ef40dc830bb3",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -473,7 +473,7 @@
   "hash": "3d2e256453d1",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -520,7 +520,7 @@
   "hash": "dccc785a12ed",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -567,7 +567,7 @@
   "hash": "b8a769ea0595",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -614,7 +614,7 @@
   "hash": "6f9292950ba9",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -661,7 +661,7 @@
   "hash": "4b6ca45f3820",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -708,7 +708,7 @@
   "hash": "de57ac787d77",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -755,7 +755,7 @@
   "hash": "b7e8b1079b19",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -802,7 +802,7 @@
   "hash": "b7e8b1079b19",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -849,7 +849,7 @@
   "hash": "b7e8b1079b19",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -896,7 +896,7 @@
   "hash": "2679c382ee27",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -943,7 +943,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -990,7 +990,7 @@
   "hash": "8781146ef464",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1037,7 +1037,7 @@
   "hash": "91f33a930d84",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1084,7 +1084,7 @@
   "hash": "ef958c9cfe89",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1131,7 +1131,7 @@
   "hash": "bd9c0bd4f6bc",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1178,7 +1178,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1225,7 +1225,7 @@
   "hash": "243db1524de0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1272,7 +1272,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1319,7 +1319,7 @@
   "hash": "f363fda50c8a",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1366,7 +1366,7 @@
   "hash": "b7e8b1079b19",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1413,7 +1413,7 @@
   "hash": "7b19545867a5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1460,7 +1460,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1507,7 +1507,7 @@
   "hash": "f363fda50c8a",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1554,7 +1554,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1601,7 +1601,7 @@
   "hash": "4b94e8306137",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1648,7 +1648,7 @@
   "hash": "441f8e3392ba",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1695,7 +1695,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1742,7 +1742,7 @@
   "hash": "453c04e42178",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1789,7 +1789,7 @@
   "hash": "70c9764e01a6",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1836,7 +1836,7 @@
   "hash": "b471a30326d0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1883,7 +1883,7 @@
   "hash": "b471a30326d0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1930,7 +1930,7 @@
   "hash": "4450eaa0c63f",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -1977,7 +1977,7 @@
   "hash": "881247f6484b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2024,7 +2024,7 @@
   "hash": "1833f248eacd",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2071,7 +2071,7 @@
   "hash": "31b8c0bf8078",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2118,7 +2118,7 @@
   "hash": "cb0bc57fbc6b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2165,7 +2165,7 @@
   "hash": "f6cac011effc",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2212,7 +2212,7 @@
   "hash": "193ecffcb2a3",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2259,7 +2259,7 @@
   "hash": "f3d7de1663db",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2306,7 +2306,7 @@
   "hash": "69255885225d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2353,7 +2353,7 @@
   "hash": "f3d7de1663db",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2400,7 +2400,7 @@
   "hash": "3dfc66d3cb52",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2447,7 +2447,7 @@
   "hash": "13b2c6d0b1aa",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2494,7 +2494,7 @@
   "hash": "f7f0477a42a0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2541,7 +2541,7 @@
   "hash": "212ee3f4998c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2588,7 +2588,7 @@
   "hash": "36d482e2abe4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2635,7 +2635,7 @@
   "hash": "28383bb659aa",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2682,7 +2682,7 @@
   "hash": "19f1c26836d0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2729,7 +2729,7 @@
   "hash": "1a1742958a16",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2776,7 +2776,7 @@
   "hash": "e2770e9ee614",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2823,7 +2823,7 @@
   "hash": "e2770e9ee614",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2870,7 +2870,7 @@
   "hash": "b64ec50a7e03",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2917,7 +2917,7 @@
   "hash": "a1ba9fb1f7c0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -2964,7 +2964,7 @@
   "hash": "a1ba9fb1f7c0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3011,7 +3011,7 @@
   "hash": "a1ba9fb1f7c0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3058,7 +3058,7 @@
   "hash": "b64ec50a7e03",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3105,7 +3105,7 @@
   "hash": "b64ec50a7e03",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3152,7 +3152,7 @@
   "hash": "09ed9ba76955",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3199,7 +3199,7 @@
   "hash": "36f3832915b0",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3246,7 +3246,7 @@
   "hash": "08e483967107",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3293,7 +3293,7 @@
   "hash": "fec4f7303c9e",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3340,7 +3340,7 @@
   "hash": "f28f9902cb7e",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3387,7 +3387,7 @@
   "hash": "dde2ae8ffd35",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3434,7 +3434,7 @@
   "hash": "a2cd66c5429c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3481,7 +3481,7 @@
   "hash": "a2cd66c5429c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3528,7 +3528,7 @@
   "hash": "000979f9b784",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3575,7 +3575,7 @@
   "hash": "000979f9b784",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3622,7 +3622,7 @@
   "hash": "dde2ae8ffd35",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3669,7 +3669,7 @@
   "hash": "dde2ae8ffd35",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3716,7 +3716,7 @@
   "hash": "dde2ae8ffd35",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3763,7 +3763,7 @@
   "hash": "000979f9b784",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3808,10 +3808,10 @@
  },
  "chevrolet|||코리아 그랜드 페스티벌 특별 혜택": {
   "hash": "046bca7f76e6",
-  "row_status": "active",
+  "row_status": "ended",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
-  "ended": false,
+  "last_seen": "2026-11-15",
+  "ended": true,
   "row": {
    "ym": "2026-11",
    "brand_id": "chevrolet",
@@ -3857,7 +3857,7 @@
   "hash": "f45e1f70dd58",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3904,7 +3904,7 @@
   "hash": "f45e1f70dd58",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3951,7 +3951,7 @@
   "hash": "cd54db353fe2",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -3998,7 +3998,7 @@
   "hash": "1a0353a11473",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4042,10 +4042,10 @@
   }
  },
  "audi|A6 Sedan||A6 Sedan (2026)": {
-  "hash": "8ad70c663142",
+  "hash": "824af41df82f",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4063,8 +4063,8 @@
    "discount_rate_pct": null,
    "discount_options": null,
    "max_benefit_krw": null,
-   "discount": "잔존가치: 62%; 월 납입금: 월 20만원대; 잔존가치: 60%; 월 납입금: 월 30만원대; 월 납입금: 월 40만원대; 밸류+ 할부: 조건: 선수금 30%",
-   "conditions": "term: 최장 60개월",
+   "discount": "잔존가치: 59%; 월 납입금: 월 40만원대; 잔존가치: 61%; 월 납입금: 월 50만원대; 월 납입금: 월 80만원대; rate: 금리 3%대",
+   "conditions": "밸류+ 할부: 조건: 최장 60개월",
    "reward": null,
    "finance_company": "아우디 파이낸셜 서비스 코리아",
    "finance_product": null,
@@ -4078,12 +4078,12 @@
    "period_status": "기간 미표기",
    "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
    "confidence": "medium",
-   "verification": "검증됨",
+   "verification": "일부 미확인",
    "evidence_date": "2026-11-06",
-   "detail": "프로그램: 밸류⁺ 금융프로그램; 요약: 낮은 부담과 확실한 가치, 두 가지 방식; 밸류+ 리스: 트림: A6 40 TFSI S-line; 잔존가치: 62%; 월 납입금: 월 20만원대 / 트림: A6 45 TFSI quattro S-line; 잔존가치: 60%; 월 납입금: 월 30만원대 / 트림: A6 40 TFSI Advanced; 잔존가치: 60%; 월 납입금: 월 40만원대; 밸류+ 할부: 조건: 선수금 30%; 혜택: 트림: A6 40 TFSI S-line; 월 납입금: 월 160만원대; rate: 금리 0%대 / 트림: A6 45 TFSI quattro S-line; 월 납입금: 월 90만원대; term: 최장 60개월 / 트림: A6 40 TFSI Advanced; 월 납입금: 월 80만원대; term: 최장 60개월; 참고: 월 납입금은 '대' 범위 표기. 차량 가격·선수금액·이자율 상세는 페이지에 없음.; 월 납입금 참고: A6 Sedan",
+   "detail": "프로그램: 밸류⁺ 금융프로그램; 요약: 낮은 부담과 확실한 가치, 두 가지 방식; 밸류+ 리스: 트림: A6 40 TFSI S-line; 잔존가치: 59%; 월 납입금: 월 40만원대 / 트림: A6 40 TDI S-line; 잔존가치: 61%; 월 납입금: 월 50만원대; 밸류+ 할부: 조건: 최장 60개월; 혜택: 트림: A6 40 TFSI S-line; 월 납입금: 월 80만원대; rate: 금리 3%대 / 트림: A6 40 TDI S-line; 월 납입금: 월 90만원대; rate: 금리 3%대; 참고: 11/15 재확인 시 트림 구성이 '45 TFSI quattro S-line/40 TFSI Advanced'에서 '40 TDI S-line'으로 바뀜. 월 납입금은 '대' 범위 표기. 차량 가격·선수금액 상세는 페이지에 없음.; 월 납입금 참고: A6 Sedan",
    "key": "audi|A6 Sedan||A6 Sedan (2026)",
    "change": "changed",
-   "valid_from": "2026-11-10",
+   "valid_from": "2026-11-15",
    "row_status": "active",
    "period_month": "2026-11"
   }
@@ -4092,7 +4092,7 @@
   "hash": "c58a788e2841",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4136,10 +4136,10 @@
   }
  },
  "audi|Q3||Audi Q3 (2026)": {
-  "hash": "3667e2d23e3a",
+  "hash": "58d843ae6cc9",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4157,7 +4157,7 @@
    "discount_rate_pct": null,
    "discount_options": null,
    "max_benefit_krw": null,
-   "discount": "리스: 월 50만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
+   "discount": "리스: 월 40만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
    "conditions": null,
    "reward": null,
    "finance_company": "아우디 파이낸셜 서비스 코리아",
@@ -4172,21 +4172,21 @@
    "period_status": "기간 미표기",
    "link": "https://www.audi.co.kr/ko/models/q3/q3_2026/",
    "confidence": "medium",
-   "verification": "검증됨",
+   "verification": "일부 미확인",
    "evidence_date": "2026-11-06",
-   "detail": "출처: https://www.audi.co.kr/ko/models/q3/q3_2026/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 50만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
+   "detail": "출처: https://www.audi.co.kr/ko/models/q3/q3_2026/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 40만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
    "key": "audi|Q3||Audi Q3 (2026)",
    "change": "changed",
-   "valid_from": "2026-11-10",
+   "valid_from": "2026-11-15",
    "row_status": "active",
    "period_month": "2026-11"
   }
  },
  "audi|Q5 SUV||Audi Q5 SUV (2025)": {
-  "hash": "fd98b49ef6e9",
+  "hash": "c89d9315056b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4204,7 +4204,7 @@
    "discount_rate_pct": null,
    "discount_options": null,
    "max_benefit_krw": null,
-   "discount": "리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대",
+   "discount": "리스: 월 60만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대; 참고: 11/5 캡처 시 리스 월 40만원대였으나 11/15 재확인 시 월 60만원대로 인상 확인",
    "conditions": null,
    "reward": null,
    "finance_company": "아우디 파이낸셜 서비스 코리아",
@@ -4219,12 +4219,12 @@
    "period_status": "기간 미표기",
    "link": "https://www.audi.co.kr/ko/models/q5/q5-suv-2025/",
    "confidence": "medium",
-   "verification": "검증됨",
+   "verification": "일부 미확인",
    "evidence_date": "2026-11-06",
-   "detail": "출처: https://www.audi.co.kr/ko/models/q5/q5-suv-2025/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대",
+   "detail": "출처: https://www.audi.co.kr/ko/models/q5/q5-suv-2025/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 60만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대; 참고: 11/5 캡처 시 리스 월 40만원대였으나 11/15 재확인 시 월 60만원대로 인상 확인",
    "key": "audi|Q5 SUV||Audi Q5 SUV (2025)",
    "change": "changed",
-   "valid_from": "2026-11-10",
+   "valid_from": "2026-11-15",
    "row_status": "active",
    "period_month": "2026-11"
   }
@@ -4233,7 +4233,7 @@
   "hash": "137a78fc5dd4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4280,7 +4280,7 @@
   "hash": "05828f347d39",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4327,7 +4327,7 @@
   "hash": "eedbcc1c7248",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4374,7 +4374,7 @@
   "hash": "ce30b2412d4f",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4421,7 +4421,7 @@
   "hash": "80bffcf8daad",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4468,7 +4468,7 @@
   "hash": "cd31d20d8fe5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4515,7 +4515,7 @@
   "hash": "9c9ccf4a72b5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4562,7 +4562,7 @@
   "hash": "0ec2b9e1e891",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4609,7 +4609,7 @@
   "hash": "feb7dbad1a6c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4656,7 +4656,7 @@
   "hash": "79999492d250",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4703,7 +4703,7 @@
   "hash": "0148ba738c90",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4750,7 +4750,7 @@
   "hash": "e625ceb8daf6",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4797,7 +4797,7 @@
   "hash": "f9a283933912",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4844,7 +4844,7 @@
   "hash": "da60a588dac5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4891,7 +4891,7 @@
   "hash": "531337ae25d7",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4938,7 +4938,7 @@
   "hash": "4a674e839bb3",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -4985,7 +4985,7 @@
   "hash": "b151ad616728",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5032,7 +5032,7 @@
   "hash": "5bd55a716b1e",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5079,7 +5079,7 @@
   "hash": "d00567b4515d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5126,7 +5126,7 @@
   "hash": "11a4d3678e5e",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5173,7 +5173,7 @@
   "hash": "c6e3dee46624",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5220,7 +5220,7 @@
   "hash": "306a4f632735",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5267,7 +5267,7 @@
   "hash": "51b2db8d3bb6",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5314,7 +5314,7 @@
   "hash": "bd612ec797cd",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5361,7 +5361,7 @@
   "hash": "cc0b2c717f2d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5408,7 +5408,7 @@
   "hash": "2d488372fc4b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5455,7 +5455,7 @@
   "hash": "4aa413e66890",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5502,7 +5502,7 @@
   "hash": "db992021a91d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5549,7 +5549,7 @@
   "hash": "da1c890631ee",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5596,7 +5596,7 @@
   "hash": "b3252666b8e3",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5643,7 +5643,7 @@
   "hash": "abaa8020e40c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5690,7 +5690,7 @@
   "hash": "bb5cdf72cf72",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5737,7 +5737,7 @@
   "hash": "ac079a993ded",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5782,10 +5782,10 @@
  },
  "hyundai|||신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택 이벤트": {
   "hash": "a1f5bbfee2aa",
-  "row_status": "active",
+  "row_status": "ended",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
-  "ended": false,
+  "last_seen": "2026-11-15",
+  "ended": true,
   "row": {
    "ym": "2026-11",
    "brand_id": "hyundai",
@@ -5831,7 +5831,7 @@
   "hash": "275fe836869a",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5878,7 +5878,7 @@
   "hash": "0687154f6c6c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5925,7 +5925,7 @@
   "hash": "c840e273702e",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -5972,7 +5972,7 @@
   "hash": "9cdce6c82a46",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6019,7 +6019,7 @@
   "hash": "4a226313df6d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6066,7 +6066,7 @@
   "hash": "1345a085b02b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6113,7 +6113,7 @@
   "hash": "88ab83bc8311",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6160,7 +6160,7 @@
   "hash": "0e7402b5f046",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6207,7 +6207,7 @@
   "hash": "a69d42471a08",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6254,7 +6254,7 @@
   "hash": "edc1a99bbadd",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6301,7 +6301,7 @@
   "hash": "7267950078af",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6348,7 +6348,7 @@
   "hash": "af30e89e1aae",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6395,7 +6395,7 @@
   "hash": "fe29de664a8d",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6442,7 +6442,7 @@
   "hash": "71049546c113",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6489,7 +6489,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6536,7 +6536,7 @@
   "hash": "a410f7d51c76",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6583,7 +6583,7 @@
   "hash": "71049546c113",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6630,7 +6630,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6677,7 +6677,7 @@
   "hash": "a410f7d51c76",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6724,7 +6724,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6771,7 +6771,7 @@
   "hash": "a410f7d51c76",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6818,7 +6818,7 @@
   "hash": "0e7402b5f046",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6865,7 +6865,7 @@
   "hash": "e087d1482388",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6912,7 +6912,7 @@
   "hash": "b54dcedb77b5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -6959,7 +6959,7 @@
   "hash": "c9a42633968f",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7004,10 +7004,10 @@
  },
  "hyundai|디 올 뉴 아반떼||현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼": {
   "hash": "2f186d949395",
-  "row_status": "active",
+  "row_status": "ended",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
-  "ended": false,
+  "last_seen": "2026-11-15",
+  "ended": true,
   "row": {
    "ym": "2026-11",
    "brand_id": "hyundai",
@@ -7053,7 +7053,7 @@
   "hash": "a410f7d51c76",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7100,7 +7100,7 @@
   "hash": "a410f7d51c76",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7147,7 +7147,7 @@
   "hash": "7b312f5f9338",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7194,7 +7194,7 @@
   "hash": "575169a2371b",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7241,7 +7241,7 @@
   "hash": "83e581d96cdd",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7288,7 +7288,7 @@
   "hash": "1aca8db339a8",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7335,7 +7335,7 @@
   "hash": "1aca8db339a8",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7382,7 +7382,7 @@
   "hash": "236785efe39c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7429,7 +7429,7 @@
   "hash": "236785efe39c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7476,7 +7476,7 @@
   "hash": "236785efe39c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7523,7 +7523,7 @@
   "hash": "0e7402b5f046",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7570,7 +7570,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7617,7 +7617,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7662,10 +7662,10 @@
  },
  "hyundai|아이오닉 6 N||아이오닉 6 N X G-STAR 2026 시승 이벤트": {
   "hash": "f6a9f0a17ea3",
-  "row_status": "active",
+  "row_status": "ended",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
-  "ended": false,
+  "last_seen": "2026-11-15",
+  "ended": true,
   "row": {
    "ym": "2026-11",
    "brand_id": "hyundai",
@@ -7711,7 +7711,7 @@
   "hash": "26990c26eaf2",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7758,7 +7758,7 @@
   "hash": "236785efe39c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7805,7 +7805,7 @@
   "hash": "236785efe39c",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7852,7 +7852,7 @@
   "hash": "8f5caf689ee4",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7899,7 +7899,7 @@
   "hash": "caa51133129a",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7946,7 +7946,7 @@
   "hash": "3186670cd1e5",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -7993,7 +7993,7 @@
   "hash": "9f6ee594b840",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8040,7 +8040,7 @@
   "hash": "6b6c02fe4515",
   "row_status": "active",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8087,7 +8087,7 @@
   "hash": "de9419ea26ef",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8132,7 +8132,7 @@
   "hash": "3c0626d8a92b",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8177,7 +8177,7 @@
   "hash": "8c773a87de9c",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8222,7 +8222,7 @@
   "hash": "1563b14df85e",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8267,7 +8267,7 @@
   "hash": "e380e2029c73",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8312,7 +8312,7 @@
   "hash": "f8b985a788b1",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8357,7 +8357,7 @@
   "hash": "ca4b8e03ed07",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8402,7 +8402,7 @@
   "hash": "237f4c55692b",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8447,7 +8447,7 @@
   "hash": "68763e8cd296",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8492,7 +8492,7 @@
   "hash": "2fb3b1913455",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8537,7 +8537,7 @@
   "hash": "2fd2b59197cf",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8582,7 +8582,7 @@
   "hash": "698cfe35f0cb",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8627,7 +8627,7 @@
   "hash": "cdb47350c2db",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8672,7 +8672,7 @@
   "hash": "9e9bbeaefbfd",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8717,7 +8717,7 @@
   "hash": "0ed9b082f4f7",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8759,10 +8759,10 @@
   }
  },
  "lexus|||렉서스 전국 시승회 AUTUMN TEST DRIVE EVENT": {
-  "hash": "fc10e0e4db50",
+  "hash": "9d8d7b9175ad",
   "row_status": "expired",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8781,7 +8781,7 @@
    "discount_options": null,
    "max_benefit_krw": null,
    "discount": null,
-   "conditions": "대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객; 이벤트 기간은 10/31 종료(시승 기한 11/3). 11/8 재확인: https://www.lexus.co.kr/2026-nov-test-drive/ 는 '요청하신 페이지를 찾을 수 없습니다' (SPA 404). 11월 시승회 아직 없음",
+   "conditions": "대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객; 이벤트 기간은 10/31 종료(시승 기한 11/3, 만료). 11/8, 11/15 재확인 모두 https://www.lexus.co.kr/2026-nov-test-drive/ 는 '요청하신 페이지를 찾을 수 없습니다' (SPA 404). 11월 시승회 11/15 기준 아직 게시 안 됨",
    "reward": "시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명; 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담",
    "finance_company": null,
    "finance_product": null,
@@ -8795,10 +8795,10 @@
    "period_status": "기간 만료",
    "link": "https://www.lexus.co.kr/2026-oct-test-drive/",
    "confidence": "high",
-   "detail": "All-New ES 출시 기념 전국 시승 이벤트 / 대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객 / 시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명 / 결과 발표 2026-11-10 / 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담 / 이벤트 기간은 10/31 종료(시승 기한 11/3). 11/8 재확인: https://www.lexus.co.kr/2026-nov-test-drive/ 는 '요청하신 페이지를 찾을 수 없습니다' (SPA 404). 11월 시승회 아직 없음",
+   "detail": "All-New ES 출시 기념 전국 시승 이벤트 / 대상: 이벤트 기간 내 시승 신청 후 2026-10-06~11-03 All-New ES, UX, NX, RX, LX, LM, LS 시승을 완료한 고객 / 시승 완료 고객 추첨 54명: Bushnell TOUR V7 SHIFT 1명, 오클리 선글라스 플랙 2.0 프리즘 골프 3명, 모바일 신세계 상품권 3만원권 50명 / 결과 발표 2026-11-10 / 경품 가액 5만원 이상 제세공과금 22%는 당첨자 부담 / 이벤트 기간은 10/31 종료(시승 기한 11/3, 만료). 11/8, 11/15 재확인 모두 https://www.lexus.co.kr/2026-nov-test-drive/ 는 '요청하신 페이지를 찾을 수 없습니다' (SPA 404). 11월 시승회 11/15 기준 아직 게시 안 됨",
    "key": "lexus|||렉서스 전국 시승회 AUTUMN TEST DRIVE EVENT",
    "change": "changed",
-   "valid_from": "2026-11-10",
+   "valid_from": "2026-11-15",
    "row_status": "expired",
    "period_month": "2026-10"
   }
@@ -8807,7 +8807,7 @@
   "hash": "221e7e8d2851",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8854,7 +8854,7 @@
   "hash": "7f2b9d430a3c",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8901,7 +8901,7 @@
   "hash": "5e49949cb12e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8948,7 +8948,7 @@
   "hash": "b265c0251fb6",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -8995,7 +8995,7 @@
   "hash": "1e828d4354d7",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9042,7 +9042,7 @@
   "hash": "e37b89ff81a9",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9089,7 +9089,7 @@
   "hash": "0a29459c9ff2",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9136,7 +9136,7 @@
   "hash": "27a1379f087d",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9183,7 +9183,7 @@
   "hash": "da682140b29e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9230,7 +9230,7 @@
   "hash": "443f3f8321e5",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9277,7 +9277,7 @@
   "hash": "60414631eb1a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9324,7 +9324,7 @@
   "hash": "b74737e563dd",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9371,7 +9371,7 @@
   "hash": "14a71b2fe7a3",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9418,7 +9418,7 @@
   "hash": "2f48f97ec10a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9465,7 +9465,7 @@
   "hash": "22c671c75050",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9512,7 +9512,7 @@
   "hash": "b372cb387af1",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9559,7 +9559,7 @@
   "hash": "e6c752f2f9d5",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9606,7 +9606,7 @@
   "hash": "52018b0fb207",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9653,7 +9653,7 @@
   "hash": "23f726291e3a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9700,7 +9700,7 @@
   "hash": "3b2da5ab71de",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9747,7 +9747,7 @@
   "hash": "ad2818f75cff",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9794,7 +9794,7 @@
   "hash": "ad2818f75cff",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9841,7 +9841,7 @@
   "hash": "d0b9083eac5a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9888,7 +9888,7 @@
   "hash": "83229b303e6d",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9935,7 +9935,7 @@
   "hash": "77552a356711",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -9982,7 +9982,7 @@
   "hash": "5f6068eea34d",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10029,7 +10029,7 @@
   "hash": "8d97c25f0735",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10076,7 +10076,7 @@
   "hash": "3b7880ff0c08",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10123,7 +10123,7 @@
   "hash": "ef2f65ffe343",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10170,7 +10170,7 @@
   "hash": "2f0fe7c65d7a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10217,7 +10217,7 @@
   "hash": "e4bc78f0a13b",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10264,7 +10264,7 @@
   "hash": "522b30aec46a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10311,7 +10311,7 @@
   "hash": "7d7c554abd7e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10358,7 +10358,7 @@
   "hash": "745d5765e22e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10405,7 +10405,7 @@
   "hash": "eff57866955f",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10452,7 +10452,7 @@
   "hash": "ca545517174f",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10499,7 +10499,7 @@
   "hash": "745d5765e22e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10546,7 +10546,7 @@
   "hash": "f07a2a88a50d",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10593,7 +10593,7 @@
   "hash": "118c67e8295a",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10640,7 +10640,7 @@
   "hash": "54b8d23c35c0",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10687,7 +10687,7 @@
   "hash": "c87f3795c71b",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10734,7 +10734,7 @@
   "hash": "745d5765e22e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10781,7 +10781,7 @@
   "hash": "a26bdc287147",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10828,7 +10828,7 @@
   "hash": "be7f6b8a444b",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10875,7 +10875,7 @@
   "hash": "dcd7566ebefc",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10922,7 +10922,7 @@
   "hash": "2920e7996249",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -10969,7 +10969,7 @@
   "hash": "03e0510b8538",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11016,7 +11016,7 @@
   "hash": "7268476ee14e",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11063,7 +11063,7 @@
   "hash": "7e7e9381ff39",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11110,7 +11110,7 @@
   "hash": "22f50ae7d412",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11157,7 +11157,7 @@
   "hash": "c8e1c55f199f",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11204,7 +11204,7 @@
   "hash": "b24b46bd6b8c",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11251,7 +11251,7 @@
   "hash": "686ad23df083",
   "row_status": "active",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-15",
   "ended": false,
   "row": {
    "ym": "2026-11",
@@ -11290,6 +11290,194 @@
    "key": "tesla|||Tesla 제휴 금융사 금융 서비스(우리금융캐피탈 리스·삼성카드 할부)",
    "change": "new",
    "valid_from": "2026-11-10",
+   "row_status": "active",
+   "period_month": "2026-11"
+  }
+ },
+ "bmw|X3||X3 BMW파이낸셜 구매 혜택": {
+  "hash": "1ebc367f20dd",
+  "row_status": "active",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "ended": false,
+  "row": {
+   "ym": "2026-11",
+   "brand_id": "bmw",
+   "brand_ko": "BMW",
+   "model": "X3",
+   "sub_model": null,
+   "model_year": null,
+   "target_scope": "특정 모델",
+   "event_name": "BMW파이낸셜 구매 혜택",
+   "title": "X3 BMW파이낸셜 구매 혜택",
+   "types": "금융",
+   "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
+   "discount_amount_krw": null,
+   "discount_rate_pct": null,
+   "discount_options": null,
+   "max_benefit_krw": null,
+   "discount": "BMW X3 구매 혜택. BMW X3, 월 56만원부터.",
+   "conditions": "BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1; 참고: BMW 공식 홈페이지(bmw.co.kr)의 X3 프로모션 페이지는 2026-10-01~10-31로 표기된 채 갱신되지 않아 그쪽 경로로는 제외했으나, BMWFS 경로의 이 11월 프로모션으로 11월 구매 혜택 포함",
+   "reward": null,
+   "finance_company": "BMW파이낸셜서비스코리아",
+   "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+   "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+   "finance_term": null,
+   "finance_down": null,
+   "finance_monthly": "월 56만원부터",
+   "vehicle_price_krw": null,
+   "period_start": "2026-11-01",
+   "period_end": "2026-11-30",
+   "period_status": "기준월 해당",
+   "link": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2007",
+   "confidence": "high",
+   "verification": "증거 없음",
+   "evidence_date": null,
+   "detail": "BMW X3 구매 혜택. BMW X3, 월 56만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 여신금융협회 심의필 제2026-C1h-17128호(2026.11.11~2027.11.10) / 전 상품 취급 수수료 없음 / 참고: BMW 공식 홈페이지(bmw.co.kr)의 X3 프로모션 페이지는 2026-10-01~10-31로 표기된 채 갱신되지 않아 그쪽 경로로는 제외했으나, BMWFS 경로의 이 11월 프로모션으로 11월 구매 혜택 포함",
+   "key": "bmw|X3||X3 BMW파이낸셜 구매 혜택",
+   "change": "new",
+   "valid_from": "2026-11-15",
+   "row_status": "active",
+   "period_month": "2026-11"
+  }
+ },
+ "renault|Grand Koleos, Filante||르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션)": {
+  "hash": "f28da8ed1cc3",
+  "row_status": "active",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "ended": false,
+  "row": {
+   "ym": "2026-11",
+   "brand_id": "renault",
+   "brand_ko": "르노코리아",
+   "model": "Grand Koleos, Filante",
+   "sub_model": null,
+   "model_year": null,
+   "target_scope": "특정 모델",
+   "event_name": "르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션",
+   "title": "르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션)",
+   "types": "금융,할인",
+   "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
+   "discount_amount_krw": null,
+   "discount_rate_pct": null,
+   "discount_options": null,
+   "max_benefit_krw": null,
+   "discount": "차량 선수금을 삼성카드 제휴 오토카드 일시불 신청 후 신용카드 일시불 결제 시 MFS 전용 특별 저금리 2.99% 적용(해당 저금리 적용 시 오토카드일시불 캐시백 미제공). 선수금 결제부터 MFS 할부 신청까지 원스톱 진행. 대상 모델(이미지 표기): Grand Koleos, Filante.",
+   "conditions": null,
+   "reward": null,
+   "finance_company": "모빌라이즈파이낸셜서비스(알씨아이파이낸셜서비스코리아)",
+   "finance_product": null,
+   "finance_rate": "2.99%",
+   "finance_term": null,
+   "finance_down": null,
+   "finance_monthly": null,
+   "vehicle_price_krw": null,
+   "period_start": "2026-10-01",
+   "period_end": "2026-12-31",
+   "period_status": "기준월 해당",
+   "link": "https://www.renault.co.kr/ko/inside/event_view.jsp?t_seq=9411",
+   "confidence": "medium",
+   "verification": "검증됨",
+   "evidence_date": "2026-11-15",
+   "detail": "차량 선수금을 삼성카드 제휴 오토카드 일시불 신청 후 신용카드 일시불 결제 시 MFS 전용 특별 저금리 2.99% 적용(해당 저금리 적용 시 오토카드일시불 캐시백 미제공). 선수금 결제부터 MFS 할부 신청까지 원스톱 진행. 대상 모델(이미지 표기): Grand Koleos, Filante.",
+   "key": "renault|Grand Koleos, Filante||르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션)",
+   "change": "new",
+   "valid_from": "2026-11-15",
+   "row_status": "active",
+   "period_month": "2026-10"
+  }
+ },
+ "chevrolet|||11월 특별 구매 혜택": {
+  "hash": "20ea2cb365de",
+  "row_status": "active",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "ended": false,
+  "row": {
+   "ym": "2026-11",
+   "brand_id": "chevrolet",
+   "brand_ko": "쉐보레",
+   "model": null,
+   "sub_model": null,
+   "model_year": null,
+   "target_scope": "브랜드 공통(모델 미지정)",
+   "event_name": "11월 특별 구매 혜택",
+   "title": "11월 특별 구매 혜택",
+   "types": "이벤트",
+   "discount_type": "정액 할인",
+   "discount_amount_krw": 2000000,
+   "discount_rate_pct": null,
+   "discount_options": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
+   "max_benefit_krw": null,
+   "discount": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
+   "conditions": "기간 미표기 (11/5에는 같은 배너가 '코리아 그랜드 페스티벌 특별 혜택'이라는 이름이었으나 11/15 재확인 시 '11월 특별 구매 혜택'으로 명칭만 변경, 금액·내용 동일). 11/5 홈 배너에 있던 '쉐보레와 함께하는 겨울준비' 무상점검 안내는 11/15 재확인 시 더 이상 노출되지 않음(종료 추정, 원래 범위 밖 서비스 항목).",
+   "reward": null,
+   "finance_company": null,
+   "finance_product": null,
+   "finance_rate": null,
+   "finance_term": null,
+   "finance_down": null,
+   "finance_monthly": null,
+   "vehicle_price_krw": null,
+   "period_start": null,
+   "period_end": null,
+   "period_status": "기간 미표기",
+   "link": "https://www.chevrolet.co.kr/",
+   "confidence": "medium",
+   "verification": "검증됨",
+   "evidence_date": "2026-11-06",
+   "detail": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지 / 차종별 구매혜택은 각 모델 행 참고 / 기간 미표기 (11/5에는 같은 배너가 '코리아 그랜드 페스티벌 특별 혜택'이라는 이름이었으나 11/15 재확인 시 '11월 특별 구매 혜택'으로 명칭만 변경, 금액·내용 동일). 11/5 홈 배너에 있던 '쉐보레와 함께하는 겨울준비' 무상점검 안내는 11/15 재확인 시 더 이상 노출되지 않음(종료 추정, 원래 범위 밖 서비스 항목).",
+   "key": "chevrolet|||11월 특별 구매 혜택",
+   "change": "new",
+   "valid_from": "2026-11-15",
+   "row_status": "active",
+   "period_month": "2026-11"
+  }
+ },
+ "hyundai|쏘나타 디 엣지, 더 뉴 스타리아||쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션": {
+  "hash": "6f6e7257d019",
+  "row_status": "active",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15",
+  "ended": false,
+  "row": {
+   "ym": "2026-11",
+   "brand_id": "hyundai",
+   "brand_ko": "현대",
+   "model": "쏘나타 디 엣지, 더 뉴 스타리아",
+   "sub_model": null,
+   "model_year": null,
+   "target_scope": "특정 모델",
+   "event_name": "쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션",
+   "title": "쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션",
+   "types": "이벤트,할인",
+   "discount_type": "정액 할인",
+   "discount_amount_krw": 250000,
+   "discount_rate_pct": null,
+   "discount_options": "현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원",
+   "max_benefit_krw": null,
+   "discount": "현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원",
+   "conditions": "대상: 2026-11-01~11-30 쏘나타 디 엣지/쏘나타 디 엣지 Hybrid/더 뉴 스타리아/더 뉴 스타리아 Hybrid 출고 개인·개인사업자(쏘나타 택시, 더 뉴 스타리아 Electric 제외); 다른 카드 프로모션과 중복 불가",
+   "reward": null,
+   "finance_company": null,
+   "finance_product": null,
+   "finance_rate": null,
+   "finance_term": null,
+   "finance_down": null,
+   "finance_monthly": null,
+   "vehicle_price_krw": null,
+   "period_start": "2026-11-09",
+   "period_end": "2026-11-30",
+   "period_status": "기준월 해당",
+   "link": "https://www.hyundai.com/kr/ko/event/event-sonata-staria-hyundaicard-special-benefit-202610",
+   "confidence": "high",
+   "verification": "검증됨",
+   "evidence_date": "2026-11-15",
+   "detail": "대상: 2026-11-01~11-30 쏘나타 디 엣지/쏘나타 디 엣지 Hybrid/더 뉴 스타리아/더 뉴 스타리아 Hybrid 출고 개인·개인사업자(쏘나타 택시, 더 뉴 스타리아 Electric 제외) / 현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원 / 다른 카드 프로모션과 중복 불가",
+   "key": "hyundai|쏘나타 디 엣지, 더 뉴 스타리아||쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션",
+   "change": "new",
+   "valid_from": "2026-11-15",
    "row_status": "active",
    "period_month": "2026-11"
   }

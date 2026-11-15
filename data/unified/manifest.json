@@ -1,20 +1,20 @@
 {
-  "generated": "2026-11-10",
-  "total_records": 336,
+  "generated": "2026-11-15",
+  "total_records": 335,
   "files": {
-    "offers/audi_2026-11-05.json": {
+    "offers/audi_2026-11-15.json": {
       "brand_id": "audi",
       "records": 6,
-      "captured": "2026-11-05",
+      "captured": "2026-11-15",
       "source": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
       "caveat": null
     },
-    "offers/bmw_2026-11-08.json": {
+    "offers/bmw_2026-11-15.json": {
       "brand_id": "bmw",
       "records": 16,
-      "captured": "2026-11-08",
+      "captured": "2026-11-15",
       "source": "https://www.bmw.co.kr/ko/finance/special-offer/financial-promotion.html",
-      "caveat": "수집일(11/08) 재확인: 11/05 수집 때와 동일하게 10월 프로모션이 그대로 페이지에 남아 있음(11월분 갱신 안 됨). 내용·금액 변동 없음. 다음 주기 갱신 때 다시 확인."
+      "caveat": null
     },
     "offers/byd_2026-11-05.json": {
       "brand_id": "byd",
@@ -30,40 +30,40 @@
       "source": "https://www.cadillac.co.kr/purchase/current-offers.gm",
       "caveat": "다른 모델(리릭 등)은 이 페이지에 오퍼 미게시. 금융사 명칭 미표기('제휴할부/제휴오토리스')."
     },
-    "offers/chevrolet_2026-11-05.json": {
+    "offers/chevrolet_2026-11-15.json": {
       "brand_id": "chevrolet",
-      "records": 4,
-      "captured": "2026-11-05",
+      "records": 3,
+      "captured": "2026-11-15",
       "source": "https://www.chevrolet.co.kr/events/trax-trailblazer-promotion",
       "caveat": null
     },
-    "offers/finance_bmwfs2_2026-11-10.json": {
+    "offers/finance_bmwfs2_2026-11-15.json": {
       "brand_id": [
         "bmw",
         "mini"
       ],
       "records": 3,
-      "captured": "2026-11-10",
+      "captured": "2026-11-15",
       "source": "https://www.bmwfs.co.kr/kr/promotion/list?search=true&page=2",
       "caveat": null
     },
-    "offers/finance_bmwfs_2026-11-10.json": {
+    "offers/finance_bmwfs_2026-11-15.json": {
       "brand_id": [
         "bmw"
       ],
-      "records": 7,
-      "captured": "2026-11-10",
+      "records": 8,
+      "captured": "2026-11-15",
       "source": "https://www.bmwfs.co.kr/kr/promotion/list",
       "caveat": null
     },
-    "offers/finance_hyundaicapital_2026-11-10.json": {
+    "offers/finance_hyundaicapital_2026-11-15.json": {
       "brand_id": [
         "hyundai",
         "kia",
         "genesis"
       ],
       "records": 38,
-      "captured": "2026-11-10",
+      "captured": "2026-11-15",
       "source": "https://www.hyundaicapital.com/nwcafn/prchprgm/CPNCPP0101.hc",
       "caveat": null
     },
@@ -76,12 +76,12 @@
       "source": "https://www.mobilize-fs.co.kr/micro/event/eventView.jsp?idx=1301",
       "caveat": null
     },
-    "offers/finance_vwfs_2026-11-10.json": {
+    "offers/finance_vwfs_2026-11-15.json": {
       "brand_id": [
         "volkswagen"
       ],
       "records": 2,
-      "captured": "2026-11-10",
+      "captured": "2026-11-15",
       "source": "https://www.vwfs.co.kr/ep/evtProIngList",
       "caveat": null
     },
@@ -102,10 +102,10 @@
       "source": "https://www.genesis.com/kr/ko/shopping/monthly-offer.html",
       "caveat": null
     },
-    "offers/hyundai_2026-11-05.json": {
+    "offers/hyundai_2026-11-15.json": {
       "brand_id": "hyundai",
-      "records": 72,
-      "captured": "2026-11-05",
+      "records": 70,
+      "captured": "2026-11-15",
       "source": "https://www.hyundai.com/kr/ko/e/vehicles/monthly-benefit",
       "caveat": null
     },
@@ -123,10 +123,10 @@
       "source": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
       "caveat": "'최대 1,270만원'은 제휴 금융상품 이용 시 합산 최대치. 트림·색상·재고별 조건 상이. 적용 기간 미표기(85주년 구매 프로그램)."
     },
-    "offers/kgm_2026-11-05.json": {
+    "offers/kgm_2026-11-15.json": {
       "brand_id": "kgm",
       "records": 19,
-      "captured": "2026-11-05",
+      "captured": "2026-11-15",
       "source": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
       "caveat": null
     },
@@ -148,10 +148,10 @@
       "source": "https://www.landroverkorea.co.kr (landrover.co.kr 아님)",
       "caveat": "랜드로버는 현금 할인이 아니라 모델별 '월 납입금 예시'(운용리스/할부) 방식. 적용 기간 미표기. 가격 PDF는 2026-04-08 버전. 수집 모델: Defender, Range Rover만. 나머지 모델 페이지는 미수집."
     },
-    "offers/lexus_2026-11-08.json": {
+    "offers/lexus_2026-11-15.json": {
       "brand_id": "lexus",
       "records": 9,
-      "captured": "2026-11-08",
+      "captured": "2026-11-15",
       "source": "https://www.lexus.co.kr/purchase-benefit/monthly/",
       "caveat": "ES, 밸류플러스, 하이브리드 혜택 페이지는 이번에도 이달의 구매혜택만 숫자로 수집. 하이브리드 혜택 페이지(혼잡통행료·공영주차장 할인, 배터리 보증 연장)는 브랜드 프로모션이 아닌 친환경차 일반 정책이라 수집 범위 밖으로 보고 제외. 밸류플러스 페이지는 숫자 없는 설명 페이지라 제외."
     },
@@ -200,10 +200,10 @@
       "source": "https://www.porsche-fs.co.kr/",
       "caveat": "월 납입금 '125만원 ~'의 모델/조건은 배너 텍스트상 카이엔 일렉트릭 기준으로 보이나 정확한 조건 미확인."
     },
-    "offers/renault_2026-11-05.json": {
+    "offers/renault_2026-11-15.json": {
       "brand_id": "renault",
-      "records": 5,
-      "captured": "2026-11-05",
+      "records": 6,
+      "captured": "2026-11-15",
       "source": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
       "caveat": null
     },

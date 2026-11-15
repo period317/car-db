@@ -72,7 +72,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2215",
   "confidence": "high",
-  "source_record_id": 43,
+  "source_record_id": 42,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -112,7 +112,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1858",
   "confidence": "high",
-  "source_record_id": 44,
+  "source_record_id": 43,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -325,6 +325,46 @@
   "period_status": "기준월 해당",
   "brand_id": "bmw",
   "brand_ko": "BMW",
+  "model": "X3",
+  "sub_model": null,
+  "model_year": null,
+  "target_scope": "특정 모델",
+  "event_name": "BMW파이낸셜 구매 혜택",
+  "types": "금융",
+  "title": "X3 BMW파이낸셜 구매 혜택",
+  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
+  "discount_amount_krw": null,
+  "discount_rate_pct": null,
+  "discount_options": null,
+  "max_benefit_krw": null,
+  "discount": "BMW X3 구매 혜택. BMW X3, 월 56만원부터.",
+  "conditions": "BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1; 참고: BMW 공식 홈페이지(bmw.co.kr)의 X3 프로모션 페이지는 2026-10-01~10-31로 표기된 채 갱신되지 않아 그쪽 경로로는 제외했으나, BMWFS 경로의 이 11월 프로모션으로 11월 구매 혜택 포함",
+  "reward": null,
+  "finance_company": "BMW파이낸셜서비스코리아",
+  "finance_product": "BMW 스마트 할부·스마트 리스 구매 혜택",
+  "finance_rate": "할부금융 이자율 연 0~9.49%(고정금리)",
+  "finance_term": null,
+  "finance_down": null,
+  "finance_monthly": "월 56만원부터",
+  "vehicle_price_krw": null,
+  "detail": "BMW X3 구매 혜택. BMW X3, 월 56만원부터. / BMW 스마트 할부: 계약기간 동안 중고차 가치(잔존가치) 보장으로 일반 할부보다 낮은 월 할부금, 만기 시 인수·반납·재금융 중 택1 / 적용 2026년 11월 30일까지 / 여신금융협회 심의필 제2026-C1h-17128호(2026.11.11~2027.11.10) / 전 상품 취급 수수료 없음 / 참고: BMW 공식 홈페이지(bmw.co.kr)의 X3 프로모션 페이지는 2026-10-01~10-31로 표기된 채 갱신되지 않아 그쪽 경로로는 제외했으나, BMWFS 경로의 이 11월 프로모션으로 11월 구매 혜택 포함",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-30",
+  "link": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=2007",
+  "confidence": "high",
+  "source_record_id": 44,
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "증거 없음",
+  "unverified_claims": null,
+  "evidence_files": null,
+  "evidence_date": null
+ },
+ {
+  "id": 10,
+  "ym": "2026-11",
+  "period_status": "기준월 해당",
+  "brand_id": "bmw",
+  "brand_ko": "BMW",
   "model": "XM",
   "sub_model": null,
   "model_year": null,
@@ -360,7 +400,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 10,
+  "id": 11,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "bmw",
@@ -400,7 +440,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 11,
+  "id": 12,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "byd",
@@ -436,11 +476,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/byd/2026-11-06_events.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/byd/2026-11-06_events.txt, data/evidence/byd/2026-11-15_events-list.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 12,
+  "id": 13,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "byd",
@@ -476,11 +516,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/byd/2026-11-06_events.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/byd/2026-11-06_events.txt, data/evidence/byd/2026-11-15_events-list.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 13,
+  "id": 14,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -512,17 +552,17 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 180,
+  "source_record_id": 178,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 14,
+  "id": 15,
   "ym": "2026-11",
-  "period_status": "기간 미표기",
+  "period_status": "기준월 해당",
   "brand_id": "kgm",
   "brand_ko": "KG모빌리티",
   "model": null,
@@ -538,7 +578,7 @@
   "discount_options": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) | 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 | 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) | 무쏘: 최대 200만원 또는 4.8% 60개월 할부",
   "max_benefit_krw": null,
   "discount": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택); 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부; 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함); 무쏘: 최대 200만원 또는 4.8% 60개월 할부; 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부",
-  "conditions": "차종별·생산월별 한정, 소진 시 자동 종료; 홈 배너에 ~11/15 표기(기간은 페이지에 미표기)",
+  "conditions": "차종별·생산월별 한정, 소진 시 자동 종료; 기간은 홈 배너 기준 2026-11-01~11-15(pre-order 페이지 자체에는 기간 텍스트 없음, 11/15 재확인)",
   "reward": null,
   "finance_company": null,
   "finance_product": null,
@@ -547,20 +587,20 @@
   "finance_down": null,
   "finance_monthly": null,
   "vehicle_price_krw": null,
-  "detail": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) / 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 / 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) / 무쏘: 최대 200만원 또는 4.8% 60개월 할부 / 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부 / 차종별·생산월별 한정, 소진 시 자동 종료 / 홈 배너에 ~11/15 표기(기간은 페이지에 미표기)",
-  "period_start": null,
-  "period_end": null,
+  "detail": "올해 마지막 최대 200만원 특별 혜택, 택1(구매 혜택 또는 할부 혜택) / 토레스·액티언: 구매 혜택 최대 200만원 또는 3.8~4.5% 60개월 할부 / 토레스 하이브리드·액티언 하이브리드: 최대 200만원 또는 4.0~4.7% 60개월 할부(36개월 무이자·선수율 30% 포함) / 무쏘: 최대 200만원 또는 4.8% 60개월 할부 / 렉스턴: 최대 10% 또는 2.1~4.3% 60개월 할부 / 차종별·생산월별 한정, 소진 시 자동 종료 / 기간은 홈 배너 기준 2026-11-01~11-15(pre-order 페이지 자체에는 기간 텍스트 없음, 11/15 재확인)",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-15",
   "link": "https://www.kg-mobility.com/cm/pre-order/10000810025",
   "confidence": "high",
-  "source_record_id": 198,
+  "source_record_id": 196,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_k-sale-festa.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_k-sale-festa.txt, data/evidence/kgm/2026-11-15_k-sale-festa-period.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 15,
+  "id": 16,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -592,7 +632,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/br/news/event/0000001544",
   "confidence": "high",
-  "source_record_id": 197,
+  "source_record_id": 195,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -600,7 +640,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 16,
+  "id": 17,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -632,15 +672,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 193,
+  "source_record_id": 191,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 17,
+  "id": 18,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -672,15 +712,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 183,
+  "source_record_id": 181,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 18,
+  "id": 19,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -712,15 +752,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 188,
+  "source_record_id": 186,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 19,
+  "id": 20,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -752,15 +792,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 185,
+  "source_record_id": 183,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 20,
+  "id": 21,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -792,15 +832,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 190,
+  "source_record_id": 188,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 21,
+  "id": 22,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kgm",
@@ -832,15 +872,15 @@
   "period_end": "2026-11-30",
   "link": "https://www.kg-mobility.com/od/promotion/monthly-benefits",
   "confidence": "high",
-  "source_record_id": 196,
+  "source_record_id": 194,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/kgm/2026-11-06_monthly-benefits.txt, data/evidence/kgm/2026-11-15_monthly-benefits-pricelist.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 22,
+  "id": 23,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -872,7 +912,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.kia.com/kr/event/detail?eventId=571",
   "confidence": "medium",
-  "source_record_id": 251,
+  "source_record_id": 249,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -880,7 +920,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 23,
+  "id": 24,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -912,7 +952,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.kia.com/kr/event/detail?eventId=544",
   "confidence": "medium",
-  "source_record_id": 254,
+  "source_record_id": 252,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -920,7 +960,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 24,
+  "id": 25,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -952,7 +992,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.kia.com/kr/event/detail?eventId=575",
   "confidence": "medium",
-  "source_record_id": 252,
+  "source_record_id": 250,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -960,7 +1000,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 25,
+  "id": 26,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -992,7 +1032,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.kia.com/kr/event/list",
   "confidence": "medium",
-  "source_record_id": 250,
+  "source_record_id": 248,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1000,7 +1040,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 26,
+  "id": 27,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1036,11 +1076,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 27,
+  "id": 28,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1072,7 +1112,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 202,
+  "source_record_id": 200,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1080,7 +1120,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 28,
+  "id": 29,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1112,7 +1152,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 204,
+  "source_record_id": 202,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1120,7 +1160,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 29,
+  "id": 30,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1152,7 +1192,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 206,
+  "source_record_id": 204,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1160,7 +1200,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 30,
+  "id": 31,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1192,7 +1232,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 208,
+  "source_record_id": 206,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1200,7 +1240,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 31,
+  "id": 32,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1232,7 +1272,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 210,
+  "source_record_id": 208,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1240,7 +1280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 32,
+  "id": 33,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1272,7 +1312,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 212,
+  "source_record_id": 210,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1280,7 +1320,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 33,
+  "id": 34,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1312,7 +1352,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 228,
+  "source_record_id": 226,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1320,7 +1360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 34,
+  "id": 35,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1352,7 +1392,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 230,
+  "source_record_id": 228,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1360,7 +1400,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 35,
+  "id": 36,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1392,7 +1432,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 232,
+  "source_record_id": 230,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1400,7 +1440,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 36,
+  "id": 37,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1432,7 +1472,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 220,
+  "source_record_id": 218,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1440,7 +1480,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 37,
+  "id": 38,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -1472,7 +1512,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.kia.com/kr/event/detail?eventId=525",
   "confidence": "medium",
-  "source_record_id": 256,
+  "source_record_id": 254,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1480,7 +1520,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 38,
+  "id": 39,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1512,7 +1552,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 222,
+  "source_record_id": 220,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1520,7 +1560,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 39,
+  "id": 40,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1552,7 +1592,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 218,
+  "source_record_id": 216,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1560,7 +1600,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 40,
+  "id": 41,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1592,7 +1632,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 216,
+  "source_record_id": 214,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1600,7 +1640,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 41,
+  "id": 42,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1632,7 +1672,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 236,
+  "source_record_id": 234,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1640,7 +1680,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 42,
+  "id": 43,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1672,7 +1712,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 226,
+  "source_record_id": 224,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1680,7 +1720,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 43,
+  "id": 44,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1712,7 +1752,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 200,
+  "source_record_id": 198,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1720,7 +1760,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 44,
+  "id": 45,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1752,7 +1792,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 224,
+  "source_record_id": 222,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1760,7 +1800,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 45,
+  "id": 46,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1792,7 +1832,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 214,
+  "source_record_id": 212,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1800,7 +1840,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 46,
+  "id": 47,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1832,7 +1872,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 248,
+  "source_record_id": 246,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1840,7 +1880,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 47,
+  "id": 48,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1872,7 +1912,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 234,
+  "source_record_id": 232,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1880,7 +1920,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 48,
+  "id": 49,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1912,7 +1952,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 238,
+  "source_record_id": 236,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1920,7 +1960,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 49,
+  "id": 50,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1952,7 +1992,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 240,
+  "source_record_id": 238,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -1960,7 +2000,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 50,
+  "id": 51,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -1992,7 +2032,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 244,
+  "source_record_id": 242,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2000,7 +2040,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 51,
+  "id": 52,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -2032,7 +2072,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 246,
+  "source_record_id": 244,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2040,7 +2080,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 52,
+  "id": 53,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -2080,7 +2120,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 53,
+  "id": 54,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -2120,7 +2160,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 54,
+  "id": 55,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -2160,7 +2200,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 55,
+  "id": 56,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "kia",
@@ -2200,7 +2240,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 56,
+  "id": 57,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "kia",
@@ -2232,7 +2272,7 @@
   "period_end": null,
   "link": "https://www.kia.com/kr/buy/special-offers",
   "confidence": "medium",
-  "source_record_id": 242,
+  "source_record_id": 240,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2240,7 +2280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 57,
+  "id": 58,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -2272,15 +2312,15 @@
   "period_end": null,
   "link": "https://www.landroverkorea.co.kr/offers/new-defender/index.html",
   "confidence": "medium",
-  "source_record_id": 259,
+  "source_record_id": 257,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/landrover/2026-11-06_defender-finance.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/landrover/2026-11-15_defender-finance.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 58,
+  "id": 59,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "landrover",
@@ -2312,7 +2352,7 @@
   "period_end": null,
   "link": "https://www.landroverkorea.co.kr/offers/the-new-range-rover/index.html",
   "confidence": "medium",
-  "source_record_id": 258,
+  "source_record_id": 256,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2320,7 +2360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 59,
+  "id": 60,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2352,7 +2392,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/amazing-switch/es-financial/",
   "confidence": "medium",
-  "source_record_id": 267,
+  "source_record_id": 265,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2360,7 +2400,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 60,
+  "id": 61,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2392,7 +2432,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 266,
+  "source_record_id": 264,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2400,7 +2440,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 61,
+  "id": 62,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2432,7 +2472,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 260,
+  "source_record_id": 258,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2440,7 +2480,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 62,
+  "id": 63,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2472,7 +2512,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 261,
+  "source_record_id": 259,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2480,7 +2520,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 63,
+  "id": 64,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2512,7 +2552,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 263,
+  "source_record_id": 261,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2520,7 +2560,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 64,
+  "id": 65,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2552,7 +2592,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 264,
+  "source_record_id": 262,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2560,7 +2600,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 65,
+  "id": 66,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2592,7 +2632,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 265,
+  "source_record_id": 263,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2600,7 +2640,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 66,
+  "id": 67,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "lexus",
@@ -2632,7 +2672,7 @@
   "period_end": null,
   "link": "https://www.lexus.co.kr/purchase-benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 262,
+  "source_record_id": 260,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2640,7 +2680,7 @@
   "evidence_date": "2026-11-08"
  },
  {
-  "id": 67,
+  "id": 68,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2672,7 +2712,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.renault.co.kr/ko/inside/event_view.jsp?t_seq=9408",
   "confidence": "high",
-  "source_record_id": 303,
+  "source_record_id": 301,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2680,7 +2720,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 68,
+  "id": 69,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2720,7 +2760,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 69,
+  "id": 70,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2752,7 +2792,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
-  "source_record_id": 302,
+  "source_record_id": 300,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2760,7 +2800,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 70,
+  "id": 71,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2792,7 +2832,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
-  "source_record_id": 301,
+  "source_record_id": 299,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2800,7 +2840,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 71,
+  "id": 72,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2832,7 +2872,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.renault.co.kr/ko/model/filante_noir_event.jsp",
   "confidence": "high",
-  "source_record_id": 304,
+  "source_record_id": 302,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2840,7 +2880,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 72,
+  "id": 73,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "renault",
@@ -2872,7 +2912,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.renault.co.kr/ko/buy/tm_purchasing.jsp",
   "confidence": "high",
-  "source_record_id": 300,
+  "source_record_id": 298,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2880,7 +2920,47 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 73,
+  "id": 74,
+  "ym": "2026-11",
+  "period_status": "기준월 해당",
+  "brand_id": "renault",
+  "brand_ko": "르노코리아",
+  "model": "Grand Koleos, Filante",
+  "sub_model": null,
+  "model_year": null,
+  "target_scope": "특정 모델",
+  "event_name": "르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션",
+  "types": "금융,할인",
+  "title": "르노 세일 페스타 특별 금융 혜택 (2.99% 특별 프로모션)",
+  "discount_type": "금융 조건(금리·월납입금, 할인 금액 없음)",
+  "discount_amount_krw": null,
+  "discount_rate_pct": null,
+  "discount_options": null,
+  "max_benefit_krw": null,
+  "discount": "차량 선수금을 삼성카드 제휴 오토카드 일시불 신청 후 신용카드 일시불 결제 시 MFS 전용 특별 저금리 2.99% 적용(해당 저금리 적용 시 오토카드일시불 캐시백 미제공). 선수금 결제부터 MFS 할부 신청까지 원스톱 진행. 대상 모델(이미지 표기): Grand Koleos, Filante.",
+  "conditions": null,
+  "reward": null,
+  "finance_company": "모빌라이즈파이낸셜서비스(알씨아이파이낸셜서비스코리아)",
+  "finance_product": null,
+  "finance_rate": "2.99%",
+  "finance_term": null,
+  "finance_down": null,
+  "finance_monthly": null,
+  "vehicle_price_krw": null,
+  "detail": "차량 선수금을 삼성카드 제휴 오토카드 일시불 신청 후 신용카드 일시불 결제 시 MFS 전용 특별 저금리 2.99% 적용(해당 저금리 적용 시 오토카드일시불 캐시백 미제공). 선수금 결제부터 MFS 할부 신청까지 원스톱 진행. 대상 모델(이미지 표기): Grand Koleos, Filante.",
+  "period_start": "2026-10-01",
+  "period_end": "2026-12-31",
+  "link": "https://www.renault.co.kr/ko/inside/event_view.jsp?t_seq=9411",
+  "confidence": "medium",
+  "source_record_id": 303,
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/renault/2026-11-06_filante-noir-event.txt, data/evidence/renault/2026-11-06_salesfesta-testdrive.txt, data/evidence/renault/2026-11-06_tm-purchasing.txt, data/evidence/renault/2026-11-15_sale-festa-finance.txt",
+  "evidence_date": "2026-11-15"
+ },
+ {
+  "id": 75,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "mercedes",
@@ -2912,7 +2992,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 276,
+  "source_record_id": 274,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2920,7 +3000,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 74,
+  "id": 76,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2952,7 +3032,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 275,
+  "source_record_id": 273,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -2960,7 +3040,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 75,
+  "id": 77,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -2992,7 +3072,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 277,
+  "source_record_id": 275,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3000,7 +3080,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 76,
+  "id": 78,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3032,7 +3112,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 278,
+  "source_record_id": 276,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3040,7 +3120,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 77,
+  "id": 79,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3072,7 +3152,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 271,
+  "source_record_id": 269,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3080,7 +3160,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 78,
+  "id": 80,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3112,7 +3192,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 272,
+  "source_record_id": 270,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3120,7 +3200,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 79,
+  "id": 81,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3152,7 +3232,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 274,
+  "source_record_id": 272,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3160,7 +3240,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 80,
+  "id": 82,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3192,7 +3272,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 273,
+  "source_record_id": 271,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3200,7 +3280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 81,
+  "id": 83,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3232,7 +3312,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 269,
+  "source_record_id": 267,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3240,7 +3320,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 82,
+  "id": 84,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mercedes",
@@ -3272,7 +3352,7 @@
   "period_end": null,
   "link": "https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html",
   "confidence": "medium",
-  "source_record_id": 270,
+  "source_record_id": 268,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3280,7 +3360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 83,
+  "id": 85,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -3312,7 +3392,7 @@
   "period_end": null,
   "link": "https://www.mini.co.kr/ko_KR/home/BEV_Membership.html",
   "confidence": "high",
-  "source_record_id": 283,
+  "source_record_id": 281,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3320,7 +3400,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 84,
+  "id": 86,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "mini",
@@ -3352,7 +3432,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.bmwfs.co.kr/kr/promotion/detail?idx=1849",
   "confidence": "high",
-  "source_record_id": 42,
+  "source_record_id": 41,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3360,7 +3440,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 85,
+  "id": 87,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -3392,15 +3472,15 @@
   "period_end": null,
   "link": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
   "confidence": "medium",
-  "source_record_id": 281,
+  "source_record_id": 279,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/mini/2026-11-06_finance-promotion.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/mini/2026-11-06_bev-membership.txt, data/evidence/mini/2026-11-15_finance-promotion.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 86,
+  "id": 88,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "mini",
@@ -3432,15 +3512,15 @@
   "period_end": null,
   "link": "https://www.mini.co.kr/ko_KR/home/offers/special-offers/this-month-sf-special-offer.html",
   "confidence": "medium",
-  "source_record_id": 282,
+  "source_record_id": 280,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/mini/2026-11-06_finance-promotion.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/mini/2026-11-06_bev-membership.txt, data/evidence/mini/2026-11-15_finance-promotion.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 87,
+  "id": 89,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3472,7 +3552,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 331,
+  "source_record_id": 330,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3480,7 +3560,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 88,
+  "id": 90,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volvo",
@@ -3512,7 +3592,7 @@
   "period_end": "2026-12-15",
   "link": "https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/",
   "confidence": "high",
-  "source_record_id": 332,
+  "source_record_id": 331,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3520,7 +3600,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 89,
+  "id": 91,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3552,7 +3632,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 327,
+  "source_record_id": 326,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3560,7 +3640,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 90,
+  "id": 92,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3592,7 +3672,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 322,
+  "source_record_id": 321,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3600,7 +3680,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 91,
+  "id": 93,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3632,7 +3712,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 323,
+  "source_record_id": 322,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3640,7 +3720,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 92,
+  "id": 94,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3672,7 +3752,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 330,
+  "source_record_id": 329,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3680,7 +3760,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 93,
+  "id": 95,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3712,7 +3792,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 328,
+  "source_record_id": 327,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3720,7 +3800,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 94,
+  "id": 96,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3752,7 +3832,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 325,
+  "source_record_id": 324,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3760,7 +3840,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 95,
+  "id": 97,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3792,7 +3872,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 324,
+  "source_record_id": 323,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3800,7 +3880,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 96,
+  "id": 98,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3832,7 +3912,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 326,
+  "source_record_id": 325,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3840,7 +3920,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 97,
+  "id": 99,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volvo",
@@ -3872,7 +3952,7 @@
   "period_end": null,
   "link": "https://www.volvocar.co.kr/buy/purchase/family_repurchase/",
   "confidence": "high",
-  "source_record_id": 329,
+  "source_record_id": 328,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3880,7 +3960,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 98,
+  "id": 100,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "chevrolet",
@@ -3889,16 +3969,16 @@
   "sub_model": null,
   "model_year": null,
   "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "코리아 그랜드 페스티벌 특별 혜택",
+  "event_name": "11월 특별 구매 혜택",
   "types": "이벤트",
-  "title": "코리아 그랜드 페스티벌 특별 혜택",
+  "title": "11월 특별 구매 혜택",
   "discount_type": "정액 할인",
   "discount_amount_krw": 2000000,
   "discount_rate_pct": null,
-  "discount_options": "홈 배너: 최대 200만원 혜택, 코리아 그랜드 페스티벌 특별 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
+  "discount_options": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
   "max_benefit_krw": null,
-  "discount": "홈 배너: 최대 200만원 혜택, 코리아 그랜드 페스티벌 특별 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
-  "conditions": "기간 미표기",
+  "discount": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지",
+  "conditions": "기간 미표기 (11/5에는 같은 배너가 '코리아 그랜드 페스티벌 특별 혜택'이라는 이름이었으나 11/15 재확인 시 '11월 특별 구매 혜택'으로 명칭만 변경, 금액·내용 동일). 11/5 홈 배너에 있던 '쉐보레와 함께하는 겨울준비' 무상점검 안내는 11/15 재확인 시 더 이상 노출되지 않음(종료 추정, 원래 범위 밖 서비스 항목).",
   "reward": null,
   "finance_company": null,
   "finance_product": null,
@@ -3907,12 +3987,12 @@
   "finance_down": null,
   "finance_monthly": null,
   "vehicle_price_krw": null,
-  "detail": "홈 배너: 최대 200만원 혜택, 코리아 그랜드 페스티벌 특별 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지 / 차종별 구매혜택은 각 모델 행 참고 / 기간 미표기",
+  "detail": "홈 배너: 최대 200만원 혜택, 11월 특별 구매 혜택 100만원, 쉐보레 오너라면 트레이드 인 혜택까지 / 차종별 구매혜택은 각 모델 행 참고 / 기간 미표기 (11/5에는 같은 배너가 '코리아 그랜드 페스티벌 특별 혜택'이라는 이름이었으나 11/15 재확인 시 '11월 특별 구매 혜택'으로 명칭만 변경, 금액·내용 동일). 11/5 홈 배너에 있던 '쉐보레와 함께하는 겨울준비' 무상점검 안내는 11/15 재확인 시 더 이상 노출되지 않음(종료 추정, 원래 범위 밖 서비스 항목).",
   "period_start": null,
   "period_end": null,
   "link": "https://www.chevrolet.co.kr/",
   "confidence": "medium",
-  "source_record_id": 41,
+  "source_record_id": 40,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -3920,7 +4000,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 99,
+  "id": 101,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -3960,7 +4040,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 100,
+  "id": 102,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "chevrolet",
@@ -4000,7 +4080,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 101,
+  "id": 103,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4040,7 +4120,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 102,
+  "id": 104,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4080,7 +4160,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 103,
+  "id": 105,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4097,8 +4177,8 @@
   "discount_rate_pct": null,
   "discount_options": null,
   "max_benefit_krw": null,
-  "discount": "잔존가치: 62%; 월 납입금: 월 20만원대; 잔존가치: 60%; 월 납입금: 월 30만원대; 월 납입금: 월 40만원대; 밸류+ 할부: 조건: 선수금 30%",
-  "conditions": "term: 최장 60개월",
+  "discount": "잔존가치: 59%; 월 납입금: 월 40만원대; 잔존가치: 61%; 월 납입금: 월 50만원대; 월 납입금: 월 80만원대; rate: 금리 3%대",
+  "conditions": "밸류+ 할부: 조건: 최장 60개월",
   "reward": null,
   "finance_company": "아우디 파이낸셜 서비스 코리아",
   "finance_product": null,
@@ -4107,7 +4187,7 @@
   "finance_down": null,
   "finance_monthly": null,
   "vehicle_price_krw": null,
-  "detail": "프로그램: 밸류⁺ 금융프로그램; 요약: 낮은 부담과 확실한 가치, 두 가지 방식; 밸류+ 리스: 트림: A6 40 TFSI S-line; 잔존가치: 62%; 월 납입금: 월 20만원대 / 트림: A6 45 TFSI quattro S-line; 잔존가치: 60%; 월 납입금: 월 30만원대 / 트림: A6 40 TFSI Advanced; 잔존가치: 60%; 월 납입금: 월 40만원대; 밸류+ 할부: 조건: 선수금 30%; 혜택: 트림: A6 40 TFSI S-line; 월 납입금: 월 160만원대; rate: 금리 0%대 / 트림: A6 45 TFSI quattro S-line; 월 납입금: 월 90만원대; term: 최장 60개월 / 트림: A6 40 TFSI Advanced; 월 납입금: 월 80만원대; term: 최장 60개월; 참고: 월 납입금은 '대' 범위 표기. 차량 가격·선수금액·이자율 상세는 페이지에 없음.; 월 납입금 참고: A6 Sedan",
+  "detail": "프로그램: 밸류⁺ 금융프로그램; 요약: 낮은 부담과 확실한 가치, 두 가지 방식; 밸류+ 리스: 트림: A6 40 TFSI S-line; 잔존가치: 59%; 월 납입금: 월 40만원대 / 트림: A6 40 TDI S-line; 잔존가치: 61%; 월 납입금: 월 50만원대; 밸류+ 할부: 조건: 최장 60개월; 혜택: 트림: A6 40 TFSI S-line; 월 납입금: 월 80만원대; rate: 금리 3%대 / 트림: A6 40 TDI S-line; 월 납입금: 월 90만원대; rate: 금리 3%대; 참고: 11/15 재확인 시 트림 구성이 '45 TFSI quattro S-line/40 TFSI Advanced'에서 '40 TDI S-line'으로 바뀜. 월 납입금은 '대' 범위 표기. 차량 가격·선수금액 상세는 페이지에 없음.; 월 납입금 참고: A6 Sedan",
   "period_start": null,
   "period_end": null,
   "link": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
@@ -4116,11 +4196,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/audi/2026-11-06_a6-sedan.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/audi/2026-11-15_a6-sedan.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 104,
+  "id": 106,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4160,7 +4240,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 105,
+  "id": 107,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4177,7 +4257,7 @@
   "discount_rate_pct": null,
   "discount_options": null,
   "max_benefit_krw": null,
-  "discount": "리스: 월 50만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
+  "discount": "리스: 월 40만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
   "conditions": null,
   "reward": null,
   "finance_company": "아우디 파이낸셜 서비스 코리아",
@@ -4187,7 +4267,7 @@
   "finance_down": null,
   "finance_monthly": null,
   "vehicle_price_krw": null,
-  "detail": "출처: https://www.audi.co.kr/ko/models/q3/q3_2026/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 50만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
+  "detail": "출처: https://www.audi.co.kr/ko/models/q3/q3_2026/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 40만원대 (밸류⁺ 리스); 할부: 최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)",
   "period_start": null,
   "period_end": null,
   "link": "https://www.audi.co.kr/ko/models/q3/q3_2026/",
@@ -4196,11 +4276,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/audi/2026-11-06_q3.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/audi/2026-11-15_q3.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 106,
+  "id": 108,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "audi",
@@ -4217,7 +4297,7 @@
   "discount_rate_pct": null,
   "discount_options": null,
   "max_benefit_krw": null,
-  "discount": "리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대",
+  "discount": "리스: 월 60만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대; 참고: 11/5 캡처 시 리스 월 40만원대였으나 11/15 재확인 시 월 60만원대로 인상 확인",
   "conditions": null,
   "reward": null,
   "finance_company": "아우디 파이낸셜 서비스 코리아",
@@ -4227,7 +4307,7 @@
   "finance_down": null,
   "finance_monthly": null,
   "vehicle_price_krw": null,
-  "detail": "출처: https://www.audi.co.kr/ko/models/q5/q5-suv-2025/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 40만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대",
+  "detail": "출처: https://www.audi.co.kr/ko/models/q5/q5-suv-2025/; 프로그램: 밸류⁺ 금융프로그램; 리스: 월 60만원대; 할부: 최장 60개월, 6천만원대 Q5를 월 80만원대; 참고: 11/5 캡처 시 리스 월 40만원대였으나 11/15 재확인 시 월 60만원대로 인상 확인",
   "period_start": null,
   "period_end": null,
   "link": "https://www.audi.co.kr/ko/models/q5/q5-suv-2025/",
@@ -4236,11 +4316,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/audi/2026-11-06_q5-suv.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/audi/2026-11-15_q5-suv.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 107,
+  "id": 109,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4280,7 +4360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 108,
+  "id": 110,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4320,7 +4400,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 109,
+  "id": 111,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4360,7 +4440,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 110,
+  "id": 112,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4400,7 +4480,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 111,
+  "id": 113,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4436,11 +4516,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 112,
+  "id": 114,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4476,11 +4556,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_monthly-offer.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/genesis/2026-11-15_monthly-offer.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 113,
+  "id": 115,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4516,11 +4596,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_monthly-offer.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/genesis/2026-11-15_monthly-offer.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 114,
+  "id": 116,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4556,11 +4636,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 115,
+  "id": 117,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4596,11 +4676,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 116,
+  "id": 118,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4636,11 +4716,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 117,
+  "id": 119,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4676,11 +4756,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 118,
+  "id": 120,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "genesis",
@@ -4716,11 +4796,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/genesis/2026-11-06_monthly-offer.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/genesis/2026-11-15_monthly-offer.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 119,
+  "id": 121,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4756,11 +4836,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 120,
+  "id": 122,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4796,11 +4876,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 121,
+  "id": 123,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "genesis",
@@ -4836,11 +4916,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 122,
+  "id": 124,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -4872,15 +4952,15 @@
   "period_end": null,
   "link": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
   "confidence": "medium",
-  "source_record_id": 179,
+  "source_record_id": 177,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/jeep/2026-11-06_incentive-offer.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/jeep/2026-11-06_incentive-offer.txt, data/evidence/jeep/2026-11-15_incentive-offer-recheck.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 123,
+  "id": 125,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "jeep",
@@ -4912,15 +4992,15 @@
   "period_end": null,
   "link": "https://www.jeep.co.kr/shopping_tools/incentive_offer.html",
   "confidence": "medium",
-  "source_record_id": 178,
+  "source_record_id": 176,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/jeep/2026-11-06_incentive-offer.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/jeep/2026-11-06_incentive-offer.txt, data/evidence/jeep/2026-11-15_incentive-offer-recheck.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 124,
+  "id": 126,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -4956,11 +5036,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt, data/evidence/cadillac/2026-11-15_current-offers-recheck.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 125,
+  "id": 127,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "cadillac",
@@ -4996,11 +5076,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/cadillac/2026-11-06_current-offers.txt, data/evidence/cadillac/2026-11-15_current-offers-recheck.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 126,
+  "id": 128,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "tesla",
@@ -5032,7 +5112,7 @@
   "period_end": null,
   "link": "https://www.tesla.com/ko_kr/drive",
   "confidence": "high",
-  "source_record_id": 312,
+  "source_record_id": 311,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5040,7 +5120,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 127,
+  "id": 129,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "tesla",
@@ -5072,7 +5152,7 @@
   "period_end": null,
   "link": "https://www.tesla.com/ko_kr/support/vehicle-financing-options",
   "confidence": "high",
-  "source_record_id": 311,
+  "source_record_id": 310,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5080,7 +5160,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 128,
+  "id": 130,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "toyota",
@@ -5116,11 +5196,11 @@
   "extract_note": "시승 인덱스(testdrive.json)에서 가져옴",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/toyota/2026-11-06_nov-testdrive-event.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/toyota/2026-11-15_nov-testdrive-event.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 129,
+  "id": 131,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -5152,7 +5232,7 @@
   "period_end": null,
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 317,
+  "source_record_id": 316,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5160,7 +5240,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 130,
+  "id": 132,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -5192,7 +5272,7 @@
   "period_end": null,
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 313,
+  "source_record_id": 312,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5200,7 +5280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 131,
+  "id": 133,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -5232,7 +5312,7 @@
   "period_end": null,
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 314,
+  "source_record_id": 313,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5240,7 +5320,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 132,
+  "id": 134,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -5272,7 +5352,7 @@
   "period_end": null,
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 316,
+  "source_record_id": 315,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5280,7 +5360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 133,
+  "id": 135,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "toyota",
@@ -5312,7 +5392,7 @@
   "period_end": null,
   "link": "https://www.toyota.co.kr/benefit/monthly/",
   "confidence": "medium",
-  "source_record_id": 315,
+  "source_record_id": 314,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5320,7 +5400,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 134,
+  "id": 136,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -5352,7 +5432,7 @@
   "period_end": null,
   "link": "https://dealer.porsche.com/kr/seongsu/ko-KR/Porsche-Financial-Service",
   "confidence": "medium",
-  "source_record_id": 299,
+  "source_record_id": 297,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5360,7 +5440,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 135,
+  "id": 137,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "porsche",
@@ -5392,15 +5472,15 @@
   "period_end": null,
   "link": "https://www.porsche-fs.co.kr/",
   "confidence": "medium",
-  "source_record_id": 298,
+  "source_record_id": 296,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/porsche/2026-11-06_porsche-fs-home.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/porsche/2026-11-06_porsche-fs-home.txt, data/evidence/porsche/2026-11-15_pfs-home.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 136,
+  "id": 138,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volkswagen",
@@ -5432,7 +5512,7 @@
   "period_end": "2026-11-26",
   "link": "https://www.volkswagen.co.kr/app/local/testdrive/event",
   "confidence": "high",
-  "source_record_id": 321,
+  "source_record_id": 320,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5440,7 +5520,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 137,
+  "id": 139,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -5472,7 +5552,7 @@
   "period_end": null,
   "link": "https://www.volkswagen.co.kr/app/local/testdrive/event",
   "confidence": "medium",
-  "source_record_id": 320,
+  "source_record_id": 319,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5480,7 +5560,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 138,
+  "id": 140,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -5512,15 +5592,15 @@
   "period_end": null,
   "link": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
   "confidence": "medium",
-  "source_record_id": 319,
+  "source_record_id": 318,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/volkswagen/2026-11-06_ongoing-promotion.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/volkswagen/2026-11-15_ongoing-promotion.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 139,
+  "id": 141,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "volkswagen",
@@ -5552,15 +5632,15 @@
   "period_end": null,
   "link": "https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html",
   "confidence": "medium",
-  "source_record_id": 318,
+  "source_record_id": 317,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/volkswagen/2026-11-06_ongoing-promotion.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/volkswagen/2026-11-15_ongoing-promotion.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 140,
+  "id": 142,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volkswagen",
@@ -5600,7 +5680,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 141,
+  "id": 143,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "volkswagen",
@@ -5640,7 +5720,7 @@
   "evidence_date": "2026-11-10"
  },
  {
-  "id": 142,
+  "id": 144,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -5672,7 +5752,7 @@
   "period_end": null,
   "link": "https://www.polestar.com/kr/offers/new/polestar-3/",
   "confidence": "medium",
-  "source_record_id": 296,
+  "source_record_id": 294,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5680,7 +5760,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 143,
+  "id": 145,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "polestar",
@@ -5712,7 +5792,7 @@
   "period_end": null,
   "link": "https://www.polestar.com/kr/offers/polestar-4-coupe-2027-total-offer/",
   "confidence": "medium",
-  "source_record_id": 295,
+  "source_record_id": 293,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5720,7 +5800,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 144,
+  "id": 146,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5760,7 +5840,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 145,
+  "id": 147,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5800,7 +5880,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 146,
+  "id": 148,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5840,7 +5920,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 147,
+  "id": 149,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5880,7 +5960,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 148,
+  "id": 150,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5912,7 +5992,7 @@
   "period_end": "2026-12-30",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-n-taxi-2605.html",
   "confidence": "high",
-  "source_record_id": 176,
+  "source_record_id": 174,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -5920,7 +6000,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 149,
+  "id": 151,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5960,7 +6040,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 150,
+  "id": 152,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -5992,7 +6072,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-tradein-202611",
   "confidence": "high",
-  "source_record_id": 149,
+  "source_record_id": 150,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6000,7 +6080,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 151,
+  "id": 153,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6032,7 +6112,7 @@
   "period_end": "2026-11-17",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai_n-moment-popup-store-202611",
   "confidence": "high",
-  "source_record_id": 147,
+  "source_record_id": 148,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6040,47 +6120,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 152,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": null,
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "브랜드 공통(모델 미지정)",
-  "event_name": "신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택 이벤트",
-  "types": "이벤트,할인",
-  "title": "신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": null,
-  "reward": "대상: 블루멤버스 회원, 쓱데이 고객(카카오톡 '현대블루멤버스' 채널에서 쿠폰 발급); 블루멤버쓱 쿠폰으로 현대차 연말 할인 대상 차종 구매 시 10만원 추가 할인(사용 기간 2026-11-01~11-30, 오프라인 구매 기준); 쿠폰 사용 출고 고객(11월 출고) 중 총 270명 추첨, 1등 해비치 리조트 제주 숙박권+조식 5명 등",
-  "finance_company": null,
-  "finance_product": null,
-  "finance_rate": null,
-  "finance_term": null,
-  "finance_down": null,
-  "finance_monthly": null,
-  "vehicle_price_krw": null,
-  "detail": "대상: 블루멤버스 회원, 쓱데이 고객(카카오톡 '현대블루멤버스' 채널에서 쿠폰 발급) / 블루멤버쓱 쿠폰으로 현대차 연말 할인 대상 차종 구매 시 10만원 추가 할인(사용 기간 2026-11-01~11-30, 오프라인 구매 기준) / 쿠폰 사용 출고 고객(11월 출고) 중 총 270명 추첨, 1등 해비치 리조트 제주 숙박권+조식 5명 등",
-  "period_start": "2026-11-02",
-  "period_end": "2026-11-08",
-  "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-ssg-bluemembers-2026",
-  "confidence": "high",
-  "source_record_id": 173,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_hyundai-ssg-bluemembers-2026.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 153,
+  "id": 154,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6112,7 +6152,7 @@
   "period_end": "2026-11-30",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-dcbt-truckbus-ksf-202611",
   "confidence": "high",
-  "source_record_id": 148,
+  "source_record_id": 149,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6120,7 +6160,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 154,
+  "id": 155,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6160,7 +6200,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 155,
+  "id": 156,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6200,7 +6240,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 156,
+  "id": 157,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6232,7 +6272,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-k-sale-festa-202611.html",
   "confidence": "high",
-  "source_record_id": 175,
+  "source_record_id": 173,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6240,7 +6280,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 157,
+  "id": 158,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6272,7 +6312,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.hyundai.com/kr/ko/event/event-zigrtruck-tradein-2610",
   "confidence": "high",
-  "source_record_id": 174,
+  "source_record_id": 172,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6280,7 +6320,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 158,
+  "id": 159,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6312,7 +6352,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-adventage-program-2026",
   "confidence": "high",
-  "source_record_id": 170,
+  "source_record_id": 169,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6320,7 +6360,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 159,
+  "id": 160,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6352,7 +6392,7 @@
   "period_end": "2026-12-31",
   "link": "https://www.hyundai.com/kr/ko/event/event-app-yesdrive-benefit-only-hmc-2026-4q",
   "confidence": "high",
-  "source_record_id": 161,
+  "source_record_id": 160,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
@@ -6360,7 +6400,7 @@
   "evidence_date": "2026-11-06"
  },
  {
-  "id": 160,
+  "id": 161,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -6396,11 +6436,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 161,
+  "id": 162,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6436,11 +6476,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 162,
+  "id": 163,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6476,11 +6516,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 163,
+  "id": 164,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6516,11 +6556,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 164,
+  "id": 165,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -6556,11 +6596,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 165,
+  "id": 166,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6596,11 +6636,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 166,
+  "id": 167,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -6636,11 +6676,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 167,
+  "id": 168,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -6676,11 +6716,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 168,
+  "id": 169,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6716,11 +6756,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 169,
+  "id": 170,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6756,11 +6796,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 170,
+  "id": 171,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6796,11 +6836,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 171,
+  "id": 172,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6836,11 +6876,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 172,
+  "id": 173,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6876,11 +6916,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 173,
+  "id": 174,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6916,11 +6956,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 174,
+  "id": 175,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6956,11 +6996,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 175,
+  "id": 176,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -6996,11 +7036,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 176,
+  "id": 177,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7036,11 +7076,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 177,
+  "id": 178,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7076,11 +7116,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 178,
+  "id": 179,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7116,11 +7156,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 179,
+  "id": 180,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7156,11 +7196,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 180,
+  "id": 181,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7196,11 +7236,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 181,
+  "id": 182,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7232,51 +7272,11 @@
   "period_end": "2026-11-30",
   "link": "https://www.hyundai.com/kr/ko/event/event-the-all-new-avante-first-move-plan",
   "confidence": "high",
-  "source_record_id": 146,
+  "source_record_id": 147,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
   "evidence_files": "data/evidence/hyundai/2026-11-06_avante-first-move-plan.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 182,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": "디 올 뉴 아반떼",
-  "sub_model": null,
-  "model_year": null,
-  "target_scope": "특정 모델",
-  "event_name": "현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼",
-  "types": "시승혜택",
-  "title": "현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원, 만 21세 이상, 전국 27개 현대 드라이빙 라운지에서 H-EVENT 페이지로 응모; 우수 후기 고객 5명: 1등 BOSE QC ULTRA 2세대 헤드폰 2명, 2등 QC 헤드폰 2세대 3명",
-  "reward": "전국 27개 드라이빙 라운지 응모(만 21세 이상): 시승 당첨 54팀 디 올 뉴 아반떼 1박 2일 이용권, 우수 후기 5명 BOSE QC ULTRA 2세대 헤드폰 2명·QC 헤드폰 2세대 3명",
-  "finance_company": null,
-  "finance_product": null,
-  "finance_rate": null,
-  "finance_term": null,
-  "finance_down": null,
-  "finance_monthly": null,
-  "vehicle_price_krw": null,
-  "detail": "대상: 모든회원, 만 21세 이상, 전국 27개 현대 드라이빙 라운지에서 H-EVENT 페이지로 응모 / 시승 당첨자 54팀: 디 올 뉴 아반떼 1박 2일 이용권 (시승 1차 2026-11-19~20, 2차 2026-11-26~27) / 우수 후기 고객 5명: 1등 BOSE QC ULTRA 2세대 헤드폰 2명, 2등 QC 헤드폰 2세대 3명 / 당첨자 안내 11월 2주차 예정, 후기 콘텐츠 업로드 기한 2026-12-06 / 시승 정보: 전국 27개 드라이빙 라운지 응모(만 21세 이상): 시승 당첨 54팀 디 올 뉴 아반떼 1박 2일 이용권, 우수 후기 5명 BOSE QC ULTRA 2세대 헤드폰 2명·QC 헤드폰 2세대 3명 이벤트 2026-11-02~2026-11-08 (시승 2026-11-19~20, 11-26~27)",
-  "period_start": "2026-11-02",
-  "period_end": "2026-11-08",
-  "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-drivinglounge-2610",
-  "confidence": "high",
-  "source_record_id": 150,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_drivinglounge-testdrive-event.txt",
   "evidence_date": "2026-11-06"
  },
  {
@@ -7316,8 +7316,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 184,
@@ -7356,8 +7356,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 185,
@@ -7396,8 +7396,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 186,
@@ -7436,8 +7436,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 187,
@@ -7476,8 +7476,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 188,
@@ -7516,8 +7516,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 189,
@@ -7556,8 +7556,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 190,
@@ -7596,8 +7596,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 191,
@@ -7636,8 +7636,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 192,
@@ -7676,8 +7676,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 193,
@@ -7716,11 +7716,51 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 194,
+  "ym": "2026-11",
+  "period_status": "기준월 해당",
+  "brand_id": "hyundai",
+  "brand_ko": "현대",
+  "model": "쏘나타 디 엣지, 더 뉴 스타리아",
+  "sub_model": null,
+  "model_year": null,
+  "target_scope": "특정 모델",
+  "event_name": "쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션",
+  "types": "이벤트,할인",
+  "title": "쏘나타 디 엣지 • 더 뉴 스타리아 X 현대차 전용카드 프로모션",
+  "discount_type": "정액 할인",
+  "discount_amount_krw": 250000,
+  "discount_rate_pct": null,
+  "discount_options": "현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원",
+  "max_benefit_krw": null,
+  "discount": "현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원",
+  "conditions": "대상: 2026-11-01~11-30 쏘나타 디 엣지/쏘나타 디 엣지 Hybrid/더 뉴 스타리아/더 뉴 스타리아 Hybrid 출고 개인·개인사업자(쏘나타 택시, 더 뉴 스타리아 Electric 제외); 다른 카드 프로모션과 중복 불가",
+  "reward": null,
+  "finance_company": null,
+  "finance_product": null,
+  "finance_rate": null,
+  "finance_term": null,
+  "finance_down": null,
+  "finance_monthly": null,
+  "vehicle_price_krw": null,
+  "detail": "대상: 2026-11-01~11-30 쏘나타 디 엣지/쏘나타 디 엣지 Hybrid/더 뉴 스타리아/더 뉴 스타리아 Hybrid 출고 개인·개인사업자(쏘나타 택시, 더 뉴 스타리아 Electric 제외) / 현대자동차 전용카드로 1천만원 이상 결제 및 블루 세이브-오토 이용 시 차량가 즉시 할인 25만원 + 카드 캐시백 25만원 = 총 50만원 / 다른 카드 프로모션과 중복 불가",
+  "period_start": "2026-11-09",
+  "period_end": "2026-11-30",
+  "link": "https://www.hyundai.com/kr/ko/event/event-sonata-staria-hyundaicard-special-benefit-202610",
+  "confidence": "high",
+  "source_record_id": 146,
+  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
+  "verification": "검증됨",
+  "unverified_claims": null,
+  "evidence_files": "data/evidence/hyundai/2026-11-15_sonata-staria-hyundaicard.txt",
+  "evidence_date": "2026-11-15"
+ },
+ {
+  "id": 195,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7756,11 +7796,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 195,
+  "id": 196,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7796,11 +7836,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 196,
+  "id": 197,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -7836,11 +7876,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 197,
+  "id": 198,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7876,11 +7916,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 198,
+  "id": 199,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -7916,11 +7956,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 199,
+  "id": 200,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -7956,11 +7996,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 200,
+  "id": 201,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -7996,11 +8036,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 201,
+  "id": 202,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -8036,11 +8076,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 202,
+  "id": 203,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -8076,11 +8116,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 203,
+  "id": 204,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -8116,11 +8156,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 204,
+  "id": 205,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -8156,11 +8196,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 205,
+  "id": 206,
   "ym": "2026-11",
   "period_status": "기간 미표기",
   "brand_id": "hyundai",
@@ -8196,11 +8236,11 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
-  "id": 206,
+  "id": 207,
   "ym": "2026-11",
   "period_status": "기준월 해당",
   "brand_id": "hyundai",
@@ -8236,48 +8276,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
- },
- {
-  "id": 207,
-  "ym": "2026-11",
-  "period_status": "기준월 해당",
-  "brand_id": "hyundai",
-  "brand_ko": "현대",
-  "model": "아이오닉 6 N",
-  "sub_model": null,
-  "model_year": "2026",
-  "target_scope": "특정 모델",
-  "event_name": "아이오닉 6 N X G-STAR 2026 시승 이벤트",
-  "types": "시승혜택",
-  "title": "아이오닉 6 N X G-STAR 2026 시승 이벤트",
-  "discount_type": "할인 없음",
-  "discount_amount_krw": null,
-  "discount_rate_pct": null,
-  "discount_options": null,
-  "max_benefit_krw": null,
-  "discount": null,
-  "conditions": "대상: 모든회원; 응모 기간 2026-10-30 10시 ~ 2026-11-08 18시, 당첨자 발표 2026-11-11 이후 개별 연락",
-  "reward": "구매 혜택: 시승 이벤트 참여 후 2027년 1월 이내 N 차량 출고 고객에게 HMG 드라이빙 익스피리언스 Level1 체험권 증정, the Nthusiast 이용권 및 적립금 제공",
-  "finance_company": null,
-  "finance_product": null,
-  "finance_rate": null,
-  "finance_term": null,
-  "finance_down": null,
-  "finance_monthly": null,
-  "vehicle_price_krw": null,
-  "detail": "대상: 모든회원 / 응모 기간 2026-10-30 10시 ~ 2026-11-08 18시, 당첨자 발표 2026-11-11 이후 개별 연락 / 행사 2026-11-21~22 10시~18시, BEXCO 제2전시장 외부 광장(부산 해운대구), 아이오닉 6 N 직접 주행 시승(전문 도슨트 동승, 약 1시간) / 당첨자 혜택: G-STAR 2026 입장권, N 머천다이즈(시승 완료 후 만족도 조사 참여 시) / 구매 혜택: 시승 이벤트 참여 후 2027년 1월 이내 N 차량 출고 고객에게 HMG 드라이빙 익스피리언스 Level1 체험권 증정, the Nthusiast 이용권 및 적립금 제공",
-  "period_start": "2026-10-30",
-  "period_end": "2026-11-08",
-  "link": "https://www.hyundai.com/kr/ko/event/event-hyundai-ioniq6-n-driving-gstar-2611",
-  "confidence": "high",
-  "source_record_id": 157,
-  "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "검증됨",
-  "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_ioniq6n-gstar-testdrive-event.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 208,
@@ -8316,8 +8316,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 209,
@@ -8356,8 +8356,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 210,
@@ -8396,8 +8396,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 211,
@@ -8436,8 +8436,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 212,
@@ -8476,8 +8476,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 213,
@@ -8516,8 +8516,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 214,
@@ -8556,8 +8556,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 215,
@@ -8596,8 +8596,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 216,
@@ -8636,8 +8636,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 217,
@@ -8676,8 +8676,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 218,
@@ -8716,8 +8716,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 219,
@@ -8756,8 +8756,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 220,
@@ -8796,8 +8796,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 221,
@@ -8836,8 +8836,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 222,
@@ -8876,8 +8876,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 223,
@@ -8916,8 +8916,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/hyundai/2026-11-06_monthly-benefit.txt",
-  "evidence_date": "2026-11-06"
+  "evidence_files": "data/evidence/hyundai/2026-11-15_monthly-benefit.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 224,
@@ -8956,8 +8956,8 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  },
  {
   "id": 225,
@@ -8996,7 +8996,7 @@
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
   "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt",
-  "evidence_date": "2026-11-10"
+  "evidence_files": "data/evidence/_finance/2026-11-10_hyundaicapital-installment.txt, data/evidence/_finance/2026-11-15_hyundaicapital.txt",
+  "evidence_date": "2026-11-15"
  }
 ]

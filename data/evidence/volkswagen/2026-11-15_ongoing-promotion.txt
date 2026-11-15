@@ -1,0 +1,8 @@
+# url: https://www.volkswagen.co.kr/ko/promotion_news/ongoing-promotion.html
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+Golf R Roadshow (2026.02.02~, 특별 전시 10/24-11/26, 9개 전시장 네이버 예약)
+The Touareg: 60개월 무이자, 5년/15만km 보증연장, 자기부담금 지원, Welcome Kit, 바디/파츠 프로텍션
+The Golf: 첫 6개월간 월 납입금 7만원대, 5년/15만km 보증연장, 자기부담금 지원, Welcome Kit, 바디/파츠 프로텍션
+(11/5 이전 캡처와 동일 — 변동 없음 확인)

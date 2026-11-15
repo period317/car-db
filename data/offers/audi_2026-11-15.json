@@ -1,0 +1,95 @@
+{
+ "meta": {
+  "brand_id": "audi",
+  "captured": "2026-11-15",
+  "source_url": "https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/",
+  "test_drive_url": "https://www.audi.co.kr/lms/application/applyTestDrive.do",
+  "customer_chat": "https://www.audikoreaevent.co.kr/customerchat.html",
+  "method": "Chrome(claude-in-chrome) innerText로 모델별 페이지 '밸류⁺ 금융프로그램' 섹션 재확인.",
+  "stale_check": "페이지에 적용 기간 표기 없음 → 11월 유효 여부 불명(상시 게시형 페이지로 추정)",
+  "CHANGE_NOTE": "11/15 재확인 결과 A6 Sedan 트림·수치, Q5 리스 월 납입금이 11/5 대비 변경됨(세부는 evidence 참고). Q3, A6 e-tron, A5는 변동 없음.",
+  "scope": "홈 '자세히 보기' 5개 모델(Q3, Q3 Sportback, A6, A6 e-tron, Q5, A5) 페이지 확인. 밸류⁺ 금융프로그램은 Q3·A6·A6 e-tron·Q5·A5에 게시, Q3 Sportback 페이지는 프로그램 문구를 찾지 못함(페이지 구조 상이/미게시). 그 외 모델(A3·A4·Q7·Q8·e-tron·S/RS 등)은 미확인."
+ },
+ "offers": [
+  {
+   "model": "A6 Sedan (2026)",
+   "program": "밸류⁺ 금융프로그램",
+   "headline": "낮은 부담과 확실한 가치, 두 가지 방식",
+   "value_plus_lease": [
+    {
+     "trim": "A6 40 TFSI S-line",
+     "residual": "59%",
+     "monthly": "월 40만원대"
+    },
+    {
+     "trim": "A6 40 TDI S-line",
+     "residual": "61%",
+     "monthly": "월 50만원대"
+    }
+   ],
+   "value_plus_installment": {
+    "조건": "최장 60개월",
+    "items": [
+     {
+      "trim": "A6 40 TFSI S-line",
+      "monthly": "월 80만원대",
+      "rate": "금리 3%대"
+     },
+     {
+      "trim": "A6 40 TDI S-line",
+      "monthly": "월 90만원대",
+      "rate": "금리 3%대"
+     }
+    ]
+   },
+   "note": "11/15 재확인 시 트림 구성이 '45 TFSI quattro S-line/40 TFSI Advanced'에서 '40 TDI S-line'으로 바뀜. 월 납입금은 '대' 범위 표기. 차량 가격·선수금액 상세는 페이지에 없음.",
+   "monthly_note": "A6 Sedan"
+  },
+  {
+   "model": "Audi Q3 (2026)",
+   "source": "https://www.audi.co.kr/ko/models/q3/q3_2026/",
+   "program": "밸류⁺ 금융프로그램",
+   "lease": "월 40만원대 (밸류⁺ 리스)",
+   "installment": "최장 60개월, 5천만원대 Q3를 월 70만원대 (밸류⁺ 할부)"
+  },
+  {
+   "model": "Audi A6 e-tron performance (2025)",
+   "source": "https://www.audi.co.kr/ko/models/a-6-e-tron/a6-e-tron-performance-2025/",
+   "program": "밸류⁺ 금융프로그램",
+   "lease": "월 40만원대",
+   "installment": "최장 60개월, 월 100만원대"
+  },
+  {
+   "model": "Audi Q5 SUV (2025)",
+   "source": "https://www.audi.co.kr/ko/models/q5/q5-suv-2025/",
+   "program": "밸류⁺ 금융프로그램",
+   "lease": "월 60만원대",
+   "installment": "최장 60개월, 6천만원대 Q5를 월 80만원대",
+   "note": "11/5 캡처 시 리스 월 40만원대였으나 11/15 재확인 시 월 60만원대로 인상 확인"
+  },
+  {
+   "model": "Audi A5 Saloon (2025)",
+   "source": "https://www.audi.co.kr/ko/models/a5/a5-saloon-2025/",
+   "program": "밸류⁺ 금융프로그램",
+   "lease": "월 40만원대",
+   "installment": "최장 60개월, 6천만원대 A5를 월 60만원대"
+  }
+ ],
+ "no_benefit_info": [
+  {
+   "model": "Audi Q3 Sportback (2026)",
+   "source": "https://www.audi.co.kr/ko/models/q3/q3sb_2026/",
+   "note": "2026-11-06 재확인: 페이지에 밸류⁺ 금융프로그램 등 혜택 섹션이 없음. 혜택 행으로 만들지 않음"
+  }
+ ],
+ "events_extra": [
+  {
+   "name": "Audi to you 찾아가는 시승 서비스",
+   "model": null,
+   "period": "",
+   "url": "https://www.audi.co.kr/ko/aboutaudi/Auditoyou/",
+   "conf": "high",
+   "text": "희망 지역을 선택하면 가장 가까운 전시장이 자동 매치되고, 해당 전시장 Sales Advisor가 시승 차량과 함께 방문해 상담·시승을 진행 / 시승 예약 후 담당 딜러와 일정 조율, 예약 확정 1~2일 소요 / 상시 서비스(기간 미표기)"
+  }
+ ]
+}

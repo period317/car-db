@@ -1,27 +1,27 @@
 {
  "stats": {
-  "date": "2026-11-10",
-  "records": 336,
-  "verified_rate": 100.0,
+  "date": "2026-11-15",
+  "records": 335,
+  "verified_rate": 99.6,
   "by_category": {
    "benefit": 126,
-   "event": 68,
-   "finance": 72,
+   "event": 65,
+   "finance": 74,
    "price": 52,
    "status": 14,
    "testdrive": 4
   },
   "brand_counts": {
    "audi": 6,
-   "bmw": 25,
+   "bmw": 26,
    "byd": 13,
    "cadillac": 2,
-   "chevrolet": 4,
+   "chevrolet": 3,
    "mini": 4,
-   "hyundai": 98,
+   "hyundai": 96,
    "kia": 65,
    "genesis": 19,
-   "renault": 6,
+   "renault": 7,
    "volkswagen": 6,
    "jeep": 2,
    "kgm": 20,
@@ -36,8 +36,8 @@
   }
  },
  "counts": {
-  "WARN": 44,
-  "INFO": 65
+  "WARN": 39,
+  "INFO": 67
  },
  "issues": [
   {
@@ -162,37 +162,23 @@
   {
    "level": "WARN",
    "rule": "expired",
-   "id": 150,
-   "brand": "현대",
-   "message": "기간 만료: 2026-11-08"
-  },
-  {
-   "level": "WARN",
-   "rule": "expired",
-   "id": 157,
-   "brand": "현대",
-   "message": "기간 만료: 2026-11-08"
-  },
-  {
-   "level": "WARN",
-   "rule": "expired",
-   "id": 173,
-   "brand": "현대",
-   "message": "기간 만료: 2026-11-08"
-  },
-  {
-   "level": "WARN",
-   "rule": "expired",
-   "id": 268,
+   "id": 266,
    "brand": "렉서스",
    "message": "기간 만료: 2026-10-31"
   },
   {
    "level": "WARN",
    "rule": "required-field",
-   "id": 286,
+   "id": 284,
    "brand": "시트로엥",
    "message": "source_url 비어 있음"
+  },
+  {
+   "level": "INFO",
+   "rule": "benefit-without-price",
+   "id": 321,
+   "brand": "볼보",
+   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
   },
   {
    "level": "INFO",
@@ -252,17 +238,10 @@
   },
   {
    "level": "INFO",
-   "rule": "benefit-without-price",
-   "id": 330,
-   "brand": "볼보",
-   "message": "최대혜택은 있는데 가격이 없어 할인율 계산 불가(가격은 참고 정보)"
-  },
-  {
-   "level": "WARN",
-   "rule": "td-event-expired",
+   "rule": "td-thin",
    "id": null,
    "brand": "현대",
-   "message": "시승 이벤트 기간 만료: 이벤트 2026-11-02~2026-11-08 (시승 2026-11-19~20, 11-26~27)"
+   "message": "시승 상세 미수집(none): 신청 URL만 있음"
   },
   {
    "level": "WARN",
@@ -449,240 +428,240 @@
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 23,
+   "id": 24,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 글로벌 RE100 가입 국내기업 재직자 기아EV 특별 혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 31,
+   "id": 32,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): EV6 GT 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 35,
+   "id": 36,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): K9 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 36,
+   "id": 37,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): PV5 WAV 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 38,
+   "id": 39,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): PV5 오픈베드 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 41,
+   "id": 42,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 니로 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 42,
+   "id": 43,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 레이 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 44,
+   "id": 45,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 모닝 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 47,
+   "id": 48,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 셀토스 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 48,
+   "id": 49,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 스포티지 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 49,
+   "id": 50,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 쏘렌토 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 50,
+   "id": 51,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 카니발 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 51,
+   "id": 52,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 카니발 하이리무진 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 56,
+   "id": 57,
    "brand": "기아",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 타스만 구매혜택"
   },
   {
    "level": "WARN",
    "rule": "benefit-raw-key",
-   "id": 59,
+   "id": 60,
    "brand": "렉서스",
    "message": "세부내용에 영문 내부 키가 남음: ES (ES 350e BEV)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 59,
+   "id": 60,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: ES (ES 350e BEV)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 60,
+   "id": 61,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: LS 500h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 61,
+   "id": 62,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: NX 350h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 62,
+   "id": 63,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: NX 450h+"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 63,
+   "id": 64,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 350h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 64,
+   "id": 65,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 450h+"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 65,
+   "id": 66,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: RX 500h"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 66,
+   "id": 67,
    "brand": "렉서스",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: UX 300h"
   },
   {
    "level": "WARN",
    "rule": "discount-type-no-amount",
-   "id": 74,
+   "id": 76,
    "brand": "메르세데스-벤츠",
    "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 개별소비세 할인 혜택"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 75,
+   "id": 77,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 메르세데스-벤츠 신한카드"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 76,
+   "id": 78,
    "brand": "메르세데스-벤츠",
    "message": "유형을 분류하지 못함: 파이낸셜 이용 공통 혜택"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 123,
+   "id": 125,
    "brand": "지프",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: 랭글러"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 135,
+   "id": 137,
    "brand": "포르쉐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: 카이엔 일렉트릭"
   },
   {
    "level": "WARN",
    "rule": "benefit-type-unknown",
-   "id": 137,
+   "id": 139,
    "brand": "폭스바겐",
    "message": "유형을 분류하지 못함: 폭스바겐 프로모션"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 138,
+   "id": 140,
    "brand": "폭스바겐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: The Golf"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 139,
+   "id": 141,
    "brand": "폭스바겐",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: The Touareg"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 142,
+   "id": 144,
    "brand": "폴스타",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: Polestar 3 (2027년식)"
   },
   {
    "level": "INFO",
    "rule": "event-name-missing",
-   "id": 143,
+   "id": 145,
    "brand": "폴스타",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: Polestar 4 coupé (2027년식)"
   },
   {
-   "level": "WARN",
-   "rule": "discount-type-no-amount",
-   "id": 152,
-   "brand": "현대",
-   "message": "유형은 할인인데 금액·율을 뽑지 못함(세부내용 확인): 신세계그룹 쓱데이 X 현대자동차 특별 구매 혜택 이벤트"
+   "level": "INFO",
+   "rule": "no-evidence",
+   "id": 9,
+   "brand": "BMW",
+   "message": "원문 증거 파일 없음: X3 BMW파이낸셜 구매 혜택"
   },
   {
    "level": "INFO",

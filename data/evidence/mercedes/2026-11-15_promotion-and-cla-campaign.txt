@@ -1,0 +1,6 @@
+# url: https://www.mercedes-benz.co.kr/passengercars/buy/new-car/promotion.html , https://www.mercedes-benz.co.kr/passengercars/campaigns/cla-pre-order-campaign.html
+# captured: 2026-11-15
+# method: javascript_tool body.innerText (쿠키 배너는 설정→기술적으로 필요한 경우만 체크 후 저장)
+---
+이달의 구매 혜택 페이지: 11월 AMG '구매상담' 이벤트(온라인 스토어 상담+출고 추첨 굿즈), 11월 메르세데스-벤츠 파이낸셜 무이자 프로모션(26년식/27년식, 금액은 전시장 문의), 개별소비세 할인 혜택(인상 전 통관 완료 한정 재고), 메르세데스-벤츠 신한카드 3종 안내. 금리 산출 시점 2026년 11월로 갱신(조건 자체는 동일, 할부 0~9.3%). 11/5 캡처 내용과 구조·문구 동일 — 변동 없음.
+CLA 전시 팝업: The all-new electric CLA, 전시 일정 10월 23일(금)~11월 17일(화), 메르세데스-벤츠 스튜디오 서울(성동구 연무장길 73), 오전 11시~오후 8시(월요일 휴관). 11/5 캡처와 동일(2일 후 종료 예정, 변동 없음).

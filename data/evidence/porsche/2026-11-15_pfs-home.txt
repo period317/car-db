@@ -1,0 +1,5 @@
+# url: https://www.porsche-fs.co.kr/
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+카이엔 일렉트릭 출시, 충전 지원금 100만원 혜택, 월납입금 125만원~ (조건 미확인). PFS 공통혜택(토탈케어, 리스승계전담팀, 재구매 혜택) 동일. 11/5 캡처와 완전히 동일 — 변동 없음.

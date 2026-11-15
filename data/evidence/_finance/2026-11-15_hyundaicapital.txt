@@ -1,0 +1,7 @@
+# url: https://www.hyundaicapital.com/nwcafn/prchprgm/CPNCPP0101.hc
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+2026년 11월 신차할부 특별 프로모션 헤드라인 유지. 현대 모빌리티 할부(36/48/60개월 5.4/5.5/5.6%), 기아 M할부(5.6/5.7/5.8%) 동일.
+EV 부담Down(아이오닉5·6, 코나EV, 포터EV, 넥쏘) 유예형 금리·유예율 전부 동일.
+11월의 구매혜택 28개 모델(제네시스 8종 + 현대 20종) 월 납입금·차량가·선수율 전수 대조 — finance_hyundaicapital_2026-11-10.json 수치와 완전히 동일(1원 단위까지 일치). 변동 없음.

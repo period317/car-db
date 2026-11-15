@@ -1,6 +1,6 @@
 {
  "meta": {
-  "captured": "2026-11-08",
+  "captured": "2026-11-15",
   "purpose": "브랜드별 시승 '신청 가능 여부'와 '시승 이벤트/혜택'을 구분한 색인. can_apply_online: true=공식 사이트에 온라인 시승 신청 경로 확인 / false=신청 경로 없음 / null=미확인.",
   "detail_level": "full=정책까지 수집, partial=신청 URL·일부 정책, url_only=URL만, none=없음/미확인",
   "caveat": "시승 이벤트는 '시승(또는 시승 완료)과 직접 연결된 혜택'만 has_event=true. 구매상담·전시장 방문 경품 등은 note에만 적음."
@@ -32,14 +32,14 @@
     "세단/SUV/EV 전 라인업"
    ],
    "policy": "전국 27개 드라이빙라운지, 카마스터 동승 또는 단독(Semi-Untact), 기본 1시간, 만 21세 이상, 1인 1건, 연 6회(EV스테이션 제외). 제네시스·캐스퍼는 별도 신청",
-   "has_event": true,
-   "event_name": "현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼",
-   "event_benefit": "전국 27개 드라이빙 라운지 응모(만 21세 이상): 시승 당첨 54팀 디 올 뉴 아반떼 1박 2일 이용권, 우수 후기 5명 BOSE QC ULTRA 2세대 헤드폰 2명·QC 헤드폰 2세대 3명",
-   "event_period": "이벤트 2026-11-02~2026-11-08 (시승 2026-11-19~20, 11-26~27)",
-   "event_url": "https://www.hyundai.com/kr/ko/event/event-hyundai-drivinglounge-2610",
-   "event_detail_collected": true,
-   "note": "별도 이벤트: 아이오닉 6 N X G-STAR 2026 시승 이벤트(응모 2026-10-30~11-08, 행사 11-21~22 부산 BEXCO, G-STAR 입장권·N 머천다이즈) https://www.hyundai.com/kr/ko/event/event-hyundai-ioniq6-n-driving-gstar-2611",
-   "detail_level": "event_collected"
+   "has_event": false,
+   "event_name": null,
+   "event_benefit": null,
+   "event_period": null,
+   "event_url": null,
+   "event_detail_collected": false,
+   "note": "2026-11-15 재확인: '현대 드라이빙 라운지 시승 이벤트 with 디 올 뉴 아반떼'(응모 ~11-08)와 '아이오닉 6 N X G-STAR 2026 시승 이벤트'(응모 ~11-08) 모두 응모가 종료되어 현대 이벤트 목록(33건, 11/15 전수 확인)에서 사라짐. 새 시승 이벤트는 11/15 기준 없음(이력은 history에 ended로 기록됨).",
+   "detail_level": "none"
   },
   {
    "brand_id": "genesis",

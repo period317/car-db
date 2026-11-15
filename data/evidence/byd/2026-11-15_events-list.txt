@@ -1,0 +1,7 @@
+# url: https://www.bydauto.kr/brand/events
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+진행중 이벤트 2건 (11/5와 동일, 변동 없음):
+[BYD x NETFLIX] 넷플릭스의 세계가 BYD 전시장으로 (11.7-11.29) — 게시기간 2026-10-25~11-29
+[DM-i 전국 연비 챌린지] BYD SEALION 6 DM-i 1년 시승권 (11.6-11.22) — 게시기간 2026-10-25~11-22

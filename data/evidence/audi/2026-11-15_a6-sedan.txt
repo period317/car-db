@@ -1,0 +1,13 @@
+# url: https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/
+# captured: 2026-11-15
+# method: javascript_tool innerText ('밸류' 키워드 주변 발췌)
+---
+[브라우저 탭 제목] Audi A6 Sedan | 프리미엄 비즈니스 세단 | 아우디코리아
+A6 밸류⁺ 금융프로그램 | 낮은 부담과 확실한 가치, 두 가지 방식으로 완성하는 오너십
+월 40만원대, 높은 잔존가치 - 밸류⁺ 리스 | 합리적인 수준의 잔존가치 보장, 낮은 유지비용으로 만나는 A6
+A6 40 TFSI S-line | 잔존가치 59%, 월 40만원대
+A6 40 TDI S-line | 잔존가치 61%, 월 50만원대
+선수금 30% - 밸류⁺ 할부 | 선수금 30%로 합리적으로 만나는 A6
+A6 40 TFSI S-line | 월 80만원대, 금리 3%대
+A6 40 TDI S-line | 월 90만원대, 금리 3% 대, 최장 60개월
+(11/6 캡처 시 트림은 '40 TFSI S-line/45 TFSI quattro S-line/40 TFSI Advanced'였으나 11/15 재확인 결과 '40 TFSI S-line/40 TDI S-line'으로 라인업이 바뀌었고 리스·할부 수치도 함께 바뀜)

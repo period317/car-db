@@ -11,6 +11,8 @@ function Step($label, [string[]]$pyArgs) {
 }
 
 # 직전 게시본(커밋된 benefits.jsonl)을 변경 비교용으로 보관
+# Windows PowerShell 5.1은 콘솔 코드페이지로 git stdout을 먼저 디코딩해 한글이 깨지므로(모지바케) 콘솔 인코딩을 UTF-8로 맞춘다.
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $prevBen = Join-Path $env:TEMP "benefits_prev.jsonl"
 git show HEAD:data/unified/benefits.jsonl 2>$null | Out-File -Encoding utf8 $prevBen
 

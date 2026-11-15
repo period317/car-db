@@ -1,0 +1,13 @@
+# url: https://www.audi.co.kr/ko/models/a6/a6-sedan-2026/ , q3/q3_2026/ , a-6-e-tron/a6-e-tron-performance-2025/ , q5/q5-suv-2025/ , a5/a5-saloon-2025/
+# captured: 2026-11-15
+# method: javascript_tool innerText ('밸류' 키워드 주변 발췌)
+---
+[변경] A6 Sedan(2026) 밸류⁺ 금융프로그램: 트림 구성과 수치가 바뀜.
+  이전(11/5): A6 40 TFSI S-line(잔존가치62%, 월20만원대) / A6 45 TFSI quattro S-line(60%, 월30만원대) / A6 40 TFSI Advanced(60%, 월40만원대); 할부 160만원대/90만원대/80만원대.
+  현재(11/15): A6 40 TFSI S-line(잔존가치59%, 월 40만원대) / A6 40 TDI S-line(잔존가치61%, 월 50만원대); 할부(선수금30%, 최장60개월) A6 40 TFSI S-line 월80만원대 금리3%대 / A6 40 TDI S-line 월90만원대 금리3%대.
+  트림명 자체가 "45 TFSI quattro S-line/40 TFSI Advanced"에서 "40 TDI S-line"으로 바뀌어 모델 라인업이 변경된 것으로 보임.
+[변경] Audi Q5 SUV(2025) 밸류⁺ 리스: 월 40만원대 → 월 60만원대로 인상(할부는 "최장 60개월, 6천만원대, 월 80만원대"로 동일).
+[변동없음] Audi Q3(2026): 리스 월40만원대, 할부 최장60개월 월70만원대 — 11/5와 동일.
+[변동없음] A6 e-tron performance(2025): 리스 월40만원대, 할부 최장60개월 월100만원대 — 11/5와 동일.
+[변동없음] A5 Saloon(2025): 리스 월40만원대, 할부 최장60개월 월60만원대 — 11/5와 동일.
+Audi to you 찾아가는 시승 서비스: 문구 동일, 상시 서비스. 이벤트 목록(/ko/event/)은 여전히 404.

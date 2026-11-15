@@ -1,0 +1,6 @@
+# url: https://www.volvocar.co.kr/buy/purchase/ex90-test-drive-campaign-nov/ , family_repurchase/
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+EX90 시승 신청 캠페인: 신청 2026.11.02~12.15, 현장시승 2026.11.02~12.31. 시승완료 스타벅스 쿠폰, 계약완료(EX90한정) 헬리녹스 체어원(re) 2개. 11/5와 동일.
+볼보 패밀리 재구매 프로그램: 대상·조건 동일, 출고 2025-01-02부터 적용. 11/5와 동일. 변동 없음.

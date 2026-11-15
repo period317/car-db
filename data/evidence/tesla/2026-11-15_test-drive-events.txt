@@ -1,0 +1,5 @@
+# url: https://www.tesla.com/events/tesla-special-test-drive-event
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+"No upcoming events nearby" — 11/5, 11/10 재확인과 동일. 시승 이벤트 없음 확인 유지. 금융 제휴(우리금융캐피탈/삼성카드) 정보는 11/10 수집분(tesla_2026-11-10.json) 유지, 변동 없음.

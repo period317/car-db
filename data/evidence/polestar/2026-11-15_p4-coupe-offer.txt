@@ -1,0 +1,6 @@
+# url: https://www.polestar.com/kr/offers/polestar-4-coupe-2027-total-offer/ , offers/new/
+# captured: 2026-11-15
+# method: javascript_tool innerText
+---
+Polestar 4 coupé(2027년식) "Polestar Korea 출범 5주년 기념 혜택": 삼성카드 캐시백 4%+1%=5%, 행사기간 2026-11-01~11-30, 보조금 소진지역 지원 + Performance 180만원 고정지원, 삼성카드 무이자/금리할인(조건표 동일). 11/5 캡처와 완전히 동일 — 변동 없음.
+진행중인 프로모션(offers/new/) 목록: Polestar 3(2027년형), Polestar 4 coupé(2027년형) 동일하게 노출.

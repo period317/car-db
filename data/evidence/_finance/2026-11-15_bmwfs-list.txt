@@ -1,0 +1,10 @@
+# url: https://www.bmwfs.co.kr/kr/promotion/list (1,2페이지), https://www.bmwfs.co.kr/kr/promotion/detail?idx=2007
+# captured: 2026-11-15
+# method: get_page_text innerText (페이지네이션 버튼 클릭으로 1/2페이지 모두 열람)
+---
+목록(1페이지 6건, 2페이지 5건, 전부 2026-11-01~11-30 표기):
+1p: THE NEW BMW iX3(idx=2258), BMW X 패밀리(idx=2347), BMW 1&2시리즈(idx=2136), BMW 5시리즈(idx=1801), BMW X3(idx=2007) [신규], BMW 7시리즈(idx=1789)
+2p: BMW XM Label, BMW Next Drive, MINI 구매 혜택, BMW Motorrad(범위 밖: 오토바이), 재구매 프로모션
+
+[신규] BMW X3 구매 혜택 (idx=2007): "BMW X3, 월 56만원부터" — BMW 공식 홈페이지(bmw.co.kr)의 x3-promotion.html은 여전히 2026-10-01~10-31로 표기돼 제외 상태이지만, BMW파이낸셜서비스(bmwfs.co.kr) 쪽은 "2026년 11월 30일까지 적용", 여신금융협회 심의필 제2026-C1h-17128호(2026.11.11~2027.11.10)로 11월 신규 승인된 것이 확인됨. 월 56만원 수치는 10월 bmw.co.kr 페이지의 '스마트 할부 56만원'과 동일. → BMWFS 경로로 11월 구매 혜택 포함 가능.
+나머지 10건(iX3, X패밀리, 1&2시리즈, 5시리즈, 7시리즈, XM, Next Drive, MINI, 재구매)은 11/10 수집분(finance_bmwfs_2026-11-10.json, finance_bmwfs2_2026-11-10.json)과 동일 — 변동 없음.

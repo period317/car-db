@@ -1,0 +1,5 @@
+# url: https://www.cadillac.co.kr/purchase/current-offers.gm
+# captured: 2026-11-15
+# method: get_page_text innerText
+---
+광고기간 2026.11.01~11.30. ESCALADE/ESV 700만할인 또는 3.5% 할부/리스, 맞춤 중복할인(법인2%, 프리미엄보유1%, 재고2%), 리모와 캐리어 선착순50명. ESCALADE IQ/IQL 500만 할인. 재구매할인 2%(공통). 11/5 캡처와 완전히 동일 — 변동 없음.
