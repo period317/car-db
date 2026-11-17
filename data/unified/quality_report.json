@@ -2,7 +2,7 @@
  "stats": {
   "date": "2026-11-17",
   "records": 335,
-  "verified_rate": 99.6,
+  "verified_rate": 100.0,
   "by_category": {
    "benefit": 126,
    "event": 65,
@@ -37,7 +37,7 @@
  },
  "counts": {
   "WARN": 136,
-  "INFO": 67
+  "INFO": 66
  },
  "issues": [
   {
@@ -669,13 +669,6 @@
    "id": 145,
    "brand": "폴스타",
    "message": "공식 페이지에 이벤트명이 따로 없어 대체 이름 사용: Polestar 4 coupé (2027년식)"
-  },
-  {
-   "level": "INFO",
-   "rule": "no-evidence",
-   "id": 9,
-   "brand": "BMW",
-   "message": "원문 증거 파일 없음: X3 BMW파이낸셜 구매 혜택"
   },
   {
    "level": "WARN",

@@ -1,6 +1,6 @@
 # 품질 점검 보고서 (2026-11-17)
 
-- 레코드 335건 / 시승 35곳 / ERROR **0** · WARN 136 · INFO 67
+- 레코드 335건 / 시승 35곳 / ERROR **0** · WARN 136 · INFO 66
 - ERROR가 있으면 GitHub·gist 게시를 멈춘다. 고친 뒤 다시 실행한다.
 
 ## [WARN] benefit-no-model (1건)
@@ -108,9 +108,6 @@
 - id None · 마세라티: 수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)
 - id None · 재규어: 수집된 혜택·가격 레코드 없음(점검결과만 있거나 미수집)
 - … 외 4건
-
-## [INFO] no-evidence (1건)
-- id 9 · BMW: 원문 증거 파일 없음: X3 BMW파이낸셜 구매 혜택
 
 ## [INFO] td-thin (25건)
 - id None · 현대: 시승 상세 미수집(none): 신청 URL만 있음

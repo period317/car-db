@@ -354,10 +354,10 @@
   "confidence": "high",
   "source_record_id": 44,
   "extract_note": "할인·조건·증정은 키워드로 나눈 값. 정확한 값은 detail·link 확인",
-  "verification": "증거 없음",
+  "verification": "검증됨",
   "unverified_claims": null,
-  "evidence_files": null,
-  "evidence_date": null
+  "evidence_files": "data/evidence/_finance/2026-11-17_bmwfs-promotion-2007.txt",
+  "evidence_date": "2026-11-17"
  },
  {
   "id": 10,
